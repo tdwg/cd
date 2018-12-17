@@ -2,7 +2,7 @@
 permalink: /charter/
 ---
 
-# Collections Descriptions Interest Group Charter
+# Collection Descriptions Interest Group Charter
 
 TDWG Interest Group
 
