@@ -1,0 +1,29 @@
+# Site settings
+title: Audubon Core
+description: Website for the Audubon Core standard.
+url: "https://tdwg.github.io"
+baseurl: "/ac"
+
+navbar:
+  left:
+  - text: Introduction
+    href: introduction/
+  - text: Guide
+    href: guide/
+  - text: Structure
+    href: structure/
+  - text: Termlist
+    href: termlist/
+  right:
+  - text: GitHub
+    href: https://github.com/tdwg/ac
+
+js: >-
+  
+
+# Build settings
+markdown: kramdown
+# theme: tdwg-theme-jekyll
+remote_theme: tdwg/tdwg-theme-jekyll
+plugins:
+  - jekyll-feed
