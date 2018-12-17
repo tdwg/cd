@@ -1,22 +1,16 @@
 # Site settings
-title: Audubon Core
-description: Website for the Audubon Core standard.
+title: Collections Description
+description: Website for the TDWG Collections Description Interest Group
 url: "https://tdwg.github.io"
-baseurl: "/ac"
+baseurl: "/cd"
 
 navbar:
   left:
-  - text: Introduction
-    href: introduction/
-  - text: Guide
-    href: guide/
-  - text: Structure
-    href: structure/
-  - text: Termlist
-    href: termlist/
+  - text: Charter
+    href: charter/
   right:
   - text: GitHub
-    href: https://github.com/tdwg/ac
+    href: https://github.com/tdwg/cd
 
 js: >-
   
