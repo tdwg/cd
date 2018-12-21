@@ -14,27 +14,31 @@ The day-to-day operations of the Interest Group is documented in this repository
 
 ### Conveners
 
-* Deborah Paul (iDigBio, [dpaul@fsu.edu](mailto:dpaul@fsu.edu))
-* Matt Woodburn (Natural History Museum London, [m.woodburn@nhm.ac.uk](mailto:m.woodburn@nhm.ac.uk))
+| Name | Affiliation | Email |
+| --- | --- | --- |
+| Deborah Paul | iDigBio | [dpaul@fsu.edu](mailto:dpaul@fsu.edu) |
+| Matt Woodburn | Natural History Museum London | [m.woodburn@nhm.ac.uk](mailto:m.woodburn@nhm.ac.uk) |
 
 ### Core Members
 
-* Wouter Addink  (Naturalis, [wouter.addink@naturalis.nl](mailto:wouter.addink@naturalis.nl))
-* Mike Trizna (Smithsonian Institution, [triznam@si.edu](mailto:triznam@si.edu))
-* Janeen Jones (Field Museum, [jjones@fieldmuseum.org](mailto:jjones@fieldmuseum.org))
-* Sharon Grant (Field Museum, [sgrant@fieldmuseum.org](mailto:sgrant@fieldmuseum.org))
-* Kate Webbink (Field Museum, [kwebbink@fieldmuseum.org](mailto:kwebbink@fieldmuseum.org))
-* Connie Rinaldo (Harvard University, [crinaldo@oeb.harvard.edu](mailto:crinaldo@oeb.harvard.edu))
-* Carolyn Sheffield (Smithsonian Libraries / BHL, [sheffieldc@si.edu](mailto:sheffieldC@si.edu))
-* Dag Endresen  (Univerity of Oslo Natural History Museum, [dag.endresen@nhm.uio.no](mailto:dag.endresen@nhm.uio.no))
-* Holly Little (Smithsonian Institution / National Museum of Natural History, [littleh@si.edu](mailto:littleh@si.edu))
-* Ramona Walls (CyVerse, [rwalls@cyverse.org](mailto:rwalls@cyverse.org))
-* Kerstin Lehnert (Columbia University, [lehnert@ldeo.columbia.edu](mailto:lehnert@ldeo.columbia.edu)
-* Niels Raes (Naturalis Biodiversity Center, [niels.raes@naturalis.nl](mailto:niels.raes@naturalis.nl))
-* Dave Smith (Natural History Museum London, [d.a.smith@nhm.ac.uk]mailto:d.a.smith@nhm.ac.uk))
-* Mareike Petersen (Museum für Naturkunde, [mareike.petersen@mfn.berlin](mailto:mareike.petersen@mfn.berlin))
-* William Ulate (Missouri Botanical Garden, [william_ulate_r@yahoo.com](mailto:william_ulate_r@yahoo.com))
-* Donald Hobern (GBIF, [dhobern@gbif.org](mailto:dhobern@gbif.org))
+| Name | Affiliation | Email |
+| --- | --- | --- |
+| Wouter Addink | Naturalis Biodiversity Center | [wouter.addink@naturalis.nl](mailto:wouter.addink@naturalis.nl) |
+| Mike Trizna | Smithsonian Institution | [triznam@si.edu](mailto:triznam@si.edu) |
+| Janeen Jones | Field Museum | [jjones@fieldmuseum.org](mailto:jjones@fieldmuseum.org) |
+| Sharon Grant | Field Museum | [sgrant@fieldmuseum.org](mailto:sgrant@fieldmuseum.org) |
+| Kate Webbink | Field Museum | [kwebbink@fieldmuseum.org](mailto:kwebbink@fieldmuseum.org) |
+| Connie Rinaldo | Harvard University | [crinaldo@oeb.harvard.edu](mailto:crinaldo@oeb.harvard.edu) |
+| Carolyn Sheffield | Smithsonian Libraries / BHL | [sheffieldc@si.edu](mailto:sheffieldC@si.edu) |
+| Dag Endresen | Univerity of Oslo Natural History Museum | [dag.endresen@nhm.uio.no](mailto:dag.endresen@nhm.uio.no) |
+| Holly Little | Smithsonian Institution / National Museum of Natural History | [littleh@si.edu](mailto:littleh@si.edu) |
+| Ramona Walls | CyVerse | [rwalls@cyverse.org](mailto:rwalls@cyverse.org) |
+| Kerstin Lehnert | Columbia University | [lehnert@ldeo.columbia.edu](mailto:lehnert@ldeo.columbia.edu) |
+| Niels Raes | Naturalis Biodiversity Center | [niels.raes@naturalis.nl](mailto:niels.raes@naturalis.nl) |
+| Dave Smith | Natural History Museum London | [d.a.smith@nhm.ac.uk](mailto:d.a.smith@nhm.ac.uk) |
+| Mareike Petersen | Museum für Naturkunde | [mareike.petersen@mfn.berlin](mailto:mareike.petersen@mfn.berlin) |
+| William Ulate | Missouri Botanical Garden | [william_ulate_r@yahoo.com](mailto:william_ulate_r@yahoo.com) |
+| Donald Hobern | GBIF | [dhobern@gbif.org](mailto:dhobern@gbif.org) |
 
 ## Repo structure
 
