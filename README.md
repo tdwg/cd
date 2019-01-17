@@ -61,7 +61,7 @@ The current repository structure is described below.
 │
 ├── reference
 │   ├── crosswalks              : Crosswalks of existing and previous collection descriptions standards and initiatives
-│   ├── use_cases               : Documentated use cases for a collection descriptions standard
+│   ├── use_cases               : Documented use cases for a collection descriptions standard
 │   └── REFERENCE_LINKS.md      : Links to relevant information resources (publications, sites etc)
 │
 ├── standard
