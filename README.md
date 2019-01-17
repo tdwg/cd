@@ -48,6 +48,9 @@ The current repository structure is described below.
 ├── README.md                   : Description of this repository
 ├── LICENSE                     : Repository license
 │
+├── charters                    : Interest Group and Task Group charters
+│   └── draft                   : Draft charters and historical versions
+│
 ├── documents                    
 │   ├── draft                   : Working folder for draft documents
 │   ├── final                   : Final versions of group documents
