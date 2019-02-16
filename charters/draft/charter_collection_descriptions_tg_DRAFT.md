@@ -33,7 +33,7 @@ Institutional and Collection-level data currently shared along with specimen-rec
 ## Goals, outputs and outcomes
 
 This task group will:
-*   Produce a new Collections Descriptions Darwin Core extension and thesaurus for describing groups of natural collection objects. While the scope will be limited in the first instance to collections of physical and natural objects, the data standard and underlying model will be designed to be extensible to other types of collection in the future. (See full scope of CD in the [Interest Group's Charter](https://www.tdwg.org/community/cd/), under "What are collection descriptions?")
+*   Produce a new Collections Descriptions vocabulary for describing groups of natural collection objects. While the scope will be limited in the first instance to collections of physical and natural objects, the data standard and underlying model will be designed to be extensible to other types of collection in the future. (See full scope of CD in the [Interest Group's Charter](https://www.tdwg.org/community/cd/), under "What are collection descriptions?")
 *   Create an initial resource of reference examples to support adoption of the extension
 *   Target dates:
     *   Assemble use cases and complete landscape and requirements analysis, 03/2019
