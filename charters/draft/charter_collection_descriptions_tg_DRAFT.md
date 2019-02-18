@@ -68,7 +68,7 @@ The group's work will involve the following steps:
 
 ## Becoming Involved
 
-The Task Group welcomes anyone who has a practical interest in collections descriptions, and/or has experience with providing registries and metrics, creating data standards and/or other relevant experience. To join us please send an email to the convenors.
+The Task Group welcomes anyone who has a practical interest in collections descriptions, and/or has experience with providing registries and metrics, creating data standards and/or other relevant experience. To join us please send an email to the conveners.
 
 ## History/Context
 
@@ -91,3 +91,6 @@ The Collections Descriptions (CD) Data Standard Task Group aims to provide a dat
     *   GitHub repository ([https://github.com/tdwg/ncd/tree/master/NCD-v090_TDWG](https://github.com/tdwg/ncd/tree/master/NCD-v090_TDWG))
     *   Wiki ([https://terms.tdwg.org/wiki/Natural_Collections_Description](https://terms.tdwg.org/wiki/Natural_Collections_Description))
 *   EML - Ecological Metadata Language ([http://www.dcc.ac.uk/resources/metadata-standards/eml-ecological-metadata-language](http://www.dcc.ac.uk/resources/metadata-standards/eml-ecological-metadata-language))
+
+### How to Navigate this CD Repository
+We provide an [overview of this entire CD GitHub Repository](https://github.com/tdwg/cd), so that anyone can see how all the pieces fit together and (hopefully) find what they are looking for.
