@@ -50,9 +50,9 @@ The day-to-day operations of the Interest Group is documented in this repository
 | Jana Hoffman  | MfN Berlin | [jana.hoffmann@mfn-berlin.de](mailto:jana.hoffmann@mfn-berlin.de) |
 | David Bloom | VertNet | [dbloom@vertnet.org](mailto:dbloom@vertnet.org) |
 | Steve Baskauf | Vanderbilt | [steve.baskauf@vanderbilt.edu](mailto:steve.baskauf@vanderbilt.edu) |
-| Mareike Petersen | [Mareike.Petersen@mfn.berlin](mailto:Mareike.Petersen@mfn.berlin) |
+| Mareike Petersen | MfN |[Mareike.Petersen@mfn.berlin](mailto:Mareike.Petersen@mfn.berlin) |
 | James Beach | University of Kansas | [beach53@gmail.com](mailto:beach53@gmail.com) |
-| Terry Catapano |  | [catapanoth@gmail.com](mailto:catapanoth@gmail.com) |
+| Terry Catapano | UCB | [catapanoth@gmail.com](mailto:catapanoth@gmail.com) |
 | Stan Blum | TDWG |  [stanblum@gmail.com](mailto:stanblum@gmail.com) |
 | Dimitris Koureas | Naturalis | [dimitris.koureas@naturalis.nl](mailto:dimitris.koureas@naturalis.nl) |
 | Judith Price  | CMN (retired) |  |
