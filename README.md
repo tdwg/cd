@@ -70,8 +70,17 @@ A detailed description of our rationale and goals, motivation, tasks, and strate
 ### [CD Task Group Charter DRAFT](https://github.com/tdwg/cd/blob/master/charters/draft/charter_collection_descriptions_tg_DRAFT.md) 
 This document outlines the goals and objectives of the task group and plan for reaching these goals. 
 
+### [CD Use Cases](https://github.com/tdwg/cd/tree/master/reference/use_cases)  
+The community is asked to review these and add to them if they see a missing use case.
+### [CD Crosswalks](https://github.com/tdwg/cd/tree/master/reference/crosswalks)
+
+### CD Way of Work
+As much as possible, each group is taking on a self-selected task and will manage delivery of it as they choose (meeting as needed). They may link to working documents however they choose (google docs, other, ...) but will upload summary and completed documents directly to GitHub in the appropriate folder (e.g. [meetings](https://github.com/tdwg/cd/tree/master/meetings) and [documents](https://github.com/tdwg/cd/tree/master/documents)) for that task. Where possible, links to external working documents should be added to the [document links page](https://github.com/tdwg/cd/blob/master/documents/DOCUMENT_LINKS.md) to make them easily findable by TG members.
+
+The CD TG as a whole will meet 1/x month.
+
 ### [CD Projects and associated tasks](https://github.com/tdwg/cd/projects)  
-We started with a [spreadsheet](https://docs.google.com/spreadsheets/d/1LmQvzOUeO4gbZAnHQPYsqxOwJYg9SqdiNT4guJkJ8RU/edit?usp=sharing) acting as a template for a Gannt-style chart of all our envisioned tasks with dependencies. From this chart, we created GitHub tasks where each group can manage tracking the issues needed for that task, complete with milestones. These tasks are now each grouped into gitHub projects.
+We started with a [spreadsheet](https://docs.google.com/spreadsheets/d/1LmQvzOUeO4gbZAnHQPYsqxOwJYg9SqdiNT4guJkJ8RU/edit?usp=sharing) acting as a template for a Gantt-style chart of all our envisioned tasks with dependencies. From this chart, we created [GitHub milestones](https://github.com/tdwg/cd/milestones) where each group can manage tracking the issues and timelines related to that task. These tasks are now each grouped into GitHub projects.
 
 1. [Landscape and requirements analysis](https://github.com/tdwg/cd/projects/1)  
 2. [Communication plan](https://github.com/tdwg/cd/projects/2)  
@@ -80,13 +89,8 @@ We started with a [spreadsheet](https://docs.google.com/spreadsheets/d/1LmQvzOUe
 5. [Documentation](https://github.com/tdwg/cd/projects/5)  
 6. [Reference examples](https://github.com/tdwg/cd/projects/6)  
 7. [Develop extensions](https://github.com/tdwg/cd/projects/7)
-	
-### [CD Use Cases](https://github.com/tdwg/cd/tree/master/reference/use_cases)  
-The community is asked to review these and add to them if they see a missing use case.
-### [CD Crosswalks](https://github.com/tdwg/cd/tree/master/reference/crosswalks)
 
-### CD Way of Work
-As much as possible, each group is taking on a self-selected task and will manage delivery of it as they choose (meeting as needed). They may link to working documents however they choose (google docs, other, ...) but will upload summary and completed documents directly to GitHub in the appropriate folder (e.g. [meetings](https://github.com/tdwg/cd/tree/master/meetings)) for that task. The CD TG as a whole will meet 1/x month.
+To manage group activities in more detail, TG members can add [new issues](https://github.com/tdwg/cd/issues/new) and allocate them to the appropriate project and milestone on the right-hand side of the form. This will mean that issues are displayed on the appropriate project page, and their statuses can be easily monitored. 
 
 ### CD Events
 - 2016 met at TDWG 
