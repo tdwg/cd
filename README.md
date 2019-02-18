@@ -40,6 +40,43 @@ The day-to-day operations of the Interest Group is documented in this repository
 | William Ulate | Missouri Botanical Garden | [william_ulate_r@yahoo.com](mailto:william_ulate_r@yahoo.com) |
 | Donald Hobern | GBIF | [dhobern@gbif.org](mailto:dhobern@gbif.org) |
 
+## Collection Descriptions Standard (CD) Repository Navigation ##
+
+Contents of this README.md page assist with understanding of how to contribute and where to find materials related to the development of the collections description data standard. Note that where needed, there exists a very brief description of contents you will find at each link shared below. This group manages development using GitHub as much as possible.
+
+### [CD Interest Group Charter](https://github.com/tdwg/cd)  
+A brief description of our group
+
+### [CD Task Group Charter]  
+A detailed description of our rationale and goals, motivation, tasks, and strategy.
+
+### [CD Task Group Charter DRAFT](https://github.com/tdwg/cd/blob/master/charters/draft/charter_collection_descriptions_tg_DRAFT.md) 
+This document outlines the goals and objectives of the task group and plan for reaching these goals. 
+
+### [CD Projects and associated tasks](https://github.com/tdwg/cd/projects)  
+We started with a [spreadsheet](https://docs.google.com/spreadsheets/d/1LmQvzOUeO4gbZAnHQPYsqxOwJYg9SqdiNT4guJkJ8RU/edit?usp=sharing) acting as a template for a Gannt-style chart of all our envisioned tasks with dependencies. From this chart, we created GitHub tasks where each group can manage tracking the issues needed for that task, complete with milestones. These tasks are now each grouped into gitHub projects.
+
+1. [Landscape and requirements analysis](https://github.com/tdwg/cd/projects/1)  
+2. [Communication plan](https://github.com/tdwg/cd/projects/2)  
+3. [Data model](https://github.com/tdwg/cd/projects/3)  
+4. [Data standards](https://github.com/tdwg/cd/projects/4)  
+5. [Documentation](https://github.com/tdwg/cd/projects/5)  
+6. [Reference examples](https://github.com/tdwg/cd/projects/6)  
+7. [Develop extensions](https://github.com/tdwg/cd/projects/7)
+	
+### CD Way of Work
+As much as possible, each group is taking on a self-selected task and will manage delivery of it as they choose (meeting as needed). They may link to working documents however they choose (google docs, other, ...) but will upload summary and completed documents directly to GitHub in the appropriate folder (e.g. [meetings](https://github.com/tdwg/cd/tree/master/meetings)) for that task. The CD TG as a whole will meet 1/x month.
+
+### CD Events
+- 2016 met at TDWG 
+- 2017 met at TDWG
+- 2018 met at SPNHC-TDWGNZ, with some online meetings
+- 2019 plans to meet in-person and at Biodiversity Next
+- 2020 deliver a standard with implementations 
+
+### Historical Materials  
+This current effort evolves from work started over 10 years ago by the Natural Collections Description Standard IG/TG group (NCD). Here we attempt to link to materials resulting from their efforts. These documents provide a foundation for the CD Group.
+
 ## Repo structure
 
 The current repository structure is described below.
@@ -70,3 +107,6 @@ The current repository structure is described below.
 │
 └── .gitignore                  : Files and directories to be ignored by git
 ```
+
+## Preferred citation
+Collections Descriptions interest group. 2019. Collection Descriptions (CD), in development. Biodiversity Information Standards (TDWG) http://www.tdwg.org/standards/
