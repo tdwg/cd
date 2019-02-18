@@ -56,6 +56,7 @@ The day-to-day operations of the Interest Group is documented in this repository
 | Stan Blum | TDWG |  [stanblum@gmail.com](mailto:stanblum@gmail.com) |
 | Dimitris Koureas | Naturalis | [dimitris.koureas@naturalis.nl](mailto:dimitris.koureas@naturalis.nl) |
 | Judith Price  | CMN (retired) |  |
+| Sarah Vincent | Natural History Museum London | [s.vincent@nhm.ac.uk](mailto:s.vincent@nhm.ac.uk) |
 
 ## Collection Descriptions Standard (CD) Repository Navigation ##
 
