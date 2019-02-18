@@ -1,6 +1,6 @@
 # Collection Descriptions Interest Group
 
-Welcome to the repository for the Collection Descriptions Interest Group. This page is intended to assist with understanding of how to contribute and where to find materials related to the development of the collections description data standard. Note that where needed, there exists a very brief description of contents you will find at each link shared below. This group manages development using GitHub as much as possible.
+This is the repository for the Collection Descriptions Interest Group.
 
 ## About the group
 
