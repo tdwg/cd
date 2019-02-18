@@ -39,6 +39,16 @@ The day-to-day operations of the Interest Group is documented in this repository
 | Mareike Petersen | Museum für Naturkunde | [mareike.petersen@mfn.berlin](mailto:mareike.petersen@mfn.berlin) |
 | William Ulate | Missouri Botanical Garden | [william_ulate_r@yahoo.com](mailto:william_ulate_r@yahoo.com) |
 | Donald Hobern | GBIF | [dhobern@gbif.org](mailto:dhobern@gbif.org) |
+| Barbara Thiers | NYBG | [bthiers@nybg.org](mailto:bthiers@nybg.org) |
+| Kevin Love| iDigBio | [klove@flmnh.ufl.edu](mailto:klove@flmnh.ufl.edu) |
+| Andrea Hahn | GBIF | [ahan@gbif.org](mailto:ahan@gbif.org) |
+| James Macklin | Ag Canada | [james.macklin@agr.gc.ca](mailto:james.macklin@agr.gc.ca) |
+| Anissa Lybaert | Ag Canada | [Anissa.lybaert@agr.gc.ca](mailto:Anissa.lybaert@agr.gc.ca) |
+| Joel Ramirez | NYBG | [jramirez@nybg.org](mailto:jramirez@nybg.org) |
+| Melissa Tulig | NYBG | [mtulig@nybg.org](mailto:mtulig@nybg.org) |
+| Falko Glöckler | MfN Berlin | [falko.gloeckler@mfn-berlin.de](mailto:falko.gloeckler@mfn-berlin.de)  |
+| Jana Hoffman  | MfN Berlin | [jana.hoffmann@mfn-berlin.de](mailto:jana.hoffmann@mfn-berlin.de) |
+| Judith Price  | CMN (retired) |  |
 
 ## Collection Descriptions Standard (CD) Repository Navigation ##
 
@@ -64,6 +74,10 @@ We started with a [spreadsheet](https://docs.google.com/spreadsheets/d/1LmQvzOUe
 6. [Reference examples](https://github.com/tdwg/cd/projects/6)  
 7. [Develop extensions](https://github.com/tdwg/cd/projects/7)
 	
+### [CD Use Cases](https://github.com/tdwg/cd/tree/master/reference/use_cases)  
+The community is asked to review these and add to them if they see a missing use case.
+### [CD Crosswalks](https://github.com/tdwg/cd/tree/master/reference/crosswalks)
+
 ### CD Way of Work
 As much as possible, each group is taking on a self-selected task and will manage delivery of it as they choose (meeting as needed). They may link to working documents however they choose (google docs, other, ...) but will upload summary and completed documents directly to GitHub in the appropriate folder (e.g. [meetings](https://github.com/tdwg/cd/tree/master/meetings)) for that task. The CD TG as a whole will meet 1/x month.
 
@@ -75,7 +89,20 @@ As much as possible, each group is taking on a self-selected task and will manag
 - 2020 deliver a standard with implementations 
 
 ### Historical Materials  
-This current effort evolves from work started over 10 years ago by the Natural Collections Description Standard IG/TG group (NCD). Here we attempt to link to materials resulting from their efforts. These documents provide a foundation for the CD Group.
+This current effort evolves from work started over 10 years ago by the Natural Collections Description Standard IG/TG group (NCD). Here we attempt to link to materials resulting from their efforts. These documents provide a foundation for the CD Group. Some have been copied over into this CD Repo to insure they do not get lost.
+
+#### Old NCD repository
+[NCD Repo wiki](https://github.com/tdwg/ncd/wiki)  
+[NCD Code page](https://github.com/tdwg/ncd)  
+[NCD standard versions](https://github.com/tdwg/ncd/tree/master/NCD-v090_TDWG)  
+[NCD Draft Specification](https://github.com/tdwg/ncd/tree/master/NCD-v090_TDWG)
+[NCD cross-walks](https://github.com/tdwg/ncd/tree/master/crosswalks-related-docs)  
+[NCD TG Charter](https://github.com/tdwg/ncd/blob/master/TG-Charter.md)  
+[NCD use cases](https://github.com/tdwg/ncd/wiki/Use-Cases) on [NCD Repo wiki](https://github.com/tdwg/ncd/wiki)  
+
+#### Other historical docs
+[2016](https://tdwg2016.sched.com/event/8jva/ig09-natural-collections-descriptions-ncd) and [2017](https://biss.pensoft.net/article/20322/) interest group abstracts    
+[Google Doc](https://docs.google.com/document/d/1ZoIlKX666QPjKN3UGceAK_T0J2i0laft-io9Fr-Adrw/edit?usp=sharing) with 2016-2017 meeting notes
 
 ## Repo structure
 
