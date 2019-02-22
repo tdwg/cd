@@ -77,6 +77,9 @@ This document outlines the goals and objectives of the task group and plan for r
 The community is asked to review these and add to them if they see a missing use case.
 ### [CD Crosswalks](https://github.com/tdwg/cd/tree/master/reference/crosswalks)
 
+### [CD Known Issues and Challenges](https://github.com/tdwg/cd/blob/master/documents/draft/IssuesChallengesREADME.md)
+This document gathers some of the key known issues to keep in mind as the CD standard is developed. It is meant to help guide and structure both design and implementation considerations of CD and resulting products that CD enables.
+
 ### CD Way of Work
 As much as possible, each group is taking on a self-selected task and will manage delivery of it as they choose (meeting as needed). They may link to working documents however they choose (google docs, other, ...) but will upload summary and completed documents directly to GitHub in the appropriate folder (e.g. [meetings](https://github.com/tdwg/cd/tree/master/meetings) and [documents](https://github.com/tdwg/cd/tree/master/documents)) for that task. Where possible, links to external working documents should be added to the [document links page](https://github.com/tdwg/cd/blob/master/documents/DOCUMENT_LINKS.md) to make them easily findable by TG members.
 
