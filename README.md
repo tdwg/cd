@@ -103,9 +103,10 @@ To manage group activities in more detail, TG members can add [new issues](https
 - 2017 met at TDWG
 - 2018 met at SPNHC-TDWGNZ, with some online meetings
 - 2019 plans to meet in-person and at Biodiversity Next
-- 2020 deliver a standard with implementations 
+- 2020 deliver a standard with implementations
 
-### Historical Materials  
+### Reference and Historical Materials
+
 This current effort evolves from work started over 10 years ago by the Natural Collections Description Standard IG/TG group (NCD). Here we attempt to link to materials resulting from their efforts. These documents provide a foundation for the CD Group. Some have been copied over into this CD Repo to insure they do not get lost.
 
 #### Old NCD repository
@@ -120,6 +121,19 @@ This current effort evolves from work started over 10 years ago by the Natural C
 #### Other historical docs
 [2016](https://tdwg2016.sched.com/event/8jva/ig09-natural-collections-descriptions-ncd) and [2017](https://biss.pensoft.net/article/20322/) interest group abstracts    
 [Google Doc](https://docs.google.com/document/d/1ZoIlKX666QPjKN3UGceAK_T0J2i0laft-io9Fr-Adrw/edit?usp=sharing) with 2016-2017 meeting notes
+
+#### Glossary
+* [EML](https://knb.ecoinformatics.org/external//emlparser/docs/eml-2.1.1/index.html) - **Ecological Metadata Language**. The Ecological Metadata Language (EML) is a metadata standard developed by the ecology discipline and for the ecology discipline. It is based on prior work done by the Ecological Society of America and associated efforts (Michener et al., 1997, Ecological Applications). EML is implemented as a series of XML document types that can by used in a modular and extensible manner to document ecological data. Each EML module is designed to describe one logical part of the total metadata that should be included with any ecological dataset.   
+* [DiSSCo](https://www.dissco.eu/) - **Distributed System of Scientific Collections**. DiSSCo is a new pan-European Research Infrastructure initiative of 21 European countries with a vision to position European natural science collections at the centre of data-driven scientific excellence and innovation in environmental research, climate change, food security, one health and the bioeconomy.  
+* [GBIF](https://www.gbif.org/) - **Global Biodiversity Information Facility**. GBIF—the Global Biodiversity Information Facility—is an international network and research infrastructure funded by the world’s governments and aimed at providing anyone, anywhere, open access to data about all types of life on Earth.  
+GRBio - **Global Repository of Biodiversity Repositories**.  GRBio is now shepherded by GBIF. Developments underway include implementing the CD standard to support sharing of collection-level metadata worldwide.
+* [ICEDIG](https://icedig.eu/) - **Innovation and consolidation for large scale digitisation of natural heritage** - is an EU-funded project that aims at supporting the implementation phase of the new Research Infrastructure DiSSCo (“Distributed System of Scientific Collections”) by designing and addressing the technical, financial, policy and governance aspects necessary to operate such a large distributed initiative for natural sciences collections across Europe.
+* [iDigBio](https://www.idigbio.org/) - **Integrated Digitized Biocollections**. An NSF-funded initiative to provide access and capacity/community support for digitization, data mobilization, and use of scientific collections both neontological and paleontological.  
+* [MOBILISE](https://www.cost.eu/actions/CA17106/#tabs|Name:overview) - Mobilising Data, Policies and Experts in Scientific Collections. European Natural Science Collections host approximately 1.5 billion biological and geological collection objects, which represent about 80% of the known current and past biological and geological diversity on earth. The scope of this MOBILISE is to foster a cooperative network in Europe to support excellent research activities, and facilitate knowledge and technology transfer around natural science collections. This will prepare the ground for a future pan-European Distributed System of Scientific Collections (DiSSCo).
+* RDF - **Resource Description Framework**. From the [W3C Semantic Web](https://www.w3.org/RDF/): RDF is a standard model for data interchange on the Web. RDF has features that facilitate data merging even if the underlying schemas differ, and it specifically supports the evolution of schemas over time without requiring all the data consumers to be changed. Also see the TDWG [Beginner's Guide to RDF](https://github.com/tdwg/rdf/blob/master/Beginners.md).  
+* [SPNHC](http://www.spnhc.org/) - The **Society for the Preservation of Natural History Collections** [SPNHC] is an international society whose mission is to improve the preservation, conservation and management of natural history collections to ensure their continuing value to society.
+* [SYNTHESYS](http://www.synthesys.info/home.html) - **Synthesis of Systematic Resources**. SYNTHESYS+ is a European Commission - funded project, creating an integrated European infrastructure for natural history collections.
+
 
 ## Repo structure
 
