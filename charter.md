@@ -12,7 +12,7 @@ Deborah Paul (dpaul@fsu.edu)
 
 Matt Woodburn (m.woodburn@nhm.ac.uk)
 
-(Past Co-convenor, Alex Thompson)
+(Past Co-convener, Alex Thompson)
 
 ## Current people expressing interest to work on CD
 
@@ -20,7 +20,7 @@ See [Member List](https://github.com/tdwg/cd/blob/master/README.md#members)
 
 ## Motivation
 
-Evolving from the work of the Natural Collection Descriptions (NCD) group, the Collection Descriptions (CD) Interest Group is developing a Collections Description (NCD) data standard for describing entire collections of natural history materials. Examples include collections of specimens, observation data, visual resources, photographs, and materials from the many voyages of discovery that have been conducted. Collection description records contain information about the collection, access and usage of the collection and where to get more detailed information.
+This Collection Descriptions (CD) Interest Group evolved from the work of the Natural Collection Descriptions (NCD) group. CD members are developing a CD data standard for describing entire collections of natural history materials. Examples include collections of specimens, observation data, visual resources, photographs, and materials from the many voyages of discovery that have been conducted. Collection description records contain information about the collection, access and usage of the collection and where to get more detailed information.
 
 There are valuable collections that have no information stored in any database and many do not have a presence on the Internet. Institutional and Collection-level data currently shared along with specimen-record-level data records is often sparse and not in any way complete. This collection-level data is currently mapped to the Ecological Metadata Language (EML) standard originally developed to meet the data-sharing needs of the ecological community. Data provided in the EML data file often conflates data about what is in the dataset being shared with data about the entire collection or institution.
 
@@ -37,15 +37,14 @@ are owners of collections that would themselves like to test and make use of the
 
 ## History and Context
 
-### What is NCD?
-
-Natural Collections Description (NCD) is a data standard for describing groups of natural history objects; one NCD record describes one entire group. This standard was implemented by the [Smithsonian Field Book Project](https://siarchives.si.edu/about/field-book-project). 
-
 ### What is CD?
 
 As part of addressing the critical need for much better knowledge about worldwide collection holders and their holdings, this CD group recognizes the need to further develop and expand data standards to capture concepts not currently part of the EML standard. Steps are being taken at GBIF to create an automated collection-level data-sharing resource that will encompass the data currently housed in GRBio. In this sense, the CD group recognizes our path is one of *co-developing a standard and a reference implementation* and producing standards documentation on the data and data model found in this reference implementation so that others can build compatible systems. At the same time we will strive to provide a rich, but carefully curated, set of terms and relationships directed at addressing known knowledge gaps and accessibility issues. We understand the need to keep the model as simple as possible, and thoughtfully choosing what collections-level data is critical to providing policy-makers and researchers alike with the best data available when planning. Making this data available, in a structured format, with a robust API available, would mean, for example, that we could more easily show how many herbarium are digitizing - and how much is done. Visualizing institution and collections-level data of this type also presents a captivating way to show the value of this metadata.
 
 The CD standard seeks to describe the characteristics of groups of objects that are already represented individually under other current and emerging TDWG standards such as Darwin Core (specimens, observations) or Audubon Core (images, field notebooks). This limitation is imposed so that the scope of CD can be narrowly defined to the areas in which the TDWG organization has already built up the existing body of knowledge for what constitutes useful descriptive elements.
+### What is NCD?
+
+Natural Collections Description (NCD) is a data standard for describing groups of natural history objects; one NCD record describes one entire group. This standard was implemented by the [Smithsonian Field Book Project](https://siarchives.si.edu/about/field-book-project). 
 
 ### What are collections descriptions?
 
@@ -89,7 +88,7 @@ Some of the main areas are served by collection-level description records:
 
   Collection descriptions enable a broad perspective. A set of collection descriptions could serve a variety of additional purposes for any organisation:
 
-  * A collections inventory is helpful in protecting against both loss of data and loss of collections and thus serves as a form of audit control and security against unauthorised disposal.
+  * A collections inventory is helpful for disaster preparedness, prevention and recovery. (The Brazil National Museum, Berlin Herbarium, and National Museum of Iraq are each relevant examples to explore the context of how Collection Descriptions datasets would help). CD metadata protects against both loss of data and loss of collections and then also serves to help track provenance.
   * It can help with the assessment of the strengths and gaps in the organisation as a whole, so that finding collaboration partners that have either the same or complementary strengths is simplified.
   * It can help to identify which areas should be a priority for development in strategic plans and to establish priorities for item-level cataloguing.
   * By recording conservation concerns, the priorities for conservation / preservation treatment can be established. Collections cannot be protected if it is not known that they exist.
@@ -103,21 +102,22 @@ Some of the main areas are served by collection-level description records:
   Re-use of data is important. Collection description records can be created with the use of existing published or unpublished resources such as printed catalogues, exhibition planning documents or archival finding aids. Conversely, data recorded in the collection description records can be used to produce exhibit labels. The data can also be provided to external initiatives, some of which wish to merge data from several sources to provide regional coverage of biodiversity collections.
 
 
-### CD is evolving based on the work of the NCD
+## History and Background
 
 The first steps in standardising collection-level description began with a European Union Framework V project known as BioCASE - the Biodiversity Collections Access Service for Europe. This project ran from November 2001 until early 2005 (more on this at the BioCASE project website.)
 
 An RLG Programs working group of mainly North American natural history librarians and archivists known as RAVNS (Resources AVailable in Natural Sciences) has made the BioCASE metadata standard more generally applicable, rather than dealing only with specimen collections it is now a standard that covers any type of natural history collection (specimens, original artwork, photographs, archives, published material or a mixture). Discussion at the TDWG 2004 meeting in Christchurch, New Zealand, concluded that a standard for describing natural history collections would fit well with the suite of data standards being developed on behalf of the Global Biodiversity Information Facility (GBIF). The NCD Interest Group was convened and submitted a draft standard in 2008, but that standard has never been ratified. Meetings of the Natural Collections Descriptions (NCD) Interest Group at TDWG 2016 and TDWG 2017 confirmed the continued need for a collections description standard, with the prior work done by the NCD Interest Group as the starting point.
 
+NCD is a standard between the general resource discovery standards such as Dublin Core, and the rich collections description standards such as EAD. Mappings enable the extraction of a Dublin Core record from an NCD record or, conversely, filling out an NCD record into an EAD record. The NCD Interest Group brought together work on collection descriptions being carried out for the European Union Framework VI programme known as SYNTHESYS and the work performed by RAVNS under the auspices of RLG with that carried out by TDWG members.  
+
+Original NCD Charter Core Members include Wouter Addink (NL, Technical - NCD Toolkit), Carol Butler (Smithsonian, Terminology), 
+Markus Döring (BGBM, Technical - RDF), Doug Holland	(MOBOT, Data mapping), Barbara Mathé (AMNH, Data mapping), Connie Rinaldo (Harvard, Documentation), Larry Speers (GBIF liaison), Günter Waibel (RLG, Resource organiser) 
+
 ## Summary
 
-CD plans to support first, the development of a standard for sharing metadata about collection objects in scientific collections while planning to develop the standard so that it can be expanded to other types of collections (e.g. sea water collections).
+CD plans to support first, the development of a standard for sharing metadata about collection objects in scientific collections while planning to develop the standard so that it can be expanded to other types of collections (e.g. sea water collections) later.
 
 The Interest Group is developing CD for use with RDF to ensure that it integrates with TDWG's common development architecture. The standard enables the aggregation of collections descriptions from many sources and facilitates resource discovery - particularly for collections that do not have a Web presence.
-
-## Historically
-
-NCD is a standard between the general resource discovery standards such as Dublin Core, and the rich collections description standards such as EAD. Mappings enable the extraction of a Dublin Core record from an NCD record or, conversely, filling out an NCD record into an EAD record. The NCD Interest Group brought together work on collection descriptions being carried out for the European Union Framework VI programme known as SYNTHESYS and the work performed by RAVNS under the auspices of RLG with that carried out by TDWG members.
 
 CD will build on NCDs effort to connect to and use and link to other standards as appropriate. 
 
@@ -129,13 +129,4 @@ CD will build on NCDs effort to connect to and use and link to other standards a
   * NCD data can be found here https://github.com/tdwg/wiki-archive/tree/master/twiki/data/NCD
 
 
-## Original Charter Core Members of NCD
-
-Wouter Addink	(wouter(at)eti.uva.nl)	Technical - NCD Toolkit  
-Carol Butler	(butlercr(at)si.edu)	Terminology  
-Markus Döring	(m.doering(at)BGBM.org)	Technical - RDF  
-Doug Holland	(doug.holland(at)mobot.org)	Data mapping  
-Barbara Mathé	(mathe(at)amnh.org)	Data mapping  
-Connie Rinaldo	(crinaldo(at)oeb.harvard.edu)	Documentation  
-Larry Speers	(lspeers(at)gbif.org)	GBIF liaison  
-Günter Waibel	(Guenter_Waibel(at)notes.rlg.org)	Resource organiser  
+  
