@@ -1,5 +1,5 @@
 ## Crosswalks and Mappings
-Since realizing the need for standards to more effectively share collections-levels metadata, several groups have invested time and effort to develop crosswalks between existing standards, and existing software schemas (like at GRBio). We provide links to these resources here and ask that you add more if you have them.  
+Since realizing the need for standards to more effectively share collections-levels metadata, several groups have invested time and effort to develop crosswalks between existing standards, and existing software schemas (like at [GRBio](http://scicoll.org/grbio_error.html) now to be at GBIF). We provide links to these resources here and ask that you add more if you have them.  
 
 Initially, we are using a Google Spreadsheet as the collaboration platform for crosswalks.  We will try to keep a snapshot of those documents deposited here, but the snapshots are not the master documents.
 
@@ -24,5 +24,5 @@ Open this [google doc: Field Museum Take on NCD](https://docs.google.com/documen
 
 ***
 
-## Use Cases for NCD
-IG members are gathering [use cases for NCD](https://github.com/tdwg/ncd/wiki/Use-Cases). If you have more, please add them to that wiki page.
+## Use Cases for CD
+IG members gathered [use cases for CD](https://github.com/tdwg/cd/wiki/Use-Cases). This set is copied over from the work of the NCD group. If you have more, please add them to this [use cases wiki page](https://github.com/tdwg/cd/wiki/Use-Cases).
