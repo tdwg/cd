@@ -65,7 +65,7 @@ The day-to-day operations of the Interest Group is documented in this repository
 Contents of this README.md page assist with understanding of how to contribute and where to find materials related to the development of the collections description data standard. Note that where needed, there exists a very brief description of contents you will find at each link shared below. This group manages development using GitHub as much as possible.
 
 ### [CD Interest Group Charter](https://github.com/tdwg/cd)  
-A brief description of our group
+A (not so) brief description of our group
 
 ### [CD Task Group Charter](https://github.com/tdwg/cd/blob/master/charters/task_group_charter/tg_charter.md) 
 A detailed description of our rationale and goals, motivation, tasks, and strategy. This document outlines the goals and objectives of the task group and plan for reaching these goals. 
