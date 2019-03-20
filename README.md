@@ -67,11 +67,8 @@ Contents of this README.md page assist with understanding of how to contribute a
 ### [CD Interest Group Charter](https://github.com/tdwg/cd)  
 A brief description of our group
 
-### [CD Task Group Charter]  
-A detailed description of our rationale and goals, motivation, tasks, and strategy.
-
 ### [CD Task Group Charter](https://github.com/tdwg/cd/blob/master/charters/task_group_charter/tg_charter.md) 
-This document outlines the goals and objectives of the task group and plan for reaching these goals. 
+A detailed description of our rationale and goals, motivation, tasks, and strategy. This document outlines the goals and objectives of the task group and plan for reaching these goals. 
 
 ### [CD Use Cases](https://github.com/tdwg/cd/tree/master/reference/use_cases)  
 The community is asked to review these and add to them if they see a missing use case.
