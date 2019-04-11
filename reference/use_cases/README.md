@@ -183,7 +183,10 @@ and I would like to receive contact information about the collection manager so 
 
 8. I’m looking for a specimen in a collection that no longer exists.  I want to find out if it has been absorbed by another biorepository in which the specimen might be located.
 
-
+## Use Cases from ICEDIG
+ICEDIG is one of several design studies helping to develop the DiSSCo vision. One ICEDIG group took up the task to define the requirements for a collections digitization dashboard (CDD) for DiSSCo. As part of this task, the CDD group gathered use cases in a specific format. These use cases are available  
+* from the [ICEDIG Design of a Collection Dashboard](https://drive.google.com/file/d/1RLNwHuZn0xLZuLWTrJaKiQn8IjQXwbCE/view) (Deliverable D2.3), or   
+* from the [documents folder](https://github.com/tdwg/cd/blob/master/documents/final/Deliverable%20D2.3%20ICEDIG%20-%20Design%20of%20a%20Collection%20Digitisation%20Dashboard%20v1.0.docx) in this repository.
 
 
 
