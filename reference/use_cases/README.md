@@ -67,7 +67,7 @@ A primary goal for GBIF in aggregating and indexing specimen data (and other occ
 
 ### Collection description metadata as anchor for subsequent digitisation
 
-Publishing a collection description can be seen as the first step in bringing a collection online and is consequently a useful point to start engagement with collections.  The description record can then serve as the anchor point for linking further digitisation products, including refining taxonomic scope through checklists, publishing Darwin Core records, and augmenting with rich digital media and other artefacts.
+Publishing a collection description can be seen as the first step in bringing a collection online and is consequently a useful point to start engagement with collections.  The description record can then serve as the anchor point for linking further digitisation products, including refining taxonomic scope through checklists, publishing Darwin Core records, and augmenting with rich digital media and other artifacts.
 
 ### Promoting data mobilisation by GBIF national nodes
 
