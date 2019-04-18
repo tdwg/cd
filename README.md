@@ -81,7 +81,8 @@ This document gathers some of the key known issues to keep in mind as the CD sta
 ### CD Way of Work
 As much as possible, each group is taking on a self-selected task and will manage delivery of it as they choose (meeting as needed). They may link to working documents however they choose (google docs, other, ...) but will upload summary and completed documents directly to GitHub in the appropriate folder (e.g. [meetings](https://github.com/tdwg/cd/tree/master/meetings) and [documents](https://github.com/tdwg/cd/tree/master/documents)) for that task. Where possible, links to external working documents should be added to the [document links page](https://github.com/tdwg/cd/blob/master/documents/DOCUMENT_LINKS.md) to make them easily findable by TG members.
 
-The CD TG as a whole will meet 1/x month.
+The CD TG as a whole will meet 1/x month. 4th Wednesday of each month (2019) except where holidays require date/time to change.
+Meetings are held 2x on that day (one Eastern-time friendly, one Western)
 
 ### [CD Projects and associated tasks](https://github.com/tdwg/cd/projects)  
 We started with a [spreadsheet](https://docs.google.com/spreadsheets/d/1LmQvzOUeO4gbZAnHQPYsqxOwJYg9SqdiNT4guJkJ8RU/edit?usp=sharing) acting as a template for a Gantt-style chart of all our envisioned tasks with dependencies. From this chart, we created [GitHub milestones](https://github.com/tdwg/cd/milestones) where each group can manage tracking the issues and timelines related to that task. These tasks are now each grouped into GitHub projects.
