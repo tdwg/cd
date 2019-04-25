@@ -59,7 +59,8 @@ The day-to-day operations of the Interest Group is documented in this repository
 | Sarah Vincent | Natural History Museum London | [s.vincent@nhm.ac.uk](mailto:s.vincent@nhm.ac.uk) |
 | Heather Cole | Ag Canada | [Heather.Cole@AGR.GC.CA](mailto:Heather.Cole@AGR.GC.CA)|
 | Shelley James | RBGS | [Shelley.James@rbgsyd.nsw.gov.au](mailto:Shelley.James@rbgsyd.nsw.gov.au) |
-|Quentin Groom|Meise Botanic Garden/TDWG/Synthesys+|[quentin.groom@plantentuinmeise.be](mailto:quentin.groom@plantentuinmeise.be)|
+| Quentin Groom | Meise Botanic Garden/TDWG/Synthesys+ | [quentin.groom@plantentuinmeise.be](mailto:quentin.groom@plantentuinmeise.be) |
+| Ana Casino| CETAF | [ana.casino@cetaf.org](mailto:ana.casino@cetaf.org) |
 
 ## Collection Descriptions Standard (CD) Repository Navigation ##
 
