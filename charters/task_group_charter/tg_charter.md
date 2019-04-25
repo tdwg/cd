@@ -23,6 +23,7 @@
 *   Mareike Petersen
 *   William Ulate
 *   Donald Hobern
+*   Ana Casino
 
 ## Motivation
 
