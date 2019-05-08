@@ -10,3 +10,5 @@ The links below are to provide discoverability and easy access to working docume
 ## Tasks
 
 Links to external working documents related to the TG tasks should go here.
+
+* [Dimensions - Proposed Field List (Draft)](https://docs.google.com/document/d/13intzQGmcqvOpdWUyaGQHl-GEgs_sHPWy1-MBdIrIT4/edit#heading=h.tw24ksesj1bb)
