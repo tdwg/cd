@@ -41,7 +41,7 @@ The day-to-day operations of the Interest Group is documented in this repository
 | Donald Hobern | GBIF | [dhobern@gbif.org](mailto:dhobern@gbif.org) |
 | Barbara Thiers | NYBG | [bthiers@nybg.org](mailto:bthiers@nybg.org) |
 | Kevin Love| iDigBio | [klove@flmnh.ufl.edu](mailto:klove@flmnh.ufl.edu) |
-| Andrea Hahn | GBIF | [ahan@gbif.org](mailto:ahan@gbif.org) |
+| Andrea Hahn | GBIF | [ahahn@gbif.org](mailto:ahahn@gbif.org) |
 | James Macklin | Ag Canada | [james.macklin@agr.gc.ca](mailto:james.macklin@agr.gc.ca) |
 | Anissa Lybaert | Ag Canada | [Anissa.lybaert@agr.gc.ca](mailto:Anissa.lybaert@agr.gc.ca) |
 | Joel Ramirez | NYBG | [jramirez@nybg.org](mailto:jramirez@nybg.org) |
