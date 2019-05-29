@@ -60,7 +60,9 @@ The day-to-day operations of the Interest Group is documented in this repository
 | Heather Cole | Ag Canada | [Heather.Cole@AGR.GC.CA](mailto:Heather.Cole@AGR.GC.CA)|
 | Shelley James | RBGS | [Shelley.James@rbgsyd.nsw.gov.au](mailto:Shelley.James@rbgsyd.nsw.gov.au) |
 | Quentin Groom | Meise Botanic Garden/TDWG/Synthesys+ | [quentin.groom@plantentuinmeise.be](mailto:quentin.groom@plantentuinmeise.be) |
-| Ana Casino| CETAF | [ana.casino@cetaf.org](mailto:ana.casino@cetaf.org) |
+| Ana Casino | CETAF | [ana.casino@cetaf.org](mailto:ana.casino@cetaf.org) |
+| Wim van Dongen | Picturae | [w.vandongen@picturae.com](mailto:w.vandongen@picturae.com) |
+| Sharif Islam | Naturalis Biodiversity Center | [sharif.islam@naturalis.nl](mailto:sharif.islam@naturalis.nl) |
 
 ## Collection Descriptions Standard (CD) Repository Navigation ##
 
