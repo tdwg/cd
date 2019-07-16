@@ -188,7 +188,10 @@ ICEDIG is one of several design studies helping to develop the DiSSCo vision. On
 * from the [ICEDIG Design of a Collection Dashboard](https://drive.google.com/file/d/1RLNwHuZn0xLZuLWTrJaKiQn8IjQXwbCE/view) (Deliverable D2.3), or   
 * from the [documents folder](https://github.com/tdwg/cd/blob/master/documents/final/Deliverable%20D2.3%20ICEDIG%20-%20Design%20of%20a%20Collection%20Digitisation%20Dashboard%20v1.0.docx) in this repository.
 
+# Use Case Analysis
+Each group member (and other interested parties) are asked to break down each use case (above) using the "epic stories format" that comes from the Agile Software Development methodology. This consists of identifying the Actor and the Actor's role, and what they would like to be able to do, if they had the necessary collections metadata available.  
 
+* Please use [this form](https://docs.google.com/spreadsheets/d/1SsfwogZ88TgouDJ7EoDqXJFol-eVs7aYdFx504qJNzc/edit?usp=sharing "Google Sheet for Use Case Analysis") to add your analysis of the above use cases. Those developing the data model will use these data to test the model scenarios to help insure we will be able to do (share) the kinds of tasks we want to do with this information.
 
 
 
