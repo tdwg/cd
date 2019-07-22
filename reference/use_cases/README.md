@@ -160,28 +160,20 @@ and I would like to receive its associated primary data and metadata.  How can I
 * As a webpage I can browse
 * As a webservice response
 
-5. I found a reference to a specimen of interest
-* In a publication
-* In GBIF (through a taxonomic search, on a distribution map)
-* On GenBank or BOLD
-and I would like to receive contact information about the collection manager so I can access it.  I would like the information:
-* As a webpage I can browse
-* As a webservice response
-
-6. I am writing a scientific article and I want to include references to particular specimens. How should I cite these specimens so that
+5. I am writing a scientific article and I want to include references to particular specimens. How should I cite these specimens so that
 * The reader can get access to the specimen record
   * As a website
   * As a webservice response
 * The reader can get access to the specimen by contacting the collection manager
 * The institution can find the reference to their specimen in the literature if they are collecting impact data
 
-7. I’m submitting data records to GenBank, GBIF or another database and I want to make sure they are traceable back to their voucher specimens in biorepositories.  I want to be able to:
+6. I’m submitting data records to GenBank, GBIF or another database and I want to make sure they are traceable back to their voucher specimens in biorepositories.  I want to be able to:
 * Submit a single specimen identifier and have it checked against the registry
 * Submit a file with multiple specimen identifiers and have them checked against the registry
 * Get a report that shows which specimen identifiers do not conform with confirmed records in the registry
 * Get suggestions from the registry for correcting the non-conforming records (‘Did you mean…’)
 
-8. I’m looking for a specimen in a collection that no longer exists.  I want to find out if it has been absorbed by another biorepository in which the specimen might be located.
+7. I’m looking for a specimen in a collection that no longer exists.  I want to find out if it has been absorbed by another biorepository in which the specimen might be located.
 
 ## Use Cases from ICEDIG
 ICEDIG is one of several design studies helping to develop the DiSSCo vision. One ICEDIG group took up the task to define the requirements for a collections digitization dashboard (CDD) for DiSSCo. As part of this task, the CDD group gathered use cases in a specific format. These use cases are available  
