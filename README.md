@@ -63,6 +63,7 @@ The day-to-day operations of the Interest Group is documented in this repository
 | Ana Casino | CETAF | [ana.casino@cetaf.org](mailto:ana.casino@cetaf.org) |
 | Wim van Dongen | Picturae | [w.vandongen@picturae.com](mailto:w.vandongen@picturae.com) |
 | Sharif Islam | Naturalis Biodiversity Center | [sharif.islam@naturalis.nl](mailto:sharif.islam@naturalis.nl) |
+| Maarten Trekels | Meise Botanic Garden/Synthesys+ | [maarten.trekels@plantentuinmeise.be](mailto:maarten.trekels@plantentuinmeise.be) |
 
 ## Collection Descriptions Standard (CD) Repository Navigation ##
 
