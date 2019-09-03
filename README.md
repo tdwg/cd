@@ -63,6 +63,8 @@ The day-to-day operations of the Interest Group is documented in this repository
 | Kate Webbink | Field Museum | [kwebbink@fieldmuseum.org](mailto:kwebbink@fieldmuseum.org) |  
 
 #### Former Members
+| Name | Affiliation | Email |  
+| --- | --- | --- |
 | Kevin Love| iDigBio | [klove@flmnh.ufl.edu](mailto:klove@flmnh.ufl.edu) |  
 | Carolyn Sheffield | Smithsonian Libraries / BHL | [sheffieldc@si.edu](mailto:sheffieldC@si.edu) |  
 
