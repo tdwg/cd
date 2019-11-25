@@ -1,36 +1,12 @@
-# Data Model task draft documents
+# Collection Description Standard
 
-This folder contains draft documents relating to the Data Model task. Working documents are may also held outside of GitHub, with locations linked below.
+## Introduction
+This folder contains the definitions that are used in the data model.
 
 ## Data model
+To describe the data model..
 
-### Folder structure
+## Working on terms and definitions
+In order to facilitate the working on the Collection Description standard, issues will be created on the different classes. Ongoing discussions on these classes should be held within these issues. In case a lot of discussion is needed on a specific term, a new issue on that term can be created. Typically, the changes on the data model can be pushed to the repository when an issue is resolved. Please make advantage of this system by assigning the issue to the correct people.
 
-In order to have all modifications to the draft data model more traceable, the model is split up in separate spreadsheets. This folder contains the summary of the CD draft standard.
-
-For each of the dimensions that need further specification, a sub folder was created containing a dedicated spreadsheet to elaborate the definition.
-
-### Committing changes
-
-When committing changes to one of the spreadsheets (or adding a new definition), please make sure that you describe as detailed as possible the changes in the commit message.
-This template can be used to structure the commit message:
-* What?
-  Add here a detailed description of the modification that was done (e.g. Definition XYZ was changed from 'text1' to 'text2')
-* Why?
-  Describe the reasoning behind the change.
-* Impact?
-  When there is an impact on other parts of the standard, please describe it here.
-  
-A detailed tracking of the changes will greatly benefit the quality of the documents! 
-
-Another route to change a document or start a discussion is to open a new issue. If the impact of your modification is large, it is generally a good idea to raise an issue first.
-
-
-
-## External documents and sources
-
-| Source | Link | Notes |
-| --- | --- | --- |
-| Google Drive folder for working documents | https://drive.google.com/drive/folders/1TYxRBadvdz0WLrE_vgr8wYQMfFATTcBV |  |
-
-
+For each of the dimensions in the breakdown of the data model, a new project will be created (https://github.com/tdwg/cd/projects). We will use 'Data model - <dimension>' naming convention for each of the projects. Eqch issue will be added to the relevant project.
