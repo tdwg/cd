@@ -8,7 +8,7 @@
 | **Potential standards/vocabularies/ontologies to adopt** |  |
 | **Notes** | Could be consolidated with other person-related classes (e.g. CollectionContact) into an AssociatedPerson class? |
 
-## BiologicalTaxonomy (class)
+## Collector (class)
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
