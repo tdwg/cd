@@ -1,4 +1,4 @@
-# CollectionDesctriptionMetric
+# CollectionDescriptionMetric
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
