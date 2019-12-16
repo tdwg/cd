@@ -6,7 +6,7 @@
 | **Hierarchy** | Yes |
 | **Range** | no |
 | **Potential standards/vocabularies/ontologies to adopt** |  |
-| **Notes** | Used for building an organisational hierarchy at sub-institution level. Separate from the Institution dimension at present to allow a collection description to have an institution directly attached without having to navigate a hierarachy. However, the two dimensions could conceivably be merged into a single hierarchy, treating institution as a type/level of organisational unit. |
+| **Notes** | Used for building an departmental organisational hierarchy at sub-institution level. This class is used to describe the organization of staff within an institution. Separate from the Institution dimension at present to allow a collection description to have an institution directly attached without having to navigate a hierarachy. However, the two dimensions could conceivably be merged into a single hierarchy, treating institution as a type/level of organisational unit. |
 
 ## OrganisationalUnit (class)
 
@@ -23,13 +23,13 @@
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** | Official name of the organisational unit in the local language. |
+| **Definition** | Official name of the departmental organisational unit in the local language. |
 | **Dimension** |  |
 | **Existing property** |  |
 | **Existing class** |  |
 | **Existing property identifier** | http://www.w3.org/2001/vcard-rdf/3.0#Orgname |
 | **Format** | Text |
-| **Required** |  |
+| **Required** | yes |
 | **Repeatable** |  |
 | **Constraints** |  |
 | **Examples** |  |
@@ -39,13 +39,13 @@
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** | Alternative name for the unit in English, if the official name is not in English. |
+| **Definition** | Alternative name for the organisationalUnitName in English, if the official name is not in English. |
 | **Dimension** |  |
 | **Existing property** | dc:alternative |
 | **Existing class** |  |
 | **Existing property identifier** | http://purl.org/dc/terms/alternative |
 | **Format** | Text |
-| **Required** |  |
+| **Required** | no |
 | **Repeatable** |  |
 | **Constraints** |  |
 | **Examples** |  |
@@ -62,7 +62,7 @@
 | **Existing class** |  |
 | **Existing property identifier** | http://purl.org/dc/elements/1.1/description |
 | **Format** |  |
-| **Required** |  |
+| **Required** | no |
 | **Repeatable** |  |
 | **Constraints** |  |
 | **Examples** |  |
@@ -94,7 +94,7 @@
 | **Existing class** |  |
 | **Existing property identifier** |  |
 | **Format** |  |
-| **Required** |  |
+| **Required** | no |
 | **Repeatable** |  |
 | **Constraints** |  |
 | **Examples** |  |
@@ -103,13 +103,13 @@
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** | ID of the institution to which the organisational unit belongs |
+| **Definition** | An identifier of the institution to which the organisational unit belongs |
 | **Dimension** |  |
 | **Existing property** |  |
 | **Existing class** |  |
 | **Existing property identifier** |  |
 | **Format** |  |
-| **Required** |  |
+| **Required** | yes |
 | **Repeatable** | Yes |
 | **Constraints** |  |
 | **Examples** |  |
