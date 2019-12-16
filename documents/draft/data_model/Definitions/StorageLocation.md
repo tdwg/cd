@@ -12,7 +12,7 @@
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Parent** |  |
+| **Parent** | CollectionDescription |
 | **Definition** | The physical location of the collection within the holding institution |
 | **Repeatable** |  |
 | **Relationships** |  |
@@ -23,7 +23,7 @@
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** |  |
+| **Definition** | A description of the type of storage area of the collection mentioned in locationName |
 | **Dimension** |  |
 | **Existing property** |  |
 | **Existing class** |  |
@@ -39,7 +39,7 @@
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** |  |
+| **Definition** | A short name for the physical location of the collection |
 | **Dimension** |  |
 | **Existing property** |  |
 | **Existing class** |  |
@@ -55,13 +55,13 @@
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** |  |
+| **Definition** | A longer human readable description of the location named in locationName |
 | **Dimension** |  |
 | **Existing property** |  |
 | **Existing class** |  |
 | **Existing property identifier** |  |
 | **Format** | Text |
-| **Required** |  |
+| **Required** | no |
 | **Repeatable** |  |
 | **Constraints** |  |
 | **Examples** |  |
