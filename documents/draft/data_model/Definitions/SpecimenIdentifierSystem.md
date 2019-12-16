@@ -1,4 +1,4 @@
-# IdentifierSystem
+# SpecimenIdentifierSystem
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
@@ -8,7 +8,7 @@
 | **Potential standards/vocabularies/ontologies to adopt** |  |
 | **Notes** |  |
 
-## IdentifierSystem (class)
+## SpecimenIdentifierSystem (class)
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
