@@ -24,15 +24,15 @@
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** |  |
+| **Definition** | A unique identifier to the collection description record |
 | **Dimension** |  |
 | **Existing property** |  |
 | **Existing class** |  |
 | **Existing property identifier** |  |
 | **Format** |  |
-| **Required** |  |
-| **Repeatable** |  |
-| **Constraints** |  |
+| **Required** | yes |
+| **Repeatable** | no |
+| **Constraints** | unique |
 | **Examples** |  |
 | **Notes** |  |
 
@@ -45,11 +45,11 @@
 | **Existing property** | dc:accessRights |
 | **Existing class** |  |
 | **Existing property identifier** | http://purl.org/dc/terms/accessRights |
-| **Format** |  |
-| **Required** |  |
-| **Repeatable** |  |
+| **Format** | Text |
+| **Required** | no |
+| **Repeatable** | no |
 | **Constraints** |  |
-| **Examples** |  |
+| **Examples** | These data are considered to be in the public domain |
 | **Notes** |  |
 
 ### license (property)
@@ -120,7 +120,7 @@
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** | Source of the record if not created by the author named in Author |
+| **Definition** | Source of the record if not created by the author named in `creator` |
 | **Dimension** |  |
 | **Existing property** | dc:source |
 | **Existing class** |  |
@@ -136,16 +136,16 @@
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** | Date of record creation |
+| **Definition** | Time and date of record creation |
 | **Dimension** |  |
 | **Existing property** | dc:created |
 | **Existing class** |  |
 | **Existing property identifier** | http://purl.org/dc/terms/created |
 | **Format** |  |
-| **Required** |  |
+| **Required** | yes |
 | **Repeatable** |  |
-| **Constraints** |  |
-| **Examples** |  |
+| **Constraints** | ISO 8601 |
+| **Examples** | 2019-12-16T09:49:51Z |
 | **Notes** |  |
 
 ### editor (property)
@@ -168,16 +168,16 @@
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** | Date the record was last edited |
+| **Definition** | Time and date the record was last edited |
 | **Dimension** |  |
 | **Existing property** | dc:modified |
 | **Existing class** |  |
 | **Existing property identifier** | http://purl.org/dc/terms/modified |
 | **Format** |  |
-| **Required** |  |
+| **Required** | yes |
 | **Repeatable** |  |
-| **Constraints** |  |
-| **Examples** |  |
+| **Constraints** | ISO 8601 |
+| **Examples** | 2019-12-16T09:49:51Z |
 | **Notes** |  |
 
 ### language (property)
@@ -249,7 +249,7 @@
 | **Existing class** |  |
 | **Existing property identifier** | http://purl.org/dc/elements/1.1/description |
 | **Format** | Text |
-| **Required** |  |
+| **Required** | no |
 | **Repeatable** |  |
 | **Constraints** |  |
 | **Examples** |  |
@@ -265,7 +265,7 @@
 | **Existing class** |  |
 | **Existing property identifier** |  |
 | **Format** | Text |
-| **Required** |  |
+| **Required** | no |
 | **Repeatable** |  |
 | **Constraints** |  |
 | **Examples** |  |
@@ -281,10 +281,10 @@
 | **Existing class** |  |
 | **Existing property identifier** |  |
 | **Format** | List |
-| **Required** |  |
+| **Required** | no |
 | **Repeatable** | Yes |
 | **Constraints** |  |
-| **Examples** |  |
+| **Examples** | http://www.botanicalcollections.be/#/en/home |
 | **Notes** |  |
 
 ### datasetDOIs (property)
@@ -297,10 +297,10 @@
 | **Existing class** |  |
 | **Existing property identifier** |  |
 | **Format** | List |
-| **Required** |  |
+| **Required** | no |
 | **Repeatable** | Yes |
 | **Constraints** | Valid resolvable DOI |
-| **Examples** |  |
+| **Examples** | https://doi.org/10.15468/wrthhx |
 | **Notes** | Could expand to a class if more information than a DOI would be useful |
 
 ### thematicFocus (property)
@@ -313,7 +313,7 @@
 | **Existing class** |  |
 | **Existing property identifier** |  |
 | **Format** | Text |
-| **Required** |  |
+| **Required** | no |
 | **Repeatable** |  |
 | **Constraints** |  |
 | **Examples** |  |
@@ -329,7 +329,7 @@
 | **Existing class** |  |
 | **Existing property identifier** |  |
 | **Format** | Text |
-| **Required** |  |
+| **Required** | no |
 | **Repeatable** | Yes |
 | **Constraints** |  |
 | **Examples** |  |
@@ -348,7 +348,7 @@
 | **Required** |  |
 | **Repeatable** |  |
 | **Constraints** | Controlled vocabulary |
-| **Examples** |  |
+| **Examples** | pressed dried specimen, pinned, wood block, skin, skeleton |
 | **Notes** |  |
 
 ### preservationMethod (property)
@@ -361,7 +361,7 @@
 | **Existing class** |  |
 | **Existing property identifier** |  |
 | **Format** | List |
-| **Required** |  |
+| **Required** | no |
 | **Repeatable** |  |
 | **Constraints** | Controlled vocabulary |
 | **Examples** |  |
@@ -393,7 +393,7 @@
 | **Existing class** |  |
 | **Existing property identifier** |  |
 | **Format** | List |
-| **Required** |  |
+| **Required** | no |
 | **Repeatable** |  |
 | **Constraints** | Controlled vocabulary |
 | **Examples** |  |
@@ -442,8 +442,8 @@
 | **Existing property identifier** |  |
 | **Format** | Text |
 | **Required** |  |
-| **Repeatable** |  |
-| **Constraints** | Controlled vocabulary? |
+| **Repeatable** | yes |
+| **Constraints** | controlled vocabulary |
 | **Examples** |  |
 | **Notes** |  |
 
