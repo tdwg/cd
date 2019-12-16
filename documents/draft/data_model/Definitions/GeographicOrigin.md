@@ -29,7 +29,7 @@
 | **Existing class** | Collection Location |
 | **Existing property identifier** | http://rs.tdwg.org/dwc/terms/#locationID |
 | **Format** |  |
-| **Required** |  |
+| **Required** | no |
 | **Repeatable** |  |
 | **Constraints** |  |
 | **Examples** |  |
@@ -45,7 +45,7 @@
 | **Existing class** | Collection Location |
 | **Existing property identifier** | http://rs.tdwg.org/dwc/terms/#higherGeographyID |
 | **Format** |  |
-| **Required** |  |
+| **Required** | no |
 | **Repeatable** |  |
 | **Constraints** |  |
 | **Examples** |  |
@@ -61,7 +61,7 @@
 | **Existing class** | Collection Location |
 | **Existing property identifier** | http://rs.tdwg.org/dwc/terms/#higherGeography |
 | **Format** |  |
-| **Required** |  |
+| **Required** | no |
 | **Repeatable** |  |
 | **Constraints** |  |
 | **Examples** |  |
@@ -77,7 +77,7 @@
 | **Existing class** | Collection Location |
 | **Existing property identifier** | http://rs.tdwg.org/dwc/terms/#continent |
 | **Format** |  |
-| **Required** |  |
+| **Required** | no |
 | **Repeatable** |  |
 | **Constraints** |  |
 | **Examples** |  |
@@ -93,7 +93,7 @@
 | **Existing class** | Collection Location |
 | **Existing property identifier** | http://rs.tdwg.org/dwc/terms/#waterBody |
 | **Format** |  |
-| **Required** |  |
+| **Required** | no |
 | **Repeatable** |  |
 | **Constraints** |  |
 | **Examples** |  |
@@ -109,7 +109,7 @@
 | **Existing class** | Collection Location |
 | **Existing property identifier** | http://rs.tdwg.org/dwc/terms/#islandGroup |
 | **Format** |  |
-| **Required** |  |
+| **Required** | no |
 | **Repeatable** |  |
 | **Constraints** |  |
 | **Examples** |  |
@@ -125,7 +125,7 @@
 | **Existing class** | Collection Location |
 | **Existing property identifier** | http://rs.tdwg.org/dwc/terms/#island |
 | **Format** |  |
-| **Required** |  |
+| **Required** | no |
 | **Repeatable** |  |
 | **Constraints** |  |
 | **Examples** |  |
@@ -141,7 +141,7 @@
 | **Existing class** | Collection Location |
 | **Existing property identifier** | http://rs.tdwg.org/dwc/terms/#country |
 | **Format** |  |
-| **Required** |  |
+| **Required** | no |
 | **Repeatable** |  |
 | **Constraints** |  |
 | **Examples** |  |
@@ -157,7 +157,7 @@
 | **Existing class** | Collection Location |
 | **Existing property identifier** | http://rs.tdwg.org/dwc/terms/#countryCode |
 | **Format** |  |
-| **Required** |  |
+| **Required** | no |
 | **Repeatable** |  |
 | **Constraints** |  |
 | **Examples** |  |
@@ -173,7 +173,7 @@
 | **Existing class** | Collection Location |
 | **Existing property identifier** | http://rs.tdwg.org/dwc/terms/#stateProvince |
 | **Format** |  |
-| **Required** |  |
+| **Required** | no |
 | **Repeatable** |  |
 | **Constraints** |  |
 | **Examples** |  |
@@ -189,7 +189,7 @@
 | **Existing class** | Collection Location |
 | **Existing property identifier** | http://rs.tdwg.org/dwc/terms/#county |
 | **Format** |  |
-| **Required** |  |
+| **Required** | no |
 | **Repeatable** |  |
 | **Constraints** |  |
 | **Examples** |  |
@@ -205,7 +205,7 @@
 | **Existing class** | Collection Location |
 | **Existing property identifier** | http://rs.tdwg.org/dwc/terms/#municipality |
 | **Format** |  |
-| **Required** |  |
+| **Required** | no |
 | **Repeatable** |  |
 | **Constraints** |  |
 | **Examples** |  |
@@ -221,7 +221,7 @@
 | **Existing class** | Collection Location |
 | **Existing property identifier** | http://rs.tdwg.org/dwc/terms/#locality |
 | **Format** |  |
-| **Required** |  |
+| **Required** | yes |
 | **Repeatable** |  |
 | **Constraints** |  |
 | **Examples** |  |
@@ -237,7 +237,7 @@
 | **Existing class** | Collection Location |
 | **Existing property identifier** | http://rs.tdwg.org/dwc/terms/#verbatimLocality |
 | **Format** |  |
-| **Required** |  |
+| **Required** | no |
 | **Repeatable** |  |
 | **Constraints** |  |
 | **Examples** |  |
