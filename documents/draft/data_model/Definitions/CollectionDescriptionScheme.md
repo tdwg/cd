@@ -78,7 +78,7 @@
 | **Potential standards/vocabularies/ontologies to adopt** | |
 | **Notes** |  |
 
-### dimension (property)
+### dimensionName (property)
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
