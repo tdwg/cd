@@ -14,56 +14,53 @@ The day-to-day operations of the Interest Group is documented in this repository
 
 ### Conveners
 
-| Name | Affiliation | Email |
+| Name | Affiliation | github name or Email |
 | --- | --- | --- |
-| Deborah Paul | iDigBio | [dpaul@fsu.edu](mailto:dpaul@fsu.edu) |
-| Matt Woodburn | Natural History Museum London | [m.woodburn@nhm.ac.uk](mailto:m.woodburn@nhm.ac.uk) |
+| Deborah Paul | iDigBio | @debpaul |  
+| Matt Woodburn | Natural History Museum London | @mswoodburn |  
 
 ### Core Members
 
-| Name | Affiliation | Email |
-| --- | --- | --- |
-| Wouter Addink | Naturalis Biodiversity Center | [wouter.addink@naturalis.nl](mailto:wouter.addink@naturalis.nl) |
-| Mike Trizna | Smithsonian Institution | [triznam@si.edu](mailto:triznam@si.edu) |
-| Janeen Jones | Field Museum | [jjones@fieldmuseum.org](mailto:jjones@fieldmuseum.org) |
-| Sharon Grant | Field Museum | [sgrant@fieldmuseum.org](mailto:sgrant@fieldmuseum.org) |
-| Kate Webbink | Field Museum | [kwebbink@fieldmuseum.org](mailto:kwebbink@fieldmuseum.org) |
-| Connie Rinaldo | Harvard University | [crinaldo@oeb.harvard.edu](mailto:crinaldo@oeb.harvard.edu) |
-| Carolyn Sheffield | Smithsonian Libraries / BHL | [sheffieldc@si.edu](mailto:sheffieldC@si.edu) |
-| Dag Endresen | Univerity of Oslo Natural History Museum | [dag.endresen@nhm.uio.no](mailto:dag.endresen@nhm.uio.no) |
-| Holly Little | Smithsonian Institution / National Museum of Natural History | [littleh@si.edu](mailto:littleh@si.edu) |
-| Ramona Walls | CyVerse | [rwalls@cyverse.org](mailto:rwalls@cyverse.org) |
-| Kerstin Lehnert | Columbia University | [lehnert@ldeo.columbia.edu](mailto:lehnert@ldeo.columbia.edu) |
-| Niels Raes | Naturalis Biodiversity Center | [niels.raes@naturalis.nl](mailto:niels.raes@naturalis.nl) |
-| Dave Smith | Natural History Museum London | [d.a.smith@nhm.ac.uk](mailto:d.a.smith@nhm.ac.uk) |
-| Mareike Petersen | Museum für Naturkunde | [mareike.petersen@mfn.berlin](mailto:mareike.petersen@mfn.berlin) |
-| William Ulate | Missouri Botanical Garden | [william_ulate_r@yahoo.com](mailto:william_ulate_r@yahoo.com) |
-| Donald Hobern | GBIF | [dhobern@gbif.org](mailto:dhobern@gbif.org) |
-| Barbara Thiers | NYBG | [bthiers@nybg.org](mailto:bthiers@nybg.org) |
-| Kevin Love| iDigBio | [klove@flmnh.ufl.edu](mailto:klove@flmnh.ufl.edu) |
-| Andrea Hahn | GBIF | [ahahn@gbif.org](mailto:ahahn@gbif.org) |
-| James Macklin | Ag Canada | [james.macklin@agr.gc.ca](mailto:james.macklin@agr.gc.ca) |
-| Anissa Lybaert | Ag Canada | [Anissa.lybaert@agr.gc.ca](mailto:Anissa.lybaert@agr.gc.ca) |
-| Joel Ramirez | NYBG | [jramirez@nybg.org](mailto:jramirez@nybg.org) |
-| Melissa Tulig | NYBG | [mtulig@nybg.org](mailto:mtulig@nybg.org) |
-| Falko Glöckler | MfN Berlin | [falko.gloeckler@mfn-berlin.de](mailto:falko.gloeckler@mfn-berlin.de)  |
-| Jana Hoffman  | MfN Berlin | [jana.hoffmann@mfn-berlin.de](mailto:jana.hoffmann@mfn-berlin.de) |
-| David Bloom | VertNet | [dbloom@vertnet.org](mailto:dbloom@vertnet.org) |
-| Steve Baskauf | Vanderbilt | [steve.baskauf@vanderbilt.edu](mailto:steve.baskauf@vanderbilt.edu) |
-| Mareike Petersen | MfN |[Mareike.Petersen@mfn.berlin](mailto:Mareike.Petersen@mfn.berlin) |
-| James Beach | University of Kansas | [beach53@gmail.com](mailto:beach53@gmail.com) |
-| Terry Catapano | UCB | [catapanoth@gmail.com](mailto:catapanoth@gmail.com) |
-| Stan Blum | TDWG |  [stanblum@gmail.com](mailto:stanblum@gmail.com) |
-| Dimitris Koureas | Naturalis | [dimitris.koureas@naturalis.nl](mailto:dimitris.koureas@naturalis.nl) |
-| Judith Price  | CMN (retired) |  |
-| Sarah Vincent | Natural History Museum London | [s.vincent@nhm.ac.uk](mailto:s.vincent@nhm.ac.uk) |
-| Heather Cole | Ag Canada | [Heather.Cole@AGR.GC.CA](mailto:Heather.Cole@AGR.GC.CA)|
-| Shelley James | RBGS | [Shelley.James@rbgsyd.nsw.gov.au](mailto:Shelley.James@rbgsyd.nsw.gov.au) |
-| Quentin Groom | Meise Botanic Garden/TDWG/Synthesys+ | [quentin.groom@plantentuinmeise.be](mailto:quentin.groom@plantentuinmeise.be) |
-| Ana Casino | CETAF | [ana.casino@cetaf.org](mailto:ana.casino@cetaf.org) |
-| Wim van Dongen | Picturae | [w.vandongen@picturae.com](mailto:w.vandongen@picturae.com) |
-| Sharif Islam | Naturalis Biodiversity Center | [sharif.islam@naturalis.nl](mailto:sharif.islam@naturalis.nl) |
-| Maarten Trekels | Meise Botanic Garden/Synthesys+ | [maarten.trekels@plantentuinmeise.be](mailto:maarten.trekels@plantentuinmeise.be) |
+| Name | Affiliation | github name or Email |  
+| --- | --- | --- |  
+| Wouter Addink | Naturalis Biodiversity Center | @wouteraddink |  
+| Steve Baskauf | Vanderbilt | @baskaufs |  
+| James Beach | University of Kansas | beach53 AT gmail.com |  
+| David Bloom | VertNet | @dbloom |  
+| Stan Blum | TDWG |  @stanblum |  
+| Terry Catapano | UCB | @tcatapano |  
+| Ana Casino | CETAF | ana.casino AT cetaf.org |  
+| Heather Cole | Ag Canada | Heather.Cole AT AGR.GC.CA |  
+| Dag Endresen | Univerity of Oslo Natural History Museum | @dagendresen |  
+| Falko Glöckler | MfN Berlin | falko.gloeckler AT mfn-berlin.de |  
+| Sharon Grant | Field Museum | @rondlg |  
+| Quentin Groom | Meise Botanic Garden/TDWG/Synthesys+ | @qgroom |  
+| Andrea Hahn | GBIF | @ahahn-gbif |  
+| Donald Hobern | GBIF | @dhobern |  
+| Jana Hoffman  | MfN Berlin | jana.hoffmann AT mfn-berlin.de |  
+| Sharif Islam | Naturalis Biodiversity Center | @sharifX |  
+| Shelley James | RBGS | @grungle |  
+| Janeen Jones | Field Museum | jjones AT fieldmuseum.org |  
+| Dimitris Koureas | Naturalis | @dkoureas |  
+| Kerstin Lehnert | Columbia University | @klehnert55 |  
+| Holly Little | Smithsonian Institution / National Museum of Natural History | @hollyel |  
+| Anissa Lybaert | Ag Canada | Anissa.lybaert AT agr.gc.ca |  
+| James Macklin | Ag Canada | @jmacklin |  
+| Mareike Petersen | MfN | Mareike.Petersen AT mfn.berlin |  
+| Judith Price  | CMN (retired) |  |  
+| Niels Raes | Naturalis Biodiversity Center | niels.raes AT naturalis.nl |  
+| Joel Ramirez | NYBG | @jlramirez |  
+| Connie Rinaldo | Harvard University | crinaldo AT oeb.harvard.edu |  
+| Dave Smith | Natural History Museum London | d.a.smith AT nhm.ac.uk |  
+| Barbara Thiers | NYBG | bthiers AT nybg.org |  
+| Maarten Trekels | Meise Botanic Garden/Synthesys+ | @mtrekels |  
+| Mike Trizna | Smithsonian Institution | @MikeTrizna |  
+| Melissa Tulig | NYBG | mtulig AT nybg.org |   
+| William Ulate | Missouri Botanical Garden | @WUlate |  
+| Wim van Dongen | Picturae | @cannedit |  
+| Sarah Vincent | Natural History Museum London | @essvee |  
+| Ramona Walls | CyVerse | @ramonawalls |  
+| Kate Webbink | Field Museum | @magpiedin |  
 
 ## Collection Descriptions Standard (CD) Repository Navigation ##
 
