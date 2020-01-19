@@ -55,7 +55,7 @@
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** |  |
+| **Definition** | A list (concatenated and separated) of geographic names less specific than the information captured in the locality term. |
 | **Dimension** |  |
 | **Existing property** | dwc:higherGeography |
 | **Existing class** | Collection Location |
@@ -71,12 +71,12 @@
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** |  |
+| **Definition** | The name of the continent in which the GeographicOrigin occurs. |
 | **Dimension** |  |
 | **Existing property** | dwc:continent |
 | **Existing class** | Collection Location |
 | **Existing property identifier** | http://rs.tdwg.org/dwc/terms/#continent |
-| **Format** |  |
+| **Format** | text |
 | **Required** |  |
 | **Repeatable** |  |
 | **Constraints** |  |
@@ -87,12 +87,12 @@
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** |  |
+| **Definition** | The name of the water body in which the GeographicOrigin occurs. |
 | **Dimension** |  |
 | **Existing property** | dwc:waterBody |
 | **Existing class** | Collection Location |
 | **Existing property identifier** | http://rs.tdwg.org/dwc/terms/#waterBody |
-| **Format** |  |
+| **Format** | Text |
 | **Required** |  |
 | **Repeatable** |  |
 | **Constraints** |  |
@@ -103,12 +103,12 @@
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** |  |
+| **Definition** | The name of the island group in which the GeographicOrigin occurs. |
 | **Dimension** |  |
 | **Existing property** | dwc:islandGroup |
 | **Existing class** | Collection Location |
 | **Existing property identifier** | http://rs.tdwg.org/dwc/terms/#islandGroup |
-| **Format** |  |
+| **Format** | Text |
 | **Required** |  |
 | **Repeatable** |  |
 | **Constraints** |  |
@@ -119,12 +119,12 @@
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** |  |
+| **Definition** | The name of the island on or near which the GeographicOrigin occurs. |
 | **Dimension** |  |
 | **Existing property** | dwc:island |
 | **Existing class** | Collection Location |
 | **Existing property identifier** | http://rs.tdwg.org/dwc/terms/#island |
-| **Format** |  |
+| **Format** | Text |
 | **Required** |  |
 | **Repeatable** |  |
 | **Constraints** |  |
@@ -135,7 +135,7 @@
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** |  |
+| **Definition** | The name of the country or major administrative unit in which the GeographicOrigin occurs. |
 | **Dimension** |  |
 | **Existing property** | dwc:country |
 | **Existing class** | Collection Location |
@@ -151,7 +151,7 @@
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** |  |
+| **Definition** | The ISO 3166-1-alpha-2 standard code for the country in which the GeographicOrigin occurs.
 | **Dimension** |  |
 | **Existing property** | dwc:countryCode |
 | **Existing class** | Collection Location |
@@ -167,7 +167,7 @@
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** |  |
+| **Definition** | The name of the next smaller administrative region than country (state, province, canton, department, region, etc.) in which the GeographicOrigin occurs. |
 | **Dimension** |  |
 | **Existing property** | dwc:stateProvince |
 | **Existing class** | Collection Location |
@@ -183,12 +183,12 @@
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** |  |
+| **Definition** | The full, unabbreviated name of the next smaller administrative region than stateProvince (county, shire, department, etc.) in which the GeographicOrigin occurs. |
 | **Dimension** |  |
 | **Existing property** | dwc:county |
 | **Existing class** | Collection Location |
 | **Existing property identifier** | http://rs.tdwg.org/dwc/terms/#county |
-| **Format** |  |
+| **Format** | Text |
 | **Required** |  |
 | **Repeatable** |  |
 | **Constraints** |  |
@@ -199,7 +199,7 @@
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** |  |
+| **Definition** | The full, unabbreviated name of the next smaller administrative region than county (city, municipality, etc.) in which the GeographicOrigin occurs. |
 | **Dimension** |  |
 | **Existing property** | dwc:municipality |
 | **Existing class** | Collection Location |
@@ -215,12 +215,12 @@
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** |  |
+| **Definition** | The specific description of the place. Less specific geographic information can be provided in other geographic terms (higherGeography, continent, country, stateProvince, county, municipality, waterBody, island, islandGroup). |
 | **Dimension** |  |
 | **Existing property** | dwc:locality |
 | **Existing class** | Collection Location |
 | **Existing property identifier** | http://rs.tdwg.org/dwc/terms/#locality |
-| **Format** |  |
+| **Format** | Text |
 | **Required** |  |
 | **Repeatable** |  |
 | **Constraints** |  |
