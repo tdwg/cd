@@ -29,7 +29,7 @@
 | **Existing class** |  |
 | **Existing property identifier** | http://www.w3.org/2001/vcard-rdf/3.0#Orgname |
 | **Format** | Text |
-| **Required** |  |
+| **Required** | yes |
 | **Repeatable** |  |
 | **Constraints** |  |
 | **Examples** | Natural History Museum, London; Agentschap Plantentuin Meise; Florida State University |
@@ -45,7 +45,7 @@
 | **Existing class** |  |
 | **Existing property identifier** | http://purl.org/dc/terms/alternative |
 | **Format** | Text |
-| **Required** |  |
+| **Required** | no |
 | **Repeatable** |  |
 | **Constraints** |  |
 | **Examples** | Meise Botanic Garden |
@@ -61,7 +61,7 @@
 | **Existing class** |  |
 | **Existing property identifier** |  |
 | **Format** | Text |
-| **Required** |  |
+| **Required** | no |
 | **Repeatable** |  |
 | **Constraints** |  |
 | **Examples** | SMNS |
@@ -77,7 +77,7 @@
 | **Existing class** |  |
 | **Existing property identifier** | http://purl.org/dc/elements/1.1/description |
 | **Format** |  |
-| **Required** |  |
+| **Required** | no |
 | **Repeatable** |  |
 | **Constraints** |  |
 | **Examples** |  |
@@ -99,11 +99,11 @@
 | **Examples** |  |
 | **Notes** | From NCD |
 
-### parentInstiturionOrNetwork (property)
+### parentInstitutionOrNetwork (property)
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** | Name, acronym, identifier or coden of parent institution or network(s) |
+| **Definition** | Name, acronym, identifier or code of parent institution or network(s) |
 | **Dimension** |  |
 | **Existing property** |  |
 | **Existing class** |  |
@@ -125,11 +125,11 @@
 | **Existing class** |  |
 | **Existing property identifier** |  |
 | **Format** | Text |
-| **Required** |  |
+| **Required** | no |
 | **Repeatable** |  |
-| **Constraints** |  |
+| **Constraints** | Valid URL |
 | **Examples** |  http://col.smns-bw.org/|
-| **Notes** | Valid URL |
+| **Notes** |  |
 
 ## InstitutionIdentifier (class)
 
@@ -178,13 +178,13 @@
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** |  |
+| **Definition** | The unique identifier of the institution from the source |
 | **Dimension** |  |
 | **Existing property** |  |
 | **Existing class** |  |
 | **Existing property identifier** |  |
 | **Format** |  |
-| **Required** |  |
+| **Required** | yes |
 | **Repeatable** |  |
 | **Constraints** |  |
 | **Examples** | 99ea0c90-61e5-11dc-a64c-b8a03c50a862; http://biocol.org/urn:lsid:biocol.org:col:34840 |
@@ -205,13 +205,13 @@
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** |  |
+| **Definition** | The country in which the institution is located |
 | **Dimension** |  |
 | **Existing property** |  |
 | **Existing class** |  |
 | **Existing property identifier** |  |
 | **Format** | Text |
-| **Required** |  |
+| **Required** | yes |
 | **Repeatable** | Single |
 | **Constraints** |  |
 | **Examples** |  |
@@ -227,7 +227,7 @@
 | **Existing class** |  |
 | **Existing property identifier** |  |
 | **Format** | Text |
-| **Required** |  |
+| **Required** | no |
 | **Repeatable** | Single |
 | **Constraints** |  |
 | **Examples** |  |
@@ -243,7 +243,7 @@
 | **Existing class** |  |
 | **Existing property identifier** |  |
 | **Format** | Text |
-| **Required** |  |
+| **Required** | no |
 | **Repeatable** | Single |
 | **Constraints** |  |
 | **Examples** |  |
@@ -269,13 +269,13 @@
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** |  |
+| **Definition** | The name of the street or road on which the postal address of the institution is located |
 | **Dimension** |  |
 | **Existing property** |  |
 | **Existing class** |  |
 | **Existing property identifier** |  |
 | **Format** | Text |
-| **Required** |  |
+| **Required** | no |
 | **Repeatable** | Single |
 | **Constraints** |  |
 | **Examples** |  |
