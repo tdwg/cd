@@ -28,7 +28,7 @@
 | **Existing property** |  |
 | **Existing class** |  |
 | **Existing property identifier** |  |
-| **Format** |  |
+| **Format** | controlled vocabulary |
 | **Required** |  |
 | **Repeatable** |  |
 | **Constraints** |  |
@@ -44,7 +44,7 @@
 | **Existing property** |  |
 | **Existing class** |  |
 | **Existing property identifier** |  |
-| **Format** |  |
+| **Format** | controlled vocabulary |
 | **Required** |  |
 | **Repeatable** |  |
 | **Constraints** |  |
@@ -60,7 +60,7 @@
 | **Existing property** |  |
 | **Existing class** |  |
 | **Existing property identifier** |  |
-| **Format** |  |
+| **Format** | controlled vocabulary |
 | **Required** |  |
 | **Repeatable** |  |
 | **Constraints** |  |
@@ -109,7 +109,7 @@
 | **Existing class** |  |
 | **Existing property identifier** |  |
 | **Format** | Date |
-| **Required** |  |
+| **Required** | no |
 | **Repeatable** |  |
 | **Constraints** | ISO 8601 date format, resolved to day, month or year |
 | **Examples** |  |
