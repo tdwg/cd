@@ -462,3 +462,19 @@
 | **Constraints** | Controlled vocabulary |
 | **Examples** |  |
 | **Notes** |  |
+
+### ecoregion (property)
+
+| <!-- --> | <!-- --> |
+| ---- | ---- |
+| **Definition** | High level biogeographic region of the collection |
+| **Dimension** | yes |
+| **Existing property** |  |
+| **Existing class** |  |
+| **Existing property identifier** |  |
+| **Format** | text |
+| **Required** | no |
+| **Repeatable** | no |
+| **Constraints** | Controlled vocabulary |
+| **Examples** | Deserts and xeric shrublands; Tropical and subtropical moist broadleaf forests |
+| **Notes** | Potential vocabulary: World Wildlife Fund ecoregions https://www.worldwildlife.org/biome-categories/terrestrial-ecoregions and https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas |
