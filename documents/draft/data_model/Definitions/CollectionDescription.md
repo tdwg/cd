@@ -204,7 +204,7 @@
 | **Definition** | A group of physical collection objects with one or more common characteristics. |
 | **Repeatable** |  |
 | **Relationships** | See dimensions |
-| **Potential standards/vocabularies/ontologies to adopt** | NA |
+| **Potential standards/vocabularies/ontologies to adopt** | Potential to align with PROV-O (e.g. https://www.w3.org/TR/prov-o/#Collection) |
 | **Notes** | Properties listed as dimensions are potentially repeatable (1:n), but doing so prevents metrics from being aggregated against them. Also ref SchemeDimension subclass of CollectionDescriptionScheme.	|
 
 ### collectionDescriptionID (property)
