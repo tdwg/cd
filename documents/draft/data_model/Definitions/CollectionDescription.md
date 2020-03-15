@@ -444,7 +444,7 @@
 | **Required** |  |
 | **Repeatable** | yes |
 | **Constraints** | controlled vocabulary |
-| **Examples** |  |
+| **Examples** | Formaldehyde, napthalene, arsenic |
 | **Notes** |  |
 
 ### culturalAffiliation (property)
