@@ -71,7 +71,7 @@
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** |  |
+| **Definition** | Statistical metric metric/figure used to report the storage volume |
 | **Dimension** |  |
 | **Existing property** |  |
 | **Existing class** |  |
@@ -87,7 +87,7 @@
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** |  |
+| **Definition** | Floor area taken by the collection |
 | **Dimension** |  |
 | **Existing property** |  |
 | **Existing class** |  |
@@ -96,14 +96,14 @@
 | **Required** |  |
 | **Repeatable** | no |
 | **Constraints** |  |
-| **Examples** |  |
+| **Examples** | 10; 144.62 |
 | **Notes** |  |
 
 ### storageFootprintUnit (property)
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** |  |
+| **Definition** | Unit used to express the footprint of the collection |
 | **Dimension** |  |
 | **Existing property** |  |
 | **Existing class** |  |
@@ -112,14 +112,14 @@
 | **Required** |  |
 | **Repeatable** | no |
 | **Constraints** | Controlled vocabulary |
-| **Examples** |  |
+| **Examples** | m^2, ft^2 |
 | **Notes** |  |
 
 ### storageFootprintConfidence (property)
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** |  |
+| **Definition** | Confidence level on the estimation of the floor area |
 | **Dimension** |  |
 | **Existing property** |  |
 | **Existing class** |  |
@@ -135,7 +135,7 @@
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** |  |
+| **Definition** | Statistical metric/figure used to report the collection footprint |
 | **Dimension** |  |
 | **Existing property** |  |
 | **Existing class** |  |
