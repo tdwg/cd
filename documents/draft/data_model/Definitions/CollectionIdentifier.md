@@ -8,7 +8,7 @@
 | **Potential standards/vocabularies/ontologies to adopt** |  |
 | **Notes** |  |
 
-## CollectionDescriptionIdentifier (class)
+## CollectionIdentifier (class)
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
@@ -19,7 +19,7 @@
 | **Potential standards/vocabularies/ontologies to adopt** | |
 | **Notes** |  |
 
-### type (property)
+### collectionIdentifierType (property)
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
@@ -33,25 +33,9 @@
 | **Repeatable** |  |
 | **Constraints** |  |
 | **Examples** |  |
-| **Notes** |  |
+| **Notes** | Subproperty of rdf:type (http://www.w3.org/1999/02/22-rdf-syntax-ns#type). Another possibility is dcterms:type. However, the DCMI guidelines say that using rdf:type is prefereable. |
 
-### source (property)
-
-| <!-- --> | <!-- --> |
-| ---- | ---- |
-| **Definition** |  |
-| **Dimension** |  |
-| **Existing property** |  |
-| **Existing class** |  |
-| **Existing property identifier** |  |
-| **Format** |  |
-| **Required** |  |
-| **Repeatable** |  |
-| **Constraints** |  |
-| **Examples** |  |
-| **Notes** |  |
-
-### identifier (property)
+### collectionIdentifierSource (property)
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
@@ -65,4 +49,20 @@
 | **Repeatable** |  |
 | **Constraints** |  |
 | **Examples** |  |
-| **Notes** |  |
+| **Notes** | Subproperty of dcterms:identifier (http://purl.org/dc/terms/source) |
+
+### collectionIdentifier (property)
+
+| <!-- --> | <!-- --> |
+| ---- | ---- |
+| **Definition** |  |
+| **Dimension** |  |
+| **Existing property** |  |
+| **Existing class** |  |
+| **Existing property identifier** |  |
+| **Format** |  |
+| **Required** |  |
+| **Repeatable** |  |
+| **Constraints** |  |
+| **Examples** |  |
+| **Notes** | Subproperty of dcterms:identifier (http://purl.org/dc/terms/identifier) |
