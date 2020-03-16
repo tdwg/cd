@@ -204,7 +204,7 @@
 | **Definition** | A group of physical collection objects with one or more common characteristics. |
 | **Repeatable** |  |
 | **Relationships** | See dimensions |
-| **Potential standards/vocabularies/ontologies to adopt** | NA |
+| **Potential standards/vocabularies/ontologies to adopt** | Potential to align with PROV-O (e.g. https://www.w3.org/TR/prov-o/#Collection) |
 | **Notes** | Properties listed as dimensions are potentially repeatable (1:n), but doing so prevents metrics from being aggregated against them. Also ref SchemeDimension subclass of CollectionDescriptionScheme.	|
 
 ### collectionDescriptionID (property)
@@ -444,7 +444,7 @@
 | **Required** |  |
 | **Repeatable** | yes |
 | **Constraints** | controlled vocabulary |
-| **Examples** |  |
+| **Examples** | Formaldehyde, napthalene, arsenic |
 | **Notes** |  |
 
 ### culturalAffiliation (property)
@@ -462,3 +462,19 @@
 | **Constraints** | Controlled vocabulary |
 | **Examples** |  |
 | **Notes** |  |
+
+### ecoregion (property)
+
+| <!-- --> | <!-- --> |
+| ---- | ---- |
+| **Definition** | High level biogeographic region of the collection |
+| **Dimension** | yes |
+| **Existing property** |  |
+| **Existing class** |  |
+| **Existing property identifier** |  |
+| **Format** | text |
+| **Required** | no |
+| **Repeatable** | no |
+| **Constraints** | Controlled vocabulary |
+| **Examples** | Deserts and xeric shrublands; Tropical and subtropical moist broadleaf forests |
+| **Notes** | Potential vocabulary: World Wildlife Fund ecoregions https://www.worldwildlife.org/biome-categories/terrestrial-ecoregions and https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas |
