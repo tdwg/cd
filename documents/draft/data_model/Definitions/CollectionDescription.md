@@ -287,22 +287,6 @@
 | **Examples** | http://www.botanicalcollections.be/#/en/home |
 | **Notes** |  |
 
-### datasetDOIs (property)
-
-| <!-- --> | <!-- --> |
-| ---- | ---- |
-| **Definition** | DOIs for public datasets related to the collection description |
-| **Dimension** |  |
-| **Existing property** |  |
-| **Existing class** |  |
-| **Existing property identifier** |  |
-| **Format** | List |
-| **Required** | no |
-| **Repeatable** | Yes |
-| **Constraints** | Valid resolvable DOI |
-| **Examples** | https://doi.org/10.15468/wrthhx |
-| **Notes** | Could expand to a class if more information than a DOI would be useful |
-
 ### thematicFocus (property)
 
 | <!-- --> | <!-- --> |
