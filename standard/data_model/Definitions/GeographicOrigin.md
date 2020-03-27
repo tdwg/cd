@@ -23,33 +23,33 @@
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** |  |
+| **Definition** | An identifier for the set of location information (data associated with dcterms:Location). May be a global unique identifier or an identifier specific to the data set. |
 | **Dimension** |  |
 | **Existing property** | dwc:locationID |
-| **Existing class** | Collection Location |
+| **Existing class** | Location |
 | **Existing property identifier** | http://rs.tdwg.org/dwc/terms/#locationID |
 | **Format** |  |
 | **Required** | no |
 | **Repeatable** |  |
 | **Constraints** |  |
-| **Examples** |  |
+| **Examples** | 	https://opencontext.org/subjects/768A875F-E205-4D0B-DE55-BAB7598D0FD1 |
 | **Notes** |  |
 
 ### higherGeographyID (property)
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** |  |
+| **Definition** | An identifier for the geographic region within which the Location occurred. |
 | **Dimension** |  |
 | **Existing property** | dwc:higherGeographyID |
-| **Existing class** | Collection Location |
+| **Existing class** | Location |
 | **Existing property identifier** | http://rs.tdwg.org/dwc/terms/#higherGeographyID |
 | **Format** |  |
 | **Required** | no |
 | **Repeatable** |  |
 | **Constraints** |  |
-| **Examples** |  |
-| **Notes** |  |
+| **Examples** | http://vocab.getty.edu/tgn/1002002 (Antártida e Islas del Atlántico Sur, Territorio Nacional de la Tierra del Fuego, Argentina). |
+| **Notes** | Recommended best practice is to use a persistent identifier from a controlled vocabulary such as the Getty Thesaurus of Geographic Names. |
 
 ### higherGeography (property)
 
@@ -71,19 +71,17 @@
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** | The name of the continent in which the GeographicOrigin occurs. |
+| **Definition** | The name of the continent in which the Location occurs. |
 | **Dimension** |  |
 | **Existing property** | dwc:continent |
-| **Existing class** | Collection Location |
+| **Existing class** | Location |
 | **Existing property identifier** | http://rs.tdwg.org/dwc/terms/#continent |
-| **Format** | text |
-| **Required** |  |
-| **Format** |  |
+| **Format** | controlled vocabulary |
 | **Required** | no |
-| **Repeatable** |  |
+| **Repeatable** | no |
 | **Constraints** |  |
-| **Examples** |  |
-| **Notes** |  |
+| **Examples** | Africa, Antarctica, Asia, Europe, North America, Oceania, South America |
+| **Notes** | This terms refers to the continent from which the collection originated. Recommended best practice is to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names. --> http://www.getty.edu/vow/TGNHierarchy?find=&place=&nation=&english=Y&subjectid=7029392 |
 
 ### waterBody (property)
 
@@ -107,136 +105,132 @@
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** | The name of the island group in which the GeographicOrigin occurs. |
+| **Definition** | The name of the island group in which the Location occurs. |
 | **Dimension** |  |
 | **Existing property** | dwc:islandGroup |
-| **Existing class** | Collection Location |
+| **Existing class** | Location |
 | **Existing property identifier** | http://rs.tdwg.org/dwc/terms/#islandGroup |
-| **Format** | Text |
-| **Required** |  |
-| **Format** |  |
+| **Format** | controlled vocabulary |
 | **Required** | no |
 | **Repeatable** |  |
 | **Constraints** |  |
-| **Examples** |  |
-| **Notes** |  |
+| **Examples** | Alexander Archipelago, Archipiélago Diego Ramírez, Seychelles |
+| **Notes** | This terms refers to the island group from which the collection originated. Recommended best practice is to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names. --> http://www.getty.edu/vow/TGNHierarchy?find=&place=&nation=&english=Y&subjectid=7029392 |
 
 ### island (property)
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** | The name of the island on or near which the GeographicOrigin occurs. |
+| **Definition** | The name of the island on or near which the Location occurs. |
 | **Dimension** |  |
 | **Existing property** | dwc:island |
-| **Existing class** | Collection Location |
+| **Existing class** | Location |
 | **Existing property identifier** | http://rs.tdwg.org/dwc/terms/#island |
-| **Format** | Text |
-| **Required** |  |
-| **Format** |  |
+| **Format** | controlled vocabulary |
 | **Required** | no |
 | **Repeatable** |  |
 | **Constraints** |  |
-| **Examples** |  |
-| **Notes** |  |
+| **Examples** | Nosy Be, Bikini Atoll, Vancouver, Viti Levu, Zanzibar |
+| **Notes** | This terms refers to the island from which the collection originated. Recommended best practice is to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names. --> http://www.getty.edu/vow/TGNHierarchy?find=&place=&nation=&english=Y&subjectid=7029392 |
 
 ### country (property)
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** | The name of the country or major administrative unit in which the GeographicOrigin occurs. |
+| **Definition** | The name of the country or major administrative unit in which the Location occurs. |
 | **Dimension** |  |
 | **Existing property** | dwc:country |
-| **Existing class** | Collection Location |
+| **Existing class** | Location |
 | **Existing property identifier** | http://rs.tdwg.org/dwc/terms/#country |
-| **Format** |  |
+| **Format** | controlled vocabulary |
 | **Required** | no |
 | **Repeatable** |  |
 | **Constraints** |  |
-| **Examples** |  |
-| **Notes** |  |
+| **Examples** | Angola, Denmark, Colombia, España |
+| **Notes** | This terms refers to the country from which the collection items were collected. Recommended best practice is to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names. --> http://www.getty.edu/vow/TGNHierarchy?find=&place=&nation=&english=Y&subjectid=7029392 |
 
 ### countryCode (property)
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** | The ISO 3166-1-alpha-2 standard code for the country in which the GeographicOrigin occurs.
+| **Definition** | The standard code for the country in which the Location occurs.
 | **Dimension** |  |
 | **Existing property** | dwc:countryCode |
-| **Existing class** | Collection Location |
+| **Existing class** | Location |
 | **Existing property identifier** | http://rs.tdwg.org/dwc/terms/#countryCode |
-| **Format** |  |
+| **Format** | controlled vocabulary |
 | **Required** | no |
 | **Repeatable** |  |
 | **Constraints** |  |
-| **Examples** |  |
-| **Notes** |  |
+| **Examples** | AR, SV, CN |
+| **Notes** | This terms refers to the code of the country from which the collection originated. Recommended best practice is to use an ISO 3166-1-alpha-2 country code. |
 
 ### stateProvince (property)
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** | The name of the next smaller administrative region than country (state, province, canton, department, region, etc.) in which the GeographicOrigin occurs. |
+| **Definition** | 	The name of the next smaller administrative region than country (state, province, canton, department, region, etc.) in which the Location occurs. |
 | **Dimension** |  |
 | **Existing property** | dwc:stateProvince |
-| **Existing class** | Collection Location |
+| **Existing class** | Location |
 | **Existing property identifier** | http://rs.tdwg.org/dwc/terms/#stateProvince |
-| **Format** |  |
-| **Required** | no |
+| **Format** | controlled vocabulary |
+| **Required** |  |
 | **Repeatable** |  |
 | **Constraints** |  |
-| **Examples** |  |
-| **Notes** |  |
+| **Examples** | Montana, Minas Gerais, Córdoba |
+| **Notes** | Recommended best practice is to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names. |
 
 ### county (property)
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** | The full, unabbreviated name of the next smaller administrative region than stateProvince (county, shire, department, etc.) in which the GeographicOrigin occurs. |
+| **Definition** | The full, unabbreviated name of the next smaller administrative region than stateProvince (county, shire, department, etc.) in which the Location occurs. |
 | **Dimension** |  |
 | **Existing property** | dwc:county |
-| **Existing class** | Collection Location |
+| **Existing class** | Location |
 | **Existing property identifier** | http://rs.tdwg.org/dwc/terms/#county |
 | **Format** | Text |
 | **Required** |  |
-| **Format** |  |
+| **Format** | controlled vocabulary |
 | **Required** | no |
 | **Repeatable** |  |
 | **Constraints** |  |
-| **Examples** |  |
-| **Notes** |  |
+| **Examples** | Missoula, Los Lagos, Mataró |
+| **Notes** | This terms refers to the county from which the collection originated. Recommended best practice is to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names. --> http://www.getty.edu/vow/TGNHierarchy?find=&place=&nation=&english=Y&subjectid=7029392 |
 
 ### municipality (property)
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** | The full, unabbreviated name of the next smaller administrative region than county (city, municipality, etc.) in which the GeographicOrigin occurs. |
+| **Definition** | The full, unabbreviated name of the next smaller administrative region than county (city, municipality, etc.) in which the Location occurs. Do not use this term for a nearby named place that does not contain the actual location. |
 | **Dimension** |  |
 | **Existing property** | dwc:municipality |
-| **Existing class** | Collection Location |
+| **Existing class** | Location |
 | **Existing property identifier** | http://rs.tdwg.org/dwc/terms/#municipality |
-| **Format** |  |
+| **Format** | controlled vocabulary |
 | **Required** | no |
-| **Repeatable** |  |
+| **Repeatable** | no |
 | **Constraints** |  |
-| **Examples** |  |
-| **Notes** |  |
+| **Examples** | Holzminden, Araçatuba, Ga-Segonyana |
+| **Notes** | Recommended best practice is to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names. |
 
 ### locality (property)
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** | The specific description of the place. Less specific geographic information can be provided in other geographic terms (higherGeography, continent, country, stateProvince, county, municipality, waterBody, island, islandGroup). |
+| **Definition** | The specific description of the place. Less specific geographic information can be provided in other geographic terms (higherGeography, continent, country, stateProvince, county, municipality, waterBody, island, islandGroup). This term may contain information modified from the original to correct perceived errors or standardize the description. |
 | **Dimension** |  |
 | **Existing property** | dwc:locality |
-| **Existing class** | Collection Location |
+| **Existing class** | Location |
 | **Existing property identifier** | http://rs.tdwg.org/dwc/terms/#locality |
 | **Format** | Text |
 | **Required** |  |
 | **Format** |  |
-| **Required** | yes |
+| **Required** | no |
 | **Repeatable** |  |
 | **Constraints** |  |
-| **Examples** |  |
+| **Examples** | Bariloche, 25 km NNE via Ruta Nacional 40 (=Ruta 237). |
 | **Notes** |  |
 
 ### verbatimLocality (property)
