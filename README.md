@@ -10,6 +10,10 @@ The new Collection Descriptions standard will be a successor to the unratified d
 
 The day-to-day operations of the Interest Group is documented in this repository. You can also track and participate in the work of the group by watching this repository and monitoring the group's [issues tracker](https://github.com/tdwg/cd/issues).  
 
+## Quick reference index
+
+For quick reference, an index of classes and properties, and summaries of the current data model can be found in this [Google sheet](https://docs.google.com/spreadsheets/d/1w8DMgUwl7tf-9AXQOpT6IRQeMuUbxUZlJwQinrtUvAs/).
+
 ## Members
 
 ### Conveners
