@@ -56,65 +56,67 @@
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** |  |
+| **Definition** | A legal document giving official permission to do something with the resource. |
 | **Dimension** |  |
 | **Existing property** | dc:license |
-| **Existing class** |  |
+| **Existing class** | Rights |
 | **Existing property identifier** | http://purl.org/dc/terms/license |
-| **Format** |  |
-| **Required** |  |
+| **Format** | URI |
+| **Required** | yes |
 | **Repeatable** |  |
 | **Constraints** |  |
-| **Examples** |  |
-| **Notes** |  |
+| **Examples** | https://creativecommons.org/licenses/by/4.0/deed.en
+https://creativecommons.org/publicdomain/zero/1.0/
+https://creativecommons.org/licenses/by/4.0/legalcode |
+| **Notes** | Recommended practice is to identify the license document with a URI. If this is not possible or feasible, a literal value that identifies the license may be provided. |
 
 ### recordRights (property)
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** | IPR statement about the record |
+| **Definition** | Information about rights held in and over the resource. |
 | **Dimension** |  |
 | **Existing property** | dc:rights |
 | **Existing class** |  |
 | **Existing property identifier** | http://purl.org/dc/terms/rights |
-| **Format** |  |
-| **Required** |  |
+| **Format** | URI |
+| **Required** | yes |
 | **Repeatable** |  |
 | **Constraints** |  |
 | **Examples** |  |
-| **Notes** |  |
+| **Notes** | Typically, rights information includes a statement about various property rights associated with the resource, including intellectual property rights. Recommended practice is to refer to a rights statement with a URI. If this is not possible or feasible, a literal value (name, label, or short text) may be provided. |
 
 ### rightsHolder (property)
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** |  |
+| **Definition** | A person or organization owning or managing rights over the resource. |
 | **Dimension** |  |
 | **Existing property** | dc:rightsHolder |
 | **Existing class** |  |
 | **Existing property identifier** | http://purl.org/dc/terms/rightsHolder |
-| **Format** |  |
+| **Format** | URI |
 | **Required** |  |
 | **Repeatable** |  |
 | **Constraints** |  |
 | **Examples** |  |
-| **Notes** |  |
+| **Notes** | ecommended practice is to refer to the rights holder with a URI. If this is not possible or feasible, a literal value that identifies the rights holder may be provided. |
 
 ### creator (property)
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** | Person that created the record |
+| **Definition** | An entity responsible for making the resource. |
 | **Dimension** |  |
 | **Existing property** |  |
 | **Existing class** | dc:creator |
 | **Existing property identifier** | http://purl.org/dc/terms/creator |
-| **Format** |  |
+| **Format** | URI |
 | **Required** |  |
 | **Repeatable** |  |
 | **Constraints** |  |
 | **Examples** |  |
-| **Notes** |  |
+| **Notes** | Recommended practice is to identify the creator with a URI. If this is not possible or feasible, a literal value that identifies the creator may be provided. Equivalent property: http://xmlns.com/foaf/0.1/maker |
 
 ### recordSource (property)
 
@@ -136,7 +138,7 @@
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** | Time and date of record creation |
+| **Definition** | Date of creation of the resource. |
 | **Dimension** |  |
 | **Existing property** | dc:created |
 | **Existing class** |  |
@@ -152,23 +154,23 @@
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** | Person that last edited the record |
+| **Definition** | An entity responsible for making contributions to the resource. |
 | **Dimension** |  |
 | **Existing property** | dc:contributor |
 | **Existing class** |  |
 | **Existing property identifier** | http://purl.org/dc/elements/1.1/contributor |
 | **Format** |  |
-| **Required** |  |
+| **Required** | yes |
 | **Repeatable** |  |
 | **Constraints** |  |
 | **Examples** |  |
-| **Notes** |  |
+| **Notes** | The guidelines for using names of persons or organizations as creators also apply to contributors. Typically, the name of a Contributor should be used to indicate the entity. In the context of CD it is the last Person that edited the record. |
 
 ### recordEditedDate (property)
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
-| **Definition** | Time and date the record was last edited |
+| **Definition** | Date on which the resource was changed. |
 | **Dimension** |  |
 | **Existing property** | dc:modified |
 | **Existing class** |  |
@@ -178,7 +180,7 @@
 | **Repeatable** |  |
 | **Constraints** | ISO 8601 |
 | **Examples** | 2019-12-16T09:49:51Z |
-| **Notes** |  |
+| **Notes** | Recommended practice is to describe the date, date/time, or period of time as recommended for the property Date, of which this is a subproperty. |
 
 ### language (property)
 
