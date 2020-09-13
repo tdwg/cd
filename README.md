@@ -60,7 +60,7 @@ For quick reference, an index of classes and properties, and summaries of the cu
 | Maarten Trekels | Meise Botanic Garden/Synthesys+ | @mtrekels |  
 | Mike Trizna | Smithsonian Institution | @MikeTrizna |  
 | Melissa Tulig | NYBG | mtulig AT nybg.org |   
-| William Ulate | Missouri Botanical Garden | @WUlate |  
+| William Ulate | Missouri Botanical Garden & Centro de Investigación en Informática de la Biodiversidad (CRBio.org)| @WUlate |  
 | Wim van Dongen | Picturae | @cannedit |  
 | Sarah Vincent | Natural History Museum London | @essvee |  
 | Ramona Walls | CyVerse | @ramonawalls |  
