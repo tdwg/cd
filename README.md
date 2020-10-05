@@ -37,14 +37,14 @@ For quick reference, an index of classes and properties, and summaries of the cu
 | Heather Cole | Ag Canada | Heather.Cole AT AGR.GC.CA |  
 | Dag Endresen | Univerity of Oslo Natural History Museum | @dagendresen |  
 | Falko Glöckler | MfN Berlin | falko.gloeckler AT mfn-berlin.de |  
-| Sharon Grant | Field Museum | @rondlg |  
+| Sharon Grant | Field Museum of Natural History | @rondlg |  
 | Quentin Groom | Meise Botanic Garden/TDWG/Synthesys+ | @qgroom |  
 | Andrea Hahn | GBIF | @ahahn-gbif |  
 | Donald Hobern | GBIF | @dhobern |  
 | Jana Hoffman  | MfN Berlin | jana.hoffmann AT mfn-berlin.de |  
 | Sharif Islam | Naturalis Biodiversity Center | @sharifX |  
 | Shelley James | RBGS | @grungle |  
-| Janeen Jones | Field Museum | jjones AT fieldmuseum.org |  
+| Janeen Jones | Field Museum of Natural History | jjones AT fieldmuseum.org |  
 | Dimitris Koureas | Naturalis | @dkoureas |  
 | Kerstin Lehnert | Columbia University | @klehnert55 |  
 | Holly Little | Smithsonian Institution / National Museum of Natural History | @hollyel |  
@@ -64,7 +64,7 @@ For quick reference, an index of classes and properties, and summaries of the cu
 | Wim van Dongen | Picturae | @cannedit |  
 | Sarah Vincent | Natural History Museum London | @essvee |  
 | Ramona Walls | CyVerse | @ramonawalls |  
-| Kate Webbink | Field Museum | @magpiedin |  
+| Kate Webbink | Field Museum of Natural History | @magpiedin |  
 
 ## Collection Descriptions Standard (CD) Repository Navigation ##
 
