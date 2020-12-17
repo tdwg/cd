@@ -168,6 +168,7 @@ The current repository structure is described below.
 │   ├── data_model              : Data model definitions, schemata and diagrams
 │   └── vocabularies            : Controlled vocabularies, ontologies etc relevant to the standard
 │
+├── tools                       : Ad hoc tools used to support the development of the standard and data model
 └── .gitignore                  : Files and directories to be ignored by git
 ```
 
