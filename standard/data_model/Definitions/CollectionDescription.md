@@ -1,4 +1,4 @@
-# CollectionDescription 
+# ObjectGroup 
 
 | <!-- --> | <!-- --> |
 | ---- | ---- |
@@ -14,7 +14,7 @@
 | <!-- --> | <!-- --> |
 | ---- | ---- |
 | **Parent** | NA |
-| **Definition** | Information about the CollectionDescription digital record |
+| **Definition** | Information about the ObjectGroup digital record |
 | **Repeatable** |  |
 | **Relationships** |  |
 | **Potential standards/vocabularies/ontologies to adopt** | |
