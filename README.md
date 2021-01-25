@@ -18,9 +18,11 @@ For quick reference, an index of classes and properties, and summaries of the cu
 
 ### Conveners
 
-| Name | Affiliation | github name or Email |
+| Name | Affiliation | GitHub username or Email |
 | --- | --- | --- |
-| Deborah Paul | iDigBio | @debpaul |  
+| Sharon Grant | Field Museum, Chicago | @rondlg |  
+| Janeen Jones | Field Museum, Chicago | @fmjjones |  
+| Kate Webbink | Field Museum, Chicago | @magpiedin |  
 | Matt Woodburn | Natural History Museum London | @mswoodburn |  
 
 ### Core Members
