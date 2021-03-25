@@ -23,7 +23,7 @@ organisationUnitAddressStateOrCounty,OrganisationalUnitAddress,Berlin,
 organisationUnitAddressStreet,OrganisationalUnitAddress,Koenigin-Luise-Str. 6-8,
 organisationUnitAddressZipcodeOrPostcode,OrganisationalUnitAddress,14195,
 ,,,
-EXAMPLE COLLECTION WITHIN THIS INSTITUTION REFERRING TO ITS PARENT,,,Remarks
+EXAMPLE COLLECTION WITHIN THIS INSTITUTION REFERRING TO ITS PARENT,,,,
 PID,CollectionDescription,SuperStableCollectionID123,
 recordCreator,CollectionDescription,Department of Biodiversity Informatics,
 recordEditor,CollectionDescription,Department of Biodiversity Informatics,
