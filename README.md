@@ -52,6 +52,7 @@ For quick reference, an index of classes and properties, and summaries of the cu
 | Holly Little | Smithsonian Institution / National Museum of Natural History | @hollyel |  
 | Anissa Lybaert | Ag Canada | Anissa.lybaert AT agr.gc.ca |  
 | James Macklin | Ag Canada | @jmacklin |  
+| Deborah Paul (past Co-convenor) | Species File Group, INHS | @debpaul |  
 | Mareike Petersen | MfN | Mareike.Petersen AT mfn.berlin |  
 | Judith Price  | CMN (retired) |  |  
 | Niels Raes | Naturalis Biodiversity Center | niels.raes AT naturalis.nl |  
