@@ -4,8 +4,8 @@
 
         "Activities": [{
                 "activityName": "Collecting",
-                "AgentActivities": [{
-                        "agentRole": "Collector",
+                "AgentRoles": [{
+                        "roleName": "Collector",
                         "Agents": [{
                                 "agentType": "Person",
                                 "agentName": "Charles Darwin",
@@ -24,8 +24,8 @@
                 "activityName": "Collection management",
                 "startedAtTime": "2004-06-12",
                 "endedAtTime": "2017-09-18",
-                "AgentActivities": [{
-                        "agentRole": "Collection contact",
+                "AgentRoles": [{
+                        "roleName": "Collection contact",
                         "Agents": [{
                                 "agentType": "Person",
                                 "agentName": "Geraldine Smith",
@@ -49,7 +49,7 @@
                             }
                         ]
                     }, {
-                        "agentRole": "Curator",
+                        "roleName": "Curator",
                         "Agents": [{
                                 "agentType": "Person",
                                 "agentName": "Geoff McFarlane",

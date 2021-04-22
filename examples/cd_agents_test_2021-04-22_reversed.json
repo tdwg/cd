@@ -11,8 +11,8 @@
                         "identifierType": "Wikidata ID"
                     }
                 ],
-                "AgentActivities": [{
-                        "agentRole": "Collector"
+                "AgentRoles": [{
+                        "roleName": "Collector"
                     }
                 ]
             },{
@@ -25,8 +25,8 @@
                         "identifierType": "Wikidata ID"
                     }
                 ],
-                "AgentActivities": [{
-                        "agentRole": "Collector"
+                "AgentRoles": [{
+                        "roleName": "Collector"
                     }
                 ]
             },{
@@ -49,8 +49,8 @@
                         "zipcodeOrPostcode": "N11 3RT"
                     }
                 ],
-                "AgentActivities": [{
-                        "agentRole": "Collection contact",
+                "AgentRoles": [{
+                        "roleName": "Collection contact",
                         "Activities": [{
                                 "activityName": "Collection management",
                                 "startedAtTime": "2004-06-12",
@@ -70,8 +70,8 @@
                         "identifierType": "ORCID ID"
                     }
                 ],
-                "AgentActivities": [{
-                        "agentRole": "Curator",
+                "AgentRoles": [{
+                        "roleName": "Curator",
                         "Activities": [{
                                 "activityName": "Collection management",
                                 "startedAtTime": "2004-06-12",
@@ -95,8 +95,8 @@
                             "identifierType": "ORCID ID"
                         }
                     ],
-                    "AgentActivities": [{
-                            "agentRole": "Head of Collections",
+                    "AgentRoles": [{
+                            "roleName": "Head of Collections",
                             "Activities": [{
                                     "startedAtTime": "1998"
                                 }
