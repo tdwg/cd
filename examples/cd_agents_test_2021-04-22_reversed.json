@@ -96,9 +96,9 @@
 						}
 					],
 					"AgentActivities": [{
-							"agentRole": "Head of Collections"
+							"agentRole": "Head of Collections",
 							"Activities": [{
-									"startedAtTime": "1998",
+									"startedAtTime": "1998"
 								}
 							]
 						}
