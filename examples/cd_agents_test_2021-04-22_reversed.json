@@ -82,29 +82,29 @@
                 ]
             }
         ],
-		"OrganisationalUnit": {
-			"organisationalUnitName": "Natural History Museum, London",
-			"organisationalUnitType": "Institution",
-			"Agents": [{
-					"agentType": "Person",
-					"agentName": "Jane Smith",
-					"agentAlternateName": "J. P. Smith",
-					"Identifiers": [{
-							"identifier": "https://orcid.org/0000-0001-6346-1423",
-							"identifierSource": "https://orcid.org/",
-							"identifierType": "ORCID ID"
-						}
-					],
-					"AgentActivities": [{
-							"agentRole": "Head of Collections",
-							"Activities": [{
-									"startedAtTime": "1998"
-								}
-							]
-						}
-					]
-				}
-			]
-		}
+        "OrganisationalUnit": {
+            "organisationalUnitName": "Natural History Museum, London",
+            "organisationalUnitType": "Institution",
+            "Agents": [{
+                    "agentType": "Person",
+                    "agentName": "Jane Smith",
+                    "agentAlternateName": "J. P. Smith",
+                    "Identifiers": [{
+                            "identifier": "https://orcid.org/0000-0001-6346-1423",
+                            "identifierSource": "https://orcid.org/",
+                            "identifierType": "ORCID ID"
+                        }
+                    ],
+                    "AgentActivities": [{
+                            "agentRole": "Head of Collections",
+                            "Activities": [{
+                                    "startedAtTime": "1998"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
     }
 }
