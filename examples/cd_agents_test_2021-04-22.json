@@ -1,0 +1,100 @@
+{
+    "ObjectGroup": {
+        "name": "NHM Darwin Fossils",
+
+        "Activities": [{
+                "activityName": "Collecting",
+                "AgentActivities": [{
+                        "agentRole": "Collector"
+                        "Agents": [{
+                                "agentType": "Person",
+                                "agentName": "Charles Darwin",
+                                "agentAlternateName": "Charles Robert Darwin",
+                                "Identifiers": [{
+                                        "identifier": "https://www.wikidata.org/wiki/Q1035",
+                                        "identifierSource": "https://www.wikidata.org",
+                                        "identifierType": "Wikidata ID"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }, {
+                "activityName": "Collection management",
+                "startedAtTime": "2004-06-12",
+                "endedAtTime": "2017-09-18",
+                "AgentActivities": [{
+                        "agentRole": "Collection contact",
+                        "Agents": [{
+                                "agentType": "Person",
+                                "agentName": "Geraldine Smith",
+                                "agentAlternateName": "G. W. Smith",
+                                "agentEmail": "gwsmith@noaddress.com",
+                                "Identifiers": [{
+                                        "identifier": "https://orcid.org/0000-0001-6496-1423",
+                                        "identifierSource": "https://orcid.org/",
+                                        "identifierType": "ORCID ID"
+                                    }
+                                ],
+                                "Addresses": [{
+                                        "addressType": "Work",
+                                        "addressCity": "London",
+                                        "addressCountry": "United Kingdom",
+                                        "addressStateOrCounty": "Greater London",
+                                        "addressStreet": "Bounds Green Road",
+                                        "zipcodeOrPostcode": "N11 3RT"
+                                    }
+                                ]
+                            }
+                        ]
+                    }, {
+                        "agentRole": "Curator",
+                        "Agents": [{
+                                "agentType": "Person",
+                                "agentName": "Geoff McFarlane",
+                                "agentAlternateName": "G. McFarlane",
+                                "agentEmail": "geoff.mcfarlane@noaddress.com",
+                                "Identifiers": [{
+                                        "identifier": "https://orcid.org/0000-0001-6437-1423",
+                                        "identifierSource": "https://orcid.org/",
+                                        "identifierType": "ORCID ID"
+                                    }
+                                ],
+                                "Addresses": [{
+                                        "addressType": "Work",
+                                        "addressCity": "London",
+                                        "addressCountry": "United Kingdom",
+                                        "addressStateOrCounty": "Greater London",
+                                        "addressStreet": "Bounds Green Road",
+                                        "zipcodeOrPostcode": "N11 3RT"
+                                    }
+                                ]
+                            }, {
+                                "agentType": "Person",
+                                "agentName": "Trupti Mistri",
+                                "agentAlternateName": "T. Mistri",
+                                "agentEmail": "mistri39@noaddress.com",
+                                "Identifiers": [{
+                                        "identifier": "https://orcid.org/0000-0001-6346-1423",
+                                        "identifierSource": "https://orcid.org/",
+                                        "identifierType": "ORCID ID"
+                                    }
+                                ],
+                                "Addresses": [{
+                                        "addressType": "Work",
+                                        "addressCity": "London",
+                                        "addressCountry": "United Kingdom",
+                                        "addressStateOrCounty": "Greater London",
+                                        "addressStreet": "Bounds Green Road",
+                                        "zipcodeOrPostcode": "N11 3RT"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
