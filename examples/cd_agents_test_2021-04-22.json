@@ -5,7 +5,7 @@
         "Activities": [{
                 "activityName": "Collecting",
                 "AgentActivities": [{
-                        "agentRole": "Collector"
+                        "agentRole": "Collector",
                         "Agents": [{
                                 "agentType": "Person",
                                 "agentName": "Charles Darwin",
