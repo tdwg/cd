@@ -68,6 +68,7 @@ For quick reference, an index of classes and properties, and summaries of the cu
 | Sarah Vincent | Natural History Museum London | @essvee |  
 | Ramona Walls | CyVerse | @ramonawalls |  
 | Kate Webbink | Field Museum of Natural History | @magpiedin |  
+| Gabi Droege | Botanic Garden and Botanical Museum Berlin / Global Genome Biodiversity Network | @gdadade |
 
 ## Collection Descriptions Standard (CD) Repository Navigation ##
 
