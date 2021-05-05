@@ -107,6 +107,7 @@ For quick reference, an index of classes and properties, and summaries of the cu
 | Wiebke Walbaum | State Museum of Natural History Stuttgart |  |  
 | Ramona Walls | CyVerse | @ramonawalls |  
 | Karin Wiltschke | Natural History Museum Vienna |  |  
+| Paula Zermoglio | Universidad de Buenos Aires |  |  
 
 
 ## Collection Descriptions Standard (CD) Repository Navigation ##
