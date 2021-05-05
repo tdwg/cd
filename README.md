@@ -18,16 +18,18 @@ For quick reference, an index of classes and properties, and summaries of the cu
 
 ### Conveners
 
-| Name | Affiliation | GitHub username or Email |
-| --- | --- | --- |
+| Name | Affiliation | GitHub username or Email |  
+| --- | --- | --- |  
 | Sharon Grant | Field Museum, Chicago | @rondlg |  
 | Janeen Jones | Field Museum, Chicago | @fmjjones |  
 | Kate Webbink | Field Museum, Chicago | @magpiedin |  
-| Matt Woodburn | Natural History Museum London | @mswoodburn |  
+| Matt Woodburn | Natural History Museum London | @mswoodburn |
 
 ### Core contributors
-| Name | Affiliation | GitHub username or Email |
-| Gabi Droege | Botanic Garden and Botanical Museum Berlin / Global Genome Biodiversity Network | @gdadade |
+
+| Name | Affiliation | GitHub username or Email |  
+| --- | --- | --- |  
+| Gabi Droege | Botanic Garden and Botanical Museum Berlin / Global Genome Biodiversity Network | @gdadade |  
 | Sharon Grant | Field Museum of Natural History | @rondlg |  
 | Quentin Groom | Meise Botanic Garden/TDWG/Synthesys+ | @qgroom |  
 | Janeen Jones | Field Museum of Natural History | jjones AT fieldmuseum.org |  
@@ -42,68 +44,69 @@ For quick reference, an index of classes and properties, and summaries of the cu
 
 ### Members
 
-| Name | Affiliation | github name or Email |  
+| Name | Affiliation | GitHub username or Email |  
 | --- | --- | --- |  
-| Wouter Addink | Naturalis Biodiversity Center | @wouteraddink |
-| Steve Baskauf | Vanderbilt | @baskaufs |
-| James Beach | University of Kansas | beach53 AT gmail.com |
-| Allison Becker | Smithsonian Institution / National Museum of Natural History |  |
-| Joana Beja | Flanders Marine Institute |  |
-| David Bloom | VertNet | @dbloom |
-| Stan Blum | TDWG | @stanblum |
-| Ana Casino | CETAF | ana.casino AT cetaf.org |
-| Terry Catapano | UCB | @tcatapano |
-| Arthur Chapman | Australian Biodiversity Information Services |  |
-| Cat Chapman | iDigBio |  |
-| Heather Cole | Ag Canada | Heather.Cole AT AGR.GC.CA |
-| Johanna Eder | State Museum of Natural History Stuttgart |  |
-| Dag Endresen | Univerity of Oslo Natural History Museum | @dagendresen |
-| Falko Glöckler | MfN Berlin | falko.gloeckler AT mfn-berlin.de |
-| Andrea Hahn | GBIF | @ahahn-gbif |
-| Olle Hints | Tallinn University of Technology |  |
-| Donald Hobern | GBIF | @dhobern |
-| Jana Hoffman | MfN Berlin | jana.hoffmann AT mfn-berlin.de |
-| Morten Høfft | GBIF |  |
-| Sharif Islam | Naturalis Biodiversity Center | @sharifX |
-| Natalya Ivanova | Institute of Mathematical Problems of Biology, Russian Academy of Sciences |  |
-| Shelley James | RBGS | @grungle |
-| Gail Kampmeier | TDWG |  |
-| Talia Karim | Museum of Natural History, Museum of Colorado |  |
-| Niels Klazenga | Royal Botanic Gardens Victoria |  |
-| Dimitris Koureas | Naturalis | @dkoureas |
-| Erica Krimmel | iDigBio / Florida State University |  |
-| Kerstin Lehnert | Columbia University | @klehnert55 |
-| Holly Little | Smithsonian Institution / National Museum of Natural History | @hollyel |
-| Tina Loo | Naturalis Biodiversity Center |  |
-| Anissa Lybaert | Ag Canada | Anissa.lybaert AT agr.gc.ca |
-| James Macklin | Ag Canada | @jmacklin |
-| Patricia Mergen | Meise Botanic Garden |  |
-| Giles Miller | Natural History Museum London |  |
-| Gil Nelson | iDigBio |  |
-| Raoul Palese | Conservatoire et Jardin botaniques de la Ville de Genève |  |
-| Mareike Petersen | MfN | Mareike.Petersen AT mfn.berlin |
-| Judith Price | CMN (retired) |  |
-| Joel Ramirez | NYBG | @jlramirez |
-| Isabel Reu | Consejo Superior de Investigaciones Científicas, CSIC |  |
-| Connie Rinaldo | Harvard University | crinaldo AT oeb.harvard.edu |
-| Tim Robertson | GBIF |  |
-| Hanieh Saeedi | Senckenberg Research Institute and Natural History Museum |  |
-| Íris Sampaio | University of the Azores / Senckenberg am Meer |  |
-| Celia Santos | Consejo Superior de Investigaciones Científicas, CSIC |  |
-| Dave Smith | Natural History Museum London | d.a.smith AT nhm.ac.uk |
-| Rebecca Snyder | Smithsonian Institution / National Museum of Natural History |  |
-| Barbara Thiers | NYBG | bthiers AT nybg.org |
-| Caitlin Thorn | MfN Berlin |  |
-| Laura Tilley | CETAF |  |
-| Mike Trizna | Smithsonian Institution |  |
-| Pascal Tschudin | University of Basel |  |
-| Melissa Tulig | NYBG | mtulig AT nybg.org |
-| William Ulate | Missouri Botanical Garden |  |
-| Wim van Dongen | Picturae | @cannedit |
-| Sabine Von Mering | MfN Berlin |  |
-| Wiebke Walbaum | State Museum of Natural History Stuttgart |  |
-| Ramona Walls | CyVerse | @ramonawalls |
-| Karin Wiltschke | Natural History Museum Vienna |  |
+| Wouter Addink | Naturalis Biodiversity Center | @wouteraddink |  
+| Steve Baskauf | Vanderbilt | @baskaufs |  
+| James Beach | University of Kansas | beach53 AT gmail.com |  
+| Allison Becker | Smithsonian Institution / National Museum of Natural History |  |  
+| Joana Beja | Flanders Marine Institute |  |  
+| David Bloom | VertNet | @dbloom |  
+| Stan Blum | TDWG | @stanblum |  
+| Ana Casino | CETAF | ana.casino AT cetaf.org |  
+| Terry Catapano | UCB | @tcatapano |  
+| Arthur Chapman | Australian Biodiversity Information Services |  |  
+| Cat Chapman | iDigBio |  |  
+| Heather Cole | Ag Canada | Heather.Cole AT AGR.GC.CA |  
+| Johanna Eder | State Museum of Natural History Stuttgart |  |  
+| Dag Endresen | Univerity of Oslo Natural History Museum | @dagendresen |  
+| Falko Glöckler | MfN Berlin | falko.gloeckler AT mfn-berlin.de |  
+| Andrea Hahn | GBIF | @ahahn-gbif |  
+| Olle Hints | Tallinn University of Technology |  |  
+| Donald Hobern | GBIF | @dhobern |  
+| Jana Hoffman | MfN Berlin | jana.hoffmann AT mfn-berlin.de |  
+| Morten Høfft | GBIF |  |  
+| Sharif Islam | Naturalis Biodiversity Center | @sharifX |  
+| Natalya Ivanova | Institute of Mathematical Problems of Biology, Russian Academy of Sciences |  |  
+| Shelley James | RBGS | @grungle |  
+| Gail Kampmeier | TDWG |  |  
+| Talia Karim | Museum of Natural History, Museum of Colorado |  |  
+| Niels Klazenga | Royal Botanic Gardens Victoria |  |  
+| Dimitris Koureas | Naturalis | @dkoureas |  
+| Erica Krimmel | iDigBio / Florida State University |  |  
+| Kerstin Lehnert | Columbia University | @klehnert55 |  
+| Holly Little | Smithsonian Institution / National Museum of Natural History | @hollyel |  
+| Tina Loo | Naturalis Biodiversity Center |  |  
+| Anissa Lybaert | Ag Canada | Anissa.lybaert AT agr.gc.ca |  
+| James Macklin | Ag Canada | @jmacklin |  
+| Patricia Mergen | Meise Botanic Garden |  |  
+| Giles Miller | Natural History Museum London |  |  
+| Gil Nelson | iDigBio |  |  
+| Raoul Palese | Conservatoire et Jardin botaniques de la Ville de Genève |  |  
+| Mareike Petersen | MfN | Mareike.Petersen AT mfn.berlin |  
+| Judith Price | CMN (retired) |  |  
+| Joel Ramirez | NYBG | @jlramirez |  
+| Isabel Reu | Consejo Superior de Investigaciones Científicas, CSIC |  |  
+| Connie Rinaldo | Harvard University | crinaldo AT oeb.harvard.edu |  
+| Tim Robertson | GBIF |  |  
+| Hanieh Saeedi | Senckenberg Research Institute and Natural History Museum |  |  
+| Íris Sampaio | University of the Azores / Senckenberg am Meer |  |  
+| Celia Santos | Consejo Superior de Investigaciones Científicas, CSIC |  |  
+| Dave Smith | Natural History Museum London | d.a.smith AT nhm.ac.uk |  
+| Rebecca Snyder | Smithsonian Institution / National Museum of Natural History |  |  
+| Barbara Thiers | NYBG | bthiers AT nybg.org |  
+| Caitlin Thorn | MfN Berlin |  |  
+| Laura Tilley | CETAF |  |  
+| Mike Trizna | Smithsonian Institution |  |  
+| Pascal Tschudin | University of Basel |  |  
+| Melissa Tulig | NYBG | mtulig AT nybg.org |  
+| William Ulate | Missouri Botanical Garden |  |  
+| Wim van Dongen | Picturae | @cannedit |  
+| Sabine Von Mering | MfN Berlin |  |  
+| Wiebke Walbaum | State Museum of Natural History Stuttgart |  |  
+| Ramona Walls | CyVerse | @ramonawalls |  
+| Karin Wiltschke | Natural History Museum Vienna |  |  
+
 
 ## Collection Descriptions Standard (CD) Repository Navigation ##
 
