@@ -42,7 +42,7 @@ For quick reference, an index of classes and properties, and summaries of the cu
 | Kate Webbink | Field Museum of Natural History | @magpiedin |  
 | Matt Woodburn | Natural History Museum London | @mswoodburn |  
 
-### Members
+### Members and contributors
 
 | Name | Affiliation | GitHub username or Email |  
 | --- | --- | --- |  
@@ -62,6 +62,7 @@ For quick reference, an index of classes and properties, and summaries of the cu
 | Dag Endresen | Univerity of Oslo Natural History Museum | @dagendresen |  
 | Falko Glöckler | MfN Berlin | falko.gloeckler AT mfn-berlin.de |  
 | Andrea Hahn | GBIF | @ahahn-gbif |  
+| Jean-Marc Herpers | RBINS |  |  
 | Olle Hints | Tallinn University of Technology |  |  
 | Donald Hobern | GBIF | @dhobern |  
 | Jana Hoffman | MfN Berlin | jana.hoffmann AT mfn-berlin.de |  
