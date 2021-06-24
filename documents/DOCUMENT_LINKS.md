@@ -16,7 +16,10 @@ Links to external working documents related to the TG tasks should go here.
 * [CD Data Model Diagrams](https://docs.google.com/spreadsheets/d/1dqy_7jctWgHSK9uieEKr9OUb1b9UPSr_fvdwOOH76ug)
 * [Field Museum Model Diagrams](https://app.diagrams.net/#G1PlZXt3VvbE4_6JlLW6M4_8OgB6g2fHuR)
 * [CD data model approaches and workflows (explanation alongside model-diagrams)](https://docs.google.com/document/d/1O98iJHUomDJ1NPi3Smzr6RSAAusNZyjKMc8wP2dGVeE/edit#heading=h.h55im9iwxhk3)
-* [Wikibase](https://tdwg-cd.wiki.opencura.com/)
+* [Wikibase CD example-records](https://tdwg-cd.wiki.opencura.com/)
+  * [Meise BR-1 (part of a collection)](https://tdwg-cd.wiki.opencura.com/wiki/Item:Q128)
+  * [NHM Algae Collection](https://tdwg-cd.wiki.opencura.com/wiki/Item:Q165)
+  * [FMNH Zoology Collection](https://tdwg-cd.wiki.opencura.com/wiki/Item:Q141)
 
 ## Weekly Notes
 
