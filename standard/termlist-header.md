@@ -1,7 +1,7 @@
-# List of Santiago Core terms
+# List of Latimer Core terms
 
 **Title**
-: List of Santiago Core terms
+: List of Latimer Core terms
 
 **Date version issued**
 : 2021-07-12
@@ -22,7 +22,7 @@
 : // Persistent link to the last version of the termlist doc
 
 **Abstract**
-: Santiago Core (SC) is a proposed data standard designed to support the representation, discovery and communication of natural science collections; one SC record describes one entire collection. The classes within the standard aim to allow the high-level representation of any given collection by providing a framework within which the defining characteristics shared by objects in the collection can be described. The creation of collection-level records is hoped to promote visibility and use of items in collections that are otherwise wholly or partially undigitised at a granular level. This document contains a list of attributes of each Santiago Core term, including a documentation name, a specified URI, a recommended English label for user interfaces, a definition, and some ancillary notes.
+: Latimer Core (LC) is a proposed data standard designed to support the representation, discovery and communication of natural science collections; one LC record describes one entire collection. The classes within the standard aim to allow the high-level representation of any given collection by providing a framework within which the defining characteristics shared by objects in the collection can be described. The creation of collection-level records is hoped to promote visibility and use of items in collections that are otherwise wholly or partially undigitised at a granular level. This document contains a list of attributes of each Latimer Core term, including a documentation name, a specified URI, a recommended English label for user interfaces, a definition, and some ancillary notes.
 
 **Contributors**
 : Matt Woodburn, Kate Webbink, Janeen Jones, Sharon Grant, Deborah Paul, Maarten Trekels, Quentin Groom, Sarah Vincent, Gabi Droege, William Ulate, Mike Trizna, Niels Raes, Jutta Buschbom
@@ -31,7 +31,7 @@
 : TDWG Collection Descriptions (CD) Interest Group
 
 **Bibliographic citation**
-: Santiago Core Maintenance Group. 2021. List of Santiago Core terms. Biodiversity Information Standards (TDWG). <Persistent link to this version of the termlist doc>
+: Latimer Core Maintenance Group. 2021. List of Latimer Core terms. Biodiversity Information Standards (TDWG). <Persistent link to this version of the termlist doc>
 
 
 ## 1 Introduction
@@ -47,10 +47,10 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 - generic classes (Identifier, ResourceRelationship, measurementOrFact, person, ..?)
 - collection property classes (anything that relates to the characteristics of the objects or collection: aka values that are unlikely to change unless the items in the collection change - collector people, temporal coverage, objectgroup, geological context, chronometric age, taxon...)
 - contextual property classes (characteristics of the collection that might change independently of the objects in the collection: organizational unit, storage location, licenses, collection history, contact person, specimen identifier system...) 
-- administrative/scheme classes (anything to help interpret/work with the SC record: Record-level, CD scheme, record-creator person?)
+- administrative/scheme classes (anything to help interpret/work with the LC record: Record-level, CD scheme, record-creator person?)
 
 ## 2 Borrowed Vocabulary
-When terms are borrowed from other vocabularies, SC uses the URIs, common abbreviations, and namespace prefixes in use in those vocabularies. The URIs are normative, but abbreviations and namespace prefixes have no impact except as an aid to reading the documentation.
+When terms are borrowed from other vocabularies, LC uses the URIs, common abbreviations, and namespace prefixes in use in those vocabularies. The URIs are normative, but abbreviations and namespace prefixes have no impact except as an aid to reading the documentation.
 
 Table 1. Vocabularies from which terms have been borrowed (non-normative)
 
