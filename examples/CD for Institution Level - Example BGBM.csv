@@ -56,11 +56,11 @@ identifierSource,Identifier,Index Herbariorum
 currentStatus,ObjectGroup,true
 continent,GeographicOrigin,worldwide
 collectionStrength,ObjectGroup,"central Europe, Mediterranean area, southwestern Asia, Africa, Cuba and South America"
-kingdom,Taxon,Plantae, Fungi, Chromista
+kingdom,Taxon,"Plantae, Fungi, Chromista"
 collectionManagementSystem,ObjectGroup,JACQ
 knownToContainTypes,ObjectGroup,true
 objectType,ObjectGroup,specimen
-discipline,ObjectGroup,Botany; Mycology; Phycology
+discipline,ObjectGroup,"Botany, Mycology, Phycology"
 typeOfCollection,ObjectGroup,PreservedSpecimens
 relatedResourceID,ResourceRelationship,https://www.gbif.org/dataset/85739778-f762-11e1-a439-00145eb45e9a
 relatedResourceID,ResourceRelationship,https://www.gbif.org/dataset/85727f1e-f762-11e1-a439-00145eb45e9a
