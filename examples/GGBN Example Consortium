@@ -1,0 +1,19 @@
+Term,Class,Example
+PID,RecordLevel,SuperStableInstitutionID123
+role,PersonRole,Primary Collection Description record contact
+fullName,Person,Mariel Campbell
+role,PersonRole,Chair
+fullName,Person,Mariel Campbell
+organisationalUnitName,OrganisationalUnit,Arctos
+organisationalUnitType,OrganisationalUnit,Consortium
+resourceURI,Reference,https://arctosdb.org/
+referenceType,Reference,Website
+referenceText,Reference,Arctos Website
+organisationalUnitDescription,ObjectGroup,"Arctos is a community, an online collection management information system, and a provider of research-grade data. It provides fundamental research infrastructure and is intended for curators, collection managers, investigators, educators, and anyone interested in natural and cultural history. As a community, Arctos is a consortium of museums and organizations that collaborate to serve data on over 3 million records from natural and cultural history collections. An additional 2 million records are in MCZBase, a separate instance at the Museum of Comparative Zoology, Harvard University. The Arctos community provides a collaborative environment for sharing data vocabulary and standards, curating and improving the quality of shared data such as agents and taxonomy, forming strong links between related catalog records, and guiding the future development of Arctos."
+addressLocality,Address,Albuquerque
+addressCountry,Address,United States of America
+addressRegion,Address,New Mexico
+addressType,Address,Physical
+contactDetailCategory,ContactDetail,Email
+contactDetailType,ContactDetail,General enquiries
+contactDetailValue,ContactDetail,chair@arctosdb.org
