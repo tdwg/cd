@@ -1,0 +1,54 @@
+PID,RecordLevel,SuperStableCollectionID456
+role,PersonRole,Primary Collection Description record contact
+fullName,Person,Dan Distel
+role,PersonRole,Curator
+fullName,Person,Dan Distel
+contactDetailCategory,ContactDetail,Email
+contactDetailType,ContactDetail,General enquiries
+contactDetailValue,ContactDetail,d.distel@northeastern.edu
+contactDetailCategory,ContactDetail,Phone
+contactDetailType,ContactDetail,General enquiries
+contactDetailValue,ContactDetail,1-781-581-7370 ext 339
+role,PersonRole,Sample request contact
+fullName,Person,OGL Biobank
+contactDetailCategory,ContactDetail,Email
+contactDetailType,ContactDetail,Sample requests
+contactDetailValue,ContactDetail,oglinfo@northeastern.edu
+rightsHolder,RecordLevel,Ocean Genome Legacy
+status,ColectionHistory,Active growth
+identifierSource,Identifier,CITES
+identifier,Identifier,US 188 (A)
+organisationalUnitName,OrganisationalUnit,Ocean Genome Legacy
+organisationalUnitType,OrganisationalUnit,biobank
+organisationalUnitParentInstitutionID,OrganisationalUnit,SuperStableInsititutionID123
+resourceURI,Reference,http://www.northeastern.edu/ogl
+organisationalUnitDescription,ObjectGroup,"The Ocean Genome Legacy Center (OGL) is a non-profit marine DNA and tissue repository dedicated to exploring and preserving the wealth of information contained in the genomes of endangered, rare, unusual and ecologically critical marine organisms. OGL’s mission is to collect, describe, and preserve genomes from marine species, and to make these materials widely available for scientific research. By providing secure storage and broad public access to genomic materials and a forum for sharing samples, data, and ideas, OGL aims to serve as a catalyst for research that can help to protect marine ecosystems and improve the human condition. Detailed data are available for each specimen listed in our public online catalog."
+organisationalUnitAlternativeName,OrganisationalUnit,OGL
+currentStatus,ObjectGroup,true
+continent,GeographicOrigin,worldwide
+collectionStrength,ObjectGroup,"Marine vertebrates, invertebrates, and algae"
+kingdom,Taxon,"Animalia, Protista"
+collectionManagementSystem,ObjectGroup,N.N.
+knownToContainTypes,ObjectGroup,false
+conditionsOfAccess,ObjectGroup,https://ogl.northeastern.edu/wp-content/uploads/2021/03/OGLGeneralCollectionPolicy_2021-03-05.pdf
+objectType,ObjectGroup,"tissue, DNA"
+discipline,ObjectGroup,Zoology
+typeOfCollection,ObjectGroup,MaterialSamples
+preservationMethod,ObjectGroup,"Cryopreserved, Frozen, Refrigerated"
+addressLocality,Address,Nahant
+addressCountry,Address,United States
+addressRegion,Address,Massachusetts
+streetAddress,Address,430 Nahant Road
+postalCode,Address,01908
+addressType,Address,Physical
+measurementType,MeasurementOrFact,Collection size
+measurementValue,MeasurementOrFact,"24000 DNA Samples, 4700 Taxa"
+measurementType,MeasurementOrFact,Usage restrictions
+measurementValue,MeasurementOrFact,"OGL operates under a policy of fair and ethical trade and use, in keeping with principles established by the Convention on Biological Diversity (Rio Earth Summit,1992). The recipient agrees that: 1) Any materials from OGL are to be used for non-commercial research or educational purposes only; 2) Materials will not be used in human subjects, in clinical trials, or for diagnostic purposes involving human subjects; 3) Materials are to be used only under the supervision of the recipient scientist or others working under his/her direct supervision; 4) Materials will not be transferred to any other person or organization; 5) Materials will be used in compliance with applicable federal, state, or local laws, regulations or ordinances; 6) Any exceptions to these restrictions require prior authorization from OGL. Please refer to the OGL Material Transfer agreement at http://www.northeastern.edu/ogl for a more detailed description of all rights and responsibilities."
+measurementType,MeasurementOrFact,Access rights
+measurementValue,MeasurementOrFact,"Specimens and materials may be deposited to or requested from OGL by any researcher. Materials and data associated with such materials are publicly accessible through our online database at http://www.northeastern.edu/ogl/catalog. Any proposed acquisition entailing restrictions as to title, right of possession, care, loan, or other special restrictions, and all acquisitions requiring special expenditures, shall be negotiated on a case-by-case basis."
+measurementType,MeasurementOrFact,McGinley Conservation status
+measurementValue,MeasurementOrFact,"Level 6 - Identified, integrated, and adequately curated"
+measurementType,MeasurementOrFact,Provenance
+measurementValue,MeasurementOrFact,"Formerly 'Ocean Genome Legacy, Inc.,' OGL became the Ocean Genome Legacy Center of New England Biolabs at Northeastern University's Marine Science Center on January 1, 2014."
+measurementType,MeasurementOrFact,Rights
