@@ -1,0 +1,30 @@
+[
+ {
+  "cd:organisationalUnit": "Invertebrate Zoology",
+  "dc:description": "Carpenter collection of shells",
+  "cd:culturalAffiliation": [],
+  "cd:period": [],
+  "collectionHistory": [
+   {
+    "cd:temporalCoverageStartDate": "07/01/1895",
+    "cd:temporalCoverageType": "accession date"
+   }
+  ],
+  "identifiers": [
+   {
+    "cd:identifier": "17",
+    "cd:identifierType": "accession number"
+   }
+  ],
+  "geographicCoverage": [],
+  "objectGroup": [],
+  "measurements": [],
+  "person": [
+   {
+    "dwc:recordedBy": "Philip P. Carpenter",
+    "dc:identifier": null
+   }
+  ],
+  "references": []
+ }
+]
