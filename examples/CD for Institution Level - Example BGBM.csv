@@ -26,7 +26,7 @@ addressType,Address,Physical
 contactDetailCategory,ContactDetail,Email
 contactDetailType,ContactDetail,General enquiries
 contactDetailValue,ContactDetail,mail@bo.berlin
-,,,
+,,
 EXAMPLE COLLECTION WITHIN THIS INSTITUTION REFERRING TO ITS PARENT,,
 PID,RecordLevel,SuperStableCollectionID123
 role,PersonRole,Primary Collection Description record contact
