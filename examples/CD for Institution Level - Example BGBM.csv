@@ -49,7 +49,7 @@ organisationalUnitName,OrganisationalUnit,Herbarium Berolinense
 organisationalUnitType,OrganisationalUnit,Herbarium
 organisationalUnitParentInstitutionID,OrganisationalUnit,SuperStableInsititutionID123
 resourceURI,Reference,https://www.bgbm.org/en/herbarium
-organisationalUnitDescription,ObjectGroup,The herbarium of the Botanic Garden and Botanical Museum Berlin-Dahlem (herbarium acronym: B) was founded in 1819 and is the largest in Germany. It holds a collection of more than 3.8 million preserved specimens. All plant groups – flowering plants, ferns, mosses, liverworts, and algae, as well as fungi and lichens – are represented in the collections which are worldwide in scope. Associated with the general herbarium are special collections of dried fruits and seeds, wood samples, and specimens preserved in alcohol.
+organisationalUnitDescription,ObjectGroup,"The herbarium of the Botanic Garden and Botanical Museum Berlin-Dahlem (herbarium acronym: B) was founded in 1819 and is the largest in Germany. It holds a collection of more than 3.8 million preserved specimens. All plant groups – flowering plants, ferns, mosses, liverworts, and algae, as well as fungi and lichens – are represented in the collections which are worldwide in scope. Associated with the general herbarium are special collections of dried fruits and seeds, wood samples, and specimens preserved in alcohol."
 organisationalUnitAlternativeName,OrganisationalUnit,B
 identifier,Identifier,B
 identifierSource,Identifier,Index Herbariorum
