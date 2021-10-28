@@ -55,7 +55,7 @@ identifier,Identifier,B
 identifierSource,Identifier,Index Herbariorum
 currentStatus,ObjectGroup,true
 continent,GeographicOrigin,worldwide
-collectionStrength,ObjectGroup,central Europe; Mediterranean area; southwestern Asia; Africa, Cuba and South America
+collectionStrength,ObjectGroup,"central Europe, Mediterranean area, southwestern Asia, Africa, Cuba and South America
 kingdom,Taxon,Plantae, Fungi, Chromista
 collectionManagementSystem,ObjectGroup,JACQ
 knownToContainTypes,ObjectGroup,true
