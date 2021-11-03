@@ -63,6 +63,8 @@ objectType,ObjectGroup,specimen
 discipline,ObjectGroup,"Botany, Mycology, Phycology"
 typeOfCollection,ObjectGroup,PreservedSpecimens
 relatedResourceID,ResourceRelationship,https://www.gbif.org/dataset/85739778-f762-11e1-a439-00145eb45e9a
+relatedResourceName,ResourceRelationship,"Lichens at Herbarium Berolinense, Berlin (B)"
+relationshipOfResource,ResourceRelationship,dataset
 relatedResourceID,ResourceRelationship,https://www.gbif.org/dataset/85727f1e-f762-11e1-a439-00145eb45e9a
 relatedResourceID,ResourceRelationship,https://www.gbif.org/dataset/ee9c2798-1637-11e3-b987-00145eb45e9a
 relatedResourceID,ResourceRelationship,https://www.gbif.org/dataset/85685a84-f762-11e1-a439-00145eb45e9a
