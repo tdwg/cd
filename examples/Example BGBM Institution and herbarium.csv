@@ -33,102 +33,102 @@ role,PersonRole,Primary Collection Description record contact
 fullName,Person,Department of Biodiversity Informatics
 role,PersonRole,Curator
 fullName,Person,Dr. Robert Vogt
-role,PersonRole,"Important Collector"
-fullName,Person,"O. Behr"
-role,PersonRole,"Important Collector"
-fullName,Person,"A. J. A. Bonpland"
-role,PersonRole,"Important Collector"
-fullName,Person,"J. F. N. Bornmüller"
-role,PersonRole,"Important Collector"
-fullName,Person,"A. C. H. Braun"
-role,PersonRole,"Important Collector"
-fullName,Person,"S. E. Bridel"
-role,PersonRole,"Important Collector"
-fullName,Person,"J. Clemens"
-role,PersonRole,"Important Collector"
-fullName,Person,"M. Clemens"
-role,PersonRole,"Important Collector"
-fullName,Person,"H. Dingler"
-role,PersonRole,"Important Collector"
-fullName,Person,"K. Dinter"
-role,PersonRole,"Important Collector"
-fullName,Person,"I. Dörfler"
-role,PersonRole,"Important Collector"
-fullName,Person,"G. Follmann"
-role,PersonRole,"Important Collector"
-fullName,Person,"J. G. A. Forster"
-role,PersonRole,"Important Collector"
-fullName,Person,"J. R. Forster"
-role,PersonRole,"Important Collector"
-fullName,Person,"J. -P. Frahm"
-role,PersonRole,"Important Collector"
-fullName,Person,"A. Gundelsheimer"
-role,PersonRole,"Important Collector"
-fullName,Person,"P. C. Hennings"
-role,PersonRole,"Important Collector"
-fullName,Person,"G. H. E. W. Hieronymus"
-role,PersonRole,"Important Collector"
-fullName,Person,"F. W. H. A. von Humboldt"
-role,PersonRole,"Important Collector"
-fullName,Person,"E. A. W. Jahn"
-role,PersonRole,"Important Collector"
-fullName,Person,"W. Kirschstein"
-role,PersonRole,"Important Collector"
-fullName,Person,"J. F. Klotzsch"
-role,PersonRole,"Important Collector"
-fullName,Person,"F. A. M. Kuhn"
-role,PersonRole,"Important Collector"
-fullName,Person,"G. Kükenthal"
-role,PersonRole,"Important Collector"
-fullName,Person,"G. Kunze"
-role,PersonRole,"Important Collector"
-fullName,Person,"J. G. F.-X. Lahm"
-role,PersonRole,"Important Collector"
-fullName,Person,"G. Lettau"
-role,PersonRole,"Important Collector"
-fullName,Person,"J. H. F. Link"
-role,PersonRole,"Important Collector"
-fullName,Person,"A. Ludwig"
-role,PersonRole,"Important Collector"
-fullName,Person,"G. H. Mettenius"
-role,PersonRole,"Important Collector"
-fullName,Person,"C. A. J. Milde"
-role,PersonRole,"Important Collector"
-fullName,Person,"T. L. Nees von Esenbeck"
-role,PersonRole,"Important Collector"
-fullName,Person,"T. R. J. Nitschke"
-role,PersonRole,"Important Collector"
-fullName,Person,"A. Peter"
-role,PersonRole,"Important Collector"
-fullName,Person,"C. G. T. Preuss"
-role,PersonRole,"Important Collector"
-fullName,Person,"G. L. Rabenhorst"
-role,PersonRole,"Important Collector"
-fullName,Person,"H. Schack"
-role,PersonRole,"Important Collector"
-fullName,Person,"G. A. Schweinfurth"
-role,PersonRole,"Important Collector"
-fullName,Person,"K. P. J. Sprengel"
-role,PersonRole,"Important Collector"
-fullName,Person,"O. P. Swartz"
-role,PersonRole,"Important Collector"
-fullName,Person,"J. P. de Tournefort"
-role,PersonRole,"Important Collector"
-fullName,Person,"K. Touton"
-role,PersonRole,"Important Collector"
-fullName,Person,"L. C. Treviranus"
-role,PersonRole,"Important Collector"
-fullName,Person,"C. F. E. Warnstorf"
-role,PersonRole,"Important Collector"
-fullName,Person,"H. E. Weber"
-role,PersonRole,"Important Collector"
-fullName,Person,"C. L. Willdenow (B-W)"
-role,PersonRole,"Important Collector"
-fullName,Person,"E. Willing"
-role,PersonRole,"Important Collector"
-fullName,Person,"G. Winter"
-role,PersonRole,"Important Collector"
-fullName,Person,"W. Zopf" 
+role,PersonRole,Important Collector
+fullName,Person,O. Behr
+role,PersonRole,Important Collector
+fullName,Person,A. J. A. Bonpland
+role,PersonRole,Important Collector
+fullName,Person,J. F. N. Bornmüller
+role,PersonRole,Important Collector
+fullName,Person,A. C. H. Braun
+role,PersonRole,Important Collector
+fullName,Person,S. E. Bridel
+role,PersonRole,Important Collector
+fullName,Person,J. Clemens
+role,PersonRole,Important Collector
+fullName,Person,M. Clemens
+role,PersonRole,Important Collector
+fullName,Person,H. Dingler
+role,PersonRole,Important Collector
+fullName,Person,K. Dinter
+role,PersonRole,Important Collector
+fullName,Person,I. Dörfler
+role,PersonRole,Important Collector
+fullName,Person,G. Follmann
+role,PersonRole,Important Collector
+fullName,Person,J. G. A. Forster
+role,PersonRole,Important Collector
+fullName,Person,J. R. Forster
+role,PersonRole,Important Collector
+fullName,Person,J. -P. Frahm
+role,PersonRole,Important Collector
+fullName,Person,A. Gundelsheimer
+role,PersonRole,Important Collector
+fullName,Person,P. C. Hennings
+role,PersonRole,Important Collector
+fullName,Person,G. H. E. W. Hieronymus
+role,PersonRole,Important Collector
+fullName,Person,F. W. H. A. von Humboldt
+role,PersonRole,Important Collector
+fullName,Person,E. A. W. Jahn
+role,PersonRole,Important Collector
+fullName,Person,W. Kirschstein
+role,PersonRole,Important Collector
+fullName,Person,J. F. Klotzsch
+role,PersonRole,Important Collector
+fullName,Person,F. A. M. Kuhn
+role,PersonRole,Important Collector
+fullName,Person,G. Kükenthal
+role,PersonRole,Important Collector
+fullName,Person,G. Kunze
+role,PersonRole,Important Collector
+fullName,Person,J. G. F.-X. Lahm
+role,PersonRole,Important Collector
+fullName,Person,G. Lettau
+role,PersonRole,Important Collector
+fullName,Person,J. H. F. Link
+role,PersonRole,Important Collector
+fullName,Person,A. Ludwig
+role,PersonRole,Important Collector
+fullName,Person,G. H. Mettenius
+role,PersonRole,Important Collector
+fullName,Person,C. A. J. Milde
+role,PersonRole,Important Collector
+fullName,Person,T. L. Nees von Esenbeck
+role,PersonRole,Important Collector
+fullName,Person,T. R. J. Nitschke
+role,PersonRole,Important Collector
+fullName,Person,A. Peter
+role,PersonRole,Important Collector
+fullName,Person,C. G. T. Preuss
+role,PersonRole,Important Collector
+fullName,Person,G. L. Rabenhorst
+role,PersonRole,Important Collector
+fullName,Person,H. Schack
+role,PersonRole,Important Collector
+fullName,Person,G. A. Schweinfurth
+role,PersonRole,Important Collector
+fullName,Person,K. P. J. Sprengel
+role,PersonRole,Important Collector
+fullName,Person,O. P. Swartz
+role,PersonRole,Important Collector
+fullName,Person,J. P. de Tournefort
+role,PersonRole,Important Collector
+fullName,Person,K. Touton
+role,PersonRole,Important Collector
+fullName,Person,L. C. Treviranus
+role,PersonRole,Important Collector
+fullName,Person,C. F. E. Warnstorf
+role,PersonRole,Important Collector
+fullName,Person,H. E. Weber
+role,PersonRole,Important Collector
+fullName,Person,C. L. Willdenow (B-W)
+role,PersonRole,Important Collector
+fullName,Person,E. Willing
+role,PersonRole,Important Collector
+fullName,Person,G. Winter
+role,PersonRole,Important Collector
+fullName,Person,W. Zopf
 contactDetailCategory,ContactDetail,Email
 contactDetailType,ContactDetail,General enquiries and loan requests
 contactDetailValue,ContactDetail,r.vogt@bo.berlin
@@ -168,37 +168,37 @@ relatedResourceID,ResourceRelationship,https://www.gbif.org/dataset/ee9c2798-163
 relatedResourceName,ResourceRelationship,"Collections of Phytoplankton at Herbarium Berolinense, Berlin (B)"
 relationshipOfResource,ResourceRelationship,dataset
 relatedResourceID,ResourceRelationship,https://www.gbif.org/dataset/85685a84-f762-11e1-a439-00145eb45e9a
-relatedResourceName,ResourceRelationship,"Algaterra Types"
+relatedResourceName,ResourceRelationship,Algaterra Types
 relationshipOfResource,ResourceRelationship,dataset
 relatedResourceID,ResourceRelationship,https://www.gbif.org/dataset/7a22e1e4-f762-11e1-a439-00145eb45e9a
-relatedResourceName,ResourceRelationship,"AlgaTerra"
+relatedResourceName,ResourceRelationship,AlgaTerra
 relationshipOfResource,ResourceRelationship,dataset
 relatedResourceID,ResourceRelationship,https://www.gbif.org/dataset/856aa56e-f762-11e1-a439-00145eb45e9a
 relatedResourceName,ResourceRelationship,"Herbarium Bridel at Herbarium Berolinense, Berlin (B)"
 relationshipOfResource,ResourceRelationship,dataset
 relatedResourceID,ResourceRelationship,https://www.gbif.org/dataset/856734ce-f762-11e1-a439-00145eb45e9a
-relatedResourceName,ResourceRelationship,"AlgaTerraMovies"
+relatedResourceName,ResourceRelationship,AlgaTerraMovies
 relationshipOfResource,ResourceRelationship,dataset
 relatedResourceID,ResourceRelationship,BHU
-relatedResourceName,ResourceRelationship,"Humboldt-Universität zu Berlin"
-relationshipOfResource,ResourceRelationship,"part of"
-relationshipRemarks,ResourceRelationship,"270 000 specimens in 1993"
+relatedResourceName,ResourceRelationship,Humboldt-Universität zu Berlin
+relationshipOfResource,ResourceRelationship,part of
+relationshipRemarks,ResourceRelationship,270 000 specimens in 1993
 relatedResourceID,ResourceRelationship,BSB
-relatedResourceName,ResourceRelationship,"Freie Universität Berlin"
-relationshipOfResource,ResourceRelationship,"part of"
-relationshipRemarks,ResourceRelationship,"15 000 specimens in 2005"
+relatedResourceName,ResourceRelationship,Freie Universität Berlin
+relationshipOfResource,ResourceRelationship,part of
+relationshipRemarks,ResourceRelationship,15 000 specimens in 2005
 relatedResourceID,ResourceRelationship,DUSS
-relatedResourceName,ResourceRelationship,"Universität Düsseldorf"
-relationshipOfResource,ResourceRelationship,"part of"
-relationshipRemarks,ResourceRelationship,"6000 specimens in 1998"
+relatedResourceName,ResourceRelationship,Universität Düsseldorf
+relationshipOfResource,ResourceRelationship,part of
+relationshipRemarks,ResourceRelationship,6000 specimens in 1998
 relatedResourceID,ResourceRelationship,KOELN
-relatedResourceName,ResourceRelationship,"Universität Köln"
-relationshipOfResource,ResourceRelationship,"part of"
-relationshipRemarks,ResourceRelationship,"25 000 lichens in 2005"
+relatedResourceName,ResourceRelationship,Universität Köln
+relationshipOfResource,ResourceRelationship,part of
+relationshipRemarks,ResourceRelationship,25 000 lichens in 2005
 relatedResourceID,ResourceRelationship,OtherSuperStableCollectionID123
-relatedResourceName,ResourceRelationship,"Botanic Garden Berlin"
-relationshipOfResource,ResourceRelationship,"associated collection"
-relationshipRemarks,ResourceRelationship,"living collection"
+relatedResourceName,ResourceRelationship,Botanic Garden Berlin
+relationshipOfResource,ResourceRelationship,associated collection
+relationshipRemarks,ResourceRelationship,living collection
 addressLocality,Address,Berlin
 addressCountry,Address,Germany
 addressRegion,Address,Berlin
