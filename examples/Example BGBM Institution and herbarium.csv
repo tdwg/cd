@@ -33,101 +33,101 @@ role,PersonRole,Primary Collection Description record contact
 fullName,Person,Department of Biodiversity Informatics
 role,PersonRole,Curator
 fullName,Person,Dr. Robert Vogt
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"O. Behr"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"A. J. A. Bonpland"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"J. F. N. Bornmüller"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"A. C. H. Braun"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"S. E. Bridel"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"J. Clemens"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"M. Clemens"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"H. Dingler"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"K. Dinter"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"I. Dörfler"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"G. Follmann"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"J. G. A. Forster"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"J. R. Forster"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"J. -P. Frahm"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"A. Gundelsheimer"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"P. C. Hennings"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"G. H. E. W. Hieronymus"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"F. W. H. A. von Humboldt"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"E. A. W. Jahn"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"W. Kirschstein"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"J. F. Klotzsch"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"F. A. M. Kuhn"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"G. Kükenthal"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"G. Kunze"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"J. G. F.-X. Lahm"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"G. Lettau"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"J. H. F. Link"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"A. Ludwig"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"G. H. Mettenius"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"C. A. J. Milde"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"T. L. Nees von Esenbeck"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"T. R. J. Nitschke"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"A. Peter"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"C. G. T. Preuss"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"G. L. Rabenhorst"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"H. Schack"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"G. A. Schweinfurth"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"K. P. J. Sprengel"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"O. P. Swartz"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"J. P. de Tournefort"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"K. Touton"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"L. C. Treviranus"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"C. F. E. Warnstorf"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"H. E. Weber"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"C. L. Willdenow (B-W)"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"E. Willing"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"G. Winter"
-role,PersonRole,Important Collector
+role,PersonRole,"Important Collector"
 fullName,Person,"W. Zopf" 
 contactDetailCategory,ContactDetail,Email
 contactDetailType,ContactDetail,General enquiries and loan requests
