@@ -4,7 +4,7 @@
 			"description" : "",
 			"currentStatus" : "true",
 			"collectionManagementSystem" : "Axiell EMu",
-
+			
 			"typeOfCollections" : [ "PreservedSpecimens", "FossilSpecimens", "MineralSpecimens", "HumanRemains", "HominidRemains", "MaterialSamples" ],
 
             "RecordLevel" : {
@@ -21,7 +21,7 @@
 										"identifierSource" : "ORCID",
 										"identifier" : "https://orcid.org/0000-0001-6496-1423"
 									}
-								],
+								]
 							}
 						]
 					}, {
@@ -35,7 +35,7 @@
 										"identifierSource" : "ORCID",
 										"identifier" : "https://orcid.org/0000-0001-6496-1423"
 									}
-								],
+								]
 							}
 						]
 					}, {
@@ -49,7 +49,7 @@
 										"identifierSource" : "ORCID",
 										"identifier" : "https://orcid.org/0000-0001-6496-1423"
 									}
-								],
+								]
 							}
 						]
 					}
@@ -57,27 +57,27 @@
             },
 
             "OrganisationalUnits" : [{
-                    "organisationalUnitType" : "Institution"
-                    "organisationalUnitName" : "Natural History Museum, London"
+                    "organisationalUnitType" : "Institution",
+                    "organisationalUnitName" : "Natural History Museum, London",
                     "Identifiers" : [{
-                            "identifier" : "https://ror.org/039zvsn29"
-                            "identifierSource" : "ROR"
+                            "identifier" : "https://ror.org/039zvsn29",
+                            "identifierSource" : "ROR",
                             "identifierType" : "URI"
                         },{
-                            "identifier" : "https://grid.ac/institutes/grid.35937.3b"
-                            "identifierSource" : "GRID"
+                            "identifier" : "https://grid.ac/institutes/grid.35937.3b",
+                            "identifierSource" : "GRID",
                             "identifierType" : "URI"
                         },{
-                            "identifier" : "http://isni.org/isni/0000000122709879"
-                            "identifierSource" : "ISNI"
+                            "identifier" : "http://isni.org/isni/0000000122709879",
+                            "identifierSource" : "ISNI",
                             "identifierType" : "URI"
                         },{
-                            "identifier" : "http://www.wikidata.org/entity/Q309388"
-                            "identifierSource" : "Wikidata"
+                            "identifier" : "http://www.wikidata.org/entity/Q309388",
+                            "identifierSource" : "Wikidata",
                             "identifierType" : "URI"
                         },{
-                            "identifier" : "NHMUK"
-                            "identifierSource" : "GBIF"
+                            "identifier" : "NHMUK",
+                            "identifierSource" : "GBIF",
                             "identifierType" : "Institution code"
                         }
                     ],
@@ -97,15 +97,15 @@
 									"givenName" : "Janet",
 									"familyName" : "Swanson",
 									"fullName" : "Janet H. J. Swanson"
-								},
+								}
 							]
 						}, {
 							"role" : "Head of Collections",
 							"startedAtTime" : "2008-10-25",
 							"People" : [{
 									"givenName" : "Youssef",
-									"familyName" : "Khan",
-								},
+									"familyName" : "Khan"
+								}
 							]
 						}, {
 							"role" : "Research Leader",
@@ -120,7 +120,7 @@
 											"identifier" : "https://orcid.org/0000-0001-6496-1423"
 										}
 									]
-								},
+								}
 							]
 						}, {
 							"role" : "Dean of Postgraduate Studies",
@@ -135,7 +135,7 @@
 											"identifier" : "https://orcid.org/0000-0001-6496-1423"
 										}
 									]
-								},
+								}
 							]
 						}
 					]				
@@ -144,7 +144,7 @@
 
 			"PersonRoles" : [{
 					"role" : "Primary collection contact",
-					"startedAtTime" : "2008-10-25"
+					"startedAtTime" : "2008-10-25",
 					"People" : [{
 							"givenName" : "Youssef",
 							"familyName" : "Khan"							
@@ -165,7 +165,7 @@
 							"References" : [{
 									"referenceType" : "Wikipedia page",
 									"resourceURI" : "https://en.wikipedia.org/wiki/Hans_Sloane",
-									"referenceText" : "The Wikipedia page for Sir Hans Sloane",
+									"referenceText" : "The Wikipedia page for Sir Hans Sloane"
 								}
 							]
 						}, {
@@ -181,7 +181,7 @@
 							"References" : [{
 									"referenceType" : "Wikipedia page",
 									"resourceURI" : "https://en.wikipedia.org/wiki/Mary_Anning",
-									"referenceText" : "The Wikipedia page for Mary Anning",
+									"referenceText" : "The Wikipedia page for Mary Anning"
 								}
 							]
 						}
@@ -313,7 +313,7 @@
 
         }, {
             "collectionName" : "NHM London Anthropology Collection",
-            "discipline" : "Anthropology"
+            "discipline" : "Anthropology",
 
             "RecordLevel" : {
                 "PID" : "https://doi.org/10.1109/collection-2",
@@ -329,7 +329,7 @@
 										"identifierSource" : "ORCID",
 										"identifier" : "https://orcid.org/0000-0001-6496-1423"
 									}
-								],
+								]
 							}
 						]
 					}
@@ -365,7 +365,7 @@
 										"identifierSource" : "ORCID",
 										"identifier" : "https://orcid.org/0000-0001-6496-1423"
 									}
-								],
+								]
 							}
 						]
 					}
@@ -401,7 +401,7 @@
 										"identifierSource" : "ORCID",
 										"identifier" : "https://orcid.org/0000-0001-6496-1423"
 									}
-								],
+								]
 							}
 						]
 					}
@@ -437,7 +437,7 @@
 										"identifierSource" : "ORCID",
 										"identifier" : "https://orcid.org/0000-0001-6496-1423"
 									}
-								],
+								]
 							}
 						]
 					}
@@ -473,7 +473,7 @@
 										"identifierSource" : "ORCID",
 										"identifier" : "https://orcid.org/0000-0001-6496-1423"
 									}
-								],
+								]
 							}
 						]
 					}
@@ -509,7 +509,7 @@
 										"identifierSource" : "ORCID",
 										"identifier" : "https://orcid.org/0000-0001-6496-1423"
 									}
-								],
+								]
 							}
 						]
 					}
@@ -545,7 +545,7 @@
 										"identifierSource" : "ORCID",
 										"identifier" : "https://orcid.org/0000-0001-6496-1423"
 									}
-								],
+								]
 							}
 						]
 					}
@@ -581,7 +581,7 @@
 										"identifierSource" : "ORCID",
 										"identifier" : "https://orcid.org/0000-0001-6496-1423"
 									}
-								],
+								]
 							}
 						]
 					}
