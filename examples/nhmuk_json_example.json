@@ -1,603 +1,678 @@
 {
-    "ObjectGroups" : [{
-            "collectionName" : "The collection of the Natural History Museum, London",
-			"description" : "",
-			"currentStatus" : "true",
-			"collectionManagementSystem" : "Axiell EMu",
-			
-			"typeOfCollections" : [ "PreservedSpecimens", "FossilSpecimens", "MineralSpecimens", "HumanRemains", "HominidRemains", "MaterialSamples" ],
-
-            "RecordLevel" : {
-                "PID" : "https://doi.org/10.1109/collection-1",
-				"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
-				"PersonRoles" : [{
-						"role" : "Record creator",
-						"startedAtTime" : "2021-10-11T09:23:16",
-						"endedAtTime" : "2021-10-11T09:23:16",
-						"People" : [{
-								"fullName" : "Matt Woodburn",
-								"Identifiers" : [{
-										"identifierType" : "ORCID ID",
-										"identifierSource" : "ORCID",
-										"identifier" : "https://orcid.org/0000-0001-6496-1423"
+	"ObjectGroups": [
+		{
+			"collectionName": "The collection of the Natural History Museum, London",
+			"description": "",
+			"currentStatus": "true",
+			"collectionManagementSystem": "Axiell EMu",
+			"typeOfCollections": [
+				"PreservedSpecimens",
+				"FossilSpecimens",
+				"MineralSpecimens",
+				"HumanRemains",
+				"HominidRemains",
+				"MaterialSamples"
+			],
+			"RecordLevel": {
+				"PID": "https://doi.org/10.1109/collection-1",
+				"license": "https://creativecommons.org/publicdomain/zero/1.0/",
+				"PersonRoles": [
+					{
+						"role": "Record creator",
+						"startedAtTime": "2021-10-11T09:23:16",
+						"endedAtTime": "2021-10-11T09:23:16",
+						"People": [
+							{
+								"fullName": "Matt Woodburn",
+								"Identifiers": [
+									{
+										"identifierType": "ORCID ID",
+										"identifierSource": "ORCID",
+										"identifier": "https://orcid.org/0000-0001-6496-1423"
 									}
 								]
 							}
 						]
-					}, {
-						"role" : "Record editor",
-						"startedAtTime" : "2021-11-10T13:22:43",
-						"endedAtTime" : "2021-11-10T13:22:43",
-						"People" : [{
-								"fullName" : "Sandra Sheldon",
-								"Identifiers" : [{
-										"identifierType" : "ORCID ID",
-										"identifierSource" : "ORCID",
-										"identifier" : "https://orcid.org/0000-0001-6496-1423"
+					},
+					{
+						"role": "Record editor",
+						"startedAtTime": "2021-11-10T13:22:43",
+						"endedAtTime": "2021-11-10T13:22:43",
+						"People": [
+							{
+								"fullName": "Sandra Sheldon",
+								"Identifiers": [
+									{
+										"identifierType": "ORCID ID",
+										"identifierSource": "ORCID",
+										"identifier": "https://orcid.org/0000-0001-6496-1423"
 									}
 								]
 							}
 						]
-					}, {
-						"role" : "Record editor",
-						"startedAtTime" : "2021-11-11T23:18:07",
-						"endedAtTime" : "2021-11-11T23:18:07",
-						"People" : [{
-								"fullName" : "Matt Woodburn",
-								"Identifiers" : [{
-										"identifierType" : "ORCID ID",
-										"identifierSource" : "ORCID",
-										"identifier" : "https://orcid.org/0000-0001-6496-1423"
+					},
+					{
+						"role": "Record editor",
+						"startedAtTime": "2021-11-11T23:18:07",
+						"endedAtTime": "2021-11-11T23:18:07",
+						"People": [
+							{
+								"fullName": "Matt Woodburn",
+								"Identifiers": [
+									{
+										"identifierType": "ORCID ID",
+										"identifierSource": "ORCID",
+										"identifier": "https://orcid.org/0000-0001-6496-1423"
 									}
 								]
 							}
 						]
 					}
 				]
-            },
-
-            "OrganisationalUnits" : [{
-                    "organisationalUnitType" : "Institution",
-                    "organisationalUnitName" : "Natural History Museum, London",
-                    "Identifiers" : [{
-                            "identifier" : "https://ror.org/039zvsn29",
-                            "identifierSource" : "ROR",
-                            "identifierType" : "URI"
-                        },{
-                            "identifier" : "https://grid.ac/institutes/grid.35937.3b",
-                            "identifierSource" : "GRID",
-                            "identifierType" : "URI"
-                        },{
-                            "identifier" : "http://isni.org/isni/0000000122709879",
-                            "identifierSource" : "ISNI",
-                            "identifierType" : "URI"
-                        },{
-                            "identifier" : "http://www.wikidata.org/entity/Q309388",
-                            "identifierSource" : "Wikidata",
-                            "identifierType" : "URI"
-                        },{
-                            "identifier" : "NHMUK",
-                            "identifierSource" : "GBIF",
-                            "identifierType" : "Institution code"
-                        }
-                    ],
-					
-					"Addresses" : [{
-							"addressType" : "Physical",
-							"streetAddress" : "Cromwell Road, London",
-							"postalCode" : "SW7 5BD",
-							"addressCountry" : "United Kingdom"
+			},
+			"OrganisationalUnits": [
+				{
+					"organisationalUnitType": "Institution",
+					"organisationalUnitName": "Natural History Museum, London",
+					"Identifiers": [
+						{
+							"identifier": "https://ror.org/039zvsn29",
+							"identifierSource": "ROR",
+							"identifierType": "URI"
+						},
+						{
+							"identifier": "https://grid.ac/institutes/grid.35937.3b",
+							"identifierSource": "GRID",
+							"identifierType": "URI"
+						},
+						{
+							"identifier": "http://isni.org/isni/0000000122709879",
+							"identifierSource": "ISNI",
+							"identifierType": "URI"
+						},
+						{
+							"identifier": "http://www.wikidata.org/entity/Q309388",
+							"identifierSource": "Wikidata",
+							"identifierType": "URI"
+						},
+						{
+							"identifier": "NHMUK",
+							"identifierSource": "GBIF",
+							"identifierType": "Institution code"
 						}
 					],
-					
-					"PersonRoles" : [{
-							"role" : "Registrar",
-							"startedAtTime" : "2013",
-							"People" : [{
-									"givenName" : "Janet",
-									"familyName" : "Swanson",
-									"fullName" : "Janet H. J. Swanson"
+					"Addresses": [
+						{
+							"addressType": "Physical",
+							"streetAddress": "Cromwell Road, London",
+							"postalCode": "SW7 5BD",
+							"addressCountry": "United Kingdom"
+						}
+					],
+					"PersonRoles": [
+						{
+							"role": "Registrar",
+							"startedAtTime": "2013",
+							"People": [
+								{
+									"givenName": "Janet",
+									"familyName": "Swanson",
+									"fullName": "Janet H. J. Swanson"
 								}
 							]
-						}, {
-							"role" : "Head of Collections",
-							"startedAtTime" : "2008-10-25",
-							"People" : [{
-									"givenName" : "Youssef",
-									"familyName" : "Khan"
+						},
+						{
+							"role": "Head of Collections",
+							"startedAtTime": "2008-10-25",
+							"People": [
+								{
+									"givenName": "Youssef",
+									"familyName": "Khan"
 								}
 							]
-						}, {
-							"role" : "Research Leader",
-							"startedAtTime" : "2008-10-25",
-							"People" : [{
-									"givenName" : "Diana",
-									"familyName" : "Levy",
-									"fullName" : "Professor Diana J. Levy",
-									"Identifiers" : [{
-											"identifierType" : "ORCID ID",
-											"identifierSource" : "ORCID",
-											"identifier" : "https://orcid.org/0000-0001-6496-1423"
+						},
+						{
+							"role": "Research Leader",
+							"startedAtTime": "2008-10-25",
+							"People": [
+								{
+									"givenName": "Diana",
+									"familyName": "Levy",
+									"fullName": "Professor Diana J. Levy",
+									"Identifiers": [
+										{
+											"identifierType": "ORCID ID",
+											"identifierSource": "ORCID",
+											"identifier": "https://orcid.org/0000-0001-6496-1423"
 										}
 									]
 								}
 							]
-						}, {
-							"role" : "Dean of Postgraduate Studies",
-							"startedAtTime" : "2012-06-13",
-							"People" : [{
-									"givenName" : "Diana",
-									"familyName" : "Levy",
-									"fullName" : "Professor Diana J. Levy",
-									"Identifiers" : [{
-											"identifierType" : "ORCID ID",
-											"identifierSource" : "ORCID",
-											"identifier" : "https://orcid.org/0000-0001-6496-1423"
+						},
+						{
+							"role": "Dean of Postgraduate Studies",
+							"startedAtTime": "2012-06-13",
+							"People": [
+								{
+									"givenName": "Diana",
+									"familyName": "Levy",
+									"fullName": "Professor Diana J. Levy",
+									"Identifiers": [
+										{
+											"identifierType": "ORCID ID",
+											"identifierSource": "ORCID",
+											"identifier": "https://orcid.org/0000-0001-6496-1423"
 										}
 									]
-								}
-							]
-						}
-					]				
-                }
-            ],
-
-			"PersonRoles" : [{
-					"role" : "Primary collection contact",
-					"startedAtTime" : "2008-10-25",
-					"People" : [{
-							"givenName" : "Youssef",
-							"familyName" : "Khan"							
-						}
-					]
-				}, {
-					"role" : "Collector",
-					"People" : [{
-							"givenName" : "Hans",
-							"familyName" : "Sloane",
-							"fullName" : "Sir Hans Sloane",
-							"Identifiers" : [{
-									"identifierType" : "URI",
-									"identifierSource" : "Wikidata",
-									"identifier" : "https://www.wikidata.org/wiki/Q310326"
-								}
-							],
-							"References" : [{
-									"referenceType" : "Wikipedia page",
-									"resourceURI" : "https://en.wikipedia.org/wiki/Hans_Sloane",
-									"referenceText" : "The Wikipedia page for Sir Hans Sloane"
-								}
-							]
-						}, {
-							"givenName" : "Mary",
-							"familyName" : "Anning",
-							"fullName" : "Mary Anning",
-							"Identifiers" : [{
-									"identifierType" : "URI",
-									"identifierSource" : "Wikidata",
-									"identifier" : "https://www.wikidata.org/wiki/Q230491"
-								}
-							],
-							"References" : [{
-									"referenceType" : "Wikipedia page",
-									"resourceURI" : "https://en.wikipedia.org/wiki/Mary_Anning",
-									"referenceText" : "The Wikipedia page for Mary Anning"
 								}
 							]
 						}
 					]
 				}
 			],
-
-			"disciplines" : [{
-					"discipline" : "Anthropology",
-					"MeasurementOrFacts" : [{
-							"measurementType" : "Object count",
-							"measurementValue" : "34616"
+			"PersonRoles": [
+				{
+					"role": "Primary collection contact",
+					"startedAtTime": "2008-10-25",
+					"People": [
+						{
+							"givenName": "Youssef",
+							"familyName": "Khan"
 						}
 					]
-				}, {
-					"discipline" : "Botany",
-					"MeasurementOrFacts" : [{
-							"measurementType" : "Object count",
-							"measurementValue" : "5174917"
-						}
-					]
-				}, {
-					"discipline" : "Extraterrestrial",
-					"MeasurementOrFacts" : [{
-							"measurementType" : "Object count",
-							"measurementValue" : "10296"
-						}
-					]
-				}, {
-					"discipline" : "Geology",
-					"MeasurementOrFacts" : [{
-							"measurementType" : "Object count",
-							"measurementValue" : "621420"
-						}
-					]
-				}, {
-					"discipline" : "Other geo/biodiversity",
-					"MeasurementOrFacts" : [{
-							"measurementType" : "Object count",
-							"measurementValue" : "23186"
-						}
-					]
-				}, {
-					"discipline" : "Palaeontology",
-					"MeasurementOrFacts" : [{
-							"measurementType" : "Object count",
-							"measurementValue" : "9506806"
-						}
-					]
-				}, {
-					"discipline" : "Zoology invertebrates",
-					"MeasurementOrFacts" : [{
-							"measurementType" : "Object count",
-							"measurementValue" : "53541717"
-						}
-					]
-				}, {
-					"discipline" : "Zoology vertebrates",
-					"MeasurementOrFacts" : [{
-							"measurementType" : "Object count",
-							"measurementValue" : "3277112"
+				},
+				{
+					"role": "Collector",
+					"People": [
+						{
+							"givenName": "Hans",
+							"familyName": "Sloane",
+							"fullName": "Sir Hans Sloane",
+							"Identifiers": [
+								{
+									"identifierType": "URI",
+									"identifierSource": "Wikidata",
+									"identifier": "https://www.wikidata.org/wiki/Q310326"
+								}
+							],
+							"References": [
+								{
+									"referenceType": "Wikipedia page",
+									"resourceURI": "https://en.wikipedia.org/wiki/Hans_Sloane",
+									"referenceText": "The Wikipedia page for Sir Hans Sloane"
+								}
+							]
+						},
+						{
+							"givenName": "Mary",
+							"familyName": "Anning",
+							"fullName": "Mary Anning",
+							"Identifiers": [
+								{
+									"identifierType": "URI",
+									"identifierSource": "Wikidata",
+									"identifier": "https://www.wikidata.org/wiki/Q230491"
+								}
+							],
+							"References": [
+								{
+									"referenceType": "Wikipedia page",
+									"resourceURI": "https://en.wikipedia.org/wiki/Mary_Anning",
+									"referenceText": "The Wikipedia page for Mary Anning"
+								}
+							]
 						}
 					]
 				}
 			],
-
-            "MeasurementOrFacts" : [{
-                    "measurementType" : "Object count",
-                    "measurementValue" : "72190070"
-                }, {
-                    "measurementMethod" : "DiSSCo MIDS level",
-                    "measurementType" : "MIDS-0 object count",
-                    "measurementValue" : "6588939"
-                }, {
-                    "measurementMethod" : "DiSSCo MIDS level",
-                    "measurementType" : "MIDS-1 object count",
-                    "measurementValue" : "5082104"
-                }, {
-                    "measurementMethod" : "DiSSCo MIDS level",
-                    "measurementType" : "MIDS-2 object count",
-                    "measurementValue" : "7332610"
-                }, {
-                    "measurementMethod" : "DiSSCo MIDS level",
-                    "measurementType" : "MIDS-3 object count",
-                    "measurementValue" : "1072787"
-                }, {
-					"measurementType" : "Collection history",
-					"measurementMethod" : "Text narrative",
-					"measurementRemarks" : "Text derived from Wikipedia",
-					"measurementFactText" : "The foundation of the collection was that of the Ulster doctor Sir Hans Sloane (1660–1753), who allowed his significant collections to be purchased by the British Government at a price well below their market value at the time. This purchase was funded by a lottery. Sloane's collection, which included dried plants, and animal and human skeletons, was initially housed in Montagu House, Bloomsbury, in 1756, which was the home of the British Museum."
+			"disciplines": [
+				{
+					"discipline": "Anthropology",
+					"MeasurementOrFacts": [
+						{
+							"measurementType": "Object count",
+							"measurementValue": "34616"
+						}
+					]
+				},
+				{
+					"discipline": "Botany",
+					"MeasurementOrFacts": [
+						{
+							"measurementType": "Object count",
+							"measurementValue": "5174917"
+						}
+					]
+				},
+				{
+					"discipline": "Extraterrestrial",
+					"MeasurementOrFacts": [
+						{
+							"measurementType": "Object count",
+							"measurementValue": "10296"
+						}
+					]
+				},
+				{
+					"discipline": "Geology",
+					"MeasurementOrFacts": [
+						{
+							"measurementType": "Object count",
+							"measurementValue": "621420"
+						}
+					]
+				},
+				{
+					"discipline": "Other geo/biodiversity",
+					"MeasurementOrFacts": [
+						{
+							"measurementType": "Object count",
+							"measurementValue": "23186"
+						}
+					]
+				},
+				{
+					"discipline": "Palaeontology",
+					"MeasurementOrFacts": [
+						{
+							"measurementType": "Object count",
+							"measurementValue": "9506806"
+						}
+					]
+				},
+				{
+					"discipline": "Zoology invertebrates",
+					"MeasurementOrFacts": [
+						{
+							"measurementType": "Object count",
+							"measurementValue": "53541717"
+						}
+					]
+				},
+				{
+					"discipline": "Zoology vertebrates",
+					"MeasurementOrFacts": [
+						{
+							"measurementType": "Object count",
+							"measurementValue": "3277112"
+						}
+					]
 				}
-            ],
-
-            "ResourceRelationships" : [{
-                    "relatedResourceID" : "https://doi.org/10.1109/collection-2",
-                    "relationshipOfResource" : "contains"
-                }, {
-                    "relatedResourceID" : "https://doi.org/10.1109/collection-3",
-                    "relationshipOfResource" : "contains"
-                }, {
-                    "relatedResourceID" : "https://doi.org/10.1109/collection-4",
-                    "relationshipOfResource" : "contains"
-                }, {
-                    "relatedResourceID" : "https://doi.org/10.1109/collection-5",
-                    "relationshipOfResource" : "contains"
-                }, {
-                    "relatedResourceID" : "https://doi.org/10.1109/collection-6",
-                    "relationshipOfResource" : "contains"
-                }, {
-                    "relatedResourceID" : "https://doi.org/10.1109/collection-7",
-                    "relationshipOfResource" : "contains"
-                }, {
-                    "relatedResourceID" : "https://doi.org/10.1109/collection-8",
-                    "relationshipOfResource" : "contains"
-                }, {
-                    "relatedResourceID" : "https://doi.org/10.1109/collection-9",
-                    "relationshipOfResource" : "contains"
-                }, {
-                    "relatedResourceName" : "Gideon Mantell Collection",
-                    "relationshipOfResource" : "contains"
-                }, {
-                    "relatedResourceName" : "Charles H Sternberg collections",
-                    "relationshipOfResource" : "contains"
-                }, {
-                    "relatedResourceName" : "W E Cutler Collections",
-                    "relationshipOfResource" : "contains"
-                }				
-            ]
-
-        }, {
-            "collectionName" : "NHM London Anthropology Collection",
-            "discipline" : "Anthropology",
-
-            "RecordLevel" : {
-                "PID" : "https://doi.org/10.1109/collection-2",
-				"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
-				"PersonRoles" : [{
-						"role" : "Record creator",
-						"startedAtTime" : "2021-10-11T09:23:16",
-						"endedAtTime" : "2021-10-11T09:23:16",
-						"People" : [{
-								"fullName" : "Matt Woodburn",
-								"Identifiers" : [{
-										"identifierType" : "ORCID ID",
-										"identifierSource" : "ORCID",
-										"identifier" : "https://orcid.org/0000-0001-6496-1423"
+			],
+			"MeasurementOrFacts": [
+				{
+					"measurementType": "Object count",
+					"measurementValue": "72190070"
+				},
+				{
+					"measurementMethod": "DiSSCo MIDS level",
+					"measurementType": "MIDS-0 object count",
+					"measurementValue": "6588939"
+				},
+				{
+					"measurementMethod": "DiSSCo MIDS level",
+					"measurementType": "MIDS-1 object count",
+					"measurementValue": "5082104"
+				},
+				{
+					"measurementMethod": "DiSSCo MIDS level",
+					"measurementType": "MIDS-2 object count",
+					"measurementValue": "7332610"
+				},
+				{
+					"measurementMethod": "DiSSCo MIDS level",
+					"measurementType": "MIDS-3 object count",
+					"measurementValue": "1072787"
+				},
+				{
+					"measurementType": "Collection history",
+					"measurementMethod": "Text narrative",
+					"measurementRemarks": "Text derived from Wikipedia",
+					"measurementFactText": "The foundation of the collection was that of the Ulster doctor Sir Hans Sloane (1660–1753), who allowed his significant collections to be purchased by the British Government at a price well below their market value at the time. This purchase was funded by a lottery. Sloane's collection, which included dried plants, and animal and human skeletons, was initially housed in Montagu House, Bloomsbury, in 1756, which was the home of the British Museum."
+				}
+			],
+			"ResourceRelationships": [
+				{
+					"relatedResourceID": "https://doi.org/10.1109/collection-2",
+					"relationshipOfResource": "contains"
+				},
+				{
+					"relatedResourceID": "https://doi.org/10.1109/collection-3",
+					"relationshipOfResource": "contains"
+				},
+				{
+					"relatedResourceID": "https://doi.org/10.1109/collection-4",
+					"relationshipOfResource": "contains"
+				},
+				{
+					"relatedResourceID": "https://doi.org/10.1109/collection-5",
+					"relationshipOfResource": "contains"
+				},
+				{
+					"relatedResourceID": "https://doi.org/10.1109/collection-6",
+					"relationshipOfResource": "contains"
+				},
+				{
+					"relatedResourceID": "https://doi.org/10.1109/collection-7",
+					"relationshipOfResource": "contains"
+				},
+				{
+					"relatedResourceID": "https://doi.org/10.1109/collection-8",
+					"relationshipOfResource": "contains"
+				},
+				{
+					"relatedResourceID": "https://doi.org/10.1109/collection-9",
+					"relationshipOfResource": "contains"
+				},
+				{
+					"relatedResourceName": "Gideon Mantell Collection",
+					"relationshipOfResource": "contains"
+				},
+				{
+					"relatedResourceName": "Charles H Sternberg collections",
+					"relationshipOfResource": "contains"
+				},
+				{
+					"relatedResourceName": "W E Cutler Collections",
+					"relationshipOfResource": "contains"
+				}
+			]
+		},
+		{
+			"collectionName": "NHM London Anthropology Collection",
+			"discipline": "Anthropology",
+			"RecordLevel": {
+				"PID": "https://doi.org/10.1109/collection-2",
+				"license": "https://creativecommons.org/publicdomain/zero/1.0/",
+				"PersonRoles": [
+					{
+						"role": "Record creator",
+						"startedAtTime": "2021-10-11T09:23:16",
+						"endedAtTime": "2021-10-11T09:23:16",
+						"People": [
+							{
+								"fullName": "Matt Woodburn",
+								"Identifiers": [
+									{
+										"identifierType": "ORCID ID",
+										"identifierSource": "ORCID",
+										"identifier": "https://orcid.org/0000-0001-6496-1423"
 									}
 								]
 							}
 						]
 					}
 				]
-            },
-
-            "MeasurementOrFacts" : [{
-                    "measurementType" : "Object count",
-                    "measurementValue" : "34616"
-                }
-            ],
-
-            "ResourceRelationship" : {
-                "relatedResourceID" : "https://doi.org/10.1109/collection-1",
-                "relationshipOfResource" : "part of"
-            }
-
-        }, {
-            "collectionName" : "NHM London Botany Collection",
-            "discipline" : "Botany",
-
-            "RecordLevel" : {
-                "PID" : "https://doi.org/10.1109/collection-3",
-				"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
-				"PersonRoles" : [{
-						"role" : "Record creator",
-						"startedAtTime" : "2021-10-11T09:23:16",
-						"endedAtTime" : "2021-10-11T09:23:16",
-						"People" : [{
-								"fullName" : "Matt Woodburn",
-								"Identifiers" : [{
-										"identifierType" : "ORCID ID",
-										"identifierSource" : "ORCID",
-										"identifier" : "https://orcid.org/0000-0001-6496-1423"
+			},
+			"MeasurementOrFacts": [
+				{
+					"measurementType": "Object count",
+					"measurementValue": "34616"
+				}
+			],
+			"ResourceRelationship": {
+				"relatedResourceID": "https://doi.org/10.1109/collection-1",
+				"relationshipOfResource": "part of"
+			}
+		},
+		{
+			"collectionName": "NHM London Botany Collection",
+			"discipline": "Botany",
+			"RecordLevel": {
+				"PID": "https://doi.org/10.1109/collection-3",
+				"license": "https://creativecommons.org/publicdomain/zero/1.0/",
+				"PersonRoles": [
+					{
+						"role": "Record creator",
+						"startedAtTime": "2021-10-11T09:23:16",
+						"endedAtTime": "2021-10-11T09:23:16",
+						"People": [
+							{
+								"fullName": "Matt Woodburn",
+								"Identifiers": [
+									{
+										"identifierType": "ORCID ID",
+										"identifierSource": "ORCID",
+										"identifier": "https://orcid.org/0000-0001-6496-1423"
 									}
 								]
 							}
 						]
 					}
 				]
-            },
-
-            "MeasurementOrFacts" : [{
-                    "measurementType" : "Object count",
-                    "measurementValue" : "5174917"
-                }
-            ],
-
-            "ResourceRelationship" : {
-                "relatedResourceID" : "https://doi.org/10.1109/collection-1",
-                "relationshipOfResource" : "part of"
-            }
-
-        }, {
-            "collectionName" : "NHM London Extraterrestrial Collection",
-            "discipline" : "Extraterrestrial",
-
-            "RecordLevel" : {
-                "PID" : "https://doi.org/10.1109/collection-4",
-				"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
-				"PersonRoles" : [{
-						"role" : "Record creator",
-						"startedAtTime" : "2021-10-11T09:23:16",
-						"endedAtTime" : "2021-10-11T09:23:16",
-						"People" : [{
-								"fullName" : "Matt Woodburn",
-								"Identifiers" : [{
-										"identifierType" : "ORCID ID",
-										"identifierSource" : "ORCID",
-										"identifier" : "https://orcid.org/0000-0001-6496-1423"
+			},
+			"MeasurementOrFacts": [
+				{
+					"measurementType": "Object count",
+					"measurementValue": "5174917"
+				}
+			],
+			"ResourceRelationship": {
+				"relatedResourceID": "https://doi.org/10.1109/collection-1",
+				"relationshipOfResource": "part of"
+			}
+		},
+		{
+			"collectionName": "NHM London Extraterrestrial Collection",
+			"discipline": "Extraterrestrial",
+			"RecordLevel": {
+				"PID": "https://doi.org/10.1109/collection-4",
+				"license": "https://creativecommons.org/publicdomain/zero/1.0/",
+				"PersonRoles": [
+					{
+						"role": "Record creator",
+						"startedAtTime": "2021-10-11T09:23:16",
+						"endedAtTime": "2021-10-11T09:23:16",
+						"People": [
+							{
+								"fullName": "Matt Woodburn",
+								"Identifiers": [
+									{
+										"identifierType": "ORCID ID",
+										"identifierSource": "ORCID",
+										"identifier": "https://orcid.org/0000-0001-6496-1423"
 									}
 								]
 							}
 						]
 					}
 				]
-            },
-
-            "MeasurementOrFacts" : [{
-                    "measurementType" : "Object count",
-                    "measurementValue" : "10296"
-                }
-            ],
-
-            "ResourceRelationship" : {
-                "relatedResourceID" : "https://doi.org/10.1109/collection-1",
-                "relationshipOfResource" : "part of"
-            }
-
-        }, {
-            "collectionName" : "NHM London Geology Collection",
-            "discipline" : "Geology",
-
-            "RecordLevel" : {
-                "PID" : "https://doi.org/10.1109/collection-5",
-				"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
-				"PersonRoles" : [{
-						"role" : "Record creator",
-						"startedAtTime" : "2021-10-11T09:23:16",
-						"endedAtTime" : "2021-10-11T09:23:16",
-						"People" : [{
-								"fullName" : "Matt Woodburn",
-								"Identifiers" : [{
-										"identifierType" : "ORCID ID",
-										"identifierSource" : "ORCID",
-										"identifier" : "https://orcid.org/0000-0001-6496-1423"
+			},
+			"MeasurementOrFacts": [
+				{
+					"measurementType": "Object count",
+					"measurementValue": "10296"
+				}
+			],
+			"ResourceRelationship": {
+				"relatedResourceID": "https://doi.org/10.1109/collection-1",
+				"relationshipOfResource": "part of"
+			}
+		},
+		{
+			"collectionName": "NHM London Geology Collection",
+			"discipline": "Geology",
+			"RecordLevel": {
+				"PID": "https://doi.org/10.1109/collection-5",
+				"license": "https://creativecommons.org/publicdomain/zero/1.0/",
+				"PersonRoles": [
+					{
+						"role": "Record creator",
+						"startedAtTime": "2021-10-11T09:23:16",
+						"endedAtTime": "2021-10-11T09:23:16",
+						"People": [
+							{
+								"fullName": "Matt Woodburn",
+								"Identifiers": [
+									{
+										"identifierType": "ORCID ID",
+										"identifierSource": "ORCID",
+										"identifier": "https://orcid.org/0000-0001-6496-1423"
 									}
 								]
 							}
 						]
 					}
 				]
-            },
-
-            "MeasurementOrFacts" : [{
-                    "measurementType" : "Object count",
-                    "measurementValue" : "621420"
-                }
-            ],
-
-            "ResourceRelationship" : {
-                "relatedResourceID" : "https://doi.org/10.1109/collection-1",
-                "relationshipOfResource" : "part of"
-            }
-
-        }, {
-            "collectionName" : "NHM London Other Geo/biodiversity Collection",
-            "discipline" : "Other geo/biodiversity",
-
-            "RecordLevel" : {
-                "PID" : "https://doi.org/10.1109/collection-6",
-				"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
-				"PersonRoles" : [{
-						"role" : "Record creator",
-						"startedAtTime" : "2021-10-11T09:23:16",
-						"endedAtTime" : "2021-10-11T09:23:16",
-						"People" : [{
-								"fullName" : "Matt Woodburn",
-								"Identifiers" : [{
-										"identifierType" : "ORCID ID",
-										"identifierSource" : "ORCID",
-										"identifier" : "https://orcid.org/0000-0001-6496-1423"
+			},
+			"MeasurementOrFacts": [
+				{
+					"measurementType": "Object count",
+					"measurementValue": "621420"
+				}
+			],
+			"ResourceRelationship": {
+				"relatedResourceID": "https://doi.org/10.1109/collection-1",
+				"relationshipOfResource": "part of"
+			}
+		},
+		{
+			"collectionName": "NHM London Other Geo/biodiversity Collection",
+			"discipline": "Other geo/biodiversity",
+			"RecordLevel": {
+				"PID": "https://doi.org/10.1109/collection-6",
+				"license": "https://creativecommons.org/publicdomain/zero/1.0/",
+				"PersonRoles": [
+					{
+						"role": "Record creator",
+						"startedAtTime": "2021-10-11T09:23:16",
+						"endedAtTime": "2021-10-11T09:23:16",
+						"People": [
+							{
+								"fullName": "Matt Woodburn",
+								"Identifiers": [
+									{
+										"identifierType": "ORCID ID",
+										"identifierSource": "ORCID",
+										"identifier": "https://orcid.org/0000-0001-6496-1423"
 									}
 								]
 							}
 						]
 					}
 				]
-            },
-
-            "MeasurementOrFacts" : [{
-                    "measurementType" : "Object count",
-                    "measurementValue" : "23186"
-                }
-            ],
-
-            "ResourceRelationship" : {
-                "relatedResourceID" : "https://doi.org/10.1109/collection-1",
-                "relationshipOfResource" : "part of"
-            }
-
-        }, {
-            "collectionName" : "NHM London Palaeontology Collection",
-            "discipline" : "Palaeontology",
-
-            "RecordLevel" : {
-                "PID" : "https://doi.org/10.1109/collection-7",
-				"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
-				"PersonRoles" : [{
-						"role" : "Record creator",
-						"startedAtTime" : "2021-10-11T09:23:16",
-						"endedAtTime" : "2021-10-11T09:23:16",
-						"People" : [{
-								"fullName" : "Matt Woodburn",
-								"Identifiers" : [{
-										"identifierType" : "ORCID ID",
-										"identifierSource" : "ORCID",
-										"identifier" : "https://orcid.org/0000-0001-6496-1423"
+			},
+			"MeasurementOrFacts": [
+				{
+					"measurementType": "Object count",
+					"measurementValue": "23186"
+				}
+			],
+			"ResourceRelationship": {
+				"relatedResourceID": "https://doi.org/10.1109/collection-1",
+				"relationshipOfResource": "part of"
+			}
+		},
+		{
+			"collectionName": "NHM London Palaeontology Collection",
+			"discipline": "Palaeontology",
+			"RecordLevel": {
+				"PID": "https://doi.org/10.1109/collection-7",
+				"license": "https://creativecommons.org/publicdomain/zero/1.0/",
+				"PersonRoles": [
+					{
+						"role": "Record creator",
+						"startedAtTime": "2021-10-11T09:23:16",
+						"endedAtTime": "2021-10-11T09:23:16",
+						"People": [
+							{
+								"fullName": "Matt Woodburn",
+								"Identifiers": [
+									{
+										"identifierType": "ORCID ID",
+										"identifierSource": "ORCID",
+										"identifier": "https://orcid.org/0000-0001-6496-1423"
 									}
 								]
 							}
 						]
 					}
 				]
-            },
-
-            "MeasurementOrFacts" : [{
-                    "measurementType" : "Object count",
-                    "measurementValue" : "9506806"
-                }
-            ],
-
-            "ResourceRelationship" : {
-                "relatedResourceID" : "https://doi.org/10.1109/collection-1",
-                "relationshipOfResource" : "part of"
-            }
-
-        }, {
-            "collectionName" : "NHM London Invertebrates Collection",
-            "discipline" : "Zoology invertebrates",
-
-            "RecordLevel" : {
-                "PID" : "https://doi.org/10.1109/collection-8",
-				"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
-				"PersonRoles" : [{
-						"role" : "Record creator",
-						"startedAtTime" : "2021-10-11T09:23:16",
-						"endedAtTime" : "2021-10-11T09:23:16",
-						"People" : [{
-								"fullName" : "Matt Woodburn",
-								"Identifiers" : [{
-										"identifierType" : "ORCID ID",
-										"identifierSource" : "ORCID",
-										"identifier" : "https://orcid.org/0000-0001-6496-1423"
+			},
+			"MeasurementOrFacts": [
+				{
+					"measurementType": "Object count",
+					"measurementValue": "9506806"
+				}
+			],
+			"ResourceRelationship": {
+				"relatedResourceID": "https://doi.org/10.1109/collection-1",
+				"relationshipOfResource": "part of"
+			}
+		},
+		{
+			"collectionName": "NHM London Invertebrates Collection",
+			"discipline": "Zoology invertebrates",
+			"RecordLevel": {
+				"PID": "https://doi.org/10.1109/collection-8",
+				"license": "https://creativecommons.org/publicdomain/zero/1.0/",
+				"PersonRoles": [
+					{
+						"role": "Record creator",
+						"startedAtTime": "2021-10-11T09:23:16",
+						"endedAtTime": "2021-10-11T09:23:16",
+						"People": [
+							{
+								"fullName": "Matt Woodburn",
+								"Identifiers": [
+									{
+										"identifierType": "ORCID ID",
+										"identifierSource": "ORCID",
+										"identifier": "https://orcid.org/0000-0001-6496-1423"
 									}
 								]
 							}
 						]
 					}
 				]
-            },
-
-            "MeasurementOrFacts" : [{
-                    "measurementType" : "Object count",
-                    "measurementValue" : "53541717"
-                }
-            ],
-
-            "ResourceRelationship" : {
-                "relatedResourceID" : "https://doi.org/10.1109/collection-1",
-                "relationshipOfResource" : "part of"
-            }
-
-        }, {
-            "collectionName" : "NHM London Vertebrates Collection",
-            "discipline" : "Zoology vertebrates",
-
-            "RecordLevel" : {
-                "PID" : "https://doi.org/10.1109/collection-9",
-				"license" : "https://creativecommons.org/publicdomain/zero/1.0/",
-				"PersonRoles" : [{
-						"role" : "Record creator",
-						"startedAtTime" : "2021-10-11T09:23:16",
-						"endedAtTime" : "2021-10-11T09:23:16",
-						"People" : [{
-								"fullName" : "Matt Woodburn",
-								"Identifiers" : [{
-										"identifierType" : "ORCID ID",
-										"identifierSource" : "ORCID",
-										"identifier" : "https://orcid.org/0000-0001-6496-1423"
+			},
+			"MeasurementOrFacts": [
+				{
+					"measurementType": "Object count",
+					"measurementValue": "53541717"
+				}
+			],
+			"ResourceRelationship": {
+				"relatedResourceID": "https://doi.org/10.1109/collection-1",
+				"relationshipOfResource": "part of"
+			}
+		},
+		{
+			"collectionName": "NHM London Vertebrates Collection",
+			"discipline": "Zoology vertebrates",
+			"RecordLevel": {
+				"PID": "https://doi.org/10.1109/collection-9",
+				"license": "https://creativecommons.org/publicdomain/zero/1.0/",
+				"PersonRoles": [
+					{
+						"role": "Record creator",
+						"startedAtTime": "2021-10-11T09:23:16",
+						"endedAtTime": "2021-10-11T09:23:16",
+						"People": [
+							{
+								"fullName": "Matt Woodburn",
+								"Identifiers": [
+									{
+										"identifierType": "ORCID ID",
+										"identifierSource": "ORCID",
+										"identifier": "https://orcid.org/0000-0001-6496-1423"
 									}
 								]
 							}
 						]
 					}
 				]
-            },
-
-            "MeasurementOrFacts" : [{
-                    "measurementType" : "Object count",
-                    "measurementValue" : "3277112"
-                }
-            ],
-
-            "ResourceRelationship" : {
-                "relatedResourceID" : "https://doi.org/10.1109/collection-1",
-                "relationshipOfResource" : "part of"
-            }
-        }
-    ]
+			},
+			"MeasurementOrFacts": [
+				{
+					"measurementType": "Object count",
+					"measurementValue": "3277112"
+				}
+			],
+			"ResourceRelationship": {
+				"relatedResourceID": "https://doi.org/10.1109/collection-1",
+				"relationshipOfResource": "part of"
+			}
+		}
+	]
 }
