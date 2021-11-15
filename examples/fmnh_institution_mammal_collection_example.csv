@@ -22,7 +22,7 @@ objectType,ObjectGroup,specimen
 discipline,ObjectGroup,Zoology
 typeOfCollection,ObjectGroup,PreservedSpecimens | HominidRemains | MaterialSamples 
 measurementType,MeasurementOrFact,collection size
-measurementValue,MeasurementOrFact,"40,000,000"
+measurementValue,MeasurementOrFact,"260,000"
 measurementUnit,MeasurementOrFact,items 
 addressLocality,Address,Chicago
 addressCountry,Address,USA
