@@ -19,8 +19,8 @@ order,Taxon,Mammalia
 collectionManagementSystem,ObjectGroup,EMu
 knownToContainTypes,ObjectGroup,true
 objectType,ObjectGroup,specimen
-discipline,ObjectGroup,Anthropology | Botany | Geology | Zoology | Photo Archives
-typeOfCollection,ObjectGroup,PreservedSpecimens | FossilSpecimens | MineralSpecimens | ArchaeologicalArtefacts | EthnographicObjects | HumanRemains | HominidRemains | MaterialSamples | LivingSpecimens
+discipline,ObjectGroup,Zoology
+typeOfCollection,ObjectGroup,PreservedSpecimens | HominidRemains | MaterialSamples 
 measurementType,MeasurementOrFact,collection size
 measurementValue,MeasurementOrFact,"40,000,000"
 measurementUnit,MeasurementOrFact,items 
