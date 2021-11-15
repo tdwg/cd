@@ -1,33 +1,33 @@
-EXAMPLE COLLECTION WITHIN THIS INSTITUTION REFERRING TO ITS PARENT,,
-Class,Term,Example
-RecordLevel,PID,urn:uuid:ea4f0640-ef20-40aa-b359-166f07c7492a
-PersonRole,role,Collection Manager
-Person,fullName,Adam Ferguson
-RecordLevel,rightsHolder,Field Museum of Natural History
-ColectionHistory,status,Active growth
-CollectionHistory,status,founded
-CollectionHistory,statusStartDate,1893-01-02
-OrganisationalUnit,organisationalUnitParentInstitutionID,SuperStableInsititutionID345fromsomewhereorsomeoneelse
-Reference,resourceURI,https://collections-zoology.fieldmuseum.org/Mammals
-Reference,referenceType,website
-Identifier,identifier,MAMM
-Identifier,identifierSource,GRSciCol
-ObjectGroup,currentStatus,true
-GeographicOrigin,continent,worldwide
-ObjectGroup,collectionStrength,"The collection's absolute size and geographic and taxonomic representation make it one of the most significant collections for specimen-based studies in mammalogy. Geographic Areas: Neotropical (particularly Peru, Chile, and Colombia); Afro-tropics (particularly Tanzania, Madagascar, and Kenya); Indo-Malayan (particularly the Philippines, China, and Malaysia);  Palearctic (particularly Egypt, Iran, and Afghanistan). Taxonomic Strengths: All orders and all but one extant families (the monotypic bat family Craseonycteridae) are represented in The Field Museum's mammal collections."
-Taxon,kingdom,Animalia
-Taxon,order,Mammalia
-ObjectGroup,collectionManagementSystem,EMu
-ObjectGroup,knownToContainTypes,true
-ObjectGroup,objectType,specimen
-ObjectGroup,discipline,Anthropology | Botany | Geology | Zoology | Photo Archives
-ObjectGroup,typeOfCollection,PreservedSpecimens | FossilSpecimens | MineralSpecimens | ArchaeologicalArtefacts | EthnographicObjects | HumanRemains | HominidRemains | MaterialSamples | LivingSpecimens
-MeasurementOrFact,measurementType,collection size
-MeasurementOrFact,measurementValue,"40,000,000"
-MeasurementOrFact,measurementUnit,items 
-Address,addressLocality,Chicago
-Address,addressCountry,USA
-Address,addressRegion,IL
-Address,streetAddress,1400 S Du Sable Lake Shore Drive
-Address,postalCode,60605
-Address,addressType,Physical
+,EXAMPLE COLLECTION WITHIN THIS INSTITUTION REFERRING TO ITS PARENT,
+Term,Class,Example
+PID,RecordLevel,urn:uuid:ea4f0640-ef20-40aa-b359-166f07c7492a
+role,PersonRole,Collection Manager
+fullName,Person,Adam Ferguson
+rightsHolder,RecordLevel,Field Museum of Natural History
+status,ColectionHistory,Active growth
+status,CollectionHistory,founded
+statusStartDate,CollectionHistory,1893-01-02
+organisationalUnitParentInstitutionID,OrganisationalUnit,SuperStableInsititutionID345fromsomewhereorsomeoneelse
+resourceURI,Reference,https://collections-zoology.fieldmuseum.org/Mammals
+referenceType,Reference,website
+identifier,Identifier,MAMM
+identifierSource,Identifier,GRSciCol
+currentStatus,ObjectGroup,true
+continent,GeographicOrigin,worldwide
+collectionStrength,ObjectGroup,"The collection's absolute size and geographic and taxonomic representation make it one of the most significant collections for specimen-based studies in mammalogy. Geographic Areas: Neotropical (particularly Peru, Chile, and Colombia); Afro-tropics (particularly Tanzania, Madagascar, and Kenya); Indo-Malayan (particularly the Philippines, China, and Malaysia);  Palearctic (particularly Egypt, Iran, and Afghanistan). Taxonomic Strengths: All orders and all but one extant families (the monotypic bat family Craseonycteridae) are represented in The Field Museum's mammal collections."
+kingdom,Taxon,Animalia
+order,Taxon,Mammalia
+collectionManagementSystem,ObjectGroup,EMu
+knownToContainTypes,ObjectGroup,true
+objectType,ObjectGroup,specimen
+discipline,ObjectGroup,Anthropology | Botany | Geology | Zoology | Photo Archives
+typeOfCollection,ObjectGroup,PreservedSpecimens | FossilSpecimens | MineralSpecimens | ArchaeologicalArtefacts | EthnographicObjects | HumanRemains | HominidRemains | MaterialSamples | LivingSpecimens
+measurementType,MeasurementOrFact,collection size
+measurementValue,MeasurementOrFact,"40,000,000"
+measurementUnit,MeasurementOrFact,items 
+addressLocality,Address,Chicago
+addressCountry,Address,USA
+addressRegion,Address,IL
+streetAddress,Address,1400 S Du Sable Lake Shore Drive
+postalCode,Address,60605
+addressType,Address,Physical
