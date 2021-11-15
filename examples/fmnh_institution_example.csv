@@ -39,4 +39,5 @@ contactDetailType,ContactDetail,General enquiries
 contactDetailValue,ContactDetail,+(1) 312-922-9410
 discipline,ObjectGroup,Anthropology | Botany | Geology | Zoology | Photo Archives
 typeOfCollection,ObjectGroup,PreservedSpecimens | FossilSpecimens | MineralSpecimens | ArchaeologicalArtefacts | EthnographicObjects | HumanRemains | HominidRemains | MaterialSamples 
-
+measurementValue,MeasurementOrFact,"40,000,000"
+measurementUnit,MeasurementOrFact,items 
