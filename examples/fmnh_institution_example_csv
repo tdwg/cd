@@ -1,0 +1,39 @@
+Term,Class,Example
+PID,RecordLevel,SuperStableInsititutionID345
+role,PersonRole,Primary Collection Description record contact
+fullName,Person,Technology Department
+role,PersonRole,President and CEO
+fullName,Person,Dr Julian Siggers
+role,PersonRole,Head of Collections
+fullName,Person,Deborah Bekken
+rightsHolder,RecordLevel,Field Museum of Natural History
+status,CollectionHistory,founded
+statusStartDate,CollectionHistory,1893-01-02
+identifierSource,Identifier,Field Museum of Natural History
+identifier,Identifier,FM
+identifierSource,Identifier,Field Museum of Natural History
+identifier,Identifier,FMNH
+identifierSource,Identifier,grscicoll
+identifier,Identifier,https://www.gbif.org/grscicoll/institution/e71f36f1-e271-4720-a604-3c5a1418e7aa
+identifierSource,Identifier,grbio
+identifier,Identifier,http://grbio.org/institution/field-museum-natural-history
+identifierSource,Identifier,lsid
+identifier,Identifier,http://biocol.org/urn:lsid:biocol.org:col:34795
+organisationalUnitAlternativeName,OrganisationalUnit,Columbian Museum of Chicago
+organisationalUnitAlternativeName,OrganisationalUnit,Chicago Natural History Museum
+organisationalUnitAlternativeName,OrganisationalUnit,Field Museum
+organisationalUnitAlternativeName,OrganisationalUnit,CNHM
+organisationalUnitType,OrganisationalUnit,Museum
+resourceURI,Reference,https://www.fieldmuseum.org
+referenceType,Reference,Website
+referenceText,Reference,FMNH website
+organisationalUnitDescription,ObjectGroup,"The Field Museum of Natural History (FMNH), also known as The Field Museum, is a natural history museum in Chicago, Illinois, and is one of the largest such museums in the world.[4] The museum is a popular natural-history museum for the size and quality of its educational and scientific programs,[5][6] as well as due to its extensive scientific-specimen and artifact collections.[7] The permanent exhibitions,[8] which attract up to two million visitors annually, include fossils, current cultures from around the world, and interactive programming demonstrating today's urgent conservation needs.[9][10] The museum is named in honor of its first major benefactor, the department-store magnate Marshall Field. The museum and its collections originated from the 1893 Worldâ€™s Columbian Exposition and the artifacts displayed at the fair.[11]"
+addressLocality,Address,Chicago
+addressCountry,Address,USA
+addressRegion,Address,IL
+streetAddress,Address,1400 S Du Sable Lake Shore Drive
+postalCode,Address,60605
+addressType,Address,Physical
+contactDetailCategory,ContactDetail,Phone number
+contactDetailType,ContactDetail,General enquiries
+contactDetailValue,ContactDetail,+(1) 312-922-9410
