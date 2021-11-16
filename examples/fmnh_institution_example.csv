@@ -16,16 +16,21 @@ role,PersonRole,President and CEO
 fullName,Person,Dr Julian Siggers
 role,PersonRole,CFO
 fullName,Person,Le Monte Booker
-identifierSource,Identifier,Field Museum of Natural History
 identifier,Identifier,FM
 identifierSource,Identifier,Field Museum of Natural History
+identifierType,Identifier,acronym
 identifier,Identifier,FMNH
-identifierSource,Identifier,grscicoll
+identifierSource,Identifier,Field Museum of Natural History
+identifierType,Identifier,acronym
 identifier,Identifier,https://www.gbif.org/grscicoll/institution/e71f36f1-e271-4720-a604-3c5a1418e7aa
-identifierSource,Identifier,grbio
+identifierSource,Identifier,grscicoll
+identifierType,Identifier,uri
 identifier,Identifier,http://grbio.org/institution/field-museum-natural-history
-identifierSource,Identifier,lsid
+identifierSource,Identifier,grbio
+identifierType,Identifier,uri
 identifier,Identifier,http://biocol.org/urn:lsid:biocol.org:col:34795
+identifierSource,Identifier,lsid
+identifierType,Identifier,uri
 status,CollectionHistory,founded
 statusStartDate,CollectionHistory,1893-01-02
 organisationalUnitName,OrganisationalUnit,Field Museum of Natural History
