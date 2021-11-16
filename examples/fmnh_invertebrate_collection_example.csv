@@ -2,7 +2,7 @@ Term,Class,Example
 addressLocality,Address,Chicago
 addressCountry,Address,USA
 addressRegion,Address,IL
-streetAddress,Address,1400 S Du Sable Lake Shore Drive
+streetAddress,Address,1400 S DuSable Lake Shore Drive
 postalCode,Address,60605
 addressType,Address,Physical
 status,CollectionHistory,active growth
@@ -27,7 +27,8 @@ measurementType,MeasurementOrFact,collection size - freshwater
 measurementValue,MeasurementOrFact,15
 measurementUnit,MeasurementOrFact,percentage
 currentStatus,ObjectGroup,true
-collectionStrength,ObjectGroup,"Established in 1938, the Division of Invertebrates is in charge of all invertebrate groups except insects and other non-marine arthropods. The first curator of this Division was Fritz Haas, formerly of the Senckenberg Museum in Frankfurt, Germany. Haas (1938 - 1969) and his successor Alan Solem (1957 - 1990) built massive mollusk collections, particularly strong in unionid bivalves and terrestrial snails, reflecting their respective research interests. Current curators Rüdiger Bieler (1990 -) and Janet Voight (1990 -) focus their research and collection-building on marine molluscan groups. The varied curatorial research interests, the collecting efforts of past and present collections managers (e.g., John Slapcinsky and Jochen Gerber), and acquisitions of private collections and ""orphan collections"""
+description,ObjectGroup,"Established in 1938, the Division of Invertebrates is in charge of all invertebrate groups except insects and other non-marine arthropods. The first curator of this Division was Fritz Haas, formerly of the Senckenberg Museum in Frankfurt, Germany. Haas (1938 - 1969) and his successor Alan Solem (1957 - 1990) built massive mollusk collections, particularly strong in unionid bivalves and terrestrial snails, reflecting their respective research interests. Current curators Rüdiger Bieler (1990 -) and Janet Voight (1990 -) focus their research and collection-building on marine molluscan groups. The varied curatorial research interests, the collecting efforts of past and present collections managers (e.g., John Slapcinsky and Jochen Gerber), and acquisitions of private collections and ""orphan collections"""
+thematicfocus,ObjectGroup,"Unionids, terrestrial and marine mollusks and thermal vent collections."
 collectionManagementSystem,ObjectGroup,EMu
 knownToContainTypes,ObjectGroup,true
 objectType,ObjectGroup,specimen
