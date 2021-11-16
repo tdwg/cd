@@ -27,6 +27,6 @@ measurementUnit,MeasurementOrFact,items
 addressLocality,Address,Chicago
 addressCountry,Address,USA
 addressRegion,Address,IL
-streetAddress,Address,1400 S Du Sable Lake Shore Drive
+streetAddress,Address,1400 S DuSable Lake Shore Drive
 postalCode,Address,60605
 addressType,Address,Physical
