@@ -1,0 +1,219 @@
+{
+  "record": {
+    "CollectionDescriptionScheme": {
+      "basisOfScheme": "Accession",
+      "distinctObjects": true,
+      "schemeName": "Carpenter collection of shells"
+    },
+    "ObjectGroup": {
+      "accrualMethod": "IZ - Accession",
+      "collectionStartDate": 1898,
+      "rightsHolder": "Field Museum of Natural History",
+      "description": "Carpenter collection of shells",
+      "discipline": "Invertebrate Zoology",
+      "objectType": "specimen",
+      "typeOfCollection": "PreservedSpecimen",
+      "PersonRoles": {
+        "role": "collector",
+        "fullName": "Philip P. Carpenter"
+      },
+      "Identifiers": {
+        "identifier": 17,
+        "identifierType": "Accession Number",
+        "identifierSource": "Field Museum of Natural History"
+      }
+    },
+    "OrganisationalUnit": {
+      "organisationalUnitImmediateParentID": "http://grbio.org/institutional-collection/invertebrate-collection-0"
+    },
+    "GeographicCoverage": {
+      "locality": "various",
+      "2": [
+        {
+          "continent": "Europe",
+          "MeasurementOrFact": {
+            "measurementType": "Object count",
+            "measurementValue": 344,
+            "measurementUnit": "items"
+          }
+        },
+        {
+          "continent": null,
+          "MeasurementOrFact": {
+            "measurementType": "Object count",
+            "measurementValue": 1426,
+            "measurementUnit": "items"
+          }
+        },
+        {
+          "continent": "Asia",
+          "MeasurementOrFact": {
+            "measurementType": "Object count",
+            "measurementValue": 197,
+            "measurementUnit": "items"
+          }
+        },
+        {
+          "continent": "South America",
+          "MeasurementOrFact": {
+            "measurementType": "Object count",
+            "measurementValue": 166,
+            "measurementUnit": "items"
+          }
+        },
+        {
+          "continent": "Oceania",
+          "MeasurementOrFact": {
+            "measurementType": "Object count",
+            "measurementValue": 218,
+            "measurementUnit": "items"
+          }
+        },
+        {
+          "continent": "North America",
+          "MeasurementOrFact": {
+            "measurementType": "Object count",
+            "measurementValue": 683,
+            "measurementUnit": "items"
+          }
+        },
+        {
+          "continent": "Central America",
+          "MeasurementOrFact": {
+            "measurementType": "Object count",
+            "measurementValue": 125,
+            "measurementUnit": "items"
+          }
+        },
+        {
+          "continent": "Africa",
+          "MeasurementOrFact": {
+            "measurementType": "Object count",
+            "measurementValue": 155,
+            "measurementUnit": "items"
+          }
+        },
+        {
+          "continent": "International Waters",
+          "MeasurementOrFact": {
+            "measurementType": "Object count",
+            "measurementValue": 332,
+            "measurementUnit": "items"
+          }
+        },
+        {
+          "continent": "Unknown",
+          "MeasurementOrFact": {
+            "measurementType": "Object count",
+            "measurementValue": 126,
+            "measurementUnit": "items"
+          }
+        }
+      ],
+      "3": [
+        {
+          "waterBody": null,
+          "MeasurementOrFact": {
+            "measurementType": "Object count",
+            "measurementValue": 1426,
+            "measurementUnit": "items"
+          }
+        },
+        {
+          "waterBody": "Indian",
+          "MeasurementOrFact": {
+            "measurementType": "Object count",
+            "measurementValue": 1221,
+            "measurementUnit": "items"
+          }
+        },
+        {
+          "waterBody": "Atlantic",
+          "MeasurementOrFact": {
+            "measurementType": "Object count",
+            "measurementValue": 1217,
+            "measurementUnit": "items"
+          }
+        },
+        {
+          "waterBody": "North Pacific",
+          "MeasurementOrFact": {
+            "measurementType": "Object count",
+            "measurementValue": 1288,
+            "measurementUnit": "items"
+          }
+        },
+        {
+          "waterBody": "Arctic",
+          "MeasurementOrFact": {
+            "measurementType": "Object count",
+            "measurementValue": 1215,
+            "measurementUnit": "items"
+          }
+        },
+        {
+          "waterBody": "North Atlantic",
+          "MeasurementOrFact": {
+            "measurementType": "Object count",
+            "measurementValue": 1283,
+            "measurementUnit": "items"
+          }
+        },
+        {
+          "waterBody": "South Pacific",
+          "MeasurementOrFact": {
+            "measurementType": "Object count",
+            "measurementValue": 1266,
+            "measurementUnit": "items"
+          }
+        },
+        {
+          "waterBody": "Pacific",
+          "MeasurementOrFact": {
+            "measurementType": "Object count",
+            "measurementValue": 1220,
+            "measurementUnit": "items"
+          }
+        }
+      ]
+    },
+    "TaxonCoverage": {
+      "kingdom": "Animalia",
+      "2": [
+        {
+          "phylum": "Mollusca",
+          "MeasurementOrFact": {
+            "measurementType": "Object count",
+            "measurementValue": 1426,
+            "measurementUnit": "items"
+          }
+        }
+      ],
+      "class": ["Gastropoda", "Bivalvia", "Scaphopoda", "Polyplacophora", "Cephalopoda"]
+    },
+    "TemporalCoverage": {
+      "temporalCoverageStartDate": "07/01/1895",
+      "temporalCoverageType": "Accession date"
+    },
+    "MeasurementOrFact": [
+      [
+        {
+          "preparationTypes": null,
+          "MeasurementOrFact": {
+            "measurementType": "Object count",
+            "measurementValue": 1426,
+            "measurementUnit": "items"
+          }
+        },
+        {
+          "preparationTypes": "unknown > 70% EtOH",
+          "MeasurementOrFact": {
+            "measurementType": "Object count",
+            "measurementValue": 1426,
+            "measurementUnit": "items"
+          }
+        }
+      ]
+    ]
+  }
+}
