@@ -19,6 +19,7 @@ identifierSource,Identifier,grbio
 identifier,Identifier,http://grbio.org/institution/field-museum-natural-history
 identifierSource,Identifier,lsid
 identifier,Identifier,http://biocol.org/urn:lsid:biocol.org:col:34795
+organisationalUnitName,OrganisationalUnit,Field Museum of Natural History
 organisationalUnitAlternativeName,OrganisationalUnit,Columbian Museum of Chicago
 organisationalUnitAlternativeName,OrganisationalUnit,Chicago Natural History Museum
 organisationalUnitAlternativeName,OrganisationalUnit,Field Museum
