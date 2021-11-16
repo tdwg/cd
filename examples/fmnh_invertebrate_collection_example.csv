@@ -46,3 +46,8 @@ resourceURI,Reference,https://collections-zoology.fieldmuseum.org/invertebrates
 referenceType,Reference,website
 kingdom,Taxon,Animalia
 phylum,Taxon,Mollusca
+phylum,Taxon,Arthropoda
+phylum,Taxon,Annelida
+phylum,Taxon,Cnidaria
+phylum,Taxon,Echinodermata
+phylum,Taxon,Porifera
