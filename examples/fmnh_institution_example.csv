@@ -14,8 +14,8 @@ role,PersonRole,Primary Collection Description record contact
 fullName,Person,Technology Department
 role,PersonRole,President and CEO
 fullName,Person,Dr Julian Siggers
-role,PersonRole,Head of Collections
-fullName,Person,Deborah Bekken
+role,PersonRole,CFO
+fullName,Person,Le Monte Booker
 identifierSource,Identifier,Field Museum of Natural History
 identifier,Identifier,FM
 identifierSource,Identifier,Field Museum of Natural History
