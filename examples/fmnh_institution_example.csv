@@ -28,7 +28,6 @@ organisationalUnitType,OrganisationalUnit,Museum
 resourceURI,Reference,https://www.fieldmuseum.org
 referenceType,Reference,Website
 referenceText,Reference,FMNH website
-organisationalUnitDescription,ObjectGroup,"The Field Museum of Natural History (FMNH), also known as The Field Museum, is a natural history museum in Chicago, Illinois, and is one of the largest such museums in the world.[4] The museum is a popular natural-history museum for the size and quality of its educational and scientific programs,[5][6] as well as due to its extensive scientific-specimen and artifact collections.[7] The permanent exhibitions,[8] which attract up to two million visitors annually, include fossils, current cultures from around the world, and interactive programming demonstrating today's urgent conservation needs.[9][10] The museum is named in honor of its first major benefactor, the department-store magnate Marshall Field. The museum and its collections originated from the 1893 World’s Columbian Exposition and the artifacts displayed at the fair.[11]"
 addressLocality,Address,Chicago
 addressCountry,Address,USA
 addressRegion,Address,IL
@@ -40,5 +39,6 @@ contactDetailType,ContactDetail,General enquiries
 contactDetailValue,ContactDetail,+(1) 312-922-9410
 discipline,ObjectGroup,Anthropology | Botany | Geology | Zoology | Photo Archives
 typeOfCollection,ObjectGroup,PreservedSpecimens | FossilSpecimens | MineralSpecimens | ArchaeologicalArtefacts | EthnographicObjects | HumanRemains | HominidRemains | MaterialSamples 
+organisationalUnitDescription,ObjectGroup,"The Field Museum of Natural History (FMNH), also known as The Field Museum, is a natural history museum in Chicago, Illinois, and is one of the largest such museums in the world.[4] The museum is a popular natural-history museum for the size and quality of its educational and scientific programs,[5][6] as well as due to its extensive scientific-specimen and artifact collections.[7] The permanent exhibitions,[8] which attract up to two million visitors annually, include fossils, current cultures from around the world, and interactive programming demonstrating today's urgent conservation needs.[9][10] The museum is named in honor of its first major benefactor, the department-store magnate Marshall Field. The museum and its collections originated from the 1893 World’s Columbian Exposition and the artifacts displayed at the fair.[11]"
 measurementValue,MeasurementOrFact,"40,000,000"
 measurementUnit,MeasurementOrFact,items 
