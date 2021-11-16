@@ -10,7 +10,7 @@ contactDetailCategory,ContactDetail,Phone
 contactDetailType,ContactDetail,General enquiries
 contactDetailValue,ContactDetail,1-781-581-7370 ext 339
 role,PersonRole,Sample request contact
-fullName,Person,OGL Biobank
+collectionName,ObjectGroup,OGL Biobank
 contactDetailCategory,ContactDetail,Email
 contactDetailType,ContactDetail,Sample requests
 contactDetailValue,ContactDetail,oglinfo@northeastern.edu
