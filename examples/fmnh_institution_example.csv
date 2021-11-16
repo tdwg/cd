@@ -1,12 +1,12 @@
 Term,Class,Example
 PID,RecordLevel,SuperStableInsititutionID345
+rightsHolder,RecordLevel,Field Museum of Natural History
 role,PersonRole,Primary Collection Description record contact
 fullName,Person,Technology Department
 role,PersonRole,President and CEO
 fullName,Person,Dr Julian Siggers
 role,PersonRole,Head of Collections
 fullName,Person,Deborah Bekken
-rightsHolder,RecordLevel,Field Museum of Natural History
 status,CollectionHistory,founded
 statusStartDate,CollectionHistory,1893-01-02
 identifierSource,Identifier,Field Museum of Natural History
