@@ -16,8 +16,6 @@ role,PersonRole,President and CEO
 fullName,Person,Dr Julian Siggers
 role,PersonRole,Head of Collections
 fullName,Person,Deborah Bekken
-status,CollectionHistory,founded
-statusStartDate,CollectionHistory,1893-01-02
 identifierSource,Identifier,Field Museum of Natural History
 identifier,Identifier,FM
 identifierSource,Identifier,Field Museum of Natural History
@@ -28,6 +26,8 @@ identifierSource,Identifier,grbio
 identifier,Identifier,http://grbio.org/institution/field-museum-natural-history
 identifierSource,Identifier,lsid
 identifier,Identifier,http://biocol.org/urn:lsid:biocol.org:col:34795
+status,CollectionHistory,founded
+statusStartDate,CollectionHistory,1893-01-02
 organisationalUnitName,OrganisationalUnit,Field Museum of Natural History
 organisationalUnitAlternativeName,OrganisationalUnit,Columbian Museum of Chicago
 organisationalUnitAlternativeName,OrganisationalUnit,Chicago Natural History Museum
