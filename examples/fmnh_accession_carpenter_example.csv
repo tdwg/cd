@@ -10,28 +10,28 @@ identifierSource,Identifiers,Field Museum of Natural History
 identifierType,Identifiers,Accession Number
 role,PersonRole,collector
 fullName,Person,Philip P Carpenter
-continent,GeographicCoverage,Europe
-continent,GeographicCoverage,Asia
-continent,GeographicCoverage,South America
-continent,GeographicCoverage,Oceania
-continent,GeographicCoverage,North America
-continent,GeographicCoverage,Central America
-continent,GeographicCoverage,Africa
-locality,GeographicCoverage,various
-waterBody,GeographicCoverage,Indian
-waterBody,GeographicCoverage,Atlantic
-waterBody,GeographicCoverage,North Pacific
-waterBody,GeographicCoverage,Arctic
-waterBody,GeographicCoverage,North Atlantic
-waterBody,GeographicCoverage,South Pacific
-waterBody,GeographicCoverage,Pacific
-kingdom,TaxonCoverage,Animalia
-phylum,TaxonCoverage,Mollusca
-class,TaxonCoverage,Gastropoda
-class,TaxonCoverage,Bivalvia
-class,TaxonCoverage,Scaphopoda
-class,TaxonCoverage,Polyplacophora
-class,TaxonCoverage,Cephalopoda
+continent,GeographicOrigin,Europe
+continent,GeographicOrigin,Asia
+continent,GeographicOrigin,South America
+continent,GeographicOrigin,Oceania
+continent,GeographicOrigin,North America
+continent,GeographicOrigin,Central America
+continent,GeographicOrigin,Africa
+locality,GeographicOrigin,various
+waterBody,GeographicOrigin,Indian
+waterBody,GeographicOrigin,Atlantic
+waterBody,GeographicOrigin,North Pacific
+waterBody,GeographicOrigin,Arctic
+waterBody,GeographicOrigin,North Atlantic
+waterBody,GeographicOrigin,South Pacific
+waterBody,GeographicOrigin,Pacific
+kingdom,Taxon,Animalia
+phylum,Taxon,Mollusca
+class,Taxon,Gastropoda
+class,Taxon,Bivalvia
+class,Taxon,Scaphopoda
+class,Taxon,Polyplacophora
+class,Taxon,Cephalopoda
 temporalCoverageStartDate,TemporalCoverage,07/01/1895
 temporalCoverageType,TemporalCoverage,Accession date
 measurementType,MeasurementOrFact,Object Count
