@@ -1,0 +1,39 @@
+Term,Class,Example
+basisOfScheme,CollectionDescriptionScheme,Accession
+description,ObjectGroup,Carpenter collection of shells
+discipline,ObjectGroup,Invertebrate Zoology
+objectType,ObjectGroup,specimen
+typeOfCollection,ObjectGroup,PreservedSpecimen
+organisationalUnitImmediateParentID,OrganisationalUnit,http://grbio.org/institutional-collection/invertebrate-collection-0
+identifier,Identifiers,17
+identifierSource,Identifiers,Field Museum of Natural History
+identifierType,Identifiers,Accession Number
+role,PersonRole,collector
+fullName,Person,Philip P Carpenter
+continent,GeographicCoverage,Europe
+continent,GeographicCoverage,Asia
+continent,GeographicCoverage,South America
+continent,GeographicCoverage,Oceania
+continent,GeographicCoverage,North America
+continent,GeographicCoverage,Central America
+continent,GeographicCoverage,Africa
+locality,GeographicCoverage,various
+waterBody,GeographicCoverage,Indian
+waterBody,GeographicCoverage,Atlantic
+waterBody,GeographicCoverage,North Pacific
+waterBody,GeographicCoverage,Arctic
+waterBody,GeographicCoverage,North Atlantic
+waterBody,GeographicCoverage,South Pacific
+waterBody,GeographicCoverage,Pacific
+kingdom,TaxonCoverage,Animalia
+phylum,TaxonCoverage,Mollusca
+class,TaxonCoverage,Gastropoda
+class,TaxonCoverage,Bivalvia
+class,TaxonCoverage,Scaphopoda
+class,TaxonCoverage,Polyplacophora
+class,TaxonCoverage,Cephalopoda
+temporalCoverageStartDate,TemporalCoverage,07/01/1895
+temporalCoverageType,TemporalCoverage,Accession date
+measurementType,MeasurementOrFact,Object Count
+measurementUnit,MeasurementOrFact,items
+measurementValue,MeasurementOrFact,1426
