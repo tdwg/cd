@@ -69,7 +69,7 @@ For quick reference, an index of classes and properties, and summaries of the cu
 | Morten Høfft | GBIF |  |  
 | Sharif Islam | Naturalis Biodiversity Center | @sharifX |  
 | Natalya Ivanova | Institute of Mathematical Problems of Biology, Russian Academy of Sciences |  |  
-| Shelley James | RBGS | @grungle |  
+| Shelley James | Department of Biodiversity, Conservation & Attractions, Western Australia; TDWG | @grungle |  
 | Gail Kampmeier | TDWG |  |  
 | Talia Karim | Museum of Natural History, Museum of Colorado |  |  
 | Niels Klazenga | Royal Botanic Gardens Victoria |  |  
