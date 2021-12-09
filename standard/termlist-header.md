@@ -44,7 +44,7 @@ Sections 2 through 4 are normative, except for Table 1. In Section 5 and its sub
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](https://tools.ietf.org/html/rfc2119).
 
 ### 1.3 Categories of terms
-A Latimer Core (LtC) record is a description of a group of collection objects using the LtC vocabularies. It is primarily focused on the description of natural science collections but not exclusively. The terms in this document can be loosely grouped into several categories.
+A Latimer Core (LtC) record is a description of a grouping of collection objects using the LtC vocabularies. It is primarily focused on the description of natural science collections but not exclusively. The terms in this document can be loosely grouped into several categories.
 
 **Terms describing the nature and scope of the collection objects within the group.** These include a number of terms within `ltc:ObjectGroup` class, and associated classes that provide information about the scope of the collection being described such as the `ltc:GeographicOrigin`, `dwc:GeologicalContext` and `dwc:Taxon` classes. Due to the potentially heterogeneous nature of the objects within any given group, these classes and terms will often be repeatable within a LtC record.
 
