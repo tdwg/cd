@@ -19,9 +19,35 @@ These classes and terms are useful for documenting an institution:
 - Person Class
 - PersonRole Class
 
+
+Term | Class |	Value
+---
+organisationalUnitName | OrganisationalUnit	| Field Museum of Natural History
+organisationalUnitType | OrganisationalUnit |	Institution
+organisationalUnitParentInstitutionID	OrganisationalUnit	urn:lsid:biocol.org:col:34795
+addressLocality	OrganisationalUnit.Address	Chicago
+addrissCountry	OrganisationalUnit.Address	USA
+addressRegion	OrganisationalUnit.Address	IL
+streetAddress	OrganisationalUnit.Address	1400 S DuSable Lake Shore Dr.
+postalCode	OrganisationalUnit.Address	60605
+addressType	OrganisationalUnit.Address	Physical
+status	OrganisationalUnit.CollectionStatusHistory	open
+statusType	OrganisationalUnit.CollectionStatusHistory	Organizational
+continent	OrganisationalUnit.GeographicOrigin	worldwide
+identifierSource	OrganisationalUnit.Identifier	GrSciColl
+identifier	OrganisationalUnit.Identifier	urn:uuid:ea4f0640-ef20-40aa-b359-166f07c7492a
+identifierType	OrganisationalUnit.Identifier	UUID
+identfierSource	OrganisationalUnit.PersonRole_1.Person.Identifier	ORCid
+identifier	OrganisationalUnit.PersonRole_1.Person.Identifier	https://orcid.org/0000-0001-8777-7143
+identifierType	OrganisationalUnit.PersonRole_1.Person.Identifier	URL
+role	OrganisationalUnit.PersonRole_1	CTO
+fullName	OrganisationalUnit.PersonRole_1.Person	Rob Zschernitz
+role	OrganisationalUnit.PersonRole_2	CEO
+fullName	OrganisationalUnit.PersonRole_2.Person	Julian Siggers
+
 In CSV or table-form, the classes and terms could be structured as a group of CSVs or tables like so:
-CSV/Table 1: OrganizationalUnit
-CSV/Table 2: Org-Address
+- CSV/Table 1: OrganizationalUnit
+- CSV/Table 2: Org-Address
 
 
 ## A record for a department within an institution
