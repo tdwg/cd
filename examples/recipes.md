@@ -21,7 +21,7 @@ These classes and terms are useful for documenting an institution:
 
 
 Term | Class |	Value
----
+-|-|-
 organisationalUnitName | OrganisationalUnit	| Field Museum of Natural History
 organisationalUnitType | OrganisationalUnit |	Institution
 organisationalUnitParentInstitutionID	OrganisationalUnit	urn:lsid:biocol.org:col:34795
