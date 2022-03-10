@@ -1,6 +1,7 @@
-# Recipes for Latimer Core records [DRAFT]
+# Recipes & Examples for Latimer Core records [DRAFT]
 
 Latimer Core can be used to describe collections at a variety of levels -- for instance, at a more finely detailed expeditions or accession-levels, or at more general departmental or institution-levels.  Or both nested within a single record, if that isn't too horrifying.
+Each of the sections below is meant to illustrate an example of a different Basis of Scheme (`ltc:basisOfScheme`) value.
 
 ## Common to all Latimer Core record-typesThe classes and terms are useful for documenting any Latimer Core record-type
 - RecordLevel Class
