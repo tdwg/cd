@@ -19,6 +19,7 @@ These classes and terms are useful for documenting an institution:
 - Person Class
 - PersonRole Class
 
+### Example: [FMNH Institution Record](https://docs.google.com/spreadsheets/d/1ceUOYz6w6wxW6m_Lepj2RIXpTl5pZULD-Er71i4_3J0/edit#gid=1389433917)
 
 Term | Class |	Value
 -|-|-
