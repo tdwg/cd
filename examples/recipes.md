@@ -17,10 +17,10 @@ These classes and terms are useful for documenting an institution:
 - CollectionHistory
 - ContactDetail
 - GeographicOrigin 
-- Identifier Class
-- OrganisationalUnit Class
-- Person Class
-- PersonRole Class
+- Identifier 
+- OrganisationalUnit 
+- Person 
+- PersonRole 
 
 ### Example: [FMNH Institution Record](https://docs.google.com/spreadsheets/d/1ceUOYz6w6wxW6m_Lepj2RIXpTl5pZULD-Er71i4_3J0/edit#gid=1389433917)
 
@@ -54,23 +54,34 @@ fullName	| OrganisationalUnit.PersonRole_2.Person	| Julian Siggers
 
 ### Example: [FMNH Collection Record](https://docs.google.com/spreadsheets/d/1ceUOYz6w6wxW6m_Lepj2RIXpTl5pZULD-Er71i4_3J0/edit#gid=0&range=A1)
 
+
+## A record for an accession within an institution
+
+### Example: [FMNH Carpenter Accession](https://docs.google.com/spreadsheets/d/1ceUOYz6w6wxW6m_Lepj2RIXpTl5pZULD-Er71i4_3J0/edit#gid=1102807335&range=A1)
+
+
+
+## Alternate ways to structure CSV Latimer Core records
+
+### Example: [NHM Challenger Expedition](https://docs.google.com/spreadsheets/d/1IxHdpMJyn_TZaTlIKw_jUSlz6uZZ_ApTi5QL9i0kvRg/edit#gid=1755256505)
+
+### Example: [FMNH Carpenter Accession](https://docs.google.com/spreadsheets/d/10OXg7Vp750P6wIhtWlx2TnuZ8MfaeTK6QnlnDl4wYsY/edit#gid=0)
+
 The classes and terms could alternatively be set up as a group of relational tables or CSVs like so:
 #### CSV/Table 1: ObjectGroup:
 
-ObjectGroup_key | term | value
----|---|---
-1 | ltc:discipline | Taxonomy \| Zoology
-1 | ltc:description | Established in 1894, The Field Museum fish collection now contains [...]
-1 | ltc:collectionName | Fishes Collection
+ObjectGroup_key | ltc:discipline | ltc:description | ltc:collectionName
+---|---|---|---
+1 | Taxonomy \| Zoology | Established in 1894, The Field Museum fish collection now contains [...] | Fishes Collection
+
 
 #### CSV/Table 2: ObjectGroup.Identifier
 
-ObjectGroup_key | Identifier_key | term | value
----|---|---|---
-1 | 1 | ltc:identifierSource | Collection database
-1 | 1 | ltc:identifier | https://collections-zoology.fieldmuseum.org/Fishes
-1 | 1 | ltc:identifierType | URL
+ObjectGroup_key | Identifier_key | ltc:identifierSource | ltc:identifier | ltc:identifierType 
+---|---|---|---|---
+1 | 1 | Collection database | https://collections-zoology.fieldmuseum.org/Fishes | URL
+1 | 2 | GrSciColl | http://grscicoll.org/institutional-collection/fish-collections | GRSCICOLL URI
 
 
-
+### Nested JSON
 
