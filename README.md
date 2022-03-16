@@ -41,7 +41,7 @@ For quick reference, an index of classes and properties, and summaries of the cu
 | Sarah Vincent | Natural History Museum London | @essvee |  
 | Kate Webbink | Field Museum of Natural History | @magpiedin |  
 | Matt Woodburn | Natural History Museum London | @mswoodburn |  
-| Jutta Buschbom | Statistical Genetics | |
+| Jutta Buschbom | Statistical Genetics | jbstatgen |
 
 ### Members and contributors
 
