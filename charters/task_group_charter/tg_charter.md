@@ -1,17 +1,23 @@
 # Collection Descriptions Data Standard Task Group Charter
 
 ## Conveners
-
-*   Deborah Paul ([dpaul@fsu.edu](mailto:dpaul@fsu.edu))
 *   Matt Woodburn ([m.woodburn@nhm.ac.uk](mailto:m.woodburn@nhm.ac.uk))
-
-## Core Members
-
-*   Wouter Addink
-*   Mike Trizna
-*   Janeen Jones
+*   Janeen Jones 
 *   Sharon Grant
 *   Kate Webbink
+   
+## Past Conveners
+*   Deborah Paul
+*   Alex Thompson
+
+## Core Members
+*   Sarah Vincent
+*   Maarten Trekels
+*   Jutta Buschbom 
+*   Gabi Droege
+*   Quentin Groom
+*   Wouter Addink
+*   Mike Trizna
 *   Connie Rinaldo
 *   Carolyn Sheffield
 *   Dag Endresen
