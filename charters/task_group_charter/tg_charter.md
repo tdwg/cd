@@ -2,9 +2,9 @@
 
 ## Conveners
 *   Matt Woodburn ([m.woodburn@nhm.ac.uk](mailto:m.woodburn@nhm.ac.uk))
-*   Janeen Jones 
-*   Sharon Grant
-*   Kate Webbink
+*   Janeen Jones ([jjones@fieldmuseum.org](mailto:jjones@fieldmuseum.org))
+*   Sharon Grant ([sgrant@fieldmuseum.org](mailto:sgrant@nhm.ac.uk))
+*   Kate Webbink ([kwebbink@nhm.ac.uk](mailto:kwebbink@nhm.ac.uk))
    
 ## Past Conveners
 *   Deborah Paul
