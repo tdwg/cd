@@ -42,10 +42,10 @@ Bibliographic citation
 
 The Latimer Core standard is comprised of 21 classes, 109 properties and four documents:
 
-* [Latimer Core Introduction](https://github.com/tdwg/cd/introduction) (http://rs.tdwg.org/cd/doc/introduction/) - a brief introduction to the standard
-* [Latimer Core Structure](https://github.com/tdwg/cd/structure) (http://rs.tdwg.org/cd/doc/structure/) - the normative description of the structure of Latimer Core
-* [Latimer Core Term List](https://github.com/tdwg/cd/termlist) (http://rs.tdwg.org/cd/doc/termlist/) - a complete list of classes and properties included in Latimer Core, with their normative definitions
-* [Latimer Core Guide](https://github.com/tdwg/cd/guide) (http://rs.tdwg.org/cd/doc/guide/) - a more detailed guide to the aims and uses of the standard
+* [Latimer Core Introduction](https://github.com/tdwg/ltc/introduction) (http://rs.tdwg.org/ltc/doc/introduction/) - a brief introduction to the standard
+* [Latimer Core Structure](https://github.com/tdwg/ltc/structure) (http://rs.tdwg.org/ltc/doc/structure/) - the normative description of the structure of Latimer Core
+* [Latimer Core Term List](https://github.com/tdwg/ltc/termlist) (http://rs.tdwg.org/ltc/doc/termlist/) - a complete list of classes and properties included in Latimer Core, with their normative definitions
+* [Latimer Core Guide](https://github.com/tdwg/ltc/guide) (http://rs.tdwg.org/ltc/doc/guide/) - a more detailed guide to the aims and uses of the standard
 
 ## Maintenance group
 
