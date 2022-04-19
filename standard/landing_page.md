@@ -51,6 +51,6 @@ The Latimer Core standard is comprised of 23 classes, 119 properties and four do
 
 Latimer Core is maintained by a specialized Interest Group whose [charter](https://github.com/tdwg/cd/blob/master/charters/task_group_charter/tg_charter.md) was approved in 2019. The functions of the Latimer Core Maintenance Group are described in detail in **********. In brief, the Maintenance Group manages class and property additions and changes, and maintains the documentation that helps users to understand and apply the standard. As an Interest Group, it may establish Task Groups to accomplish broader changes to the standard.
 
-The activities of the LtC Maintenance Group are documented at the group's Github repository, <https://github.com/tdwg/ltc>, where a current list of core members and their contact information can be found. Community participation is welcome. If you would like to participate in this group, contact the convener or one of the core members.  
+The activities of the LtC Maintenance Group are documented at the group's Github repository, <https://github.com/tdwg/ltc>, where a current list of core members and their contact information can be found. Community participation is welcome. If you would like to participate in this group, contact the conveners or one of the core members.  
 
 To participate in the communications of the group, "watch" the group's [Issues tracker](https://github.com/tdwg/cd/issues). This issues tracker is the mechanism for suggesting specific changes to the standard as well as to raise issues for discussion by the group.
