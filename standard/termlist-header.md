@@ -4,7 +4,7 @@
 : Latimer Core Term List
 
 **Date version issued**
-: 2021-12-02
+: 2022-04-19
 
 **Date created**
 : 2021-07-12
@@ -22,7 +22,8 @@
 : // Persistent link to the last version of the termlist doc
 
 **Abstract**
-: The Latimer Core (LtC) is a data standard designed to support the representation, discovery and communication of natural science collections. A Latimer Core record may represent a grouping of objects at any level of granularity above the level of a single object, from an entire collection of an institution to a few objects in a single drawer. The classes within the standard aim to allow the high-level representation of any given collection by providing a framework within which the defining characteristics shared by objects in the collection can be described. Among others, these include their taxonomic, geographic, stratigraphic and temporal coverage, and a framework for adding quantative metrics and narratives to help to quantify and describe the collections. 
+: Latimer Core (LtC) is a data standard designed to support the representation, discovery and communication of natural science collections. A Latimer Core record may represent a grouping of objects at any level of granularity above the level of a single object, from an entire collection of an institution to a few objects in a single drawer. The classes within the standard aim to allow the high-level representation of any given collection by providing a framework within which the defining characteristics shared by objects in the collection can be described. Among others, these include their taxonomic, geographic, stratigraphic and temporal coverage, and a framework for adding quantative metrics and narratives to help to quantify and describe the collections.
+
 The creation of collection-level records is intended to promote visibility and use of items in collections that are otherwise wholly or partially undigitised at a granular level. This document contains a list of attributes of each Latimer Core term, including a documentation name, a specified URI, a recommended English label for user interfaces, a definition, and some ancillary notes.
 
 **Contributors**
@@ -50,17 +51,9 @@ A Latimer Core (LtC) record is a description of a grouping of collection objects
 
 **Terms describing the group as a whole.** These are terms that relate to the group as a single entity, mapping to the concept of a 'collection'. They include basic information terms within the `ltc:ObjectGroup` class, such as `ltc:collectionName` and `ltc:description`, but also include terms relating to the management, accessibility and tracking of the collection such as the `ltc:CollectionHistory` class and `ltc:conditionsOfAccess` property. There is also some overlap with the generic terms in the category below, in the association of people, institutions and other organisational units with the collections.  
 
-**Generic, reusable terms that can be applied in several contexts within the standard.** Latimer Core uses a flexible approach to the representation of concepts that may be applicable in more than one concept within the class. For example, rather than specifying a separate term for each type of relevant identifier (for collections, people, organisations, taxa and so on), LtC has a generic `ltc:Identifier` class. The type of identifier is defined in each instance of the class using the `rdf:identifierType` property, and the object to which it relates (such as an instance of `ltc:Person` or `ltc:OrganisationalUnit`) is defined by the association with that class in the dataset. A similar approach applies to other classes in LtC, including `ltc:Address`, `ltc:ContactDetail` and `ltc:OrganisationalUnit`. Similarly, `ltc:Person` is reusable, but uses the `ltc:PersonRole` class to associate the person with instances of other classes in a particular role context (e.g. 'collector', 'Record creator').
+**Generic, reusable terms that can be applied in several contexts within the standard.** Latimer Core uses a flexible approach to the representation of concepts that may be applicable in more than one concept within the class. For example, rather than specifying a separate term for each type of relevant identifier (for collections, people, organisations, taxa and so on), LtC has a generic `ltc:Identifier` class. The type of identifier is defined in each instance of the class using the `rdf:identifierType` property, and the object to which it relates (such as an instance of `ltc:Person` or `ltc:OrganisationalUnit`) is defined by the association with that class in the dataset. A similar approach applies to other classes in LtC, including `ltc:Address`, `ltc:ContactDetail` and `ltc:OrganisationalUnit`. Similarly, `ltc:Person` is reusable, but uses the `ltc:PersonRole` class to associate the person with instances of other classes in a particular role context (e.g. 'Collector', 'Record creator').
 
 **Terms providing machine-readable metadata about the LtC record.** These terms are predominantly found in the `ltc:RecordLevel` class, and are intended to support the publication of LtC records as FAIR (Findable, Accessible, Interoperable and Reusable) data. These include support for persistent record identifiers (`dc:PID`) and licensing and rights (`dc:license`, `dc:recordRights` and `dc:rightsHolder`). The `ltc:CollectionDescriptionScheme` class also fits into this category, and is intended to provide a mechanism to group LtC records under a common scheme and profile that allows the data to be appropriately aggregated and validated.
-
-// OLD TEXT BELOW
-
-// content to go here: description of different types of terms. Could ignore specific classes for now (they're listed in the next section + terms) and discuss more generically the purpose/diff between types of classes: 
-- generic classes (Identifier, ResourceRelationship, measurementOrFact, person, ..?)
-- collection property classes (anything that relates to the characteristics of the objects or collection: aka values that are unlikely to change unless the items in the collection change - collector people, temporal coverage, objectgroup, geological context, chronometric age, taxon...)
-- contextual property classes (characteristics of the collection that might change independently of the objects in the collection: organizational unit, storage location, licenses, collection history, contact person, specimen identifier system...) 
-- administrative/scheme classes (anything to help interpret/work with the LtC record: Record-level, CD scheme, record-creator person?)
 
 ## 2 Borrowed Vocabulary
 When terms are borrowed from other vocabularies, LtC uses the URIs, common abbreviations, and namespace prefixes in use in those vocabularies. The URIs are normative, but abbreviations and namespace prefixes have no impact except as an aid to reading the documentation.
