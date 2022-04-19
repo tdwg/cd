@@ -40,7 +40,7 @@ Bibliographic citation
 
 ## Parts of the standard
 
-The Latimer Core standard is comprised of 23 classes, 118 properties and four documents:
+The Latimer Core standard is comprised of 23 classes, 119 properties and four documents:
 
 * [Latimer Core Introduction](https://github.com/tdwg/ltc/introduction) (http://rs.tdwg.org/ltc/doc/introduction/) - a brief introduction to the standard.
 * [Latimer Core Structure](https://github.com/tdwg/ltc/structure) (http://rs.tdwg.org/ltc/doc/structure/) - the normative description of the structure of Latimer Core.
