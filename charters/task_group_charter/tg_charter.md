@@ -1,17 +1,25 @@
 # Collection Descriptions Data Standard Task Group Charter
 
 ## Conveners
-
-*   Deborah Paul ([dpaul@fsu.edu](mailto:dpaul@fsu.edu))
 *   Matt Woodburn ([m.woodburn@nhm.ac.uk](mailto:m.woodburn@nhm.ac.uk))
+*   Janeen Jones ([jjones@fieldmuseum.org](mailto:jjones@fieldmuseum.org))
+*   Sharon Grant ([sgrant@fieldmuseum.org](mailto:sgrant@nhm.ac.uk))
+*   Kate Webbink ([kwebbink@nhm.ac.uk](mailto:kwebbink@nhm.ac.uk))
+   
+## Past Conveners
+*   Deborah Paul
+*   Alex Thompson
 
 ## Core Members
+*   Sarah Vincent
+*   Maarten Trekels
+*   Jutta Buschbom 
+*   Gabi Droege
+*   Quentin Groom
 
+## Members
 *   Wouter Addink
 *   Mike Trizna
-*   Janeen Jones
-*   Sharon Grant
-*   Kate Webbink
 *   Connie Rinaldo
 *   Carolyn Sheffield
 *   Dag Endresen
