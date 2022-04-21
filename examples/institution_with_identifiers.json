@@ -1,0 +1,29 @@
+{
+    "@context":
+    {
+        "ltc": "http://rs.tdwg.org/ltc/"
+    },
+    "@type": "ltc:OrganisationalUnit",
+    "ltc: Identifier":
+    [
+        {
+            "@type": "ltc:Identifier",
+            "ltc:identifierType": "Acronym",
+            "ltc:identifier": "EMNH"
+        },
+        {
+            "@type": "ltc:Identifier",
+            "ltc:identifierType": "Acronym",
+            "ltc:identifier": "EM(NH)"
+        },
+        {
+            "@type": "ltc:Identifier",
+            "ltc:identifierType": "URI",
+            "ltc:identifierSource": "https://ror.org/",
+            "ltc:identifier": "099zvsn29"
+        }
+    ],
+    "ltc:organisationalUnitName": "Erewhon Museum of Natural History",
+    "ltc:organisationalUnitType": "Institution",
+    "ltc:organisationalUnitAlternativeName": "Museum of Natural History, Erewhon"
+}
