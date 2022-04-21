@@ -1,0 +1,38 @@
+{
+  "@context": {
+    "ltc": "http://rs.tdwg.org/ltc/",
+    "schema": "https://schema.org/",
+    "abcd": "http://rs.tdwg.org/abcd/"
+  },
+  "@type": "ltc:OrganisationalUnit",
+  "ltc:ContactDetail": [
+    {
+      "@type": "ltc:ContactDetail",
+      "contactDetailCategory": "email",
+      "contactDetailType": "General enquiries",
+      "contactDetailValue": "enquiries@emnh.org"
+    }
+  ],
+  "ltc:PersonRole": {
+    "@type": "PersonRole",
+    "role": "Registrar",
+    "ltd:Person": {
+      "@type": "ltc:Person",
+      "schema:additionalName": "Virginia",
+      "schema:familyName": "Mountweazel",
+      "schema:givenName": "Lillian",
+      "abcd:fullName": "Lillian Virginia Mountweazel",
+      "ltc.ContactDetail": [
+        {
+          "@type": "ltc:ContactDetail",
+          "contactDetailCategory": "email",
+          "contactDetailType": "Collection enquiries",
+          "contactDetailValue": "v.mountweazel@emnh.org"
+        }
+      ]
+    }
+  },
+  "ltc:organisationalUnitAlternativeName": "Museum of Natural History, Erewhon",
+  "ltc:organisationalUnitName": "Erewhon Museum of Natural History",
+  "ltc:organisationalUnitType": "Institution"
+}
