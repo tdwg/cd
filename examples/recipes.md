@@ -40,7 +40,6 @@ postalCode | OrganisationalUnit.Address	| 60605
 addressType	| OrganisationalUnit.Address | Physical
 temporalCoverageStartDate	| OrganisationalUnit.TemporalCoverage	| 1894-06-02
 temporalCoverageType | OrganisationalUnit.TemporalCoverage | Establishment time range
-continent	| OrganisationalUnit.GeographicOrigin	| worldwide
 identifierSource	| OrganisationalUnit.Identifier	| GrSciColl
 identifier	| OrganisationalUnit.Identifier	| urn:uuid:ea4f0640-ef20-40aa-b359-166f07c7492a
 identifierType	| OrganisationalUnit.Identifier	| UUID
