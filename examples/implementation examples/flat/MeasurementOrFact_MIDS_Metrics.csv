@@ -1,0 +1,5 @@
+measurementCategory,measurementScheme,measurementType,measurementValue,measurementUnit,measurementMethod,measurementAccuracy
+DigitizationLevelAssessment,https://github.com/tdwg/mids/blob/working-draft/current-draft/MIDS-definition-v0.15-29Jul2021.md#44-information-elements-expected-at-mids-level-0,MIDS-0 object count,0,count,reported,estimated
+DigitizationLevelAssessment,https://github.com/tdwg/mids/blob/working-draft/current-draft/MIDS-definition-v0.15-29Jul2021.md#43-information-elements-expected-at-mids-level-1,MIDS-1 object count,0,count,reported,estimated
+DigitizationLevelAssessment,https://github.com/tdwg/mids/blob/working-draft/current-draft/MIDS-definition-v0.15-29Jul2021.md#43-information-elements-expected-at-mids-level-2,MIDS-2 object count,29100,count,reported,estimated
+DigitizationLevelAssessment,https://github.com/tdwg/mids/blob/working-draft/current-draft/MIDS-definition-v0.15-29Jul2021.md#43-information-elements-expected-at-mids-level-3,MIDS-3 object count,2500,count,reported,estimated
