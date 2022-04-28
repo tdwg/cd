@@ -1,0 +1,9 @@
+﻿Property,Value,Notes
+measurementType,digitization level percentage,The percentage of the whole collection being described that is digitized [we should define digitized]
+measurementValue,[0-100],Use this if the thing you are recording is an integer or a float.
+measurementUnit,percentage,percentage or count or SI units
+measurementDeterminedDate,[handled using the date format we end up with],
+measurementDeterminedBy,[handled using whatever person format we end up with],
+measurementMethod,CD Standard Metric,
+measurementFactText,[NULL],Only use this if the thing you are recording is not a number.
+measurementAgent,Reported[Calculated],Reported if done by a human eyeball; Calculated if extracted in an automated way.
