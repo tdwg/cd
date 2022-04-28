@@ -38,8 +38,8 @@ addressRegion	| OrganisationalUnit.Address	| IL
 streetAddress	| OrganisationalUnit.Address	| 1400 S DuSable Lake Shore Dr.
 postalCode | OrganisationalUnit.Address	| 60605
 addressType	| OrganisationalUnit.Address | Physical
-status	| OrganisationalUnit.CollectionStatusHistory	| open
-statusType	| OrganisationalUnit.CollectionStatusHistory	| Organisational
+temporalCoverageStartDate	| OrganisationalUnit.TemporalCoverage	| 1894-06-02
+temporalCoverageType | OrganisationalUnit.TemporalCoverage | Establishment time range
 continent	| OrganisationalUnit.GeographicOrigin	| worldwide
 identifierSource	| OrganisationalUnit.Identifier	| GrSciColl
 identifier	| OrganisationalUnit.Identifier	| urn:uuid:ea4f0640-ef20-40aa-b359-166f07c7492a
