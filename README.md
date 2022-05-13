@@ -153,6 +153,7 @@ To manage group activities in more detail, TG members can add [new issues](https
 - 2018 met at SPNHC-TDWGNZ, with some online meetings
 - 2019 plans to meet in-person and at Biodiversity Next
 - 2020 deliver a standard with implementations
+- 2020-2022 something about a pandemic.
 
 ### Reference and Historical Materials
 
