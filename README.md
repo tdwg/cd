@@ -42,17 +42,17 @@ For quick reference, an index of classes and properties, and summaries of the cu
 | Sarah Vincent | Natural History Museum London | @essvee |  
 | Kate Webbink | Field Museum of Natural History | @magpiedin |  
 | Matt Woodburn | Natural History Museum London | @mswoodburn |  
+| Steve Baskauf | Vanderbilt | @baskaufs |  
+| David Bloom | VertNet | @dbloom |  
 
-### Members and contributors
+### Members
 
 | Name | Affiliation | GitHub username or Email |  
 | --- | --- | --- |  
 | Wouter Addink | Naturalis Biodiversity Center | @wouteraddink |  
-| Steve Baskauf | Vanderbilt | @baskaufs |  
 | James Beach | University of Kansas | beach53 AT gmail.com |  
 | Allison Becker | Smithsonian Institution / National Museum of Natural History |  |  
 | Joana Beja | Flanders Marine Institute |  |  
-| David Bloom | VertNet | @dbloom |  
 | Stan Blum | TDWG | @stanblum |  
 | Ana Casino | CETAF | ana.casino AT cetaf.org |  
 | Terry Catapano | UCB | @tcatapano |  
