@@ -30,6 +30,8 @@ For quick reference, an index of classes and properties, and summaries of the cu
 | Name | Affiliation | GitHub username or Email |  
 | --- | --- | --- |  
 | Jutta Buschbom | Statistical Genetics | @jbstatgen |
+| Steve Baskauf | Vanderbilt | @baskaufs | 
+| David Bloom | VertNet | @dbloom |  
 | Gabi Droege | Botanic Garden and Botanical Museum Berlin / Global Genome Biodiversity Network | @gdadade |  
 | Sharon Grant | Field Museum of Natural History | @rondlg |  
 | Quentin Groom | Meise Botanic Garden/TDWG/Synthesys+ | @qgroom |  
@@ -42,8 +44,6 @@ For quick reference, an index of classes and properties, and summaries of the cu
 | Sarah Vincent | Natural History Museum London | @essvee |  
 | Kate Webbink | Field Museum of Natural History | @magpiedin |  
 | Matt Woodburn | Natural History Museum London | @mswoodburn |  
-| Steve Baskauf | Vanderbilt | @baskaufs |  
-| David Bloom | VertNet | @dbloom |  
 
 ### Members
 
