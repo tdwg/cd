@@ -1,0 +1,36 @@
+# Latimer Core Guidance Documentation
+
+Version | Date | Contributors | Status
+-|-|-|-
+0.1 | 2022-02-10 | Matt Woodburn, Jutta Buschbom, Sarah Vincent, Kate Webbink, Maarten Trekels, Janeen Jones, Sharon Grant | Draft
+
+
+## Introduction to Latimer Core documentation 
+
+NON-NORMATIVE SUMMARY: The Latimer Core (LtC) is designed to represent metadata for groups of items (i.e., collections), individual objects within which can be represented through other emerging or current  standards (e.g., Darwin Core and Dublin Core). The classes and properties (collectively terms) aim to represent information that describes these groupings in enough detail to inform deeper discovery of the resources contained within them. Many LtC terms are borrowed or derived from those standards which are used to describe individual items. As far as possible the terms included in the standard should not preclude their use across domains. 
+
+
+NORMATIVE SUMMARY: The Latimer Core (LtC) schema is a standard designed to support the representation, discovery and communication of natural science collections. The classes within the standard aim to allow a high-level representation of any given collection by providing a framework within which the set of defining characteristics shared by objects in the collection can be described. The creation of collection-level records is intended to promote visibility and use of items in collections. 
+
+### LtC Glossary 
+For the purposes of documenting the use of Latimer Core the following definitions will be used:
+
+**Class** is the word that we use for the grouping of properties. It defines the thing we are talking about. For example: a Person, a group of objects, etc.
+
+**Property** is a concept within a Class. These are what we can say about the thing described by the class. For example: givenName, genus, etc.
+
+**Attributes** are the values that a property can take. Attributes can be prescribed/controlled for a particular property and can be thought of as lookup lists, or they may be uncontrolled and thought of as free-form strings. For example ‘George’, ‘Rattus’, ‘under the tree by the rock’.
+
+**Vocabulary** is a general word for a set of classes, properties and/or attributes. 
+
+**Controlled Vocabulary** is a prescribed set of attributes that a property can have. Controlled vocabularies improve retrieval and reuse, as well as form the basis for machine-readability and -actionability.
+
+**Term** is a general word for either a class, a property, or an attribute, specifically for predefined attributes in the lists of controlled vocabularies.
+
+**Range** may differ from the Resource Description Framework’s (RDF) definition of ‘range’, which applies to RDF properties and their usage within RDF triples (https://www.w3.org/TR/rdf-schema/#ch_properties).  In Latimer Core, range is meant to guide usage of properties from one LtC class in combination with properties of another LtC class.
+
+**Repeatability**: certain classes and/or properties can be repeated. For example, a Person can have several Identifiers of different identifierTypes. A collection (i.e. an ObjectGroup) can have several instances of the CollectionStatusHistory class to describe its different states through time.
+
+**Reusability**: several classes can be reused, that is, they can be simultaneously attached to different classes to expand the sets of properties of those classes. For example, the Identifier or TemporalCoverage classes can be used in conjunction with many other classes to describe in more detail and with enhanced functionality the identity and temporal scope of different aspects (represented by classes) of a single collection.
+
+**Schema** is the word we use for the defined structure of the record. The schema should describe shape, structure and rules of composition. Here, we pluralize ‘schema’ as ‘schemes’ or ‘schemas’.
