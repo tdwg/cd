@@ -6,7 +6,8 @@ Version | Date | Contributors | Status
 
 ## Table of contents
 1. [Introduction to Latimer Core documentation](#introduction-to-latimer-core-documentation)
-2. [Latimer Core standard and model concepts](#latimer-core-standard-and-model-concepts)
+    - [LtC Glossary](#ltc-glossary)
+3. [Latimer Core standard and model concepts](#latimer-core-standard-and-model-concepts)
     - [Audiences](#audiences)
     - [Collection Description Schemes](#collection-description-schemes)
     - [Classes and properties](#classes-and-properties)
@@ -58,26 +59,26 @@ There are three main audiences for this documentation:
 
 Taking into account the variety of use-cases (documented in a [github document](https://github.com/tdwg/cd/tree/master/reference/use_cases) and a [google sheet](https://docs.google.com/spreadsheets/d/1SsfwogZ88TgouDJ7EoDqXJFol-eVs7aYdFx504qJNzc/htmlview?pru=AAABfyxGPeI*Y85ToB8bLmUyzDSk3_wuuA#)) for the standard, it is intended that data-aggregators should define a minimal set of classes, properties and relationships between them that best suit their needs. CollectionDescriptionScheme classes are important in this context as a method for communicating to Data-providers the shape and types of information that they need to provide. 
 
-## Collection Description Schemes
+### Collection Description Schemes
 When describing large collections it is anticipated that the same collections can be described using different schemas for different purposes. For instance a museum collection may be described based on “famous named” collections or collectors (e.g., Darwin, Spruce) if an aggregator has the need to “find” lost specimens from previously formed collections. The same collection may be described in whole or part based on taxonomic or geographic properties for the purpose of environmental or taxonomic research or funding. The `CollectionDescriptionScheme` class is intended to provide some parameters around the purpose and expectations of the descriptions and to indicate if objects within the descriptions are assigned attributes that will cause errors in metrics if not explicitly noted.
 
 In the example below an LtC description record for the Insects and Invertebrate Zoology collections at the Field Museum is created and its three-term [`CollectionDescriptionScheme`](https://drive.google.com/file/d/1-JAZODO9yPfRiuluWvBkKI45EKQ0xGbn/view?usp=sharing) is included.
 
   <img width="550" alt="A diagram of how Collections in the GRSciColl Collection Registry can be described with terms in the OrganisationalUnit class" src="https://user-images.githubusercontent.com/8563362/169345605-6829ee01-21ca-4f3c-8929-a6b267810443.png">
 
-  **Figure 1:** An example record-structure that might be a useful scheme for [GRSciColl](https://www.gbif.org/grscicoll) records.
+  ***Figure 1:** An example record-structure that might be a useful scheme for [GRSciColl](https://www.gbif.org/grscicoll) records.*
 
 
   <img width="550" alt="A diagram of how Named Collections can be described with terms in the LtC ObjectGroup class" src="https://user-images.githubusercontent.com/8563362/169345590-2517e08c-6886-4428-a6ea-ea230f7f6501.png">
 
-  **Figure 2:** Another example record-structure of a way to describe all of the “famous” collections within a larger collection.
+  ***Figure 2:** Another example record-structure of a way to describe all of the “famous” collections within a larger collection.*
 
 
 In both of the above examples the `distinctObjects` term is ‘True’, because no metric is associated with a description that could cause objects to be counted twice. However, if the two examples (GRSciColl and Famous collections) are nested in a single record, the `distinctObjects` term needs to be 'False'.
 
   <img width="550" alt="A diagram of a Latimer Core record that combines the previous examples, and has non-distinct objects" src="https://user-images.githubusercontent.com/8563362/169403099-4df8fc98-6e07-47c1-bf66-2aebcde98657.png">
 
-  **Figure 3:** An example of a record-structure that combines ObjectGroups from the above examples, and has overlapping "Specimen Count" measurements.
+  ***Figure 3:** An example of a record-structure that combines ObjectGroups from the above examples, and has overlapping "Specimen Count" measurements.*
 
 
 The `distinctObjects` term becomes ‘False’ because the count metric for the `OrganisationalUnit` contains within it the objects and metrics associated with the `ObjectGroup` (i.e. specimen count).
@@ -115,7 +116,7 @@ StorageLocation | A physical location (such as a building, room, cabinet or draw
 Taxon | A group of organisms (sensu http://purl.obolibrary.org/obo/OBI_0100026) considered by taxonomists to form a homogeneous unit. | https://github.com/tdwg/cd/issues/269 | Yes
 TemporalCoverage | A record of a time range represented by the collection within a particular context. | https://github.com/tdwg/cd/issues/333 | Yes
 
-**Table 1:** A summary of the classes in the Latimer Core standard.
+***Table 1:** A summary of the classes in the Latimer Core standard.*
 
 
 ### Core elements of the standard
@@ -127,7 +128,7 @@ These (loose and informal) categorisations are illustrated in Figure 4 below, an
 ##### *(IMAGE PLACEHOLDER - TO-DO: replace diagram with an updated/more readable/less powerpointy version)*
 ![ltc_fig4_Approx_Categories](https://user-images.githubusercontent.com/8563362/169402924-2029116c-e3db-439f-99f2-8fd544aa6137.png)
 
-**Figure 4:** Approximate categories for Latimer Core classes for describing the object group’s Characteristics (green), Collections custody (purple), Generic reusable information-types (dark blue), metrics (red), and Data structure and links (light blue).
+***Figure 4:** Approximate categories for Latimer Core classes for describing the object group’s Characteristics (green), Collections custody (purple), Generic reusable information-types (dark blue), metrics (red), and Data structure and links (light blue).*
 
 
 #### The ObjectGroup concept
@@ -167,7 +168,7 @@ Each of these represent a number of objects that are grouped for a certain purpo
 ##### *(IMAGE PLACEHOLDER - TO-DO: replace with updated figure)*
 ![ltc_fig5_ObjectGroupAttributes](https://user-images.githubusercontent.com/8563362/169404880-9946e716-5b79-441c-9cef-23f93de53cb3.png)
 
-**Figure 5:** A summary of the ObjectGroup's properties and other associated classes.
+***Figure 5:** A summary of the ObjectGroup's properties and other associated classes.*
 
 
 #### Institutions and organisational units
