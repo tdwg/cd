@@ -4,6 +4,11 @@ Version | Date | Contributors | Status
 -|-|-|-
 0.1 | 2022-02-10 | Matt Woodburn, Jutta Buschbom, Sarah Vincent, Kate Webbink, Maarten Trekels, Janeen Jones, Sharon Grant | Draft
 
+## Table of contents
+1. [Introduction to Latimer Core documentation](#introduction-to-latimer-core-documentation)
+2. [Latimer Core standard and model concepts](#latimer-core-standard-and-model-concepts)
+3. [Collection Description Schemes](#collection-description-schemes)
+
 
 ## Introduction to Latimer Core documentation 
 
@@ -50,15 +55,15 @@ When describing large collections it is anticipated that the same collections ca
 
 In the example below a description record for the Insects and Invertebrate Zoology collections at the Field Museum is created and its three-term [`CollectionDescriptionScheme`](https://drive.google.com/file/d/1-JAZODO9yPfRiuluWvBkKI45EKQ0xGbn/view?usp=sharing) is included. This might be a useful scheme for GRSciColl records:
 
-<img width="637" alt="orgUnit" src="https://user-images.githubusercontent.com/8563362/169345605-6829ee01-21ca-4f3c-8929-a6b267810443.png">
+<img width="550" alt="orgUnit" src="https://user-images.githubusercontent.com/8563362/169345605-6829ee01-21ca-4f3c-8929-a6b267810443.png">
 
 Another example might be describing all the “famous” collections within a larger collection.
 
-<img width="547" alt="namedCollection" src="https://user-images.githubusercontent.com/8563362/169345590-2517e08c-6886-4428-a6ea-ea230f7f6501.png">
+<img width="550" alt="namedCollection" src="https://user-images.githubusercontent.com/8563362/169345590-2517e08c-6886-4428-a6ea-ea230f7f6501.png">
 
 In both of the above examples the `distinctObjects` term is ‘True’, because no metric is associated with a description that could cause objects to be counted twice. However, if the 2 examples (GRSciColl and Famous collections) are combined
 
-<img width="632" alt="combined" src="https://user-images.githubusercontent.com/8563362/169345105-e2e410b8-bba4-4db6-9fb5-940b927287c1.png">
+<img width="550" alt="combined" src="https://user-images.githubusercontent.com/8563362/169345105-e2e410b8-bba4-4db6-9fb5-940b927287c1.png">
 
 The `distinctObjects` term becomes ‘False’ because the count metric for the `OrganisationalUnit` contains within it the objects and metrics associated with the `ObjectGroup` (i.e. specimen count).
 
