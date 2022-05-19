@@ -34,3 +34,14 @@ For the purposes of documenting the use of Latimer Core the following definition
 **Reusability**: several classes can be reused, that is, they can be simultaneously attached to different classes to expand the sets of properties of those classes. For example, the Identifier or TemporalCoverage classes can be used in conjunction with many other classes to describe in more detail and with enhanced functionality the identity and temporal scope of different aspects (represented by classes) of a single collection.
 
 **Schema** is the word we use for the defined structure of the record. The schema should describe shape, structure and rules of composition. Here, we pluralize ‘schema’ as ‘schemes’ or ‘schemas’.
+
+## Latimer Core standard and model concepts
+### Audiences
+There are three main audiences for this documentation:
+
+1. Data-aggregators - users or groups who have a need to receive standardised collection descriptions.
+2. Data-providers - users or groups who have collections information that they would like to share.
+3. Data-users - users or groups who want to understand in more detail the information provided by LtC collection records and collection catalogues implementing the LtC standard. 
+
+Taking into account the variety of use-cases (documented in a github document and a google sheet) for the standard, it is intended that data-aggregators should define a minimal set of classes, properties and relationships between them that best suit their needs. CollectionDescriptionScheme classes are important in this context as a method for communicating to Data-providers the shape and types of information that they need to provide. 
+
