@@ -45,3 +45,23 @@ There are three main audiences for this documentation:
 
 Taking into account the variety of use-cases (documented in a [github document](https://github.com/tdwg/cd/tree/master/reference/use_cases) and a [google sheet](https://docs.google.com/spreadsheets/d/1SsfwogZ88TgouDJ7EoDqXJFol-eVs7aYdFx504qJNzc/htmlview?pru=AAABfyxGPeI*Y85ToB8bLmUyzDSk3_wuuA#)) for the standard, it is intended that data-aggregators should define a minimal set of classes, properties and relationships between them that best suit their needs. CollectionDescriptionScheme classes are important in this context as a method for communicating to Data-providers the shape and types of information that they need to provide. 
 
+## Collection Description Schemes
+When describing large collections it is anticipated that the same collections can be described using different schemas for different purposes. For instance a museum collection may be described based on “famous named” collections or collectors (e.g., Darwin, Spruce) if an aggregator has the need to “find” lost specimens from previously formed collections. The same collection may be described in whole or part based on taxonomic or geographic properties for the purpose of environmental or taxonomic research or funding. The `CollectionDescriptionScheme` class is intended to provide some parameters around the purpose and expectations of the descriptions and to indicate if objects within the descriptions are assigned attributes that will cause errors in metrics if not explicitly noted.
+
+In the example below a description record for the Insects and Invertebrate Zoology collections at the Field Museum is created and its three-term [`CollectionDescriptionScheme`](https://drive.google.com/file/d/1-JAZODO9yPfRiuluWvBkKI45EKQ0xGbn/view?usp=sharing) is included. This might be a useful scheme for GRSciColl records:
+
+[image 1 placeholder]
+
+Another example might be describing all the “famous” collections within a larger collection.
+
+[image 2 placeholder]
+
+In both of the above examples the `distinctObjects` term is ‘True’, because no metric is associated with a description that could cause objects to be counted twice. However, if the 2 examples (GRSciColl and Famous collections) are combined
+
+[image 3 placeholder]
+
+The `distinctObjects` term becomes ‘False’ because the count metric for the `OrganisationalUnit` contains within it the objects and metrics associated with the `ObjectGroup` (i.e. specimen count).
+
+Latimer Core is intended to be flexible for use to accommodate as much as possible future use cases, `CollectionDescriptionScheme` serves as the “definition” of any scheme that is developed.
+
+
