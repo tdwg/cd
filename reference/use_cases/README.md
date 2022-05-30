@@ -150,7 +150,7 @@ and I would like to receive information
 * As an SQL file
 * Including information that would allow me to create a map of biorepositories
 
-4. I found a reference to a specimen of interest
+> I found a reference to a specimen of interest
 * In a publication
 * In GBIF (through a taxonomic search, on a distribution map)
 * On GenBank or BOLD
@@ -158,20 +158,20 @@ and I would like to receive its associated primary data and metadata.  How can I
 * As a webpage I can browse
 * As a webservice response
 
-5. I am writing a scientific article and I want to include references to particular specimens. How should I cite these specimens so that
+> I am writing a scientific article and I want to include references to particular specimens. How should I cite these specimens so that
 * The reader can get access to the specimen record
   * As a website
   * As a webservice response
 * The reader can get access to the specimen by contacting the collection manager
 * The institution can find the reference to their specimen in the literature if they are collecting impact data
 
-6. I’m submitting data records to GenBank, GBIF or another database and I want to make sure they are traceable back to their voucher specimens in biorepositories.  I want to be able to:
+> I’m submitting data records to GenBank, GBIF or another database and I want to make sure they are traceable back to their voucher specimens in biorepositories.  I want to be able to:
 * Submit a single specimen identifier and have it checked against the registry
 * Submit a file with multiple specimen identifiers and have them checked against the registry
 * Get a report that shows which specimen identifiers do not conform with confirmed records in the registry
 * Get suggestions from the registry for correcting the non-conforming records (‘Did you mean…’)
 
-7. I’m looking for a specimen in a collection that no longer exists.  I want to find out if it has been absorbed by another biorepository in which the specimen might be located.
+> I’m looking for a specimen in a collection that no longer exists.  I want to find out if it has been absorbed by another biorepository in which the specimen might be located.
 
 ## Use Cases from ICEDIG
 ICEDIG is one of several design studies helping to develop the DiSSCo vision. One ICEDIG group took up the task to define the requirements for a collections digitization dashboard (CDD) for DiSSCo. As part of this task, the CDD group gathered use cases in a specific format. These use cases are available  
@@ -179,12 +179,13 @@ ICEDIG is one of several design studies helping to develop the DiSSCo vision. On
 * from the [documents folder](https://github.com/tdwg/cd/blob/master/documents/final/Deliverable%20D2.3%20ICEDIG%20-%20Design%20of%20a%20Collection%20Digitisation%20Dashboard%20v1.0.docx) in this repository.
 
 ## Use Cases from Ag-Canada
-Ag-Canada use cases to be added here.
+> Ag-Canada use cases to be added here.
 
 # Use Case Analysis
-Each group member (and other interested parties) are asked to break down each use case (above) using the "epic stories format" that comes from the Agile Software Development methodology. This consists of identifying the Actor and the Actor's role, and what they would like to be able to do, if they had the necessary collections metadata available.  
+Each group member (and other interested parties) were asked to break down each use case (above) using the "epic stories format" that comes from the Agile Software Development methodology. This consists of identifying the Actor and the Actor's role, and what they would like to be able to do, if they had the necessary collections metadata available.  
 
-* Please use [this form](https://docs.google.com/spreadsheets/d/1SsfwogZ88TgouDJ7EoDqXJFol-eVs7aYdFx504qJNzc/edit?usp=sharing "Google Sheet for Use Case Analysis") to add your analysis of the above use cases. Those developing the data model will use these data to test the model scenarios to help insure we will be able to do (share) the kinds of tasks we want to do with this information.
+## Submitting Uses cases
+Please use [this form](https://docs.google.com/spreadsheets/d/1SsfwogZ88TgouDJ7EoDqXJFol-eVs7aYdFx504qJNzc/edit?usp=sharing "Google Sheet for Use Case Analysis") to add your analysis of the above use cases. Those developing the data model will use these data to test the model scenarios to help insure we will be able to do (share) the kinds of tasks we want to do with this information.
 
 
 
