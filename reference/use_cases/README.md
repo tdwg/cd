@@ -116,7 +116,7 @@ Using the fishfindR website, it is now possible to explore and to communicate ab
 
 This list from document dated 1-April-2012 and shared at the TDWG 2016 meeting of the NCD Interest Group.
 
-1. I’m in charge of a collection (or all collections) at a biorepository and I want to **create and/or update information** on my institution and component collections. This can include:
+> I’m in charge of a collection (or all collections) at a biorepository and I want to **create and/or update information** on my institution and component collections. This can include:
 * Institutional name and acronym
 * Collection name and code
 * Address and contact information
@@ -124,19 +124,19 @@ This list from document dated 1-April-2012 and shared at the TDWG 2016 meeting o
 * Webservices
 * Transfer of collections to new parent institutions
 * Characteristics of the institution and/or collection
-2. I’m looking for basic information about:
+
+> I’m looking for basic information about:
 * A particular museum/herbarium/other biorepository institution
-* particular collection within an institution
-based on:
+* particular collection within an institution based on:
 * Location: country, state, city
 * Institutional name
 * Institutional acronym
 * Domain name
-and I would like to receive information:
+> I would like to receive information:
 * As a webpage I can browse
 * As a webservice response
 
-3. I’m doing a survey/study of biorepositories and I would like to get a data dump on all institutions and their collections that can be sorted by:
+> I’m doing a survey/study of biorepositories and I would like to get a data dump on all institutions and their collections that can be sorted by:
 * Location (country, city, state)
 * Institutional name
 * Institutional name
