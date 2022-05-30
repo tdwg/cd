@@ -24,8 +24,6 @@ Collaborative projects often use IH as a tool for identifying the range of parti
 
 Collecting permits for National Parks and other protected federal lands require that specimens collected on these sites be deposited in IH listed herbaria.  The U.S.  Fish & Wildlife Service uses IH as a resource for determining whether or not an institution should be granted a permit to house endangered species (a CITES permit) and uses IH code as part of the CITES permit identifier.  Recently U.S. Fish and Wildlife used the email contact list for IH to send a questionnaire to all herbaria asking them to evaluate their experiences applying for and managing CITES permits.  Additionally, IH is used by Homeland Security to find specialists for the identification of unknown specimens confiscated at U.S. customs.  Natural Resource Managers use IH to find experts to identify species on federal lands.  The National Park Service uses IH to keep track of specimens collected in National Parks for their annual inventories and collection assessments.
 
-
-
 ## Smithsonian Field Book Project
 
 The Field Book Project is a collaborative grant-funded initiative based at Smithsonian to catalog, digitize, and provide open access to scientists’ field notes held in the collections of the Smithsonian Institution Archives and other Smithsonian departments.
@@ -39,9 +37,9 @@ This use case will focus on the collection level records which were created usin
 From Nakasone, S. and Sheffield, C. Descriptive Metadata for Field Books D-Lib Magazine, Volume 19, Number 11/2 (November/December 2013) http://www.dlib.org/dlib/november13/nakasone/11nakasone.html#4 :
 “A "collection" is defined as any group of field books with a unifying relationship(4). Field book collections can be assembled in many ways; Smithsonian collections, however, are usually grouped by collector or expedition. For example, a collection grouped by the collector Alexander Wetmore would consist of field books created or owned by Wetmore. Alternatively, a collection grouped by the expedition United States Exploring Expedition might consist of field books created by various individuals that participated in that expedition. Less frequently, collections are assembled by the organizations as a creator. However they are grouped, collections are determined based on the way the field books were physically organized, with respect to the provenance and order in which they were received and maintained, prior to our involvement, in accordance with archival practice.”(5)  
 
-4. Society of American Archivists, Describing archives: A content standard, (Chicago: Society of American Archivists, 2004),, 203.  
+> Society of American Archivists, Describing archives: A content standard, (Chicago: Society of American Archivists, 2004),, 203.  
 
-5. We retain the organization of collections already accessioned by SIA. We use descriptive information in finding aids, when available, as a spring board for our own records and to maintain consistency. For collections maintained by museum departments, generally each collector is given her own collection because that is how the museum organizes it. If the museum chose another way to organize a collection, for example, kept all the field books inherited by another museum together as one group, we would organize the collection in the same way.  
+> We retain the organization of collections already accessioned by SIA. We use descriptive information in finding aids, when available, as a spring board for our own records and to maintain consistency. For collections maintained by museum departments, generally each collector is given her own collection because that is how the museum organizes it. If the museum chose another way to organize a collection, for example, kept all the field books inherited by another museum together as one group, we would organize the collection in the same way.  
 
 ### NCD 0.7 as used by Smithsonian Field Book Project 
 
