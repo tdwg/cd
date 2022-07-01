@@ -1,25 +1,22 @@
-# Latimer Core Term List
+# Latimer Core List of Terms
 
 **Title**
-: Latimer Core Term List
+: Latimer Core List of Terms
 
 **Date version issued**
-: 2022-04-19
+: yyyy-mm-dd
 
 **Date created**
-: 2021-07-12
+: yyyy-mm-dd
 
 **Part of TDWG Standard**
-: // Permanent IRI to standard page on tdwg.org
+: <http://www.tdwg.org/standards/643>
 
 **This version**
-: // Persistent link to this version of the termlist doc
+: <http://rs.tdwg.org/ltc/doc/list/yyyy-mm-dd>
 
 **Latest version**
-: // Link to the current termlist
-
-**Previous version**
-: // Persistent link to the last version of the termlist doc
+: <http://rs.tdwg.org/ltc/doc/list/>
 
 **Abstract**
 : Latimer Core (LtC) is a data standard designed to support the representation, discovery and communication of natural science collections. A Latimer Core record may represent a grouping of objects at any level of granularity above the level of a single object, from an entire collection of an institution to a few objects in a single drawer. The classes within the standard aim to allow the high-level representation of any given collection by providing a framework within which the defining characteristics shared by objects in the collection can be described. Among others, these include their taxonomic, geographic, stratigraphic and temporal coverage, and a framework for adding quantative metrics and narratives to help to quantify and describe the collections.
@@ -33,13 +30,13 @@ The creation of collection-level records is intended to promote visibility and u
 : TDWG Collection Descriptions (CD) Interest Group
 
 **Bibliographic citation**
-: Latimer Core Maintenance Group. 2021. List of Latimer Core terms. Biodiversity Information Standards (TDWG). <Persistent link to this version of the termlist doc>
+: Latimer Core Maintenance Group. 2022. Latimer Core List of Terms. Biodiversity Information Standards (TDWG). <http://rs.tdwg.org/ltc/doc/list/yyyy-mm-dd>
 
 
 ## 1 Introduction
 
 ### 1.1 Status of the content of this document
-Sections 2 through 4 are normative, except for Table 1. In Section 5 and its subparts, the values of the Normative URI, Definition, Required, and Repeatable are normative. The value of Usage (if it exists for a given term) is normative in that it specifies how a borrowed term should be used as part of Latimer Core. The values of Term Name is non-normative, although one can expect that the namespace abbreviation prefix is one commonly used for the term namespace. Labels and the values of all other properties (such as notes) are non-normative.
+Sections 2 through 3 are normative, except for Table 1. In Section 4 and its subparts, the values of the Normative URI, Definition, Required, and Repeatable are normative. The value of Usage (if it exists for a given term) is normative in that it specifies how a borrowed term should be used as part of Latimer Core. The values of Term Name is non-normative, although one can expect that the namespace abbreviation prefix is one commonly used for the term namespace. Labels and the values of all other properties (such as notes) are non-normative.
 
 ### 1.2 RFC 2119 key words
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](https://tools.ietf.org/html/rfc2119).
