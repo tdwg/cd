@@ -1,0 +1,48 @@
+{
+    "verbatimEventDate": "1755-1756",
+    "habitat": "temperate rainforest",
+    "personRole":
+    [
+        {
+            "role": "Collector",
+            "startedAtTime": "1755-09-01",
+            "person":
+            [
+                {
+                    "fullName": "Anne Monson",
+                    "familyName": "Monson",
+                    "givenName": "Anne",
+                    "identifier":
+                    [
+                        {
+                            "identifierType": "URI",
+                            "identifierSource": "https://www.wikidata.org/wiki/",
+                            "identifier": "Q15994645"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "role": "Navigator",
+            "startedAtTime": "1755-09-01",
+            "person":
+            [
+                {
+                    "fullName": "Sidney Smith",
+                    "familyName": "Smith",
+                    "givenName": "Sidney"
+                }
+            ]
+        }
+    ],
+    "measurementOrFact":
+    [
+        {
+            "measurementType": "Object Count",
+            "measurementValue": 500,
+            "measurementAccuracy": "Estimate",
+            "measurementDerivation": "Reported"
+        }
+    ]
+}

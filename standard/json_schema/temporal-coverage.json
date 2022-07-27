@@ -1,0 +1,63 @@
+{
+    "$schema": "https://json-schema.org/draft-04/schema#",
+    "$id": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/temporal-coverage.json",
+    "title": "Temporal Coverage",
+    "description": "A record of a time range represented by the collection's establishment or change over time. This term is separate from the living or geologic periods represented by the objects in the collection.",
+    "type": "object",
+    "properties":
+    {
+        "temporalCoverageType":
+        {
+            "description": "The type or context of the time range associated with the collection's establishment. Separate from the living or geologic periods represented by the objects in the collection.",
+            "type": "string"
+        },
+        "temporalCoverageEndDate":
+        {
+            "description": "End date of the time range of the collection.",
+            "type": "string",
+            "oneOf": [
+                {
+                  "format": "date"
+                },
+                {
+                  "format": "date-time"
+                }
+              ]
+        },
+        "temporalCoverageStartDate":
+        {
+            "description": "Start date of the time range of the collection.",
+            "type": "string",
+            "oneOf": [
+                {
+                  "format": "date"
+                },
+                {
+                  "format": "date-time"
+                }
+              ]
+        },
+        "reference":
+        {
+            "description": "One or more References relating to the Temporal Coverage",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/reference.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "measurementOrFact":
+        {
+            "description": "One or more Measurement Or Facts relating to the Temporal Coverage",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/measurement-or-fact.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        }
+    }
+}

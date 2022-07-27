@@ -1,0 +1,113 @@
+{
+    "$schema": "https://json-schema.org/draft-04/schema#",
+    "$id": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/geographic-origin.json",
+    "title": "Geographic Origin",
+    "description": "The geographic location from which objects associated with the ObjectGroup were collected.",
+    "type": "object",
+    "properties":
+    {
+        "continent":
+        {
+            "description": "The name of the continent from which objects in the collection originated.",
+            "type": "string"
+        },
+        "country":
+        {
+            "description": "The name of the country or major administrative unit in which the Location occurs.",
+            "type": "string"
+        },
+        "countryCode":
+        {
+            "description": "The standard code for the country in which the Location occurs.",
+            "type": "string"
+        },
+        "county":
+        {
+            "description": "The full, unabbreviated name of the next smaller administrative region than stateProvince (county, shire, department, etc.) from which the items in the collection originated.",
+            "type": "string"
+        },
+        "ecoRegion":
+        {
+            "description": "High level biogeographic region from which the objects in the collection originated.",
+            "type": "string"
+        },
+        "island":
+        {
+            "description": "The name of the island on or near from which the objects in the collection orginated.",
+            "type": "string"
+        },
+        "islandGroup":
+        {
+            "description": "The name of the island group from which the objects in the collection originated.",
+            "type": "string"
+        },
+        "locality":
+        {
+            "description": "The specific description of the place from which objects in the collection originated. Less specific geographic information can be provided in other geographic terms (higherGeography, continent, country, stateProvince, county, municipality, waterBody, island, islandGroup). This term may contain information modified from the original to correct perceived errors or standardize the description.",
+            "type": "string"
+        },
+        "municipality":
+        {
+            "description": "The full, unabbreviated name of the next smaller administrative region than county (city, municipality, etc.) from which objects in the collection originated. Do no use this term for a nearby named place that does not contain the actual location.",
+            "type": "string"
+        },
+        "region":
+        {
+            "description": "The name of the spatial region or named place of any size within an individual or multiple administrative areas from which objects in the collection originated.",
+            "type": "string"
+        },
+        "salinityType":
+        {
+            "description": "A set of terms to indicate the water environment of aquatic collections.",
+            "type": "string"
+        },
+        "stateProvince":
+        {
+            "description": "The name of the next smaller administrative region than country (state, province, canton, department, region, etc.) from which the objects in the collection originated.",
+            "type": "string"
+        },
+        "waterBody":
+        {
+            "description": "The name of the water body from which objects in the the collection originated.",
+            "type": "string"
+        },
+        "waterBodyType":
+        {
+            "description": "A term that indicates the aquatic order of a waterbody.",
+            "type": "string"
+        },
+        "identifier":
+        {
+            "description": "One or more Identifiers relating to the Geographic Origin",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/identifier.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "reference":
+        {
+            "description": "One or more References relating to the Geographic Origin",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/reference.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+    "measurementOrFact":
+        {
+            "description": "One or more Measurement Or Facts relating to the Geographic Origin",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/measurement-or-fact.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        }
+    }
+}

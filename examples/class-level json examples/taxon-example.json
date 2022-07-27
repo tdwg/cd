@@ -1,0 +1,42 @@
+{
+    "genus": "Priapulus",
+    "taxonRank": "genus",
+    "order": "Priapulimorphida",
+    "family": "Priapulidae",
+    "scientificName": "Priapulus Lamarck, 1816",
+    "identifier":
+    [
+        {
+            "identifierType": "URI",
+            "identifierSource": "https://www.checklistbank.org/dataset/9812/taxon/",
+            "identifier": "84SNJ"
+        },
+        {
+            "identifierType": "URI",
+            "identifierSource": "https://marinespecies.org/authority/metadata.php?lsid=",
+            "identifier": "urn:lsid:marinespecies.org:taxname:116116"
+        },
+        {
+            "identifierType": "URI",
+            "identifierSource": "https://www.wikidata.org/wiki/",
+            "identifier": "Q2391885"
+        }
+    ],
+    "measurementOrFact":
+    [
+        {
+            "measurementType": "MIDS-0 Object Count",
+            "measurementValue": 500,
+            "measurementAccuracy": "Estimate",
+            "measurementMethod": "DiSSCo MIDS level",
+            "measurementDerivation": "Reported"
+        },
+        {
+            "measurementType": "MIDS-1 Object Count",
+            "measurementValue": 1500,
+            "measurementAccuracy": "Estimate",
+            "measurementMethod": "DiSSCo MIDS level",
+            "measurementDerivation": "Reported"
+        }
+    ]
+}

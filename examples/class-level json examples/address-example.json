@@ -1,0 +1,20 @@
+{
+    "addressType": "Postal",
+    "streetAddress": "1400 S Lake Shore Dr",
+    "postalCode": "60605",
+    "addressLocality": "Chicago",
+    "addressRegion": "Illinois",
+    "addressCountry": "United States",
+    "identifier":
+    [
+        {
+            "identifierType": "what3words",
+            "identifier": "cages.potato.kinds"
+        },
+        {
+            "identifierType": "ISO 3166-1 alpha-2 country code",
+            "identifier": "US",
+            "source": "ISO"
+        }
+    ]
+}

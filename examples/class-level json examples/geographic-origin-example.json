@@ -1,0 +1,28 @@
+{
+    "waterBody": "Thirsty Sound",
+    "waterBodyType": "Strait",
+    "continent": "Ocaeania",
+    "country": "Australia",
+    "countryCode": "AU",
+    "salinityType": "marine",
+    "stateProvince": "Queensland",
+    "identifiers":
+    [
+        {
+            "identifierType": "GeoNames ID",
+            "source": "https://www.geonames.org/",
+            "identifier": 2146841
+        }
+    ],
+    "measurementOrFact":
+    [
+        {
+            "measurementType": "decimal latitude",
+            "measurementValue": -22.2245
+        },
+        {
+            "measurementType": "decimal longitude",
+            "measurementValue": 149.92611
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "latestAgeOrHighestStage": "Thanetian",
+    "earliestAgeOrLowestStage": "Albian",
+    "latestEpochOrHighestSeries": "Paleocene",
+    "earliestEpochOrLowestSeries": "Lower Cretaceous",
+    "latestPeriodOrHighestSystem": "Paleogene",
+    "earliestPeriodOrLowestSystem": "Cretaceous",
+    "latestEraOrHighestErathem": "Mesozoic",
+    "earliestEraOrLowestErathem": "Cenozoic"
+}

@@ -1,0 +1,56 @@
+{
+    "$schema": "https://json-schema.org/draft-04/schema#",
+    "$id": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/storage-location.json",
+    "title": "Storage Location",
+    "description": "A physical location (such as a building, room, cabinet or drawer) within the holding institution where objects associated with the collection description are stored or exhibited.",
+    "type": "object",
+    "properties": {
+      "locationName": {
+        "description": "A label used to identify a place where the collection is stored.",
+        "type": "string"
+      },
+      "locationType": {
+        "description": "The nature of the location where the collection is stored.",
+        "type": "string"
+      },
+      "address": {
+        "description": "One or more Addresses relating to the Storage Location",
+        "type": "array",
+        "items": {
+          "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/address.json"
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "identifier": {
+        "description": "One or more Identifiers relating to the Storage Location",
+        "type": "array",
+        "items": {
+          "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/identifier.json"
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "reference": {
+        "description": "One or more References relating to the Storage Location",
+        "type": "array",
+        "items": {
+          "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/reference.json"
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "measurementOrFact": {
+        "description": "One or more Measurement Or Facts relating to the Storage Location",
+        "type": "array",
+        "items": {
+          "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/measurement-or-fact.json"
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      }
+    },
+    "required": [
+      "locationName"
+    ]
+  }

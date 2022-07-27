@@ -1,0 +1,19 @@
+{
+    "basisOfScheme": "Institutional holdings",
+    "distinctObjects": true,
+    "schemeName": "Institutional Registry Project",
+    "identifier":
+    [
+        {
+            "identifierType": "LtC Schema ID",
+            "identifier": "0000-0000-0000-0000"
+        }
+    ],
+    "reference":
+    [
+        {
+            "referenceType": "Website",
+            "resourceURI": "https://www.registryproject.org/about"
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "$schema": "https://json-schema.org/draft-04/schema#",
+    "$id": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/object-classification.json",
+    "title": "Object Classification",
+    "description": "An informal classification of the type of objects within the ObjectGroup, using a hierarchical structure.",
+    "type": "object",
+    "properties":
+    {
+        "objectClassificationLevel":
+        {
+            "description": "The level of the ObjectClassification in the hierarchy.",
+            "type": "string"
+        },
+        "objectClassificationName":
+        {
+            "description": "A short title describing this ObjectClassification as a class, unit or grouping.",
+            "type": "string"
+        },
+        "objectClassificationParent":
+        {
+            "description": "The immediate parent of the ObjectClassification in a self-referential hierarchy.",
+            "type": "string"
+        },
+        "objectClassification":
+        {
+            "description": "One or more Object Classifications relating to the Object Classification",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/object-classification.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "identifier":
+        {
+            "description": "One or more Identifiers relating to the Object Classification",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/identifier.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "reference":
+        {
+            "description": "One or more References relating to the Object Classification",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/reference.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "measurementOrFact":
+        {
+            "description": "One or more Measurement Or Facts relating to the Object Classification",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/measurement-or-fact.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        }
+    },
+    "required": [
+        "objectClassificationName"
+    ]
+}

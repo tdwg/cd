@@ -1,0 +1,81 @@
+{
+    "$schema": "https://json-schema.org/draft-04/schema#",
+    "$id": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/resource-relationship.json",
+    "title": "Resource Relationship",
+    "description": "A relationship between an instance of a class in the collection description standard to another instance of the same class, or an instance of a different class in the standard.",
+    "type": "object",
+    "properties":
+    {
+        "relatedResourceName":
+        {
+            "description": "A short textual name for the related resource.",
+            "type": "string"
+        },
+        "relationshipRemarks":
+        {
+            "description": " Comments or notes about the relationship between the two resources.",
+            "type": "string"
+        },
+        "relationshipEstablishedDate":
+        {
+            "description": "The date-time on which the relationship between the two resources was established.",
+            "type": "string"
+        },
+        "relationshipAccordingTo":
+        {
+            "description": "The source (person, organization, publication, reference) establishing the relationship between the two resources.",
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1
+        },
+        "relationshipOfResource":
+        {
+            "description": "The relationship of the resource identified by relatedResourceID to the subject (optionally identified by the resourceID).",
+            "type": "string"
+        },
+        "relatedResourceID":
+        {
+            "description": "An identifier for a related resource (the object, rather than the subject of the relationship).",
+            "type": "string"
+        },
+        "resourceID":
+        {
+            "description": "An identifier for the resource that is the subject of the relationship.",
+            "type": "string"
+        },
+        "resourceRelationshipID":
+        {
+            "description": "An identifier for an instance of relationship between one resource (the subject) and another (relatedResource, the object).",
+            "type": "string"
+        },
+        "identifier":
+        {
+            "description": "One or more Identifiers relating to the Resource Relationship",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/identifier.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "reference":
+        {
+            "description": "One or more References relating to the Resource Relationship",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/reference.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        }
+    },
+    "required":
+    [
+        "relationshipOfResource",
+        "resourceID"
+    ]
+}

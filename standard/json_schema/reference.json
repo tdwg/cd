@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft-04/schema#",
+  "$id": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/reference.json",
+  "title": "Reference",
+  "description": "A reference to external resources and information related to the collection description.",
+  "type": "object",
+  "properties": {
+    "referenceType": {
+      "description": "The type of resource being referenced.",
+      "type": "string"
+    },
+    "resourceURI": {
+      "description": "A preferably resolvable URI providing access to the resource defined in the reference.",
+      "type": "string"
+    },
+    "referenceText": {
+      "description": "A short title for the reference.",
+      "type": "string"
+    },
+    "referenceDetails": {
+      "description": "Detailed information about the resource being referenced.",
+      "type": "string"
+    },
+    "identifier": {
+      "description": "One or more Identifiers relating to the Reference",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/identifier.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "objectClassificationName": "Arachnids",
+    "objectClassificationParent": "Insects",
+    "objectClassification":
+    [
+        {
+            "objectClassificationName": "Insects",
+            "objectClassificationParent": "Invertebrates"
+        },
+        {
+            "objectClassificationName": "Invertebrates"
+        }
+    ]
+}

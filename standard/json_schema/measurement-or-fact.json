@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft-04/schema#",
+  "$id": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/measurement-or-fact.json",
+  "title": "Measurement or Fact",
+  "description": "  A measurement of or fact about the ObjectGroup representing the objects in the collection description, or the relationship between the ObjectGroup and an associated class.",
+  "type": "object",
+  "properties": {
+    "measurementType": {
+      "description": "The nature of the measurement, fact, characteristic, or assertion being made about the collection.",
+      "type": "string"
+    },
+    "measurementValue": {
+      "description": "The numeric value of the quantitative measurement being made about the collection.",
+      "type": "number"
+    },
+    "measurementAccuracy": {
+      "description": "The description of the potential error associated with the measurementValue applied to the collection.",
+      "type": "string"
+    },
+    "measurementUnit": {
+      "description": "The units associated with the measurementValue applied to the collection.",
+      "type": "string"
+    },
+    "measurementMethod": {
+      "description": "A brief description of or reference to (publication, URI) the method or protocol used to determine the measurement, fact, characteristic, or assertion being applied to the collection.",
+      "type": "string"
+    },
+    "measurementRemarks": {
+      "description": "Comments or notes accompanying the MeasurementOrFact being applied to the collection.",
+      "type": "string"
+    },
+    "measurementDerivation": {
+      "description": "An indicator as to whether the measurement, fact, characteristic, or assertion being applied to the collection was derived from reported figures or aggregated/calculated from underlying data.",
+      "type": "string"
+    },
+    "measurementFactText": {
+      "description": "The value of the qualitative fact, characteristic, or assertion being made about the collection.",
+      "type": "string"
+    },
+    "identifier": {
+      "description": "One or more Identifiers relating to the Measurement or Fact",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/identifier.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "reference": {
+      "description": "One or more References relating to the Measurement or Fact",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/reference.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    }
+  },
+  "anyOf": [
+    {"required" : ["measurementFactText"]},
+    {"required" : ["measurementValue"]}
+
+  ]
+}

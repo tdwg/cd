@@ -1,0 +1,94 @@
+{
+    "$schema": "https://json-schema.org/draft-04/schema#",
+    "$id": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/person-role.json",
+    "title": "Person Role",
+    "description": "A qualified association between a Person or OrganisationalUnit and an entity such as an ObjectGroup or MeasurementOrFact that enables the relationship to be contextualised with a specific role and time period.",
+    "type": "object",
+    "properties": {
+      "role": {
+        "description": "A role played by a Person in the context of an entity such as an ObjectGroup, OrganisationalUnit or RecordLevel.",
+        "type": "string"
+      },
+      "startedAtTime": {
+        "description": "The date or time when a Person started fulfilling the role specified in the role property.",
+        "type": "string",
+        "oneOf": [
+          {
+            "format": "date"
+          },
+          {
+            "format": "date-time"
+          }
+        ]
+      },
+      "endedAtTime": {
+        "description": "The date or time when a Person stopped fulfilling the role specified in the role property.",
+        "type": "string",
+        "oneOf": [
+            {
+              "format": "date"
+            },
+            {
+              "format": "date-time"
+            }
+          ]
+        },
+      "person": {
+        "description": "One or more Persons relating to the Person Role",
+        "type": "array",
+        "items": {
+          "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/person.json"
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "address": {
+        "description": "One or more Addresses relating to the Person Role",
+        "type": "array",
+        "items": {
+          "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/address.json"
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "contactDetail": {
+        "description": "One or more Contact Details relating to the Person Role",
+        "type": "array",
+        "items": {
+          "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/contact-detail.json"
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "identifier": {
+        "description": "One or more Identifiers relating to the Person Role",
+        "type": "array",
+        "items": {
+          "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/identifier.json"
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "reference": {
+        "description": "One or more References relating to the Person Role",
+        "type": "array",
+        "items": {
+          "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/reference.json"
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "temporalCoverage": {
+        "description": "One or more TemporalCoverages relating to the Person Role",
+        "type": "array",
+        "items": {
+          "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/temporal-coverage.json"
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      }
+    },
+    "required": [
+      "role"
+    ]
+  }

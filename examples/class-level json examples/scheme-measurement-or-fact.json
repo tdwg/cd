@@ -1,0 +1,21 @@
+{
+    "schemeMeasurementType": "MIDS-0 Object Count",
+    "mandatoryMetric": true,
+    "repeatableMetric": true,
+    "reference":
+    [
+        {
+            "referenceType": "Measurement methodology",
+            "resourceURI": "https://doi.org/10.5281/zenodo.3465285",
+            "referenceDetails": "Saarenmaa, Hannu, Agosti, Donat, Dillen, Mathias, Egloff, Willi, Gagnier, Pierre-Yves, Groom, Quentin, Hardisty, Alex, & Raes, Niels. (2019). Open access implementation guidelines for DiSSCo. Deliverable D6.5 (pp. 1–35).",
+            "referenceText": "Open access implementation guidelines for DiSSCo. Deliverable D6.5",
+            "identifier":
+            [
+                {
+                    "identifierType": "DOI",
+                    "identifier": "10.5281/zenodo.3465285"
+                }
+            ]
+        }
+    ]
+}

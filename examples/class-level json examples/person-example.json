@@ -1,0 +1,36 @@
+{
+    "fullName": "Malcolm Powder",
+    "familyName": "Powder",
+    "givenName": "Malcolm",
+    "address":
+    [
+        {
+            "addressType": "Work",
+            "streetAddress": "Room 14B, OUMNH, Parks Rd",
+            "addressRegion": "Oxfordshire",
+            "addressLocality": "Oxford",
+            "addressCountry": "UK",
+            "addressPostalCode": "OX1 3PW"
+        }
+    ],
+    "contactDetail":
+    [
+        {
+            "contactDetailCategory": "email",
+            "contactDetailValue": "m.powder@oumnh.ac.uk"
+        },
+        {
+            "contactDetailType": "mobile",
+            "contactDetailCategory": "telephone",
+            "contactDetailValue": "447527883354"
+        }
+    ],
+    "identifier":
+    [
+        {
+            "identifierType": "URI",
+            "identifierSource": "https://orcid.org/",
+            "identifier": "0000-0004-4012-0571"
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "$schema": "https://json-schema.org/draft-04/schema#",
+    "$id": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/scheme-measurement-or-fact.json",
+    "title": "Scheme Measurement Or Fact",
+    "description": "A type of measurement or fact used by the CollectionDescriptionScheme, and the rules relating to its application.",
+    "type": "object",
+    "properties":
+    {
+        "schemeMeasurementType":
+        {
+            "description": "A category of quantitative metric or qualitative fact that can be included in the CollectionDescriptionScheme.",
+            "type": "string"
+        },
+        "mandatoryMetric":
+        {
+            "description": "A flag to designate whether it's mandatory or optional for every collection description within the CollectionDescriptionScheme to include the measurement or fact defined by the schemeMeasurementType property.",
+            "type": "boolean"
+        },
+        "repeatableMetric":
+        {
+            "description": "A flag to designate whether multiple instances of the same schemeMeasurementType may be attached to a single entity.",
+            "type": "boolean"
+        },
+        "identifier":
+        {
+            "description": "One or more Identifiers relating to the Scheme Measurement Or Fact",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/identifier.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "reference":
+        {
+            "description": "One or more References relating to the Scheme Measurement Or Fact",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/reference.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        }
+    },
+    "required":
+    [   "schemeMeasurementType",
+        "mandatoryMetric",
+        "repeatableMetric"
+    ]
+}

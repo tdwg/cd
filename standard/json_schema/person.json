@@ -1,0 +1,85 @@
+{
+    "$schema": "https://json-schema.org/draft-04/schema#",
+    "$id": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/person.json",
+    "title": "Person",
+    "description": "A person (alive or dead).",
+    "type": "object",
+    "properties":
+    {
+        "fullName":
+        {
+            "description": "Preferred form of personal name for display as a string.",
+            "type": "string"
+        },
+        "familyName":
+        {
+            "description": "Family name. In the U.S., the last name of a Person.",
+            "type": "string"
+        },
+        "additionalName":
+        {
+            "description": "An additional name for a Person, can be used for a middle name.",
+            "type": "string"
+        },
+        "givenName":
+        {
+            "description": "Given name. In the U.S., the first name of a Person.",
+            "type": "string"
+        },
+        "address":
+        {
+            "description": "One or more Addresses relating to the Person",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/address.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "contactDetail":
+        {
+            "description": "One or more Contact Details relating to the Person",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/contact-detail.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "identifier":
+        {
+            "description": "One or more Identifiers relating to the Person",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/identifier.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "reference":
+        {
+            "description": "One or more References relating to the Person",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/reference.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "measurementOrFact":
+        {
+            "description": "One or more Measurement Or Facts relating to the Person",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/measurement-or-fact.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        }
+    }
+}

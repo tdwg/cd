@@ -1,0 +1,20 @@
+{
+    "temporalCoverageType": "Establishment time range",
+    "temporalCoverageStartDate": "1846-08-10",
+    "reference":
+    [
+        {
+            "referenceType": "Digitised Document",
+            "referenceText": "Act establishing the Smithsonian Institution",
+            "referenceDetails": "Marc Rothenberg, ed. The Papers of Joseph Henry, The Princeton Years, January 1844 - December 1846, vol. 6. Washington, D.C.: Smithsonian Institution Press, p. 463.",
+            "resoureURI": "https://www.si.edu/object/siris_sic_12522",
+            "identifier":
+            [
+                {
+                    "identifier": "siris_sic_12522",
+                    "identifierType": "Smithsonian Libraries and Archives Object ID"
+                }
+            ]
+        }
+    ]
+}

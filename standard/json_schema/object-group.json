@@ -1,0 +1,326 @@
+{
+    "$schema": "https://json-schema.org/draft-04/schema#",
+    "$id": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/object-group.json",
+    "title": "Object Group",
+    "description": "An intentionally grouped set of objects with one or more common characteristics.",
+    "type": "object",
+    "properties":
+    {
+        "collectionName":
+        {
+            "description": "A short title that summarises the collection objects contained within the ObjectGroup.",
+            "type": "string"
+        },
+        "baseTypeOfCollection":
+        {
+            "description": "High-level term describing the fundamental nature of objects in the ObjectGroup.",
+            "type": "string"
+        },
+        "description":
+        {
+            "description": "A free text description or narrative about the collection.",
+            "type": "string"
+        },
+        "knownToContainTypes":
+        {
+            "description": "Flag property to indicate that the collection is known to include type specimens.",
+            "type": "boolean"
+        },
+        "currentCollection":
+        {
+            "description": "A flag to indicate whether the collection still exists as a single entity.",
+            "type": "boolean"
+        },
+        "conditionsOfAccess":
+        {
+            "description": "Information about who can access the collection being described or an indication of its security status.",
+            "type": "array",
+            "items":
+            {
+                "description": "Information about who can access the collection being described or an indication of its security status.",
+                "type": "string"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "collectionManagementSystem":
+        {
+            "description": "One or more collection management systems which are used to hold and manage the primary data for the objects contained within the ObjectGroup.",
+            "type": "array",
+            "items":
+            {
+                "description": "The collection management system which is used to hold and manage the primary data for the objects contained within the ObjectGroup.",
+                "type": "string"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "preservationMode":
+        {
+            "description": "The means by which a palaeontological specimen was preserved or created e.g. body, cast, mold, trace fossil, soft parts mineralised etc.",
+            "type": "array",
+            "items":
+            {
+                "description": "The means by which a palaeontological specimen was preserved or created e.g. body, cast, mold, trace fossil, soft parts mineralised etc.",
+                "type": "string"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "preparationType":
+        {
+            "description": "A term used to classify or describe an object that indicates the actions that have been taken upon it and/or the processes it has been put through to prepare it for scientific use or study.",
+            "type": "array",
+            "items":
+            {
+                "description": "A term used to classify or describe an object that indicates the actions that have been taken upon it and/or the processes it has been put through to prepare it for scientific use or study.",
+                "type": "string"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "preservationMethod":
+        {
+            "description": "Terms used to classify or describe an object that indicates the primary or most recent action, measure or process that has been used in order to preserve the objects in the collection for long-term storage.",
+            "type": "array",
+            "items":
+            {
+                "description": "A term used to classify or describe an object that indicates the primary or most recent action, measure or process that has been used in order to preserve the objects in the collection for long-term storage.",
+                "type": "string"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "discipline":
+        {
+            "description": "High level classification(s) of the scientific discipline to which the objects within the collection belong or are related.",
+            "type": "array",
+            "items":
+            {
+                "description": "A high level classification of the scientific discipline to which the objects within the collection belong or are related.",
+                "type": "string"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "objectType":
+        {
+            "description": "High-level term(s) for the classification of curated objects.",
+            "type": "array",
+            "items":
+            {
+                "description": "A high level term for the classification of curated objects.",
+                "type": "string"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "degreeOfEstablishment":
+        {
+            "description": "The degree(s) to which an Organism survives, reproduces, and expands its range at the given place and time.",
+            "type": "array",
+            "items":
+            {
+                "description": "The degree to which an Organism survives, reproduces, and expands its range at the given place and time.",
+                "type": "string"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "material":
+        {
+            "description": "Material denotes the raw substance(s) from which the object is formed, in whole or in part.",
+            "type": "array",
+            "items":
+            {
+                "description": "Material denotes the raw substance(s) from which the object is formed, in whole or in part.",
+                "type": "string"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "period":
+        {
+            "description": "Used to describe the prehistoric or historic period(s) from which objects in the collection originated.",
+            "type": "array",
+            "items":
+            {
+                "description": "Used to describe the prehistoric or historic period from which objects in the collection originated.",
+                "type": "string"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "typeOfCollection":
+        {
+            "description": "Additional information that exists that describes the object(s) in the collection.",
+            "type": "array",
+            "items":
+            {
+                "description": "Additional information that exists that describes the object(s) in the collection.",
+                "type": "string"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "reference":
+        {
+            "description": "One or more References relating to the Object Group",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/reference.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "identifier":
+        {
+            "description": "One or more Identifiers relating to the Object Group",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/identifier.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "collectionStatusHistory":
+        {
+            "description": "One or more Collection Statuses relating to the Object Group",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/collection-status-history.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "resourceRelationship":
+        {
+            "description": "One or more Resource Relationships relating to the Object Group",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/resource-relationship.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "geographicOrigin":
+        {
+            "description": "One or more Geographic Origins relating to the Object Group",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/geographic-origin.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "geologicalContext":
+        {
+            "description": "One or more Geological Contexts relating to the Object Group",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/geological-context.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "chronometricAge":
+        {
+            "description": "One or more Chronometric Ages relating to the Object Group",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/chronometric-age.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "taxon":
+        {
+            "description": "One or more Taxons relating to the Object Group",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/taxon.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "storageLocation":
+        {
+            "description": "One or more StorageLocations relating to the Object Group",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/storage-location.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "event":
+        {
+            "description": "One or more Events relating to the Object Group",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/event.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "objectClassification":
+        {
+            "description": "One or more Object Classifications relating to the Object Group",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/object-classification.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "organisationalUnit":
+        {
+            "description": "One or more Organisational Units relating to the Object Group",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/organisational-unit.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "measurementOrFact":
+        {
+            "description": "One or more Measurement Or Facts relating to the Object Group",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/measurement-or-fact.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "personRole":
+        {
+            "description": "One or more Person Roles relating to the Object Group",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/person-role.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        }
+    },
+    "required":
+    [
+        "baseTypeOfCollection",
+        "collectionName"
+    ]
+}

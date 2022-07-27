@@ -1,0 +1,51 @@
+{
+    "$schema": "https://json-schema.org/draft-04/schema#",
+    "$id": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/collection-status-history.json",
+    "title": "Collection Status History",
+    "description": "A record of current and past statuses of the object group and the reason for status changes.",
+    "type": "object",
+    "properties":
+    {
+        "statusType":
+        {
+            "description": "A top-level classification of the different categories of status that can be applied to the collection.",
+            "type": "string"
+        },
+        "statusChangeReason":
+        {
+            "description": "An explanation of why the collection transitioned to the value set in the status property.",
+            "type": "string"
+        },
+        "status":
+        {
+            "description": "The development status of the collection during a specified period.",
+            "type": "string"
+        },
+        "reference":
+        {
+            "description": "One or more References relating to the Collection Status History",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/reference.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "temporalCoverage":
+        {
+            "description": "One or more Temporal Coverages relating to the Collection Status History",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/temporal-coverage.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        }
+    },
+    "required" : [
+        "status",
+        "statusType"
+    ]
+}

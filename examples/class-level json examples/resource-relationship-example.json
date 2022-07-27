@@ -1,0 +1,28 @@
+{
+    "relatedResourceName": "Holdings of the Croatian Natural History Museum",
+    "relationshipEstablishedDate": "1963-03-08",
+    "relationshipAccordingTo":
+    [
+        "Malcolm Powder",
+        "Lillith Bang"
+    ],
+    "relationshipOfResource": "part of",
+    "relatedResourceID": "0000-000-000000-00000",
+    "resourceID": "1000-000-000000-00000",
+    "reference":
+    [
+        {
+            "referenceType": "Journal article",
+            "referenceText": "Catalogue of spiders (Araneae) deposited in the Croatian Natural History Museum",
+            "referenceDetails": "Grbac, Irena & Katušić, Luka & Lukić, Marko. (2019). Catalogue of spiders (Araneae) deposited in the Croatian Natural History Museum. Natura Croatica. 28. 185-269. 10.20302/NC.2019.28.19.",
+            "resourceURI": "https://dx.doi.org/10.20302/NC.2019.28.19",
+            "identifier":
+            [
+                {
+                    "identifierType": "DOI",
+                    "identifier": "10.20302/NC.2019.28.19"
+                }
+            ]
+        }
+    ]
+}

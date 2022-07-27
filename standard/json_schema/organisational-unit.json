@@ -1,0 +1,119 @@
+{
+    "$schema": "https://json-schema.org/draft-04/schema#",
+    "$id": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/organisational-unit.json",
+    "title": "Organisational Unit",
+    "description": "A unit within an organisational hierarchy which may be at, above or below the institutional level.",
+    "type": "object",
+    "properties":
+    {
+        "organisationalUnitName":
+        {
+            "description": "An official name of the organisational unit in the local language.",
+            "type": "string"
+        },
+        "organisationalUnitType":
+        {
+            "description": "The type or level of organisational unit within a hierarchy responsible for the management of the collection being described.",
+            "type": "string"
+        },
+        "organisationalUnitDescription":
+        {
+            "description": "Description of the Organisational Unit, suitable for a general audience.",
+            "type": "string"
+        }
+    },
+    "organisationalUnit":
+    {
+        "description": "One or more Organisational Units relating to the Organisational Unit",
+        "type": "array",
+        "items":
+        {
+            "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/organisational-unit.json"
+        },
+        "minItems": 1,
+        "uniqueItems": true
+    },
+    "organisationalUnitAlternativeName":
+    {
+        "description": "One or more alternative names for the unit in English, if commonly used, and the official name is not in English.",
+        "type": "array",
+        "items":
+        {
+            "description": "Alternative name for the unit in English, if commonly used, and the official name is not in English.",
+            "type": "string"
+        },
+        "minItems": 1,
+        "uniqueItems": true
+    },
+    "address":
+    {
+        "description": "One or more Addresses relating to the Organisational Unit",
+        "type": "array",
+        "items":
+        {
+            "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/address.json"
+        },
+        "minItems": 1,
+        "uniqueItems": true
+    },
+    "contactDetail":
+    {
+        "description": "One or more Contact Details relating to the Organisational Unit",
+        "type": "array",
+        "items":
+        {
+            "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/contact-detail.json"
+        },
+        "minItems": 1,
+        "uniqueItems": true
+    },
+    "personRole":
+    {
+        "description": "One or more Person Roles relating to the Organisational Unit",
+        "type": "array",
+        "items":
+        {
+            "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/person-role.json"
+        },
+        "minItems": 1,
+        "uniqueItems": true
+    },
+    "reference":
+    {
+        "description": "One or more References relating to the Organisational Unit",
+        "type": "array",
+        "items":
+        {
+            "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/reference.json"
+        },
+        "minItems": 1,
+        "uniqueItems": true
+    },
+    "identifier":
+    {
+        "description": "One or more Identifiers relating to the Organisational Unit",
+        "type": "array",
+        "items":
+        {
+            "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/identifier.json"
+        },
+        "minItems": 1,
+        "uniqueItems": true
+    },
+    "measurementOrFact":
+    {
+        "description": "One or more Measurement Or Facts relating to the Event",
+        "type": "array",
+        "items":
+        {
+            "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/measurement-or-fact.json"
+        },
+        "minItems": 1,
+        "uniqueItems": true
+    },
+    "required":
+    [
+        "organisationalUnitName",
+        "organisationalUnitType"
+    ]
+}

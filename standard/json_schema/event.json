@@ -1,0 +1,80 @@
+{
+    "$schema": "https://json-schema.org/draft-04/schema#",
+    "$id": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/event.json",
+    "title": "Event",
+    "description": "An action that occurs at some location during some time.",
+    "type": "object",
+    "properties":
+    {
+        "verbatimEventDate":
+        {
+            "description": "The verbatim original representation of the date and time information for an Event.",
+            "type": "string"
+        },
+        "habitat":
+        {
+            "description": "A category or description of the habitat in which the Event occurred.",
+            "type": "string"
+        },
+        "samplingProtocol":
+        {
+            "description": "The name of, reference to, or description of the method or protocol used to gather objects in the collection.",
+            "type": "string"
+        },
+        "personRole":
+        {
+            "description": "One or more Person Roles relating to the Event",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/person-role.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "identifier":
+        {
+            "description": "One or more Identifiers relating to the Event",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/identifier.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "reference":
+        {
+            "description": "One or more References relating to the Event",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/reference.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "temporalCoverage":
+        {
+            "description": "One or more TemporalCoverages relating to the Event",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/temporal-coverage.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "measurementOrFact":
+        {
+            "description": "One or more Measurement Or Facts relating to the Event",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/measurement-or-fact.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        }
+    }
+}

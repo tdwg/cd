@@ -1,0 +1,128 @@
+{
+    "$schema": "https://json-schema.org/draft-04/schema#",
+    "$id": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/geological-context.json",
+    "title": "Geological Context",
+    "description": "Geological information, such as stratigraphy, that qualifies a region or place.",
+    "type": "object",
+    "properties":
+    {
+        "bed":
+        {
+            "description": "The full name of the lithostratigraphic bed from which the objects in the collection originated.",
+            "type": "string"
+        },
+        "member":
+        {
+            "description": "The full name of the lithostratigraphic member from which objects in the collection originated.",
+            "type": "string"
+        },
+        "formation":
+        {
+            "description": "The full name of the lithostratigraphic formation from which objects in the collection originated.",
+            "type": "string"
+        },
+        "group":
+        {
+            "description": "The full name of the lithostratigraphic group from which the objects in the collection originated.",
+            "type": "string"
+        },
+        "lithostratigraphicTerms":
+        {
+            "description": "The combination of all litho-stratigraphic names for the rock from which objects in the collection orignated.",
+            "type": "string"
+        },
+        "highestBiostratigraphicZone":
+        {
+            "description": "The full name of the highest possible geological biostratigraphic zone of the stratigraphic horizon from which the objects in the collection originated.",
+            "type": "string"
+        },
+        "lowestBiostratigraphicZone":
+        {
+            "description": "The full name of the lowest possible geological biostratigraphic zone of the stratigraphic horizon from which the objects in the collection originated.",
+            "type": "string"
+        },
+        "latestAgeOrHighestStage":
+        {
+            "description": "The full name of the latest possible geochronologic age or highest chronostratigraphic stage attributable to the stratigraphic horizon from which objects in the collection originated.",
+            "type": "string"
+        },
+        "earliestAgeOrLowestStage":
+        {
+            "description": "The full name of the earliest possible geochronologic age or lowest chronostratigraphic stage attributable to the stratigraphic horizon from which objects in the collection originated.",
+            "type": "string"
+        },
+        "latestEpochOrHighestSeries":
+        {
+            "description": "The full name of the latest possible geochronologic epoch or highest chronostratigraphic series attributable to the stratigraphic horizon from which objects in the collection originated.",
+            "type": "string"
+        },
+        "earliestEpochOrLowestSeries":
+        {
+            "description": "The full name of the earliest possible geochronologic epoch or lowest chronostratigraphic series attributable to the stratigraphic horizon from which objects in the collection originated.",
+            "type": "string"
+        },
+        "latestPeriodOrHighestSystem":
+        {
+            "description": "The full name of the latest possible geochronologic period or highest chronostratigraphic system attributable to the stratigraphic horizon from which objects in the collection originated.",
+            "type": "string"
+        },
+        "earliestPeriodOrLowestSystem":
+        {
+            "description": "The full name of the earliest possible geochronologic period or lowest chronostratigraphic system attributable to the stratigraphic horizon from which objects in the collection originated.",
+            "type": "string"
+        },
+        "latestEraOrHighestErathem":
+        {
+            "description": "The full name of the latest possible geochronologic era or highest chronostratigraphic erathem attributable to the stratigraphic horizon from which objects in the collection originated.",
+            "type": "string"
+        },
+        "earliestEraOrLowestErathem":
+        {
+            "description": "The full name of the earliest possible geochronologic era or lowest chronostratigraphic erathem attributable to the stratigraphic horizon from which the objects in the collection originated.",
+            "type": "string"
+        },
+        "latestEonOrHighestEonothem":
+        {
+            "description": "The full name of the latest possible geochronologic eon or highest chrono-stratigraphic eonothem or the informal name ('Precambrian') attributable to the stratigraphic horizon from which the objects in the collection originated.",
+            "type": "string"
+        },
+        "earliestEonOrLowestEonothem":
+        {
+            "description": "The full name of the earliest possible geochronologic eon or lowest chrono-stratigraphic eonothem or the informal name ('Precambrian') attributable to the stratigraphic horizon from which the objects in the collection originated.",
+            "type": "string"
+        },
+        "identifier":
+        {
+            "description": "One or more Identifiers relating to the Geological Context",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/identifier.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "reference":
+        {
+            "description": "One or more References relating to the Geological Context",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/reference.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "measurementOrFact":
+        {
+            "description": "One or more Measurement Or Facts relating to the Geological Context",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/measurement-or-fact.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        }
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "$schema": "https://json-schema.org/draft-04/schema#",
+    "$id": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/taxon.json",
+    "title": "Taxon",
+    "description": "A group of organisms (sensu http://purl.obolibrary.org/obo/OBI_0100026) considered by taxonomists to form a homogeneous unit.",
+    "type": "object",
+    "properties": {
+      "genus": {
+        "description": "The full scientific name of the genus in which the collection's taxa are classified.",
+        "type": "string"
+      },
+      "taxonRank": {
+        "description": "The taxonomic rank of the most specific name in the scientificName.",
+        "type": "string"
+      },
+      "nomenclaturalCode": {
+        "description": "The nomenclatural code (or codes in the case of an ambiregnal name) under which the scientificNames of objects in the collection are constructed.",
+        "type": "string"
+      },
+      "vernacularName": {
+        "description": "A common or vernacular name for the collection's taxon.",
+        "type": "string"
+      },
+      "order": {
+        "description": "The full scientific name of the order in which the collection's taxa are classified.",
+        "type": "string"
+      },
+      "family": {
+        "description": "The full scientific name of the family in which collection's taxa are identified.",
+        "type": "string"
+      },
+      "class": {
+        "description": "The full scientific name of the class in which the collection's taxa are classified.",
+        "type": "string"
+      },
+      "phylum": {
+        "description": "The full scientific name of the phylum or division in which the collection's taxa are classified.",
+        "type": "string"
+      },
+      "kingdom": {
+        "description": "The full scientific name of the kingdom in which the taxa in the collection are classified.",
+        "type": "string"
+      },
+      "scientificName": {
+        "description": "The full scientific name. This should be the name in lowest level taxonomic rank that applies across the collection.",
+        "type": "string"
+      },
+      "identifier": {
+        "description": "One or more Identifiers relating to the Taxon",
+        "type": "array",
+        "items": {
+          "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/identifier.json"
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "reference": {
+        "description": "One or more References relating to the Taxon",
+        "type": "array",
+        "items": {
+          "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/reference.json"
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "measurementOrFact": {
+        "description": "One or more Measurement Or Facts relating to the Taxon",
+        "type": "array",
+        "items": {
+          "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/measurement-or-fact.json"
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      }
+    }
+  }

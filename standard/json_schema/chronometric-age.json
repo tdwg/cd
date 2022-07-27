@@ -1,0 +1,83 @@
+{
+    "$schema": "https://json-schema.org/draft-04/schema#",
+    "$id": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/chronometric-age.json",
+    "title": "Chronometric Age",
+    "description": "The age of a specimen or related materials that is generated from a dating assay.",
+    "type": "object",
+    "properties":
+    {
+        "chronometricAgeRemarks":
+        {
+            "description": "Notes or comments about the ChronometricAge.",
+            "type": "string"
+        },
+        "chronometricAgeProtocol":
+        {
+            "description": "A description of or reference to the methods used to determine the ChronometricAge.",
+            "type": "string"
+        },
+        "chronometricAgeUncertaintyInYears":
+        {
+            "description": "The temporal uncertainty of the earliestChronometricAge and latestChronometicAge in years.",
+            "type": "number"
+        },
+        "earliestChronometricAgeReferenceSystem":
+        {
+            "description": "The reference system associated with the earliestChronometricAge.",
+            "type": "string"
+        },
+        "earliestChronometricAge":
+        {
+            "description": "The maximum/earliest/oldest possible age of a specimen as determined by a dating method.",
+            "type": "number"
+        },
+        "latestChronometricAgeReferenceSystem":
+        {
+            "description": "The reference system associated with the latestChronometricAge.",
+            "type": "string"
+        },
+        "latestChronometricAge":
+        {
+            "description": "The minimum/latest/youngest possible age of an object in the collection as determined by a dating method.",
+            "type": "number"
+        },
+        "verbatimChronometricAge":
+        {
+            "description": "The verbatim age for the objects in the collection, whether reported by a dating assay, associated references, or legacy information.",
+            "type": "string"
+        },
+        "identifier":
+        {
+            "description": "One or more Identifiers relating to the Chronometric Age",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/identifier.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "reference":
+        {
+            "description": "One or more References relating to the Chronometric Age",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/reference.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "measurementOrFact":
+        {
+            "description": "One or more Measurement Or Facts relating to the Chronometric Age",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/measurement-or-fact.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        }
+    }
+}
