@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft-04/schema#",
-    "$id": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/scheme-term.json",
+    "$id": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/scheme-term.json",
     "title": "Scheme Term",
     "description": "A Latimer Core term used by the CollectionDescriptionScheme and the rules relating to its application.",
     "type": "object",
@@ -27,7 +27,7 @@
             "type": "array",
             "items":
             {
-                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/identifier.json"
+                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/identifier.json"
             },
             "minItems": 1,
             "uniqueItems": true
@@ -38,7 +38,7 @@
             "type": "array",
             "items":
             {
-                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/reference.json"
+                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/reference.json"
             },
             "minItems": 1,
             "uniqueItems": true

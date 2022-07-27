@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft-04/schema#",
-    "$id": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/person-role.json",
+    "$id": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/person-role.json",
     "title": "Person Role",
     "description": "A qualified association between a Person or OrganisationalUnit and an entity such as an ObjectGroup or MeasurementOrFact that enables the relationship to be contextualised with a specific role and time period.",
     "type": "object",
@@ -37,7 +37,7 @@
         "description": "One or more Persons relating to the Person Role",
         "type": "array",
         "items": {
-          "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/person.json"
+          "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/person.json"
         },
         "minItems": 1,
         "uniqueItems": true
@@ -46,7 +46,7 @@
         "description": "One or more Addresses relating to the Person Role",
         "type": "array",
         "items": {
-          "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/address.json"
+          "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/address.json"
         },
         "minItems": 1,
         "uniqueItems": true
@@ -55,7 +55,7 @@
         "description": "One or more Contact Details relating to the Person Role",
         "type": "array",
         "items": {
-          "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/contact-detail.json"
+          "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/contact-detail.json"
         },
         "minItems": 1,
         "uniqueItems": true
@@ -64,7 +64,7 @@
         "description": "One or more Identifiers relating to the Person Role",
         "type": "array",
         "items": {
-          "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/identifier.json"
+          "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/identifier.json"
         },
         "minItems": 1,
         "uniqueItems": true
@@ -73,7 +73,7 @@
         "description": "One or more References relating to the Person Role",
         "type": "array",
         "items": {
-          "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/reference.json"
+          "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/reference.json"
         },
         "minItems": 1,
         "uniqueItems": true
@@ -82,7 +82,7 @@
         "description": "One or more TemporalCoverages relating to the Person Role",
         "type": "array",
         "items": {
-          "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/temporal-coverage.json"
+          "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/temporal-coverage.json"
         },
         "minItems": 1,
         "uniqueItems": true

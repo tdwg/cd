@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft-04/schema#",
-    "$id": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/organisational-unit.json",
+    "$id": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/organisational-unit.json",
     "title": "Organisational Unit",
     "description": "A unit within an organisational hierarchy which may be at, above or below the institutional level.",
     "type": "object",
@@ -28,7 +28,7 @@
         "type": "array",
         "items":
         {
-            "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/organisational-unit.json"
+            "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/organisational-unit.json"
         },
         "minItems": 1,
         "uniqueItems": true
@@ -51,7 +51,7 @@
         "type": "array",
         "items":
         {
-            "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/address.json"
+            "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/address.json"
         },
         "minItems": 1,
         "uniqueItems": true
@@ -62,7 +62,7 @@
         "type": "array",
         "items":
         {
-            "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/contact-detail.json"
+            "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/contact-detail.json"
         },
         "minItems": 1,
         "uniqueItems": true
@@ -73,7 +73,7 @@
         "type": "array",
         "items":
         {
-            "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/person-role.json"
+            "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/person-role.json"
         },
         "minItems": 1,
         "uniqueItems": true
@@ -84,7 +84,7 @@
         "type": "array",
         "items":
         {
-            "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/reference.json"
+            "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/reference.json"
         },
         "minItems": 1,
         "uniqueItems": true
@@ -95,7 +95,7 @@
         "type": "array",
         "items":
         {
-            "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/identifier.json"
+            "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/identifier.json"
         },
         "minItems": 1,
         "uniqueItems": true
@@ -106,7 +106,7 @@
         "type": "array",
         "items":
         {
-            "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/measurement-or-fact.json"
+            "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/measurement-or-fact.json"
         },
         "minItems": 1,
         "uniqueItems": true

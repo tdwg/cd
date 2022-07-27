@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft-04/schema#",
-    "$id": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/chronometric-age.json",
+    "$id": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/chronometric-age.json",
     "title": "Chronometric Age",
     "description": "The age of a specimen or related materials that is generated from a dating assay.",
     "type": "object",
@@ -52,7 +52,7 @@
             "type": "array",
             "items":
             {
-                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/identifier.json"
+                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/identifier.json"
             },
             "minItems": 1,
             "uniqueItems": true
@@ -63,7 +63,7 @@
             "type": "array",
             "items":
             {
-                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/reference.json"
+                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/reference.json"
             },
             "minItems": 1,
             "uniqueItems": true
@@ -74,7 +74,7 @@
             "type": "array",
             "items":
             {
-                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/measurement-or-fact.json"
+                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/measurement-or-fact.json"
             },
             "minItems": 1,
             "uniqueItems": true

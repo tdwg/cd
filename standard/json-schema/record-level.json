@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft-04/schema#",
-    "$id": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/record-level.json",
+    "$id": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/record-level.json",
     "title": "Record Level",
     "description": "An intentionally grouped set of objects with one or more common characteristics.",
     "type": "object",
@@ -33,7 +33,7 @@
         },
         "collectionDescriptionScheme":
         {
-            "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/collection-description-scheme.json"
+            "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/collection-description-scheme.json"
         },
         "objectGroup":
         {
@@ -41,7 +41,7 @@
             "type": "array",
             "items":
             {
-                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/object-group.json"
+                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/object-group.json"
             },
             "minItems": 1,
             "uniqueItems": true
@@ -52,7 +52,7 @@
             "type": "array",
             "items":
             {
-                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/reference.json"
+                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/reference.json"
             },
             "minItems": 1,
             "uniqueItems": true
@@ -63,7 +63,7 @@
             "type": "array",
             "items":
             {
-                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/identifier.json"
+                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/identifier.json"
             },
             "minItems": 1,
             "uniqueItems": true
@@ -74,7 +74,7 @@
             "type": "array",
             "items":
             {
-                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/resource-relationship.json"
+                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/resource-relationship.json"
             },
             "minItems": 1,
             "uniqueItems": true
@@ -85,7 +85,7 @@
             "type": "array",
             "items":
             {
-                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/person-role.json"
+                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/person-role.json"
             },
             "minItems": 1,
             "uniqueItems": true

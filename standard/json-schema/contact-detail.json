@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft-04/schema#",
-  "$id": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/contact-detail.json",
+  "$id": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/contact-detail.json",
   "title": "Contact Detail",
   "description": "Details of a method by which an entity such as a Person or OrganisationalUnit may be contacted.",
   "type": "object",
@@ -21,7 +21,7 @@
       "description": "One or more Identifiers relating to the Contact Detail",
       "type": "array",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/identifier.json"
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/identifier.json"
       },
       "minItems": 1,
       "uniqueItems": true

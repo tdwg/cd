@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft-04/schema#",
-    "$id": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/geological-context.json",
+    "$id": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/geological-context.json",
     "title": "Geological Context",
     "description": "Geological information, such as stratigraphy, that qualifies a region or place.",
     "type": "object",
@@ -97,7 +97,7 @@
             "type": "array",
             "items":
             {
-                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/identifier.json"
+                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/identifier.json"
             },
             "minItems": 1,
             "uniqueItems": true
@@ -108,7 +108,7 @@
             "type": "array",
             "items":
             {
-                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/reference.json"
+                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/reference.json"
             },
             "minItems": 1,
             "uniqueItems": true
@@ -119,7 +119,7 @@
             "type": "array",
             "items":
             {
-                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/measurement-or-fact.json"
+                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/measurement-or-fact.json"
             },
             "minItems": 1,
             "uniqueItems": true

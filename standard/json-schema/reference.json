@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft-04/schema#",
-  "$id": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/reference.json",
+  "$id": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/reference.json",
   "title": "Reference",
   "description": "A reference to external resources and information related to the collection description.",
   "type": "object",
@@ -25,7 +25,7 @@
       "description": "One or more Identifiers relating to the Reference",
       "type": "array",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/identifier.json"
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/identifier.json"
       },
       "minItems": 1,
       "uniqueItems": true

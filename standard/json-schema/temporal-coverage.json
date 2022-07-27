@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft-04/schema#",
-    "$id": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/temporal-coverage.json",
+    "$id": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/temporal-coverage.json",
     "title": "Temporal Coverage",
     "description": "A record of a time range represented by the collection's establishment or change over time. This term is separate from the living or geologic periods represented by the objects in the collection.",
     "type": "object",
@@ -43,7 +43,7 @@
             "type": "array",
             "items":
             {
-                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/reference.json"
+                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/reference.json"
             },
             "minItems": 1,
             "uniqueItems": true
@@ -54,7 +54,7 @@
             "type": "array",
             "items":
             {
-                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/measurement-or-fact.json"
+                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/measurement-or-fact.json"
             },
             "minItems": 1,
             "uniqueItems": true

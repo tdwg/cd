@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft-04/schema#",
-    "$id": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/taxon.json",
+    "$id": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/taxon.json",
     "title": "Taxon",
     "description": "A group of organisms (sensu http://purl.obolibrary.org/obo/OBI_0100026) considered by taxonomists to form a homogeneous unit.",
     "type": "object",
@@ -49,7 +49,7 @@
         "description": "One or more Identifiers relating to the Taxon",
         "type": "array",
         "items": {
-          "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/identifier.json"
+          "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/identifier.json"
         },
         "minItems": 1,
         "uniqueItems": true
@@ -58,7 +58,7 @@
         "description": "One or more References relating to the Taxon",
         "type": "array",
         "items": {
-          "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/reference.json"
+          "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/reference.json"
         },
         "minItems": 1,
         "uniqueItems": true
@@ -67,7 +67,7 @@
         "description": "One or more Measurement Or Facts relating to the Taxon",
         "type": "array",
         "items": {
-          "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/measurement-or-fact.json"
+          "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/measurement-or-fact.json"
         },
         "minItems": 1,
         "uniqueItems": true

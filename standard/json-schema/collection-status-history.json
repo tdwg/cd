@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft-04/schema#",
-    "$id": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/collection-status-history.json",
+    "$id": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/collection-status-history.json",
     "title": "Collection Status History",
     "description": "A record of current and past statuses of the object group and the reason for status changes.",
     "type": "object",
@@ -27,7 +27,7 @@
             "type": "array",
             "items":
             {
-                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/reference.json"
+                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/reference.json"
             },
             "minItems": 1,
             "uniqueItems": true
@@ -38,7 +38,7 @@
             "type": "array",
             "items":
             {
-                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/temporal-coverage.json"
+                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/temporal-coverage.json"
             },
             "minItems": 1,
             "uniqueItems": true

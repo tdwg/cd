@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft-04/schema#",
-  "$id": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/identifier.json",
+  "$id": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/identifier.json",
   "title": "Identifier",
   "description": "A numeric, textual value, or reference such as an IRI, that can be used to uniquely identify the object to which it is attached.",
   "type": "object",
@@ -21,7 +21,7 @@
       "description": "One or more References relating to the Identifier",
       "type": "array",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/reference.json"
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/reference.json"
       },
       "minItems": 1
     }

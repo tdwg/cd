@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft-04/schema#",
-    "$id": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/object-group.json",
+    "$id": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/object-group.json",
     "title": "Object Group",
     "description": "An intentionally grouped set of objects with one or more common characteristics.",
     "type": "object",
@@ -169,7 +169,7 @@
             "type": "array",
             "items":
             {
-                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/reference.json"
+                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/reference.json"
             },
             "minItems": 1,
             "uniqueItems": true
@@ -180,7 +180,7 @@
             "type": "array",
             "items":
             {
-                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/identifier.json"
+                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/identifier.json"
             },
             "minItems": 1,
             "uniqueItems": true
@@ -191,7 +191,7 @@
             "type": "array",
             "items":
             {
-                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/collection-status-history.json"
+                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/collection-status-history.json"
             },
             "minItems": 1,
             "uniqueItems": true
@@ -202,7 +202,7 @@
             "type": "array",
             "items":
             {
-                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/resource-relationship.json"
+                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/resource-relationship.json"
             },
             "minItems": 1,
             "uniqueItems": true
@@ -213,7 +213,7 @@
             "type": "array",
             "items":
             {
-                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/geographic-origin.json"
+                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/geographic-origin.json"
             },
             "minItems": 1,
             "uniqueItems": true
@@ -224,7 +224,7 @@
             "type": "array",
             "items":
             {
-                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/geological-context.json"
+                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/geological-context.json"
             },
             "minItems": 1,
             "uniqueItems": true
@@ -235,7 +235,7 @@
             "type": "array",
             "items":
             {
-                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/chronometric-age.json"
+                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/chronometric-age.json"
             },
             "minItems": 1,
             "uniqueItems": true
@@ -246,7 +246,7 @@
             "type": "array",
             "items":
             {
-                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/taxon.json"
+                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/taxon.json"
             },
             "minItems": 1,
             "uniqueItems": true
@@ -257,7 +257,7 @@
             "type": "array",
             "items":
             {
-                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/storage-location.json"
+                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/storage-location.json"
             },
             "minItems": 1,
             "uniqueItems": true
@@ -268,7 +268,7 @@
             "type": "array",
             "items":
             {
-                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/event.json"
+                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/event.json"
             },
             "minItems": 1,
             "uniqueItems": true
@@ -279,7 +279,7 @@
             "type": "array",
             "items":
             {
-                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/object-classification.json"
+                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/object-classification.json"
             },
             "minItems": 1,
             "uniqueItems": true
@@ -290,7 +290,7 @@
             "type": "array",
             "items":
             {
-                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/organisational-unit.json"
+                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/organisational-unit.json"
             },
             "minItems": 1,
             "uniqueItems": true
@@ -301,7 +301,7 @@
             "type": "array",
             "items":
             {
-                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/measurement-or-fact.json"
+                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/measurement-or-fact.json"
             },
             "minItems": 1,
             "uniqueItems": true
@@ -312,7 +312,7 @@
             "type": "array",
             "items":
             {
-                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/person-role.json"
+                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/person-role.json"
             },
             "minItems": 1,
             "uniqueItems": true

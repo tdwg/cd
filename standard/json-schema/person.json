@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft-04/schema#",
-    "$id": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/person.json",
+    "$id": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/person.json",
     "title": "Person",
     "description": "A person (alive or dead).",
     "type": "object",
@@ -32,7 +32,7 @@
             "type": "array",
             "items":
             {
-                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/address.json"
+                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/address.json"
             },
             "minItems": 1,
             "uniqueItems": true
@@ -43,7 +43,7 @@
             "type": "array",
             "items":
             {
-                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/contact-detail.json"
+                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/contact-detail.json"
             },
             "minItems": 1,
             "uniqueItems": true
@@ -54,7 +54,7 @@
             "type": "array",
             "items":
             {
-                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/identifier.json"
+                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/identifier.json"
             },
             "minItems": 1,
             "uniqueItems": true
@@ -65,7 +65,7 @@
             "type": "array",
             "items":
             {
-                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/reference.json"
+                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/reference.json"
             },
             "minItems": 1,
             "uniqueItems": true
@@ -76,7 +76,7 @@
             "type": "array",
             "items":
             {
-                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/measurement-or-fact.json"
+                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/measurement-or-fact.json"
             },
             "minItems": 1,
             "uniqueItems": true

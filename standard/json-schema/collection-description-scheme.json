@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft-04/schema#",
-  "$id": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/collection-description-scheme.json",
+  "$id": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/collection-description-scheme.json",
   "title": "Collection Description Scheme",
   "description": "A grouping of multiple ObjectGroups for a particular use case, purpose or implementation.",
   "type": "object",
@@ -21,7 +21,7 @@
       "description": "One or more Scheme Terms incorporated in the Collection Description Scheme",
       "type": "array",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/scheme-term.json"
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/scheme-term.json"
       },
       "minItems": 1,
       "uniqueItems": true
@@ -30,7 +30,7 @@
       "description": "One or more Scheme Measurement Or Facts incorporated in the Collection Description Scheme",
       "type": "array",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/scheme-measurement-or-fact.json"
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/scheme-measurement-or-fact.json"
       },
       "minItems": 1,
       "uniqueItems": true
@@ -39,7 +39,7 @@
       "description": "One or more Identifiers relating to the Collection Description Scheme",
       "type": "array",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/identifier.json"
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/identifier.json"
       },
       "minItems": 1,
       "uniqueItems": true
@@ -48,7 +48,7 @@
       "description": "One or more References relating to the Collection Description Scheme",
       "type": "array",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/reference.json"
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/reference.json"
       },
       "minItems": 1,
       "uniqueItems": true

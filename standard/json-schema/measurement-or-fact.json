@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft-04/schema#",
-  "$id": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/measurement-or-fact.json",
+  "$id": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/measurement-or-fact.json",
   "title": "Measurement or Fact",
   "description": "  A measurement of or fact about the ObjectGroup representing the objects in the collection description, or the relationship between the ObjectGroup and an associated class.",
   "type": "object",
@@ -41,7 +41,7 @@
       "description": "One or more Identifiers relating to the Measurement or Fact",
       "type": "array",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/identifier.json"
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/identifier.json"
       },
       "minItems": 1,
       "uniqueItems": true
@@ -50,7 +50,7 @@
       "description": "One or more References relating to the Measurement or Fact",
       "type": "array",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/reference.json"
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/reference.json"
       },
       "minItems": 1,
       "uniqueItems": true

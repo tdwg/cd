@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft-04/schema#",
-  "$id": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/address.json",
+  "$id": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/address.json",
   "title": "Address",
   "description": "A physical postal address for an organisational unit or person.",
   "type": "object",
@@ -37,7 +37,7 @@
       "description": "One or more Identifiers relating to the Address",
       "type": "array",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/identifier.json"
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/identifier.json"
       },
       "minItems": 1,
       "uniqueItems": true

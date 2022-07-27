@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft-04/schema#",
-    "$id": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/storage-location.json",
+    "$id": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/storage-location.json",
     "title": "Storage Location",
     "description": "A physical location (such as a building, room, cabinet or drawer) within the holding institution where objects associated with the collection description are stored or exhibited.",
     "type": "object",
@@ -17,7 +17,7 @@
         "description": "One or more Addresses relating to the Storage Location",
         "type": "array",
         "items": {
-          "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/address.json"
+          "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/address.json"
         },
         "minItems": 1,
         "uniqueItems": true
@@ -26,7 +26,7 @@
         "description": "One or more Identifiers relating to the Storage Location",
         "type": "array",
         "items": {
-          "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/identifier.json"
+          "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/identifier.json"
         },
         "minItems": 1,
         "uniqueItems": true
@@ -35,7 +35,7 @@
         "description": "One or more References relating to the Storage Location",
         "type": "array",
         "items": {
-          "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/reference.json"
+          "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/reference.json"
         },
         "minItems": 1,
         "uniqueItems": true
@@ -44,7 +44,7 @@
         "description": "One or more Measurement Or Facts relating to the Storage Location",
         "type": "array",
         "items": {
-          "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/measurement-or-fact.json"
+          "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/measurement-or-fact.json"
         },
         "minItems": 1,
         "uniqueItems": true
