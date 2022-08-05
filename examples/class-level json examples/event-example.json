@@ -1,6 +1,7 @@
 {
     "verbatimEventDate": "1755-1756",
     "habitat": "temperate rainforest",
+    "eventName": "Cloudland Expedition (1755-1756)",
     "hasPersonRole":
     [
         {
@@ -17,7 +18,7 @@
                         {
                             "identifierType": "URI",
                             "identifierSource": "https://www.wikidata.org/wiki/",
-                            "identifier": "Q15994645"
+                            "identifierValue": "Q15994645"
                         }
                     ]
                 }

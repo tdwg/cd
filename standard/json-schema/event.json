@@ -21,6 +21,11 @@
             "description": "The name of, reference to, or description of the method or protocol used to gather objects in the collection.",
             "type": "string"
         },
+        "eventName":
+        {
+            "description": "The name commonly used to identify or refer to the event.",
+            "type": "string"
+        },
         "hasPersonRole":
         {
             "description": "This property refers to one or more related instances of the PersonRole class.",
