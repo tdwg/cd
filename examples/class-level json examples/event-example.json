@@ -1,18 +1,18 @@
 {
     "verbatimEventDate": "1755-1756",
     "habitat": "temperate rainforest",
-    "personRole":
+    "hasPersonRole":
     [
         {
             "role": "Collector",
             "startedAtTime": "1755-09-01",
-            "person":
+            "hasPerson":
             [
                 {
                     "fullName": "Anne Monson",
                     "familyName": "Monson",
                     "givenName": "Anne",
-                    "identifier":
+                    "hasIdentifier":
                     [
                         {
                             "identifierType": "URI",
@@ -26,7 +26,7 @@
         {
             "role": "Navigator",
             "startedAtTime": "1755-09-01",
-            "person":
+            "hasPerson":
             [
                 {
                     "fullName": "Sidney Smith",
@@ -36,7 +36,7 @@
             ]
         }
     ],
-    "measurementOrFact":
+    "hasMeasurementOrFact":
     [
         {
             "measurementType": "Object Count",

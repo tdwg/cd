@@ -91,9 +91,9 @@
             "description": "The full name of the earliest possible geochronologic eon or lowest chrono-stratigraphic eonothem or the informal name ('Precambrian') attributable to the stratigraphic horizon from which the objects in the collection originated.",
             "type": "string"
         },
-        "identifier":
+        "hasIdentifier":
         {
-            "description": "One or more Identifiers relating to the Geological Context",
+            "description": "This property refers to one or more related instances of the Identifier class.",
             "type": "array",
             "items":
             {
@@ -102,9 +102,9 @@
             "minItems": 1,
             "uniqueItems": true
         },
-        "reference":
+        "hasReference":
         {
-            "description": "One or more References relating to the Geological Context",
+            "description": "This property refers to one or more related instances of the Reference class.",
             "type": "array",
             "items":
             {
@@ -113,9 +113,9 @@
             "minItems": 1,
             "uniqueItems": true
         },
-        "measurementOrFact":
+        "hasMeasurementOrFact":
         {
-            "description": "One or more Measurement Or Facts relating to the Geological Context",
+            "description": "This property refers to one or more related instances of the MeasurementOrFact class.",
             "type": "array",
             "items":
             {

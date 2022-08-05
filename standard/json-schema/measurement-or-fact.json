@@ -37,8 +37,8 @@
       "description": "The value of the qualitative fact, characteristic, or assertion being made about the collection.",
       "type": "string"
     },
-    "identifier": {
-      "description": "One or more Identifiers relating to the Measurement or Fact",
+    "hasIdentifier": {
+      "description": "This property refers to one or more related instances of the Identifier class.",
       "type": "array",
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/identifier.json"
@@ -46,8 +46,8 @@
       "minItems": 1,
       "uniqueItems": true
     },
-    "reference": {
-      "description": "One or more References relating to the Measurement or Fact",
+    "hasReference": {
+      "description": "This property refers to one or more related instances of the Reference class.",
       "type": "array",
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/reference.json"

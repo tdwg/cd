@@ -4,7 +4,7 @@
     "order": "Priapulimorphida",
     "family": "Priapulidae",
     "scientificName": "Priapulus Lamarck, 1816",
-    "identifier":
+    "hasIdentifier":
     [
         {
             "identifierType": "URI",
@@ -22,7 +22,7 @@
             "identifier": "Q2391885"
         }
     ],
-    "measurementOrFact":
+    "hasMeasurementOrFact":
     [
         {
             "measurementType": "MIDS-0 Object Count",

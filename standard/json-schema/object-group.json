@@ -163,9 +163,9 @@
             "minItems": 1,
             "uniqueItems": true
         },
-        "reference":
+        "hasReference":
         {
-            "description": "One or more References relating to the Object Group",
+            "description": "This property refers to one or more related instances of the Reference class.",
             "type": "array",
             "items":
             {
@@ -174,9 +174,9 @@
             "minItems": 1,
             "uniqueItems": true
         },
-        "identifier":
+        "hasIdentifier":
         {
-            "description": "One or more Identifiers relating to the Object Group",
+            "description": "This property refers to one or more related instances of the Identifier class.",
             "type": "array",
             "items":
             {
@@ -185,9 +185,9 @@
             "minItems": 1,
             "uniqueItems": true
         },
-        "collectionStatusHistory":
+        "hasCollectionStatusHistory":
         {
-            "description": "One or more Collection Statuses relating to the Object Group",
+            "description": "This property refers to one or more related instances of the CollectionStatusHistory class.",
             "type": "array",
             "items":
             {
@@ -196,9 +196,9 @@
             "minItems": 1,
             "uniqueItems": true
         },
-        "resourceRelationship":
+        "hasResourceRelationship":
         {
-            "description": "One or more Resource Relationships relating to the Object Group",
+            "description": "This property refers to one or more related instances of the ResourceRelationship class.",
             "type": "array",
             "items":
             {
@@ -207,9 +207,9 @@
             "minItems": 1,
             "uniqueItems": true
         },
-        "geographicOrigin":
+        "hasGeographicOrigin":
         {
-            "description": "One or more Geographic Origins relating to the Object Group",
+            "description": "This property refers to one or more related instances of the GeographicOrigin class.",
             "type": "array",
             "items":
             {
@@ -218,9 +218,9 @@
             "minItems": 1,
             "uniqueItems": true
         },
-        "geologicalContext":
+        "hasGeologicalContext":
         {
-            "description": "One or more Geological Contexts relating to the Object Group",
+            "description": "This property refers to one or more related instances of the GeologicalContext class.",
             "type": "array",
             "items":
             {
@@ -229,9 +229,9 @@
             "minItems": 1,
             "uniqueItems": true
         },
-        "chronometricAge":
+        "hasChronometricAge":
         {
-            "description": "One or more Chronometric Ages relating to the Object Group",
+            "description": "This property refers to one or more related instances of the ChronometricAge class.",
             "type": "array",
             "items":
             {
@@ -240,9 +240,9 @@
             "minItems": 1,
             "uniqueItems": true
         },
-        "taxon":
+        "hasTaxon":
         {
-            "description": "One or more Taxons relating to the Object Group",
+            "description": "This property refers to one or more related instances of the Taxon class.",
             "type": "array",
             "items":
             {
@@ -251,9 +251,9 @@
             "minItems": 1,
             "uniqueItems": true
         },
-        "storageLocation":
+        "hasStorageLocation":
         {
-            "description": "One or more StorageLocations relating to the Object Group",
+            "description": "This property refers to one or more related instances of the StorageLocation class.",
             "type": "array",
             "items":
             {
@@ -262,9 +262,9 @@
             "minItems": 1,
             "uniqueItems": true
         },
-        "event":
+        "hasEvent":
         {
-            "description": "One or more Events relating to the Object Group",
+            "description": "This property refers to one or more related instances of the Event class.",
             "type": "array",
             "items":
             {
@@ -273,9 +273,9 @@
             "minItems": 1,
             "uniqueItems": true
         },
-        "objectClassification":
+        "hasObjectClassification":
         {
-            "description": "One or more Object Classifications relating to the Object Group",
+            "description": "This property refers to one or more related instances of the ObjectClassification class.",
             "type": "array",
             "items":
             {
@@ -284,9 +284,9 @@
             "minItems": 1,
             "uniqueItems": true
         },
-        "organisationalUnit":
+        "hasOrganisationalUnit":
         {
-            "description": "One or more Organisational Units relating to the Object Group",
+            "description": "This property refers to one or more related instances of the OrganisationalUnit class.",
             "type": "array",
             "items":
             {
@@ -295,9 +295,9 @@
             "minItems": 1,
             "uniqueItems": true
         },
-        "measurementOrFact":
+        "hasMeasurementOrFact":
         {
-            "description": "One or more Measurement Or Facts relating to the Object Group",
+            "description": "This property refers to one or more related instances of the MeasurementOrFact class.",
             "type": "array",
             "items":
             {
@@ -306,9 +306,9 @@
             "minItems": 1,
             "uniqueItems": true
         },
-        "personRole":
+        "hasPersonRole":
         {
-            "description": "One or more Person Roles relating to the Object Group",
+            "description": "This property refers to one or more related instances of the PersonRole class.",
             "type": "array",
             "items":
             {

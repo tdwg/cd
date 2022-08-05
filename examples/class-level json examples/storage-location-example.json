@@ -1,7 +1,7 @@
 {
     "locationName": "Groom Lake Store",
     "locationType": "Site",
-    "measurementOrFact":
+    "hasMeasurementOrFact":
     [
         {
             "measurementType": "Object Count",
@@ -18,7 +18,7 @@
             "measurementRemarks": "Reflects total max storage capacity of existing furniture."
         }
     ],
-    "address":
+    "hasAddress":
     [
         {
             "streetAddress": "Groom Lake, Rachel, Lincoln County, Nevada, US",

@@ -21,9 +21,9 @@
             "description": "The immediate parent of the ObjectClassification in a self-referential hierarchy.",
             "type": "string"
         },
-        "objectClassification":
+        "hasObjectClassification":
         {
-            "description": "One or more Object Classifications relating to the Object Classification",
+            "description": "This property refers to one or more related instances of the ObjectClassification class.",
             "type": "array",
             "items":
             {
@@ -32,9 +32,9 @@
             "minItems": 1,
             "uniqueItems": true
         },
-        "identifier":
+        "hasIdentifier":
         {
-            "description": "One or more Identifiers relating to the Object Classification",
+            "description": "This property refers to one or more related instances of the Identifier class.",
             "type": "array",
             "items":
             {
@@ -43,9 +43,9 @@
             "minItems": 1,
             "uniqueItems": true
         },
-        "reference":
+        "hasReference":
         {
-            "description": "One or more References relating to the Object Classification",
+            "description": "This property refers to one or more related instances of the Reference class.",
             "type": "array",
             "items":
             {
@@ -54,9 +54,9 @@
             "minItems": 1,
             "uniqueItems": true
         },
-        "measurementOrFact":
+        "hasMeasurementOrFact":
         {
-            "description": "One or more Measurement Or Facts relating to the Object Classification",
+            "description": "This property refers to one or more related instances of the MeasurementOrFact class.",
             "type": "array",
             "items":
             {

@@ -5,7 +5,7 @@
     "addressLocality": "Chicago",
     "addressRegion": "Illinois",
     "addressCountry": "United States",
-    "identifier":
+    "hasIdentifier":
     [
         {
             "identifierType": "what3words",

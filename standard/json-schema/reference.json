@@ -21,8 +21,8 @@
       "description": "Detailed information about the resource being referenced.",
       "type": "string"
     },
-    "identifier": {
-      "description": "One or more Identifiers relating to the Reference",
+    "hasIdentifier": {
+      "description": "This property refers to one or more related instances of the Identifier class.",
       "type": "array",
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/identifier.json"

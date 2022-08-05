@@ -26,9 +26,9 @@
             "description": "Given name. In the U.S., the first name of a Person.",
             "type": "string"
         },
-        "address":
+        "hasAddress":
         {
-            "description": "One or more Addresses relating to the Person",
+            "description": "This property refers to one or more related instances of the Address class.",
             "type": "array",
             "items":
             {
@@ -37,9 +37,9 @@
             "minItems": 1,
             "uniqueItems": true
         },
-        "contactDetail":
+        "hasContactDetail":
         {
-            "description": "One or more Contact Details relating to the Person",
+            "description": "This property refers to one or more related instances of the ContactDetail class.",
             "type": "array",
             "items":
             {
@@ -48,9 +48,9 @@
             "minItems": 1,
             "uniqueItems": true
         },
-        "identifier":
+        "hasIdentifier":
         {
-            "description": "One or more Identifiers relating to the Person",
+            "description": "This property refers to one or more related instances of the Identifier class.",
             "type": "array",
             "items":
             {
@@ -59,9 +59,9 @@
             "minItems": 1,
             "uniqueItems": true
         },
-        "reference":
+        "hasReference":
         {
-            "description": "One or more References relating to the Person",
+            "description": "This property refers to one or more related instances of the Reference class.",
             "type": "array",
             "items":
             {
@@ -70,9 +70,9 @@
             "minItems": 1,
             "uniqueItems": true
         },
-        "measurementOrFact":
+        "hasMeasurementOrFact":
         {
-            "description": "One or more Measurement Or Facts relating to the Person",
+            "description": "This property refers to one or more related instances of the MeasurementOrFact class.",
             "type": "array",
             "items":
             {

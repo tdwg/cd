@@ -13,8 +13,8 @@
         "description": "The nature of the location where the collection is stored.",
         "type": "string"
       },
-      "address": {
-        "description": "One or more Addresses relating to the Storage Location",
+      "hasAddress": {
+        "description": "This property refers to one or more related instances of the Address class.",
         "type": "array",
         "items": {
           "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/address.json"
@@ -22,8 +22,8 @@
         "minItems": 1,
         "uniqueItems": true
       },
-      "identifier": {
-        "description": "One or more Identifiers relating to the Storage Location",
+      "hasIdentifier": {
+        "description": "This property refers to one or more related instances of the Identifier class.",
         "type": "array",
         "items": {
           "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/identifier.json"
@@ -31,8 +31,8 @@
         "minItems": 1,
         "uniqueItems": true
       },
-      "reference": {
-        "description": "One or more References relating to the Storage Location",
+      "hasReference": {
+        "description": "This property refers to one or more related instances of the Reference class.",
         "type": "array",
         "items": {
           "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/reference.json"
@@ -40,8 +40,8 @@
         "minItems": 1,
         "uniqueItems": true
       },
-      "measurementOrFact": {
-        "description": "One or more Measurement Or Facts relating to the Storage Location",
+      "hasMeasurementOrFact": {
+        "description": "This property refers to one or more related instances of the MeasurementOrFact class.",
         "type": "array",
         "items": {
           "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/measurement-or-fact.json"
