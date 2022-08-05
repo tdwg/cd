@@ -6,7 +6,7 @@
     "countryCode": "AU",
     "salinityType": "marine",
     "stateProvince": "Queensland",
-    "identifiers":
+    "hasIdentifier":
     [
         {
             "identifierType": "GeoNames ID",
@@ -14,7 +14,7 @@
             "identifier": 2146841
         }
     ],
-    "measurementOrFact":
+    "hasMeasurementOrFact":
     [
         {
             "measurementType": "decimal latitude",

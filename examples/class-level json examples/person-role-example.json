@@ -1,13 +1,13 @@
 {
     "role": "Collection Contact",
     "startedAtTime": "1984-09-01",
-    "person":
+    "hasPerson":
     [
         {
             "fullName": "Malcolm Powder",
             "familyName": "Powder",
             "givenName": "Malcolm",
-            "address":
+            "hasAddress":
             [
                 {
                     "addressType": "Work",
@@ -18,7 +18,7 @@
                     "addressPostalCode": "OX1 3PW"
                 }
             ],
-            "contactDetail":
+            "hasContactDetail":
             [
                 {
                     "contactDetailCategory": "email",
@@ -30,7 +30,7 @@
                     "contactDetailValue": "447527883354"
                 }
             ],
-            "identifier":
+            "hasIdentifier":
             [
                 {
                     "identifierType": "URI",
@@ -38,15 +38,13 @@
                     "identifier": "0000-0004-4012-0571"
                 }
             ]
-        },
-        {
-            "contactDetail":
-            [
-                {
-                    "contactDetailCategory": "email",
-                    "contactDetailValue": "enquiries@oumnh.ac.uk"
-                }
-            ]
         }
-    ]
+    ],
+    "hasContactDetail":
+        [
+            {
+                "contactDetailCategory": "email",
+                "contactDetailValue": "enquiries@oumnh.ac.uk"
+            }
+        ]
 }

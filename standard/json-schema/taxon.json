@@ -45,8 +45,8 @@
         "description": "The full scientific name. This should be the name in lowest level taxonomic rank that applies across the collection.",
         "type": "string"
       },
-      "identifier": {
-        "description": "One or more Identifiers relating to the Taxon",
+      "hasIdentifier": {
+        "description": "This property refers to one or more related instances of the Identifier class.",
         "type": "array",
         "items": {
           "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/identifier.json"
@@ -54,8 +54,8 @@
         "minItems": 1,
         "uniqueItems": true
       },
-      "reference": {
-        "description": "One or more References relating to the Taxon",
+      "hasReference": {
+        "description": "This property refers to one or more related instances of the Reference class.",
         "type": "array",
         "items": {
           "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/reference.json"
@@ -63,8 +63,8 @@
         "minItems": 1,
         "uniqueItems": true
       },
-      "measurementOrFact": {
-        "description": "One or more Measurement Or Facts relating to the Taxon",
+      "hasMeasurementOrFact": {
+        "description": "This property refers to one or more related instances of the MeasurementOrFact class.",
         "type": "array",
         "items": {
           "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/measurement-or-fact.json"

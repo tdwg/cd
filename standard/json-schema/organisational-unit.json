@@ -22,9 +22,9 @@
             "type": "string"
         }
     },
-    "organisationalUnit":
+    "hasOrganisationalUnit":
     {
-        "description": "One or more Organisational Units relating to the Organisational Unit",
+        "description": "This property refers to one or more related instances of the OrganisationalUnit class.",
         "type": "array",
         "items":
         {
@@ -45,9 +45,9 @@
         "minItems": 1,
         "uniqueItems": true
     },
-    "address":
+    "hasAddress":
     {
-        "description": "One or more Addresses relating to the Organisational Unit",
+        "description": "This property refers to one or more related instances of the Address class.",
         "type": "array",
         "items":
         {
@@ -56,9 +56,9 @@
         "minItems": 1,
         "uniqueItems": true
     },
-    "contactDetail":
+    "hasContactDetail":
     {
-        "description": "One or more Contact Details relating to the Organisational Unit",
+        "description": "This property refers to one or more related instances of the ContactDetail class.",
         "type": "array",
         "items":
         {
@@ -67,7 +67,7 @@
         "minItems": 1,
         "uniqueItems": true
     },
-    "personRole":
+    "hasPersonRole":
     {
         "description": "One or more Person Roles relating to the Organisational Unit",
         "type": "array",
@@ -78,9 +78,9 @@
         "minItems": 1,
         "uniqueItems": true
     },
-    "reference":
+    "hasReference":
     {
-        "description": "One or more References relating to the Organisational Unit",
+        "description": "This property refers to one or more related instances of the Reference class.",
         "type": "array",
         "items":
         {
@@ -89,9 +89,9 @@
         "minItems": 1,
         "uniqueItems": true
     },
-    "identifier":
+    "hasIdentifier":
     {
-        "description": "One or more Identifiers relating to the Organisational Unit",
+        "description": "This property refers to one or more related instances of the Identifier class.",
         "type": "array",
         "items":
         {
@@ -100,9 +100,9 @@
         "minItems": 1,
         "uniqueItems": true
     },
-    "measurementOrFact":
+    "hasMeasurementOrFact":
     {
-        "description": "One or more Measurement Or Facts relating to the Event",
+        "description": "This property refers to one or more related instances of the MeasurementOrFact class.",
         "type": "array",
         "items":
         {

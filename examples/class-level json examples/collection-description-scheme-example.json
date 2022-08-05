@@ -2,14 +2,14 @@
     "basisOfScheme": "Institutional holdings",
     "distinctObjects": true,
     "schemeName": "Institutional Registry Project",
-    "identifier":
+    "hasIdentifier":
     [
         {
             "identifierType": "LtC Schema ID",
             "identifier": "0000-0000-0000-0000"
         }
     ],
-    "reference":
+    "hasReference":
     [
         {
             "referenceType": "Website",

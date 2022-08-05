@@ -7,7 +7,7 @@
     ],
     "description": "The NHM collections cover virtually all groups of animals, plants, rocks, meteorites, minerals and fossils.",
     "collectionName": "Collections of the Natural History Museum, UK",
-    "identifer":
+    "hasIdentifer":
     [
         {
             "identifierType": "Collection Code",
@@ -49,7 +49,7 @@
         "https://www.nhm.ac.uk/our-science/collections/accessing-collections.html",
         "Please contact the relevant curator, Curator in Charge or Head of Collections with enquiries about whether research visits or research loans are possible. Due to many major projects in the Museum, loans will be assessed on a case-by-case basis. This also means that we will require 12 months minimum notice period."
     ],
-    "organisationalUnit":
+    "hasOrganisationalUnit":
     [
         {
             "organisationalUnitName": "Natural History Museum, London",
@@ -67,7 +67,7 @@
                 "The Natural History Museum",
                 "Natural History Museum at Tring"
             ],
-            "identifer":
+            "hasIdentifer":
             [
                 {
                     "identifierType": "ROR",
@@ -118,7 +118,7 @@
                     "identifier": "0000000122709879"
                 }
             ],
-            "measurementOrFact":
+            "hasMeasurementOrFact":
             [
                 {
                     "measurementType": "decimal latitude",
@@ -129,7 +129,7 @@
                     "measurementValue": -0.1791737
                 }
             ],
-            "reference":
+            "hasReference":
             [
                 {
                     "referenceType": "URL",
@@ -137,7 +137,7 @@
                     "referenceText": "Logo"
                 }
             ],
-            "address":
+            "hasAddress":
             [
                 {
                     "addressType": "Mailing address",
@@ -164,7 +164,7 @@
                     "addressPostalCode": "HP23 6AP"
                 }
             ],
-            "contactDetail":
+            "hasContactDetail":
             [
                 {
                     "contactDetailCategory": "telephone",
@@ -172,24 +172,24 @@
                     "contactDetailValue": "442079425000"
                 }
             ],
-            "personRole":
+            "hasPersonRole":
             [
                 {
                     "role": "Museum Registrar",
-                    "person":
+                    "hasPerson":
                     [
                         {
                             "fullName": "Sarah Long",
                             "familyName": "Long",
                             "givenName": "Sarah",
-                            "contactDetail":
+                            "hasContactDetail":
                             [
                                 {
                                     "contactDetailCategory": "telephone",
                                     "contactDetailValue": "44207942nnnnn"
                                 }
                             ],
-                            "address":
+                            "hasAddress":
                             [
                                 {
                                     "addressType": "Mailing address",
@@ -205,20 +205,20 @@
                 },
                 {
                     "role": "Museum Director",
-                    "person":
+                    "hasPerson":
                     [
                         {
                             "fullName": "Doug Gurr",
                             "familyName": "Gurr",
                             "givenName": "Doug",
-                            "contactDetail":
+                            "hasContactDetail":
                             [
                                 {
                                     "contactDetailCategory": "email",
                                     "contactDetailValue": "nnnnnnn@nhm.ac.uk"
                                 }
                             ],
-                            "address":
+                            "hasAddress":
                             [
                                 {
                                     "addressType": "Mailing address",
@@ -373,7 +373,7 @@
         "INVASIVE",
         "NATIVE"
     ],
-    "reference":
+    "haseference":
     [
         {
             "referenceType": "Website",
@@ -391,13 +391,13 @@
             "referenceText": "API URL"
         }
     ],
-    "collectionStatusHistory":
+    "hasCollectionStatusHistory":
     [
         {
             "statusType": "Stewardship",
             "status": "active",
             "statusChangeReason": "Collection formally distinguished and physically separated from the collection of the British Museum.",
-            "temporalCoverage":
+            "hasTemporalCoverage":
             [
                 {
                     "temporalCoverageStartDate": "1881-04-18"
@@ -405,7 +405,7 @@
             ]
         }
     ],
-    "address":
+    "hasAddress":
     [
         {
             "addressType": "Mailing address",
@@ -432,7 +432,7 @@
             "addressPostalCode": "HP23 6AP"
         }
     ],
-    "contactDetail":
+    "hasContactDetail":
     [
         {
             "contactDetailCategory": "telephone",
@@ -440,7 +440,7 @@
             "contactDetailValue": "442079425000"
         }
     ],
-    "geographicOrigin":
+    "hasGeographicOrigin":
     [
         {
             "region": "Worldwide marine"
@@ -449,7 +449,7 @@
             "region": "Worldwide terrestrial"
         }
     ],
-    "objectClassification":
+    "hasObjectClassification":
     [
         {
             "objectClassificationName": "Zoology invertebrates"
@@ -476,17 +476,17 @@
             "objectClassificationName": "Extraterrestrial"
         }
     ],
-    "personRole":
+    "hasPersonRole":
     [
         {
             "role": "Collector",
-            "person":
+            "hasPerson":
             [
                 {
                     "fullName": "Hans Sloane",
                     "familyName": "Sloane",
                     "givenName": "Hans",
-                    "identifier":
+                    "hasIdentifier":
                     [
                         {
                             "identifierType": "WIKIDATA",
@@ -498,7 +498,7 @@
                     "fullName": "Joseph Banks",
                     "familyName": "Banks",
                     "givenName": "Joseph",
-                    "identifier":
+                    "hasIdentifier":
                     [
                         {
                             "identifierType": "WIKIDATA",
@@ -510,7 +510,7 @@
                     "fullName": "Charles Darwin",
                     "familyName": "Darwin",
                     "givenName": "Charles",
-                    "identifier":
+                    "hasIdentifier":
                     [
                         {
                             "identifierType": "WIKIDATA",
@@ -523,7 +523,7 @@
                     "familyName": "Wallace",
                     "givenName": "Alfred",
                     "additionalName": "Russell",
-                    "identifier":
+                    "hasIdentifier":
                     [
                         {
                             "identifierType": "WIKIDATA",
@@ -535,7 +535,7 @@
                     "fullName": "Mary Anning",
                     "familyName": "Anning",
                     "givenName": "Mary",
-                    "identifier":
+                    "hasIdentifier":
                     [
                         {
                             "identifierType": "WIKIDATA",
@@ -547,7 +547,7 @@
                     "fullName": "William Smith",
                     "familyName": "Smith",
                     "givenName": "William",
-                    "identifier":
+                    "hasIdentifier":
                     [
                         {
                             "identifierType": "WIKIDATA",
@@ -560,7 +560,7 @@
                     "familyName": "Rothschild",
                     "givenName": "Lionel",
                     "additionalName": "Walter",
-                    "identifier":
+                    "hasIdentifier":
                     [
                         {
                             "identifierType": "WIKIDATA",
@@ -572,13 +572,13 @@
         },
         {
             "role": "Head of Collections (Life Sciences)",
-            "person":
+            "hasPerson":
             [
                 {
                     "fullName": "Clare Valentine",
                     "familyName": "Valentine",
                     "givenName": "Clare",
-                    "contactDetail":
+                    "hasContactDetail":
                     [
                         {
                             "contactDetailCategory": "email",
@@ -589,7 +589,7 @@
                             "contactDetailValue": "44207942nnnnn"
                         }
                     ],
-                    "address":
+                    "hasAddress":
                     [
                         {
                             "addressType": "Mailing address",
@@ -600,7 +600,7 @@
                             "addressPostalCode": "SW7 5BD"
                         }
                     ],
-                    "identifier":
+                    "hasIdentifier":
                     [
                         {
                             "identifierType": "ORCID",
@@ -612,13 +612,13 @@
         },
         {
             "role": "Head of Collections (Earth Sciences)",
-            "person":
+            "hasPerson":
             [
                 {
                     "fullName": "Caroline Smith",
                     "familyName": "Smith",
                     "givenName": "Caroline",
-                    "contactDetail":
+                    "hasContactDetail":
                     [
                         {
                             "contactDetailCategory": "email",
@@ -629,7 +629,7 @@
                             "contactDetailValue": "44207942nnnn"
                         }
                     ],
-                    "address":
+                    "hasAddress":
                     [
                         {
                             "addressType": "Mailing address",
@@ -640,7 +640,7 @@
                             "addressPostalCode": "SW7 5BD"
                         }
                     ],
-                    "identifier":
+                    "hasIdentifier":
                     [
                         {
                             "identifierType": "ORCID",
@@ -652,13 +652,13 @@
         },
         {
             "role": "Acting Head of Collections (Library & Archives)",
-            "person":
+            "hasPerson":
             [
                 {
                     "fullName": "Lisa Cardy",
                     "familyName": "Cardy",
                     "givenName": "Lisa",
-                    "contactDetail":
+                    "hasContactDetail":
                     [
                         {
                             "contactDetailCategory": "email",
@@ -669,7 +669,7 @@
                             "contactDetailValue": "44207942nnnnn"
                         }
                     ],
-                    "address":
+                    "hasAddress":
                     [
                         {
                             "addressType": "Mailing address",
@@ -680,7 +680,7 @@
                             "addressPostalCode": "SW7 5BD"
                         }
                     ],
-                    "identifier":
+                    "hasIdentifier":
                     [
                         {
                             "identifierType": "ORCID",
@@ -692,14 +692,14 @@
         },
         {
             "role": "Head of Digital, Data and Informatics",
-            "person":
+            "hasPerson":
             [
                 {
                     "fullName": "Vincent Smith",
                     "familyName": "Smith",
                     "givenName": "Vincent",
                     "additionalName": "Stuart",
-                    "contactDetail":
+                    "hasContactDetail":
                     [
                         {
                             "contactDetailCategory": "email",
@@ -710,7 +710,7 @@
                             "contactDetailValue": "44207942nnnn"
                         }
                     ],
-                    "address":
+                    "hasAddress":
                     [
                         {
                             "addressType": "Mailing address",
@@ -721,7 +721,7 @@
                             "addressPostalCode": "SW7 5BD"
                         }
                     ],
-                    "identifier":
+                    "hasIdentifier":
                     [
                         {
                             "identifierType": "ORCID",

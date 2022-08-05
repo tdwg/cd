@@ -35,9 +35,9 @@
         {
             "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/collection-description-scheme.json"
         },
-        "objectGroup":
+        "hasObjectGroup":
         {
-            "description": "One or more Object Groups described by the Record Level",
+            "description": "This property refers to one or more related instances of the ObjectGroup class.",
             "type": "array",
             "items":
             {
@@ -46,9 +46,9 @@
             "minItems": 1,
             "uniqueItems": true
         },
-        "reference":
+        "hasReference":
         {
-            "description": "One or more References relating to the Record Level",
+            "description": "This property refers to one or more related instances of the Reference class.",
             "type": "array",
             "items":
             {
@@ -57,9 +57,9 @@
             "minItems": 1,
             "uniqueItems": true
         },
-        "identifier":
+        "hasIdentifier":
         {
-            "description": "One or more Identifiers relating to the Record Level",
+            "description": "This property refers to one or more related instances of the Identifier class.",
             "type": "array",
             "items":
             {
@@ -68,9 +68,9 @@
             "minItems": 1,
             "uniqueItems": true
         },
-        "resourceRelationship":
+        "hasResourceRelationship":
         {
-            "description": "One or more Resource Relationships relating to the Record Level",
+            "description": "This property refers to one or more related instances of the ResourceRelationship class.",
             "type": "array",
             "items":
             {
@@ -79,9 +79,9 @@
             "minItems": 1,
             "uniqueItems": true
         },
-        "personRole":
+        "hasPersonRole":
         {
-            "description": "One or more Person Roles relating to the Record Level",
+            "description": "This property refers to one or more related instances of the PersonRole class.",
             "type": "array",
             "items":
             {

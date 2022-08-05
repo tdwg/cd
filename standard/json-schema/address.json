@@ -33,8 +33,8 @@
       "description": "The country. For example, USA. You can also provide the two-letter ISO 3166-1 alpha-2 country code.",
       "type": "string"
     },
-    "identifier": {
-      "description": "One or more Identifiers relating to the Address",
+    "hasIdentifier": {
+      "description": "This property refers to one or more related instances of the Identifier class.",
       "type": "array",
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/identifier.json"

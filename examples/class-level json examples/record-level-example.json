@@ -6,28 +6,28 @@
       "basisOfScheme": "Institutional collection",
       "distinctObjects": true,
       "schemeName": "Institutional Registry Project",
-      "identifier": [
+      "hasIdentifier": [
         {
           "identifierType": "URI",
           "identifier": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/record-level.json"
         }
       ],
-      "reference": [
+      "hasReference": [
         {
           "referenceType": "Website",
           "resourceURI": "https://www.registryproject.org/about"
         }
       ]
     },
-    "personRole": [
+    "hasPersonRole": [
       {
         "role": "LtC record contact",
-        "person": [
+        "hasPerson": [
           {
             "fullName": "Malcolm Powder",
             "familyName": "Powder",
             "givenName": "Malcolm",
-            "address": [
+            "hasAddress": [
               {
                 "addressType": "Work",
                 "streetAddress": "Room 14B, OUMNH, Parks Rd",
@@ -37,7 +37,7 @@
                 "addressPostalCode": "OX1 3PW"
               }
             ],
-            "contactDetail": [
+            "hasContactDetail": [
               {
                 "contactDetailCategory": "email",
                 "contactDetailValue": "m.powder@oumnh.ac.uk"
@@ -48,7 +48,7 @@
                 "contactDetailValue": "447527883354"
               }
             ],
-            "identifier": [
+            "hasIdentifier": [
               {
                 "identifierType": "ORCID",
                 "identifier": "0000-0004-4012-0571"
@@ -58,7 +58,7 @@
         ]
       }
     ],
-    "objectGroup": [
+    "hasObjectGroup": [
       {
         "baseTypeOfCollection": "MATERIAL_SAMPLE",
         "typeOfCollection": [
@@ -67,7 +67,7 @@
         ],
         "description": "The NHM collections cover virtually all groups of animals, plants, rocks, meteorites, minerals and fossils.",
         "collectionName": "Collections of the Natural History Museum, UK",
-        "identifer": [
+        "hasIdentifer": [
           {
             "identifierType": "Collection Code",
             "identifier": "NHMUK"
@@ -107,7 +107,7 @@
           "https://www.nhm.ac.uk/our-science/collections/accessing-collections.html",
           "Please contact the relevant curator, Curator in Charge or Head of Collections with enquiries about whether research visits or research loans are possible. Due to many major projects in the Museum, loans will be assessed on a case-by-case basis. This also means that we will require 12 months minimum notice period."
         ],
-        "organisationalUnit": [
+        "hasOrganisationalUnit": [
           {
             "organisationalUnitName": "Natural History Museum, London",
             "organisationalUnitType": "MUSEUM",
@@ -123,7 +123,7 @@
               "The Natural History Museum",
               "Natural History Museum at Tring"
             ],
-            "identifer": [
+            "hasIdentifer": [
               {
                 "identifierType": "ROR",
                 "identifier": "039zvsn29"
@@ -173,7 +173,7 @@
                 "identifier": "0000000122709879"
               }
             ],
-            "measurementOrFact": [
+            "hasMeasurementOrFact": [
               {
                 "measurementType": "decimal latitude",
                 "measurementValue": 51.4957663
@@ -183,14 +183,14 @@
                 "measurementValue": -0.1791737
               }
             ],
-            "reference": [
+            "hasReference": [
               {
                 "referenceType": "URL",
                 "referenceURI": "https://www.nhm.ac.uk/etc/designs/nhmwww/img/logo-large.svg",
                 "referenceText": "Logo"
               }
             ],
-            "address": [
+            "hasAddress": [
               {
                 "addressType": "Mailing address",
                 "streetAddress": "Natural History Museum, Cromwell Road, London SW7 5BD, United Kingdom",
@@ -216,28 +216,28 @@
                 "addressPostalCode": "HP23 6AP"
               }
             ],
-            "contactDetail": [
+            "hasContactDetail": [
               {
                 "contactDetailCategory": "telephone",
                 "contactDetailType": "General enquiries",
                 "contactDetailValue": "442079425000"
               }
             ],
-            "personRole": [
+            "hasPersonRole": [
               {
                 "role": "Museum Registrar",
-                "person": [
+                "hasPerson": [
                   {
                     "fullName": "Sarah Long",
                     "familyName": "Long",
                     "givenName": "Sarah",
-                    "contactDetail": [
+                    "hasContactDetail": [
                       {
                         "contactDetailCategory": "telephone",
                         "contactDetailValue": "44207942nnn"
                       }
                     ],
-                    "address": [
+                    "hasAddress": [
                       {
                         "addressType": "Mailing address",
                         "streetAddress": "Natural History Museum, Cromwell Road, London SW7 5BD, United Kingdom",
@@ -252,18 +252,18 @@
               },
               {
                 "role": "Museum Director",
-                "person": [
+                "has{erson": [
                   {
                     "fullName": "Doug Gurr",
                     "familyName": "Gurr",
                     "givenName": "Doug",
-                    "contactDetail": [
+                    "hasContactDetail": [
                       {
                         "contactDetailCategory": "email",
                         "contactDetailValue": "nnnnn@nhm.ac.uk"
                       }
                     ],
-                    "address": [
+                    "hasAddress": [
                       {
                         "addressType": "Mailing address",
                         "streetAddress": "Natural History Museum, Cromwell Road, London SW7 5BD, United Kingdom",
@@ -410,7 +410,7 @@
           "INVASIVE",
           "NATIVE"
         ],
-        "reference": [
+        "hasReference": [
           {
             "referenceType": "Website",
             "resourceURI": "https://www.nhm.ac.uk/our-science/collections.html",
@@ -427,19 +427,19 @@
             "referenceText": "API URL"
           }
         ],
-        "collectionStatusHistory": [
+        "hasCollectionStatusHistory": [
           {
             "statusType": "Stewardship",
             "status": "active",
             "statusChangeReason": "Collection formally distinguished and physically separated from the collection of the British Museum.",
-            "temporalCoverage": [
+            "hasTemporalCoverage": [
               {
                 "temporalCoverageStartDate": "1881-04-18"
               }
             ]
           }
         ],
-        "address": [
+        "hasAddress": [
           {
             "addressType": "Mailing address",
             "streetAddress": "Natural History Museum, Cromwell Road, London SW7 5BD, United Kingdom",
@@ -465,14 +465,14 @@
             "addressPostalCode": "HP23 6AP"
           }
         ],
-        "contactDetail": [
+        "hasContactDetail": [
           {
             "contactDetailCategory": "telephone",
             "contactDetailType": "General enquiries",
             "contactDetailValue": "442079425000"
           }
         ],
-        "geographicOrigin": [
+        "hasGeographicOrigin": [
           {
             "region": "Worldwide marine"
           },
@@ -480,7 +480,7 @@
             "region": "Worldwide terrestrial"
           }
         ],
-        "objectClassification": [
+        "hasObjectClassification": [
           {
             "objectClassificationName": "Zoology invertebrates"
           },
@@ -506,15 +506,15 @@
             "objectClassificationName": "Extraterrestrial"
           }
         ],
-        "personRole": [
+        "hasPersonRole": [
           {
             "role": "Collector",
-            "person": [
+            "hasPerson": [
               {
                 "fullName": "Hans Sloane",
                 "familyName": "Sloane",
                 "givenName": "Hans",
-                "identifier": [
+                "hasIdentifier": [
                   {
                     "identifierType": "WIKIDATA",
                     "identifier": "Q310326"
@@ -525,7 +525,7 @@
                 "fullName": "Joseph Banks",
                 "familyName": "Banks",
                 "givenName": "Joseph",
-                "identifier": [
+                "hasIdentifier": [
                   {
                     "identifierType": "WIKIDATA",
                     "identifier": "Q153408"
@@ -536,7 +536,7 @@
                 "fullName": "Charles Darwin",
                 "familyName": "Darwin",
                 "givenName": "Charles",
-                "identifier": [
+                "hasIdentifier": [
                   {
                     "identifierType": "WIKIDATA",
                     "identifier": "Q1035"
@@ -548,7 +548,7 @@
                 "familyName": "Wallace",
                 "givenName": "Alfred",
                 "additionalName": "Russell",
-                "identifier": [
+                "hasIdentifier": [
                   {
                     "identifierType": "WIKIDATA",
                     "identifier": "Q160627"
@@ -559,7 +559,7 @@
                 "fullName": "Mary Anning",
                 "familyName": "Anning",
                 "givenName": "Mary",
-                "identifier": [
+                "hasIdentifier": [
                   {
                     "identifierType": "WIKIDATA",
                     "identifier": "Q230491"
@@ -570,7 +570,7 @@
                 "fullName": "William Smith",
                 "familyName": "Smith",
                 "givenName": "William",
-                "identifier": [
+                "hasIdentifier": [
                   {
                     "identifierType": "WIKIDATA",
                     "identifier": "Q313533"
@@ -582,7 +582,7 @@
                 "familyName": "Rothschild",
                 "givenName": "Lionel",
                 "additionalName": "Walter",
-                "identifier": [
+                "hasIdentifier": [
                   {
                     "identifierType": "WIKIDATA",
                     "identifier": "Q316669"
@@ -593,12 +593,12 @@
           },
           {
             "role": "Head of Collections (Life Sciences)",
-            "person": [
+            "hasPerson": [
               {
                 "fullName": "Clare Valentine",
                 "familyName": "Valentine",
                 "givenName": "Clare",
-                "contactDetail": [
+                "hasContactDetail": [
                   {
                     "contactDetailCategory": "email",
                     "contactDetailValue": "nnnn@nhm.ac.uk"
@@ -608,7 +608,7 @@
                     "contactDetailValue": "44207942nnnn"
                   }
                 ],
-                "address": [
+                "hasAddress": [
                   {
                     "addressType": "Mailing address",
                     "streetAddress": "Natural History Museum, Cromwell Road, London SW7 5BD, United Kingdom",
@@ -618,7 +618,7 @@
                     "addressPostalCode": "SW7 5BD"
                   }
                 ],
-                "identifier": [
+                "hasIdentifier": [
                   {
                     "identifierType": "ORCID",
                     "identifier": "0000-0002-3955-8920"
@@ -629,12 +629,12 @@
           },
           {
             "role": "Head of Collections (Earth Sciences)",
-            "person": [
+            "hasPerson": [
               {
                 "fullName": "Caroline Smith",
                 "familyName": "Smith",
                 "givenName": "Caroline",
-                "contactDetail": [
+                "hasContactDetail": [
                   {
                     "contactDetailCategory": "email",
                     "contactDetailValue": "nnnnnn@nhm.ac.uk"
@@ -644,7 +644,7 @@
                     "contactDetailValue": "44207942nnnn"
                   }
                 ],
-                "address": [
+                "hasAddress": [
                   {
                     "addressType": "Mailing address",
                     "streetAddress": "Natural History Museum, Cromwell Road, London SW7 5BD, United Kingdom",
@@ -654,7 +654,7 @@
                     "addressPostalCode": "SW7 5BD"
                   }
                 ],
-                "identifier": [
+                "hasIdentifier": [
                   {
                     "identifierType": "ORCID",
                     "identifier": "0000-0001-7005-6470"
@@ -665,12 +665,12 @@
           },
           {
             "role": "Acting Head of Collections (Library & Archives)",
-            "person": [
+            "hasPerson": [
               {
                 "fullName": "Lisa Cardy",
                 "familyName": "Cardy",
                 "givenName": "Lisa",
-                "contactDetail": [
+                "hasContactDetail": [
                   {
                     "contactDetailCategory": "email",
                     "contactDetailValue": "nnnnnn@nhm.ac.uk"
@@ -680,7 +680,7 @@
                     "contactDetailValue": "44207942nnnnn"
                   }
                 ],
-                "address": [
+                "hasAddress": [
                   {
                     "addressType": "Mailing address",
                     "streetAddress": "Natural History Museum, Cromwell Road, London SW7 5BD, United Kingdom",
@@ -690,7 +690,7 @@
                     "addressPostalCode": "SW7 5BD"
                   }
                 ],
-                "identifier": [
+                "hasIdentifier": [
                   {
                     "identifierType": "ORCID",
                     "identifier": "0000-0002-7787-9004"
@@ -701,13 +701,13 @@
           },
           {
             "role": "Head of Digital, Data and Informatics",
-            "person": [
+            "hasPerson": [
               {
                 "fullName": "Vincent Smith",
                 "familyName": "Smith",
                 "givenName": "Vincent",
                 "additionalName": "Stuart",
-                "contactDetail": [
+                "hasContactDetail": [
                   {
                     "contactDetailCategory": "email",
                     "contactDetailValue": "nnnnn@nhm.ac.uk"
@@ -717,7 +717,7 @@
                     "contactDetailValue": "44207942nnnn"
                   }
                 ],
-                "address": [
+                "hasAddress": [
                   {
                     "addressType": "Mailing address",
                     "streetAddress": "Natural History Museum, Cromwell Road, London SW7 5BD, United Kingdom",
@@ -727,7 +727,7 @@
                     "addressPostalCode": "SW7 5BD"
                   }
                 ],
-                "identifier": [
+                "hasIdentifier": [
                   {
                     "identifierType": "ORCID",
                     "identifier": "0000-0001-5297-7452"

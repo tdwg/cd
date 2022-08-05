@@ -50,9 +50,9 @@
             "description": "An identifier for an instance of relationship between one resource (the subject) and another (relatedResource, the object).",
             "type": "string"
         },
-        "identifier":
+        "hasIdentifier":
         {
-            "description": "One or more Identifiers relating to the Resource Relationship",
+            "description": "This property refers to one or more related instances of the Identifier class.",
             "type": "array",
             "items":
             {
@@ -61,9 +61,9 @@
             "minItems": 1,
             "uniqueItems": true
         },
-        "reference":
+        "hasReference":
         {
-            "description": "One or more References relating to the Resource Relationship",
+            "description": "This property refers to one or more related instances of the Reference class.",
             "type": "array",
             "items":
             {
