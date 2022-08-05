@@ -13,9 +13,9 @@
       "description": "The source or creator of the identifier.",
       "type": "string"
     },
-    "identifier": {
+    "identifierValue": {
       "description": "A textual or numeric identifier, acronym or URI that provides an unambiguous reference for an entity within a given context.",
-      "type": ["string", "number"]
+      "type": "string"
     },
     "hasReference": {
       "description": "This property refers to one or more related instances of the Reference class.",
@@ -27,7 +27,7 @@
     }
   },
   "required": [
-    "identifier",
+    "identifierValue",
     "identifierType"
   ]
 }

@@ -5,11 +5,11 @@
     [
         {
             "identifierType": "ISBN 13",
-            "identifier": 9780449810866
+            "identifierValue": 9780449810866
         },
         {
             "identifierType": "ISBN 10",
-            "identifier": "0449810860"
+            "identifierValue": "0449810860"
         }
     ]
 }
