@@ -11,35 +11,35 @@
     [
         {
             "identifierType": "Collection Code",
-            "identifier": "NHMUK"
+            "identifierValue": "NHMUK"
         },
         {
             "identifierType": "DOI",
-            "identifier": "10.5519/0002965"
+            "identifierValue": "10.5519/0002965"
         },
         {
             "identifierType": "Alternative Collection Code",
-            "identifier": "BMNH"
+            "identifierValue": "BMNH"
         },
         {
             "identifierType": "Alternative Collection Code",
-            "identifier": "NHML"
+            "identifierValue": "NHML"
         },
         {
             "identifierType": "Alternative Collection Code",
-            "identifier": "BM(NH)"
+            "identifierValue": "BM(NH)"
         },
         {
             "identifierType": "Alternative Collection Code",
-            "identifier": "NHM"
+            "identifierValue": "NHM"
         },
         {
             "identifierType": "Alternative Collection Code",
-            "identifier": "B.M.(N.H.)"
+            "identifierValue": "B.M.(N.H.)"
         },
         {
             "identifierType": "Alternative Collection Code",
-            "identifier": "BM"
+            "identifierValue": "BM"
         }
     ],
     "knownToContainTypes": true,
@@ -71,51 +71,51 @@
             [
                 {
                     "identifierType": "ROR",
-                    "identifier": "039zvsn29"
+                    "identifierValue": "039zvsn29"
                 },
                 {
                     "identifierType": "CITES",
-                    "identifier": "GB 001"
+                    "identifierValue": "GB 001"
                 },
                 {
                     "identifierType": "GRID",
-                    "identifier": "grid.35937.3b"
+                    "identifierValue": "grid.35937.3b"
                 },
                 {
                     "identifierType": "GRSCICOLL_URI",
-                    "identifier": "http://grscicoll.org/institution/natural-history-museum-london"
+                    "identifierValue": "http://grscicoll.org/institution/natural-history-museum-london"
                 },
                 {
                     "identifierType": "GRSCICOLL_URI",
-                    "identifier": "http://grbio.org/institution/natural-history-museum-london"
+                    "identifierValue": "http://grbio.org/institution/natural-history-museum-london"
                 },
                 {
                     "identifierType": "GRSCICOLL_URI",
-                    "identifier": "http://biocol.org/urn:lsid:biocol.org:col:34665"
+                    "identifierValue": "http://biocol.org/urn:lsid:biocol.org:col:34665"
                 },
                 {
                     "identifierType": "LSID",
-                    "identifier": "urn:lsid:biocol.org:col:34665"
+                    "identifierValue": "urn:lsid:biocol.org:col:34665"
                 },
                 {
                     "identifierType": "WIKIDATA",
-                    "identifier": "Q309388"
+                    "identifierValue": "Q309388"
                 },
                 {
                     "identifierType": "GBIF_PORTAL",
-                    "identifier": "19456090-b49a-11d8-abeb-b8a03c50a862"
+                    "identifierValue": "19456090-b49a-11d8-abeb-b8a03c50a862"
                 },
                 {
                     "identifierType": "IH_IRN",
-                    "identifier": "126148"
+                    "identifierValue": "126148"
                 },
                 {
                     "identifierType": "VIAF",
-                    "identifier": "126824325"
+                    "identifierValue": "126824325"
                 },
                 {
                     "identifierType": "ISNI",
-                    "identifier": "0000000122709879"
+                    "identifierValue": "0000000122709879"
                 }
             ],
             "hasMeasurementOrFact":
@@ -490,7 +490,7 @@
                     [
                         {
                             "identifierType": "WIKIDATA",
-                            "identifier": "Q310326"
+                            "identifierValue": "Q310326"
                         }
                     ]
                 },
@@ -502,7 +502,7 @@
                     [
                         {
                             "identifierType": "WIKIDATA",
-                            "identifier": "Q153408"
+                            "identifierValue": "Q153408"
                         }
                     ]
                 },
@@ -514,7 +514,7 @@
                     [
                         {
                             "identifierType": "WIKIDATA",
-                            "identifier": "Q1035"
+                            "identifierValue": "Q1035"
                         }
                     ]
                 },
@@ -527,7 +527,7 @@
                     [
                         {
                             "identifierType": "WIKIDATA",
-                            "identifier": "Q160627"
+                            "identifierValue": "Q160627"
                         }
                     ]
                 },
@@ -539,7 +539,7 @@
                     [
                         {
                             "identifierType": "WIKIDATA",
-                            "identifier": "Q230491"
+                            "identifierValue": "Q230491"
                         }
                     ]
                 },
@@ -551,7 +551,7 @@
                     [
                         {
                             "identifierType": "WIKIDATA",
-                            "identifier": "Q313533"
+                            "identifierValue": "Q313533"
                         }
                     ]
                 },
@@ -564,7 +564,7 @@
                     [
                         {
                             "identifierType": "WIKIDATA",
-                            "identifier": "Q316669"
+                            "identifierValue": "Q316669"
                         }
                     ]
                 }
@@ -604,7 +604,7 @@
                     [
                         {
                             "identifierType": "ORCID",
-                            "identifier": "0000-0002-3955-8920"
+                            "identifierValue": "0000-0002-3955-8920"
                         }
                     ]
                 }
@@ -644,7 +644,7 @@
                     [
                         {
                             "identifierType": "ORCID",
-                            "identifier": "0000-0001-7005-6470"
+                            "identifierValue": "0000-0001-7005-6470"
                         }
                     ]
                 }
@@ -684,7 +684,7 @@
                     [
                         {
                             "identifierType": "ORCID",
-                            "identifier": "0000-0002-7787-9004"
+                            "identifierValue": "0000-0002-7787-9004"
                         }
                     ]
                 }
@@ -725,7 +725,7 @@
                     [
                         {
                             "identifierType": "ORCID",
-                            "identifier": "0000-0001-5297-7452"
+                            "identifierValue": "0000-0001-5297-7452"
                         }
                     ]
                 }

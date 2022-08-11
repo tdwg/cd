@@ -11,7 +11,7 @@
         {
             "identifierType": "GeoNames ID",
             "source": "https://www.geonames.org/",
-            "identifier": 2146841
+            "identifierValue": "2146841"
         }
     ],
     "hasMeasurementOrFact":

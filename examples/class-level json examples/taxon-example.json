@@ -9,17 +9,17 @@
         {
             "identifierType": "URI",
             "identifierSource": "https://www.checklistbank.org/dataset/9812/taxon/",
-            "identifier": "84SNJ"
+            "identifierValue": "84SNJ"
         },
         {
             "identifierType": "URI",
             "identifierSource": "https://marinespecies.org/authority/metadata.php?lsid=",
-            "identifier": "urn:lsid:marinespecies.org:taxname:116116"
+            "identifierValue": "urn:lsid:marinespecies.org:taxname:116116"
         },
         {
             "identifierType": "URI",
             "identifierSource": "https://www.wikidata.org/wiki/",
-            "identifier": "Q2391885"
+            "identifierValue": "Q2391885"
         }
     ],
     "hasMeasurementOrFact":
