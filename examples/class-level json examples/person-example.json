@@ -31,6 +31,11 @@
             "identifierType": "URI",
             "identifierSource": "https://orcid.org/",
             "identifierValue": "0000-0004-4012-0571"
+        },
+        {
+            "identifierType": "URI",
+            "identifierSource": "http://www.wikidata.org/entity/",
+            "identifierValue": "Q1951402"
         }
     ]
 }
