@@ -18,7 +18,7 @@
         },
         "samplingProtocol":
         {
-            "description": "The name of, reference to, or description of the method or protocol used to gather objects in the collection.",
+            "description": "The name of, reference to, or description of the method or protocol used during an Event.",
             "type": "string"
         },
         "eventName":
@@ -70,7 +70,7 @@
             "minItems": 1,
             "uniqueItems": true
         },
-        "measurementOrFact":
+        "hasMeasurementOrFact":
         {
             "description": "This property refers to one or more related instances of the MeasurementOrFact class.",
             "type": "array",
