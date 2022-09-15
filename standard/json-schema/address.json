@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft-04/schema#",
   "$id": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/address.json",
   "title": "Address",
-  "description": "A physical postal address for an organisational unit or person.",
+  "description": "A physical address for an organisational unit or person.",
   "type": "object",
   "properties": {
     "addressType": {

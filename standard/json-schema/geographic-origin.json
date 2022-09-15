@@ -8,7 +8,7 @@
     {
         "continent":
         {
-            "description": "The name of the continent from which objects in the collection originated.",
+            "description": "The name of the continent in which the location occurs.",
             "type": "string"
         },
         "country":
@@ -43,7 +43,7 @@
         },
         "locality":
         {
-            "description": "The specific description of the place from which objects in the collection originated. Less specific geographic information can be provided in other geographic terms (higherGeography, continent, country, stateProvince, county, municipality, waterBody, island, islandGroup). This term may contain information modified from the original to correct perceived errors or standardize the description.",
+            "description": "The specific description of the place. Less specific geographic information can be provided in other geographic terms (continent, waterBody). This term may contain information modified from the original to correct perceived errors or standardize the description.",
             "type": "string"
         },
         "municipality":
@@ -68,7 +68,7 @@
         },
         "waterBody":
         {
-            "description": "The name of the water body from which objects in the the collection originated.",
+            "description": "The name of the water body in which the location occurs.",
             "type": "string"
         },
         "waterBodyType":

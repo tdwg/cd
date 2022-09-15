@@ -2,11 +2,11 @@
   "$schema": "https://json-schema.org/draft-04/schema#",
   "$id": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/measurement-or-fact.json",
   "title": "Measurement or Fact",
-  "description": "  A measurement of or fact about the ObjectGroup representing the objects in the collection description, or the relationship between the ObjectGroup and an associated class.",
+  "description": "A measurement of or fact about a class within the standard, or a relationship between the ObjectGroup and an associated class.",
   "type": "object",
   "properties": {
     "measurementType": {
-      "description": "The nature of the measurement, fact, characteristic, or assertion being made about the collection.",
+      "description": "The nature of the measurement, fact, characteristic, or assertion.",
       "type": "string"
     },
     "measurementValue": {
@@ -18,15 +18,15 @@
       "type": "string"
     },
     "measurementUnit": {
-      "description": "The units associated with the measurementValue applied to the collection.",
+      "description": "The units associated with the measurementValue.",
       "type": "string"
     },
     "measurementMethod": {
-      "description": "A brief description of or reference to (publication, URI) the method or protocol used to determine the measurement, fact, characteristic, or assertion being applied to the collection.",
+      "description": "A description of or reference to (publication, URI) the method or protocol used to determine the measurement, fact, characteristic, or assertion.",
       "type": "string"
     },
     "measurementRemarks": {
-      "description": "Comments or notes accompanying the MeasurementOrFact being applied to the collection.",
+      "description": "Comments or notes accompanying the MeasurementOrFact.",
       "type": "string"
     },
     "measurementDerivation": {
