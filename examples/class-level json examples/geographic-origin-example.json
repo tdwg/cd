@@ -9,8 +9,8 @@
     "hasIdentifier":
     [
         {
-            "identifierType": "GeoNames ID",
-            "source": "https://www.geonames.org/",
+            "identifierType": "URI",
+            "identifierSource": "https://www.geonames.org/",
             "identifierValue": "2146841"
         }
     ],

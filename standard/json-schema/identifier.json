@@ -9,7 +9,7 @@
       "description": "The type and format of the value in the identifier field.",
       "type": "string"
     },
-    "source": {
+    "identifierSource": {
       "description": "The source or creator of the identifier.",
       "type": "string"
     },

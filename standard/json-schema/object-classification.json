@@ -16,11 +16,6 @@
             "description": "A short title describing this ObjectClassification as a class, unit or grouping.",
             "type": "string"
         },
-        "objectClassificationParent":
-        {
-            "description": "The immediate parent of the ObjectClassification in a self-referential hierarchy.",
-            "type": "string"
-        },
         "hasObjectClassification":
         {
             "description": "This property refers to one or more related instances of the ObjectClassification class.",
