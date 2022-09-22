@@ -1,5 +1,5 @@
 {
-    "role": "Collection Contact",
+    "role": "Collection Manager",
     "startedAtTime": "1984-09-01",
     "hasPerson":
     [
@@ -51,5 +51,12 @@
                 "contactDetailCategory": "email",
                 "contactDetailValue": "enquiries@oumnh.ac.uk"
             }
-        ]
+        ],
+    "hasMeasurementOrFact": 
+    [
+        {
+            "measurementType": "FTE person count",
+            "measurementValue": 0.5
+        }
+    ]
 }

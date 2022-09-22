@@ -86,7 +86,16 @@
         },
         "minItems": 1,
         "uniqueItems": true
-      }
+      },
+      "hasMeasurementOrFact": {
+        "description": "This property refers to one or more related instances of the MeasurementOrFact class.",
+        "type": "array",
+        "items": {
+          "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/measurement-or-fact.json"
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
     },
     "required": [
       "role"
