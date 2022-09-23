@@ -13,6 +13,10 @@
         "description": "The nature of the location where the collection is stored.",
         "type": "string"
       },
+      "locationDescription": {
+        "description": "Short textual description of the storage location of the group of items.",
+        "type": "string"
+      },
       "hasAddress": {
         "description": "This property refers to one or more related instances of the Address class.",
         "type": "array",
