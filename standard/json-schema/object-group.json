@@ -11,6 +11,18 @@
             "description": "A short title that summarises the collection objects contained within the ObjectGroup.",
             "type": "string"
         },
+        "alternativeCollectionName":
+        {
+            "description": "A short title different to the one given in ObjectGroup.collectionName that is used to summarise the collection objects contained within the ObjectGroup.",
+            "type": "array",
+            "items":
+            {
+                "description": "A short title different to the one given in ObjectGroup.collectionName that is used to summarise the collection objects contained within the ObjectGroup.",
+                "type": "string"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
         "baseTypeOfCollection":
         {
             "description": "High-level term describing the fundamental nature of objects in the ObjectGroup.",
