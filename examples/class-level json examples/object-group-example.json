@@ -7,6 +7,11 @@
     ],
     "description": "The NHM collections cover virtually all groups of animals, plants, rocks, meteorites, minerals and fossils.",
     "collectionName": "Collections of the Natural History Museum, UK",
+    "alternativeCollectionName": 
+    [
+        "NHM Specimen Collection",
+        "NHMUK Collection"
+    ],
     "hasIdentifer":
     [
         {
