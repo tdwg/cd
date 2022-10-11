@@ -9,7 +9,7 @@
       "hasIdentifier": [
         {
           "identifierType": "URI",
-          "identifierValue": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/record-level.json"
+          "identifierValue": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/record-level.json"
         }
       ],
       "hasReference": [
@@ -257,7 +257,7 @@
               },
               {
                 "role": "Museum Director",
-                "has{erson": [
+                "hasPerson": [
                   {
                     "fullName": "Doug Gurr",
                     "familyName": "Gurr",
@@ -265,7 +265,7 @@
                     "hasContactDetail": [
                       {
                         "contactDetailCategory": "email",
-                        "contactDetailValue": "nnnnn@nhm.ac.uk"
+                        "contactDetailValue": "dougdougdoug@nhm.ac.uk"
                       }
                     ],
                     "hasAddress": [
