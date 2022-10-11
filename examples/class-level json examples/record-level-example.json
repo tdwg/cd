@@ -30,17 +30,17 @@
             "hasAddress": [
               {
                 "addressType": "Work",
-                "streetAddress": "Room 14B, OUMNH, Parks Rd",
-                "addressRegion": "Oxfordshire",
-                "addressLocality": "Oxford",
+                "streetAddress": "Natural History Museum, WW.142, Cromwell Road, South Kensington",
+                "addressRegion": "Greater London",
+                "addressLocality": "London",
                 "addressCountry": "UK",
-                "addressPostalCode": "OX1 3PW"
+                "addressPostalCode": "SW7 5BD"
               }
             ],
             "hasContactDetail": [
               {
                 "contactDetailCategory": "email",
-                "contactDetailValue": "m.powder@oumnh.ac.uk"
+                "contactDetailValue": "m.powder@nhm.ac.uk"
               },
               {
                 "contactDetailType": "mobile",
@@ -239,7 +239,7 @@
                     "hasContactDetail": [
                       {
                         "contactDetailCategory": "telephone",
-                        "contactDetailValue": "44207942nnn"
+                        "contactDetailValue": "44207942232"
                       }
                     ],
                     "hasAddress": [
@@ -487,28 +487,84 @@
         ],
         "hasObjectClassification": [
           {
-            "objectClassificationName": "Zoology invertebrates"
+            "objectClassificationName": "Zoology invertebrates",
+            "hasMeasurementOrFact": [
+              {
+                "measurementType": "object count",
+                "measurementAccuracy": "estimate",
+                "measurementValue": 53541717
+              }
+            ]
           },
           {
-            "objectClassificationName": "Palaeontology"
+            "objectClassificationName": "Palaeontology",
+            "hasMeasurementOrFact": [
+              {
+                "measurementType": "object count",
+                "measurementAccuracy": "estimate",
+                "measurementValue": 9506805
+              }
+            ]
           },
           {
-            "objectClassificationName": "Botany"
+            "objectClassificationName": "Botany",
+            "hasMeasurementOrFact": [
+              {
+                "measurementType": "object count",
+                "measurementAccuracy": "estimate",
+                "measurementValue": 5174915
+              }
+            ]
           },
           {
-            "objectClassificationName": "Zoology vertebrates"
+            "objectClassificationName": "Zoology vertebrates",
+            "hasMeasurementOrFact": [
+              {
+                "measurementType": "object count",
+                "measurementAccuracy": "estimate",
+                "measurementValue": 3277110
+              }
+            ]
           },
           {
-            "objectClassificationName": "Geology"
+            "objectClassificationName": "Geology",
+            "hasMeasurementOrFact": [
+              {
+                "measurementType": "object count",
+                "measurementAccuracy": "estimate",
+                "measurementValue": 621421
+              }
+            ]
           },
           {
-            "objectClassificationName": "Anthropology"
+            "objectClassificationName": "Anthropology",
+            "hasMeasurementOrFact": [
+              {
+                "measurementType": "object count",
+                "measurementAccuracy": "estimate",
+                "measurementValue": 34616
+              }
+            ]
           },
           {
-            "objectClassificationName": "Other geo/biodiversity"
+            "objectClassificationName": "Other geo/biodiversity",
+            "hasMeasurementOrFact": [
+              {
+                "measurementType": "object count",
+                "measurementAccuracy": "estimate",
+                "measurementValue": 23186
+              }
+            ]
           },
           {
-            "objectClassificationName": "Extraterrestrial"
+            "objectClassificationName": "Extraterrestrial",
+            "hasMeasurementOrFact": [
+              {
+                "measurementType": "object count",
+                "measurementAccuracy": "estimate",
+                "measurementValue": 10297
+              }
+            ]
           }
         ],
         "hasPersonRole": [
@@ -682,7 +738,7 @@
                   },
                   {
                     "contactDetailCategory": "telephone",
-                    "contactDetailValue": "44207942nnnnn"
+                    "contactDetailValue": "4420794211111"
                   }
                 ],
                 "hasAddress": [
@@ -711,7 +767,7 @@
                 "fullName": "Vincent Smith",
                 "familyName": "Smith",
                 "givenName": "Vincent",
-                "additionalName": "Stuart",
+                "additionalName": "Marmalade",
                 "hasContactDetail": [
                   {
                     "contactDetailCategory": "email",
@@ -719,7 +775,7 @@
                   },
                   {
                     "contactDetailCategory": "telephone",
-                    "contactDetailValue": "44207942nnnn"
+                    "contactDetailValue": "442079421234"
                   }
                 ],
                 "hasAddress": [
