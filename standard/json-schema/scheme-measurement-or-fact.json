@@ -13,7 +13,7 @@
         },
         "isMandatoryMetric":
         {
-            "description": "A flag to designate whether it's mandatory or optional for every collection description within the CollectionDescriptionScheme to include the measurement or fact defined by the schemeMeasurementType property.",
+            "description": "A flag to designate whether it is mandatory or optional for every collection description within the CollectionDescriptionScheme to include the measurement or fact defined by the schemeMeasurementType property.",
             "type": "boolean"
         },
         "isRepeatableMetric":
