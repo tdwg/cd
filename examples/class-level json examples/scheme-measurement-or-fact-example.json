@@ -1,7 +1,7 @@
 {
     "schemeMeasurementType": "MIDS-0 Object Count",
-    "mandatoryMetric": true,
-    "repeatableMetric": true,
+    "isMandatoryMetric": true,
+    "isRepeatableMetric": true,
     "hasReference":
     [
         {
