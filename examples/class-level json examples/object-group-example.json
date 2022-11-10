@@ -47,8 +47,8 @@
             "identifierValue": "BM"
         }
     ],
-    "knownToContainTypes": true,
-    "currentCollection": true,
+    "isKnownToContainTypes": true,
+    "isCurrentCollection": true,
     "conditionsOfAccess":
     [
         "https://www.nhm.ac.uk/our-science/collections/accessing-collections.html",

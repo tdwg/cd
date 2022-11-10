@@ -1,10 +1,10 @@
 {
     "collectionDescriptionPID": "000-000-00000-000-000-00",
-    "derivedCollection": false,
+    "isDerivedCollection": false,
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "collectionDescriptionScheme": {
       "basisOfScheme": "Institutional collection",
-      "distinctObjects": true,
+      "isDistinctObjects": true,
       "schemeName": "Institutional Registry Project",
       "hasIdentifier": [
         {
@@ -106,8 +106,8 @@
             "identifierValue": "BM"
           }
         ],
-        "knownToContainTypes": true,
-        "currentCollection": true,
+        "isKnownToContainTypes": true,
+        "isCurrentCollection": true,
         "conditionsOfAccess": [
           "https://www.nhm.ac.uk/our-science/collections/accessing-collections.html",
           "Please contact the relevant curator, Curator in Charge or Head of Collections with enquiries about whether research visits or research loans are possible. Due to many major projects in the Museum, loans will be assessed on a case-by-case basis. This also means that we will require 12 months minimum notice period."

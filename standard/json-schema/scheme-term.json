@@ -11,12 +11,12 @@
             "description": "The name of a class or property within the Latimer Core standard that is included in the CollectionDescriptionScheme.",
             "type": "string"
         },
-        "mandatoryTerm":
+        "isMandatoryTerm":
         {
-            "description": "A flag to designate whether it's mandatory or optional for all ObjectGroups in the CollectionDescriptionScheme to include or be linked to valid data for the class or property defined in the termName property.",
+            "description": "A flag to designate whether it is mandatory or optional for all ObjectGroups in the CollectionDescriptionScheme to include or be linked to valid data for the class or property defined in the termName property.",
             "type": "boolean"
         },
-        "repeatableTerm":
+        "isRepeatableTerm":
         {
             "description": "A flag to designate whether multiple instances of the Latimer Core class or property defined in the termName property may be attached to a single ObjectGroup.",
             "type": "boolean"
@@ -47,7 +47,7 @@
     "required":
     [
         "termName",
-        "mandatoryTerm",
-        "repeatableTerm"
+        "isMandatoryTerm",
+        "isRepeatableTerm"
     ]
 }
