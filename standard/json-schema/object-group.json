@@ -33,12 +33,12 @@
             "description": "A free text description or narrative about the collection.",
             "type": "string"
         },
-        "knownToContainTypes":
+        "isKnownToContainTypes":
         {
             "description": "Flag property to indicate that the collection is known to include type specimens.",
             "type": "boolean"
         },
-        "currentCollection":
+        "isCurrentCollection":
         {
             "description": "A flag to indicate whether the collection still exists as a single entity.",
             "type": "boolean"

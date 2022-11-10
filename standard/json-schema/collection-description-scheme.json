@@ -9,7 +9,7 @@
       "description": "A summary of the basis or purpose for the CollectionDescriptionScheme.",
       "type": "string"
     },
-    "distinctObjects": {
+    "isDistinctObjects": {
       "description": "A flag to designate whether a physical object may be described by more than one ObjectGroup within the CollectionDescriptionScheme.",
       "type": "boolean"
     },
@@ -55,7 +55,7 @@
     }
   },
   "required": [
-    "distinctObjects", 
+    "isDistinctObjects", 
     "schemeName"
   ]
 }

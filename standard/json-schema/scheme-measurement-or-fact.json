@@ -11,12 +11,12 @@
             "description": "A category of quantitative metric or qualitative fact that can be included in the CollectionDescriptionScheme.",
             "type": "string"
         },
-        "mandatoryMetric":
+        "isMandatoryMetric":
         {
             "description": "A flag to designate whether it's mandatory or optional for every collection description within the CollectionDescriptionScheme to include the measurement or fact defined by the schemeMeasurementType property.",
             "type": "boolean"
         },
-        "repeatableMetric":
+        "isRepeatableMetric":
         {
             "description": "A flag to designate whether multiple instances of the same schemeMeasurementType may be attached to a single entity.",
             "type": "boolean"
@@ -46,7 +46,7 @@
     },
     "required":
     [   "schemeMeasurementType",
-        "mandatoryMetric",
-        "repeatableMetric"
+        "isMandatoryMetric",
+        "isRepeatableMetric"
     ]
 }
