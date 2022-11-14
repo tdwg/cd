@@ -31,7 +31,7 @@
             "description": "A person or organization owning or managing rights held in/over the collection description record.",
             "type": "string"
         },
-        "collectionDescriptionScheme":
+        "hasCollectionDescriptionScheme":
         {
             "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/collection-description-scheme.json"
         },

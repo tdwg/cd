@@ -2,7 +2,7 @@
     "collectionDescriptionPID": "000-000-00000-000-000-00",
     "isDerivedCollection": false,
     "license": "https://creativecommons.org/licenses/by/4.0/",
-    "collectionDescriptionScheme": {
+    "hasCollectionDescriptionScheme": {
       "basisOfScheme": "Institutional collection",
       "isDistinctObjects": true,
       "schemeName": "Institutional Registry Project",
