@@ -39,6 +39,13 @@ locality,exactMatch,dwc:locality
 region,relatedMatch,dwc:locality
 waterBody,exactMatch,dwc:waterBody
 waterBodyType,broadMatch,dcterms:type
+islandGroup,exactMatch,dwc:islandGroup
+island,exactMatch,dwc:island
+country,exactMatch,dwc:country
+countryCode,exactMatch,dwc:countryCode
+stateProvince,exactMatch,dwc:stateProvince
+county,exactMatch,dwc:county
+municipality,exactMatch,dwc:municipality
 GeologicalContext,closeMatch,dwc:GeologicalContext
 bed,exactMatch,dwc:bed
 earliestAgeOrLowestStage,exactMatch,dwc:earliestAgeOrLowestStage
