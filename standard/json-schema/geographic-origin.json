@@ -13,32 +13,32 @@
         },
         "country":
         {
-            "description": "The name of the country or major administrative unit in which the Location occurs.",
+            "description": "The name of the country or major administrative unit in which the location occurs.",
             "type": "string"
         },
         "countryCode":
         {
-            "description": "The standard code for the country in which the Location occurs.",
+            "description": "The standard code for the country in which the location occurs.",
             "type": "string"
         },
         "county":
         {
-            "description": "The full, unabbreviated name of the next smaller administrative region than stateProvince (county, shire, department, etc.) from which the items in the collection originated.",
+            "description": "The full, unabbreviated name of the next smaller administrative region than stateProvince (county, shire, department, etc.) in which the location occurs.",
             "type": "string"
         },
         "ecoRegion":
         {
-            "description": "High level biogeographic region from which the objects in the collection originated.",
+            "description": "High level biogeographic region of the location.",
             "type": "string"
         },
         "island":
         {
-            "description": "The name of the island on or near from which the objects in the collection orginated.",
+            "description": "The name of the island on or near which the location occurs.",
             "type": "string"
         },
         "islandGroup":
         {
-            "description": "The name of the island group from which the objects in the collection originated.",
+            "description": "The name of the island group in which the location occurs.",
             "type": "string"
         },
         "locality":
@@ -48,7 +48,7 @@
         },
         "municipality":
         {
-            "description": "The full, unabbreviated name of the next smaller administrative region than county (city, municipality, etc.) from which objects in the collection originated. Do no use this term for a nearby named place that does not contain the actual location.",
+            "description": "The full, unabbreviated name of the next smaller administrative region than county (city, municipality, etc.) in which the location occurs. Do not use this term for a nearby named place that does not contain the actual location.",
             "type": "string"
         },
         "region":
@@ -63,7 +63,7 @@
         },
         "stateProvince":
         {
-            "description": "The name of the next smaller administrative region than country (state, province, canton, department, region, etc.) from which the objects in the collection originated.",
+            "description": "The name of the next smaller administrative region than country (state, province, canton, department, region, etc.) in which the location occurs.",
             "type": "string"
         },
         "waterBody":
