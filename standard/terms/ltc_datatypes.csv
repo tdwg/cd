@@ -140,6 +140,14 @@ ltc:,GeographicOrigin,region,string
 ltc:,GeographicOrigin,salinityType,string
 dwc:,GeographicOrigin,waterBody,string
 ltc:,GeographicOrigin,waterBodyType,string
+dwc:,GeographicOrigin,islandGroup,string
+dwc:,GeographicOrigin,island,string
+dwc:,GeographicOrigin,country,string
+dwc:,GeographicOrigin,countryCode,string
+dwc:,GeographicOrigin,stateProvince,string
+dwc:,GeographicOrigin,county,string
+dwc:,GeographicOrigin,municipality,string
+ltc:,GeographicOrigin,ecoRegion,string
 dwc:,GeologicalContext,bed,string
 dwc:,GeologicalContext,earliestAgeOrLowestStage,string
 dwc:,GeologicalContext,earliestEonOrLowestEonothem,string
