@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft-04/schema",
+  "$id": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/collection-description-scheme.json",
+  "title": "Collection Description Scheme",
+  "description": "A grouping of multiple ObjectGroups for a particular use case, purpose or implementation. Where the same objects within the same collection might be described by more than one ObjectGroup for different purposes (for examples, a 'Darwin Fossil Mammals' collection description might overlap with a 'Offsite Palaeontology' collection description), this class can be used to distinguish between them and avoid double-counting of metrics in queries against the data.",
+  "type": "object",
+  "properties": {
+    "basisOfScheme": {
+      "description": "A summary of the basis or purpose for the CollectionDescriptionScheme.",
+      "type": "string"
+    },
+    "hasIdentifier": {
+      "description": "This property refers to one or more related instances of the Identifier class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/identifier.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "hasObjectGroup": {
+      "description": "This property refers to one or more related instances of the ObjectGroup class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/object-group.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "hasReference": {
+      "description": "This property refers to one or more related instances of the Reference class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/reference.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "hasSchemeMeasurementOrFact": {
+      "description": "This property refers to one or more related instances of the SchemeMeasurementOrFact class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/scheme-measurement-or-fact.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "hasSchemeTerm": {
+      "description": "This property refers to one or more related instances of the SchemeTerm class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/scheme-term.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "isDistinctObjects": {
+      "description": "A flag to designate whether a physical object may be described by more than one ObjectGroup within the CollectionDescriptionScheme.",
+      "type": "boolean"
+    },
+    "schemeName": {
+      "description": "A short descriptive name given to the CollectionDescriptionScheme.",
+      "type": "string"
+    }
+  },
+  "required": [
+    "isDistinctObjects",
+    "schemeName"
+  ]
+}

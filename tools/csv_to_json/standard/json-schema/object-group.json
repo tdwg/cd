@@ -1,0 +1,268 @@
+{
+  "$schema": "https://json-schema.org/draft-04/schema",
+  "$id": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/object-group.json",
+  "title": "Object Group",
+  "description": "An intentionally grouped set of objects with one or more common characteristics.",
+  "type": "object",
+  "properties": {
+    "alternativeCollectionName": {
+      "description": "A short title different to the one given in ObjectGroup.collectionName that is used to summarise the collection objects contained within the ObjectGroup.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/alternative-collection-name.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "baseTypeOfCollection": {
+      "description": "High-level term describing the fundamental nature of objects in the ObjectGroup.",
+      "type": "string"
+    },
+    "collectionManagementSystem": {
+      "description": "The collection management system which is used to hold and manage the primary data for the objects contained within the ObjectGroup.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/collection-management-system.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "collectionName": {
+      "description": "A short title that summarises the collection objects contained within the ObjectGroup.",
+      "type": "string"
+    },
+    "conditionsOfAccess": {
+      "description": "Information about who can access the collection being described or an indication of its security status.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/conditions-of-access.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "degreeOfEstablishment": {
+      "description": "The degree to which an Organism survives, reproduces, and expands its range at the given place and time.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/degree-of-establishment.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "description": {
+      "description": "A free text description or narrative about the collection.",
+      "type": "string"
+    },
+    "discipline": {
+      "description": "A high level classification of the scientific discipline to which the objects within the collection belong or are related.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/discipline.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "hasChronometricAge": {
+      "description": "This property refers to one or more related instances of the ChronometricAge class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/chronometric-age.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "hasCollectionStatusHistory": {
+      "description": "This property refers to one or more related instances of the CollectionStatusHistory class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/collection-status-history.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "hasEvent": {
+      "description": "This property refers to one or more related instances of the Event class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/event.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "hasGeographicOrigin": {
+      "description": "This property refers to one or more related instances of the GeographicOrigin class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/geographic-origin.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "hasGeologicalContext": {
+      "description": "This property refers to one or more related instances of the GeologicalContext class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/geological-context.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "hasIdentifier": {
+      "description": "This property refers to one or more related instances of the Identifier class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/identifier.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "hasMeasurementOrFact": {
+      "description": "This property refers to one or more related instances of the MeasurementOrFact class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/measurement-or-fact.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "hasObjectClassification": {
+      "description": "This property refers to one or more related instances of the ObjectClassification class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/object-classification.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "hasOrganisationalUnit": {
+      "description": "This property refers to one or more related instances of the OrganisationalUnit class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/organisational-unit.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "hasPersonRole": {
+      "description": "This property refers to one or more related instances of the PersonRole class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/person-role.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "hasReference": {
+      "description": "This property refers to one or more related instances of the Reference class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/reference.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "hasResourceRelationship": {
+      "description": "This property refers to one or more related instances of the ResourceRelationship class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/resource-relationship.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "hasStorageLocation": {
+      "description": "This property refers to one or more related instances of the StorageLocation class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/storage-location.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "hasTaxon": {
+      "description": "This property refers to one or more related instances of the Taxon class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/taxon.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "isCurrentCollection": {
+      "description": "A flag to indicate whether the collection still exists as a single entity.",
+      "type": "boolean"
+    },
+    "isKnownToContainTypes": {
+      "description": "Flag property to indicate that the collection is known to include type specimens.",
+      "type": "boolean"
+    },
+    "material": {
+      "description": "Material denotes the raw substance(s) from which the object is formed, in whole or in part.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/material.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "objectType": {
+      "description": "High-level terms for the classification of curated objects.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/object-type.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "period": {
+      "description": "Used to describe prehistoric or historic periods.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/period.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "preparationType": {
+      "description": "A term used to classify or describe an object that indicates the actions that have been taken upon it and/or the processes it has been put through to prepare it for scientific use or study.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/preparation-type.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "preservationMethod": {
+      "description": "A term used to classify or describe an object that indicates the primary or most recent action, measure or process that has been used in order to preserve the objects in the collection for long-term storage.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/preservation-method.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "preservationMode": {
+      "description": "The means by which a palaeontological specimen was preserved or created e.g. body, cast, mold, trace fossil, soft parts mineralised etc.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/preservation-mode.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "typeOfCollection": {
+      "description": "Additional information that exists that describes the object(s) in the collection.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/type-of-collection.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "alternativeCollectionName",
+    "baseTypeOfCollection",
+    "collectionName"
+  ]
+}
