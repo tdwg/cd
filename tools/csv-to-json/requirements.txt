@@ -1,4 +1,0 @@
-attrs==22.1.0
-genson==1.2.2
-jsonschema==4.17.3
-pyrsistent==0.19.2
