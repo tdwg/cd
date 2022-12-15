@@ -10,4 +10,4 @@ This folder contains some ad hoc tools used to aid in the development of the sta
 
 **TDWG CD standard browser.pbix** - A Microsoft Power BI file, which pulls the definitions from the Github issues to create a summary dashboard. This requires Power BI Desktop (free download from https://powerbi.microsoft.com/en-us/downloads/) to open.
 
-**csv-to-json Python script** - A python script to convert a csv formatted like the [ltc standard terms csv](standard/terms) into [JSON Schema](https://json-schema.org/) files, as shown [here](standard/json-schema).
+**csv-to-json Python script** - A python script to convert a csv formatted like the [ltc standard terms csv](standard/terms) into [JSON Schema](https://json-schema.org/) files, as shown [here](../standard/json-schema).
