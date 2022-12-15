@@ -21,7 +21,7 @@ A python script to convert CSVs formatted like the [LtC standard terms CSVs](../
 
     `cd path/to/this-repo/tools/csv_to_json`
 
-    - install required python modules listed in [`requirements.txt`]()
+    - install required python modules listed in [`requirements.txt`](requirements.txt)
 
     `pip3 install -r requirements.txt`
 
