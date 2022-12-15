@@ -40,7 +40,7 @@ def validate_csv(csv_import: list, config: dict, csv_name: str):
     column_names = csv_import[0].keys()
 
     required_terms = {
-        config['LTC_TERM_CSV']: [
+        config['TERM_CSV']: [
             'definition',
             'label',
             'rdf_type',
@@ -49,12 +49,12 @@ def validate_csv(csv_import: list, config: dict, csv_name: str):
             'term_localName'
         ],
 
-        config['LTC_CLASS_CSV']: [
+        config['CLASS_CSV']: [
             'display_comments',
             'display_label'
         ],
 
-        config['LTC_DATATYPES_CSV']: [
+        config['DATATYPES_CSV']: [
             'datatype',
             'tdwgutility_organizedInClass',
             'term_localName'
@@ -175,10 +175,10 @@ def main():
     repo_csv_path = config['REPO_PATH_TO_CSV']
     repo_json_path = config['REPO_PATH_TO_JSON']
 
-    ltc_class_csv = config['LTC_CLASS_CSV']
-    ltc_term_csv = config['LTC_TERM_CSV']
-    ltc_datatypes_csv = config['LTC_DATATYPES_CSV']
-    # ltc_skos_csv = config['LTC_SKOS_CSV']
+    class_csv = config['CLASS_CSV']
+    term_csv = config['TERM_CSV']
+    datatypes_csv = config['DATATYPES_CSV']
+    # skos_csv = config['SKOS_CSV']
 
     json_output_path = config['JSON_OUTPUT_PATH']
 
@@ -189,27 +189,27 @@ def main():
     # Import CSVs
 
     # # import terms
-    terms_csv_file = f'{csv_prefix}/{ltc_term_csv}'
+    terms_csv_file = f'{csv_prefix}/{term_csv}'
     term_list = get_csv_as_dict(file_path=terms_csv_file)
     term_list = sorted(term_list, key = lambda i:i['term_localName'])
 
     # # import class list
-    class_csv_file = f'{csv_prefix}/{ltc_class_csv}'
+    class_csv_file = f'{csv_prefix}/{class_csv}'
     class_list = get_csv_as_dict(file_path=class_csv_file)
 
     # # import datatypes
-    datatype_csv_file = f'{csv_prefix}/{ltc_datatypes_csv}'
+    datatype_csv_file = f'{csv_prefix}/{datatypes_csv}'
     datatype_list = get_csv_as_dict(file_path=datatype_csv_file)
 
     # # # import SKOS mapping
-    # skos_csv_file = f'{csv_prefix}/{ltc_skos_csv}'
+    # skos_csv_file = f'{csv_prefix}/{skos_csv}'
     # skos_list = get_csv_as_dict(file_path=skos_csv_file)
 
     # Validate columns in CSV input
-    term_valid = validate_csv(csv_import=term_list, config=config, csv_name=ltc_term_csv)
-    class_valid = validate_csv(csv_import=class_list, config=config, csv_name=ltc_class_csv)
-    type_valid = validate_csv(csv_import=datatype_list, config=config, csv_name=ltc_datatypes_csv)
-    # skos_valid = validate_csv(csv_import=skos_list, config=config, csv_name=ltc_skos_csv)
+    term_valid = validate_csv(csv_import=term_list, config=config, csv_name=term_csv)
+    class_valid = validate_csv(csv_import=class_list, config=config, csv_name=class_csv)
+    type_valid = validate_csv(csv_import=datatype_list, config=config, csv_name=datatypes_csv)
+    # skos_valid = validate_csv(csv_import=skos_list, config=config, csv_name=skos_csv)
 
     if False in [term_valid, class_valid, type_valid]:
         print('Check CSVs for missing required columns')

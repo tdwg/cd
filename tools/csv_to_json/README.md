@@ -1,6 +1,6 @@
 # csv-to-json
 
-A script to convert the Latimer Core schema from CSV to JSON-Schema
+A python script to convert CSVs formatted like the [LtC standard terms CSVs](../../standard/terms) into [JSON Schema](https://json-schema.org/) files, as shown [here](../../standard/json-schema)
 
 
 ## Setup/Requirements:
@@ -22,12 +22,12 @@ A script to convert the Latimer Core schema from CSV to JSON-Schema
     - `REPO_PATH_TO_CSV` = in the repo branch, the path to the directory containing CSV files
     - `REPO_PATH_TO_JSON` = not currently used, but the path to the directory containing JSON schema files
 
-    - `LTC_CLASS_CSV` = the filename for the CSV with Class definitions -- e.g. "ltc_categories.csv"
+    - `CLASS_CSV` = the filename for the CSV with Class definitions -- e.g. "ltc_categories.csv"
       - required column-names are: 
         - 'display_comments'
         - 'display_label'
 
-    - `LTC_TERM_CSV` = filename for the term definitions CSV -- e.g. "ltc_standard_terms_draft.csv"
+    - `TERM_CSV` = filename for the term definitions CSV -- e.g. "ltc_standard_terms_draft.csv"
       - required column-names are: 
         - 'definition'
         - 'label'
@@ -36,13 +36,13 @@ A script to convert the Latimer Core schema from CSV to JSON-Schema
         - 'tdwgutility_organizedInClass'
         - 'term_localName'
 
-    - `LTC_DATATYPES_CSV` = filename for datatype-definitions CSV -- e.g. "ltc_datatypes.csv" (can be same CSV )
+    - `DATATYPES_CSV` = filename for datatype-definitions CSV -- e.g. "ltc_datatypes.csv" (can be same CSV )
       - required column-names are:
         - 'datatype'
         - 'tdwgutility_organizedInClass'
         - 'term_localName'
 
-    - `LTC_SKOS_CSV` = "ltc_skos_mapping.csv"
+    - `SKOS_CSV` = "ltc_skos_mapping.csv"
 
     - `JSON_OUTPUT_PATH` = the path where output JSON Schema files will go, relative to "tools/csv_to_json/" -- e.g.:
       - to output to a test subdirectory, use "test_subdirectory"
