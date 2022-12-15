@@ -1,15 +1,15 @@
-## csv-to-json
+# csv-to-json
 
 A script to convert the Latimer Core schema from CSV to JSON-Schema
 
 
-### Setup/Requirements:
+## Setup/Requirements:
 
 - Check your Python version by opening a command line/terminal and entering: `python3 --version` or `python --version`
 - If needed, install or update Python. See specific suggestions for [Windows](https://learn.microsoft.com/en-us/windows/python/beginners#install-python), [Mac](https://www.makeuseof.com/how-to-install-python-on-mac/), or [general info](https://www.python.org/downloads/)
 
 
-### How to run csv-to-json
+## How to run csv-to-json
 
 1. Clone this repo
 
@@ -41,7 +41,7 @@ A script to convert the Latimer Core schema from CSV to JSON-Schema
         - 'datatype'
         - 'tdwgutility_organizedInClass'
         - 'term_localName'
-        
+
     - `LTC_SKOS_CSV` = "ltc_skos_mapping.csv"
 
     - `JSON_OUTPUT_PATH` = the path where output JSON Schema files will go, relative to "tools/csv_to_json/" -- e.g.:
@@ -77,30 +77,39 @@ A script to convert the Latimer Core schema from CSV to JSON-Schema
 
 ### Troubleshooting
 
-For problems installing required modules, try setting up virtual environment like so (if using Python 3.4+):
+For problems installing required modules, try setting up a [python virtual environment](https://docs.python.org/3/library/venv.html) like so:
 
-1. `cd` to this repo/tools/csv_to_json
+1. Make sure you're using Python 3.4+
+    `python3 --version`  or  `python --version`
 
-#### PC:
-```
-# In cmd.exe
-venv\Scripts\activate.bat
-# In PowerShell
-venv\Scripts\Activate.ps1
-```
+2. `cd` to this repo/tools/csv_to_json
 
-#### Mac/Linux:
-```
-python3 -m venv venv
-source venv/bin/activate
-```
+    ```
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
 
-2. In the virtual env, retry installing requirements and running the script
+    #### Possible note for PC setup:
+    If step 2 didn't work, try: 
+
+    ```
+    # In cmd.exe
+    venv\Scripts\activate.bat
+    # In PowerShell
+    venv\Scripts\Activate.ps1
+    ```
+
+3. In the virtual env, retry installing requirements and running the script
 
     - install required python modules
 
-    `pip3 install -r requirements.txt`
+    `pip3 install -r requirements.txt`  or  `pip install -r requirements.txt`
 
     - run this script
 
-    `python3 csv_to_json.py`
+    `python3 csv_to_json.py`  or  `python csv_to_json.py`
+
+
+## To Do
+
+- Add validator to check LtC records against LtC JSON Schema
