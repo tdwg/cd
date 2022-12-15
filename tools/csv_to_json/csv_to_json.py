@@ -148,7 +148,11 @@ def convert_csv_to_json(
                     }
 
                     class_skeleton['properties'][term_name]['items'] = array_items
-                    class_skeleton['properties'][term_name]['minItems'] = 1
+                    class_skeleton['properties'][term_name]['minItems'] = 0
+                    # Check if array-term is required
+                    # TODO - should this also check 'required' in CLASS csv?
+                    if term_row['tdwgutility_required'] == 'Yes':
+                        class_skeleton['properties'][term_name]['minItems'] = 1
                     class_skeleton['properties'][term_name]['uniqueItems'] = True
 
                 # Check if term is required
@@ -169,12 +173,14 @@ def main():
     uri_raw_prefix = config['URI_RAW_PREFIX']
     repo_branch = config['REPO_BRANCH']
     repo_csv_path = config['REPO_PATH_TO_CSV']
-    repo_json_path =  config['REPO_PATH_TO_JSON']
+    repo_json_path = config['REPO_PATH_TO_JSON']
 
     ltc_class_csv = config['LTC_CLASS_CSV']
     ltc_term_csv = config['LTC_TERM_CSV']
     ltc_datatypes_csv = config['LTC_DATATYPES_CSV']
     # ltc_skos_csv = config['LTC_SKOS_CSV']
+
+    json_output_path = config['JSON_OUTPUT_PATH']
 
     csv_prefix = f'{uri_raw_prefix}/{repo_branch}/{repo_csv_path}'
     json_prefix = f'{uri_raw_prefix}/{repo_branch}/{repo_json_path}'
@@ -223,18 +229,17 @@ def main():
             # Write class's json-schema file
             if len(class_terms) > 0:
 
-                # Check if dir exists, and if not, make it
-                # output_path = config['REPO_PATH_TO_JSON']
-                if not os.path.isdir(repo_json_path):
-                    os.makedirs(repo_json_path)
+                # Check if dir for OUTPUT_JSON_PATH exists, and if not, make it
+                if not os.path.isdir(json_output_path):
+                    os.makedirs(json_output_path)
 
                 class_filename = prep_class_name(class_row['display_label'])
 
-                json_filename = f'{repo_json_path}/{class_filename}.json'
+                json_filename = f'{json_output_path}/{class_filename}.json'
                 with open(json_filename, mode='w', encoding='utf-8') as file_output:
                     json.dump(class_terms, file_output, indent=2, ensure_ascii=False)
 
-        print(f'...JSON Schema output files are here: "./{repo_json_path}/"')
+        print(f'...JSON Schema output files are here: "{json_output_path}/"')
 
 
 if __name__ == '__main__':
