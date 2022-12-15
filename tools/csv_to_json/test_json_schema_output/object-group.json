@@ -24,7 +24,7 @@
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/collection-management-system.json"
       },
-      "minItems": 1,
+      "minItems": 0,
       "uniqueItems": true
     },
     "collectionName": {
@@ -37,7 +37,7 @@
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/conditions-of-access.json"
       },
-      "minItems": 1,
+      "minItems": 0,
       "uniqueItems": true
     },
     "degreeOfEstablishment": {
@@ -46,7 +46,7 @@
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/degree-of-establishment.json"
       },
-      "minItems": 1,
+      "minItems": 0,
       "uniqueItems": true
     },
     "description": {
@@ -59,7 +59,7 @@
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/discipline.json"
       },
-      "minItems": 1,
+      "minItems": 0,
       "uniqueItems": true
     },
     "hasChronometricAge": {
@@ -68,7 +68,7 @@
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/chronometric-age.json"
       },
-      "minItems": 1,
+      "minItems": 0,
       "uniqueItems": true
     },
     "hasCollectionStatusHistory": {
@@ -77,7 +77,7 @@
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/collection-status-history.json"
       },
-      "minItems": 1,
+      "minItems": 0,
       "uniqueItems": true
     },
     "hasEvent": {
@@ -86,7 +86,7 @@
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/event.json"
       },
-      "minItems": 1,
+      "minItems": 0,
       "uniqueItems": true
     },
     "hasGeographicOrigin": {
@@ -95,7 +95,7 @@
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/geographic-origin.json"
       },
-      "minItems": 1,
+      "minItems": 0,
       "uniqueItems": true
     },
     "hasGeologicalContext": {
@@ -104,7 +104,7 @@
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/geological-context.json"
       },
-      "minItems": 1,
+      "minItems": 0,
       "uniqueItems": true
     },
     "hasIdentifier": {
@@ -113,7 +113,7 @@
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/identifier.json"
       },
-      "minItems": 1,
+      "minItems": 0,
       "uniqueItems": true
     },
     "hasMeasurementOrFact": {
@@ -122,7 +122,7 @@
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/measurement-or-fact.json"
       },
-      "minItems": 1,
+      "minItems": 0,
       "uniqueItems": true
     },
     "hasObjectClassification": {
@@ -131,7 +131,7 @@
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/object-classification.json"
       },
-      "minItems": 1,
+      "minItems": 0,
       "uniqueItems": true
     },
     "hasOrganisationalUnit": {
@@ -140,7 +140,7 @@
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/organisational-unit.json"
       },
-      "minItems": 1,
+      "minItems": 0,
       "uniqueItems": true
     },
     "hasPersonRole": {
@@ -149,7 +149,7 @@
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/person-role.json"
       },
-      "minItems": 1,
+      "minItems": 0,
       "uniqueItems": true
     },
     "hasReference": {
@@ -158,7 +158,7 @@
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/reference.json"
       },
-      "minItems": 1,
+      "minItems": 0,
       "uniqueItems": true
     },
     "hasResourceRelationship": {
@@ -167,7 +167,7 @@
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/resource-relationship.json"
       },
-      "minItems": 1,
+      "minItems": 0,
       "uniqueItems": true
     },
     "hasStorageLocation": {
@@ -176,7 +176,7 @@
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/storage-location.json"
       },
-      "minItems": 1,
+      "minItems": 0,
       "uniqueItems": true
     },
     "hasTaxon": {
@@ -185,7 +185,7 @@
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/taxon.json"
       },
-      "minItems": 1,
+      "minItems": 0,
       "uniqueItems": true
     },
     "isCurrentCollection": {
@@ -202,7 +202,7 @@
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/material.json"
       },
-      "minItems": 1,
+      "minItems": 0,
       "uniqueItems": true
     },
     "objectType": {
@@ -211,7 +211,7 @@
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/object-type.json"
       },
-      "minItems": 1,
+      "minItems": 0,
       "uniqueItems": true
     },
     "period": {
@@ -220,7 +220,7 @@
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/period.json"
       },
-      "minItems": 1,
+      "minItems": 0,
       "uniqueItems": true
     },
     "preparationType": {
@@ -229,7 +229,7 @@
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/preparation-type.json"
       },
-      "minItems": 1,
+      "minItems": 0,
       "uniqueItems": true
     },
     "preservationMethod": {
@@ -238,7 +238,7 @@
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/preservation-method.json"
       },
-      "minItems": 1,
+      "minItems": 0,
       "uniqueItems": true
     },
     "preservationMode": {
@@ -247,7 +247,7 @@
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/preservation-mode.json"
       },
-      "minItems": 1,
+      "minItems": 0,
       "uniqueItems": true
     },
     "typeOfCollection": {
@@ -256,7 +256,7 @@
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/type-of-collection.json"
       },
-      "minItems": 1,
+      "minItems": 0,
       "uniqueItems": true
     }
   },

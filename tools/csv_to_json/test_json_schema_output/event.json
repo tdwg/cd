@@ -19,7 +19,7 @@
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/identifier.json"
       },
-      "minItems": 1,
+      "minItems": 0,
       "uniqueItems": true
     },
     "hasMeasurementOrFact": {
@@ -28,7 +28,7 @@
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/measurement-or-fact.json"
       },
-      "minItems": 1,
+      "minItems": 0,
       "uniqueItems": true
     },
     "hasPersonRole": {
@@ -37,7 +37,7 @@
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/person-role.json"
       },
-      "minItems": 1,
+      "minItems": 0,
       "uniqueItems": true
     },
     "hasReference": {
@@ -46,7 +46,7 @@
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/reference.json"
       },
-      "minItems": 1,
+      "minItems": 0,
       "uniqueItems": true
     },
     "hasTemporalCoverage": {
@@ -55,7 +55,7 @@
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/temporal-coverage.json"
       },
-      "minItems": 1,
+      "minItems": 0,
       "uniqueItems": true
     },
     "samplingProtocol": {

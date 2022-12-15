@@ -15,7 +15,7 @@
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/identifier.json"
       },
-      "minItems": 1,
+      "minItems": 0,
       "uniqueItems": true
     },
     "hasObjectGroup": {
@@ -24,7 +24,7 @@
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/object-group.json"
       },
-      "minItems": 1,
+      "minItems": 0,
       "uniqueItems": true
     },
     "hasReference": {
@@ -33,7 +33,7 @@
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/reference.json"
       },
-      "minItems": 1,
+      "minItems": 0,
       "uniqueItems": true
     },
     "hasSchemeMeasurementOrFact": {
@@ -42,7 +42,7 @@
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/scheme-measurement-or-fact.json"
       },
-      "minItems": 1,
+      "minItems": 0,
       "uniqueItems": true
     },
     "hasSchemeTerm": {
@@ -51,7 +51,7 @@
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/scheme-term.json"
       },
-      "minItems": 1,
+      "minItems": 0,
       "uniqueItems": true
     },
     "isDistinctObjects": {

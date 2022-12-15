@@ -79,7 +79,26 @@ After you resave the [`.env.example`](.env.example) file as `.env`, open it in a
 
 ### Troubleshooting
 
-For problems installing required modules, try setting up a [python virtual environment](https://docs.python.org/3/library/venv.html) like so:
+####  ModuleNotFoundError
+When you try "How to" step 3, if you get an error like this:
+    ```
+    Traceback (most recent call last):
+    File "/Users/oldadministrator/Documents/cd/tools/csv_to_json/csv_to_json.py", line 8, in <module>
+        import requests
+    ModuleNotFoundError: No module named 'requests'
+    ```
+
+Install the missing module -- "requests" in this example, like so:
+
+`pip3 install requests` or `pip install requests`
+
+Reminder:  if you get multiple errors like that, re-try installing modules listed in [requirements.txt](requirements.txt):
+
+`pip3 install -r requirements.txt`
+
+
+#### Virtual environment
+If you still have errors running or installing modules, try setting up a [python virtual environment](https://docs.python.org/3/library/venv.html) like so:
 
 1. Make sure you're using Python 3.4+
     `python3 --version`  or  `python --version`

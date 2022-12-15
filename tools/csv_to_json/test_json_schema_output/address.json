@@ -27,7 +27,7 @@
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/identifier.json"
       },
-      "minItems": 1,
+      "minItems": 0,
       "uniqueItems": true
     },
     "postOfficeBoxNumber": {

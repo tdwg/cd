@@ -15,7 +15,7 @@
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/address.json"
       },
-      "minItems": 1,
+      "minItems": 0,
       "uniqueItems": true
     },
     "hasContactDetail": {
@@ -24,7 +24,7 @@
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/contact-detail.json"
       },
-      "minItems": 1,
+      "minItems": 0,
       "uniqueItems": true
     },
     "hasIdentifier": {
@@ -33,7 +33,7 @@
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/identifier.json"
       },
-      "minItems": 1,
+      "minItems": 0,
       "uniqueItems": true
     },
     "hasMeasurementOrFact": {
@@ -42,7 +42,7 @@
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/measurement-or-fact.json"
       },
-      "minItems": 1,
+      "minItems": 0,
       "uniqueItems": true
     },
     "hasPerson": {
@@ -51,7 +51,7 @@
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/person.json"
       },
-      "minItems": 1,
+      "minItems": 0,
       "uniqueItems": true
     },
     "hasReference": {
@@ -60,7 +60,7 @@
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/reference.json"
       },
-      "minItems": 1,
+      "minItems": 0,
       "uniqueItems": true
     },
     "hasTemporalCoverage": {
@@ -69,7 +69,7 @@
       "items": {
         "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/temporal-coverage.json"
       },
-      "minItems": 1,
+      "minItems": 0,
       "uniqueItems": true
     },
     "role": {
