@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft-04/schema",
+  "$id": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/organisational-unit.json",
+  "title": "Organisational Unit",
+  "description": "A unit within an organisational hierarchy which may be at, above or below the institutional level. This class can represent any level of organisational unit, incorporating institutions (e.g. a museum), higher units (e.g. a university to which a museum belongs) and more detailed structures (e.g the departments and divisions within a museum). It can be used to arrange these different units at different levels into a hierarchical structure. This class combines aspects of both class org:Organization (https://www.w3.org/TR/2014/REC-vocab-org-20140116/#org:Organization) and class org:OrganizationalUnit (https://www.w3.org/TR/2014/REC-vocab-org-20140116/#org:OrganizationalUnit) from the W3C Organization Ontology ORG (https://www.w3.org/TR/2014/REC-vocab-org-20140116/#overview-of-ontology). Recommended best practice is to associate a unique, persistent organisational identifier (PID) with each created organisational unit. This will allow an unambiguous and continual identification of the unit, as well as the creation of organisational hierarchies. Existing providers of PIDs for organisations are, e.g. https://grid.ac/ and https://ror.org/. The provision of organisational PIDs might be extended to intra-organisational units in the future. Properties of Class: Identifier can be used to add identifier information for organisational units.",
+  "type": "object",
+  "properties": {
+    "hasAddress": {
+      "description": "This property refers to one or more related instances of the Address class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/address.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "hasContactDetail": {
+      "description": "This property refers to one or more related instances of the ContactDetail class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/contact-detail.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "hasIdentifier": {
+      "description": "This property refers to one or more related instances of the Identifier class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/identifier.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "hasMeasurementOrFact": {
+      "description": "This property refers to one or more related instances of the MeasurementOrFact class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/measurement-or-fact.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "hasOrganisationalUnit": {
+      "description": "This property refers to one or more related instances of the OrganisationalUnit class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/organisational-unit.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "hasPersonRole": {
+      "description": "This property refers to one or more related instances of the PersonRole class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/person-role.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "hasReference": {
+      "description": "This property refers to one or more related instances of the Reference class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/reference.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "organisationalUnitName": {
+      "description": "An official name of the organisational unit in the local language.",
+      "type": "string"
+    },
+    "organisationalUnitType": {
+      "description": "The type or level of organisational unit within a hierarchy responsible for the management of the collection being described.",
+      "type": "string"
+    }
+  },
+  "required": [
+    "organisationalUnitName",
+    "organisationalUnitType"
+  ]
+}

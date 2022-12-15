@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft-04/schema",
+  "$id": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/contact-detail.json",
+  "title": "Contact Detail",
+  "description": "Details of a method by which an entity such as a Person or OrganisationalUnit may be contacted. The Address class should be used to store physical or postal addresses. For all other types of contact details, this class should be used.",
+  "type": "object",
+  "properties": {
+    "contactDetailCategory": {
+      "description": "The method of contact to which the contact detail applies.",
+      "type": "string"
+    },
+    "contactDetailType": {
+      "description": "The type of contact detail, which can be used to distinguish between multiple contact details of the same contactDetailCategory.",
+      "type": "string"
+    },
+    "contactDetailValue": {
+      "description": "The value of the contact detail, such as the phone number or email address.",
+      "type": "string"
+    },
+    "hasIdentifier": {
+      "description": "This property refers to one or more related instances of the Identifier class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/identifier.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "contactDetailCategory",
+    "contactDetailValue"
+  ]
+}

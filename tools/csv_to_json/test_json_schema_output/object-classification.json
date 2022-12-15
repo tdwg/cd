@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft-04/schema",
+  "$id": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/object-classification.json",
+  "title": "Object Classification",
+  "description": "An informal classification of the type of objects within the ObjectGroup, using a hierarchical structure. This class is used to categorise the ObjectGroup according to an informal, self-referential hierarchy. For example, this can be used to create a hierarchy encompassing biological, geological and anthropological collections, where a single formal taxonomy isn't appropriate.",
+  "type": "object",
+  "properties": {
+    "hasIdentifier": {
+      "description": "This property refers to one or more related instances of the Identifier class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/identifier.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "hasMeasurementOrFact": {
+      "description": "This property refers to one or more related instances of the MeasurementOrFact class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/measurement-or-fact.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "hasObjectClassification": {
+      "description": "This property refers to one or more related instances of the ObjectClassification class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/object-classification.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "hasReference": {
+      "description": "This property refers to one or more related instances of the Reference class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/reference.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "objectClassificationLevel": {
+      "description": "The level of the ObjectClassification in the hierarchy.",
+      "type": "string"
+    },
+    "objectClassificationName": {
+      "description": "A short title describing this ObjectClassification as a class, unit or grouping.",
+      "type": "string"
+    }
+  },
+  "required": [
+    "objectClassificationName"
+  ]
+}

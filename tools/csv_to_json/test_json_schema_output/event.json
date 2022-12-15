@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft-04/schema",
+  "$id": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/event.json",
+  "title": "Event",
+  "description": "An action that occurs at some location during some time. Derived from dwc Class event (http://rs.tdwg.org/dwc/terms/version/Event-2018-09-06). This class has been defined under the ltc namespace because it only has a subset of the properties of DwC:Event. All ltc:Event properties are borrowed from and reference the dwc namespace. Examples of an Event include: A specimen collection process. A camera trap image capture. A marine trawl.",
+  "type": "object",
+  "properties": {
+    "eventName": {
+      "description": "The name commonly used to identify or refer to the event.",
+      "type": "string"
+    },
+    "habitat": {
+      "description": "A category or description of the habitat in which the Event occurred.",
+      "type": "string"
+    },
+    "hasIdentifier": {
+      "description": "This property refers to one or more related instances of the Identifier class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/identifier.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "hasMeasurementOrFact": {
+      "description": "This property refers to one or more related instances of the MeasurementOrFact class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/measurement-or-fact.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "hasPersonRole": {
+      "description": "This property refers to one or more related instances of the PersonRole class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/person-role.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "hasReference": {
+      "description": "This property refers to one or more related instances of the Reference class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/reference.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "hasTemporalCoverage": {
+      "description": "This property refers to one or more related instances of the TemporalCoverage class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/temporal-coverage.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "samplingProtocol": {
+      "description": "The name of, reference to, or description of the method or protocol used during an Event",
+      "type": "string"
+    },
+    "verbatimEventDate": {
+      "description": "The verbatim original representation of the date and time information for an Event.",
+      "type": "string"
+    }
+  }
+}

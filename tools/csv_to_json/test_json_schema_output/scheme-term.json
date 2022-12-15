@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft-04/schema",
+  "$id": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/scheme-term.json",
+  "title": "Scheme Term",
+  "description": "A Latimer Core term used by the CollectionDescriptionScheme and the rules relating to its application. This class can be used to define which of the terms (classes and/or properties) within the standard (e.g. GeographicOrigin, Taxon, preservationMethod) are expected to be used within the scheme, and specify whether they're mandatory and/or repeatable. This information can be used by software and queries to validate the data and understand the rules by which metrics can be reported against the specified term.",
+  "type": "object",
+  "properties": {
+    "hasIdentifier": {
+      "description": "This property refers to one or more related instances of the Identifier class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/identifier.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "hasReference": {
+      "description": "This property refers to one or more related instances of the Reference class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/reference.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "isMandatoryTerm": {
+      "description": "A flag to designate whether it is mandatory or optional for all ObjectGroups in the CollectionDescriptionScheme to include or be linked to valid data for the class or property defined in the termName property.",
+      "type": "boolean"
+    },
+    "isRepeatableTerm": {
+      "description": "A flag to designate whether multiple instances of the Latimer Core class or property defined in the termName property may be attached to a single ObjectGroup.",
+      "type": "boolean"
+    },
+    "termName": {
+      "description": "The name of a class or property within the Latimer Core standard that is included in the CollectionDescriptionScheme.",
+      "type": "string"
+    }
+  },
+  "required": [
+    "isMandatoryTerm",
+    "isRepeatableTerm",
+    "termName"
+  ]
+}

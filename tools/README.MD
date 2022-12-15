@@ -9,3 +9,5 @@ This folder contains some ad hoc tools used to aid in the development of the sta
 **TDWG CD definition conversion.xlsx** - This spreadsheet uses a similar mechanism to the above, but converts the definitions into a format matching the template provided by Steve Baskauf for converting the definitions into the TDWG web view.
 
 **TDWG CD standard browser.pbix** - A Microsoft Power BI file, which pulls the definitions from the Github issues to create a summary dashboard. This requires Power BI Desktop (free download from https://powerbi.microsoft.com/en-us/downloads/) to open.
+
+**csv_to_json Python script** - A python script to convert CSVs formatted like the [LtC standard terms CSVs](../standard/terms) to [JSON Schema](https://json-schema.org/) files, as shown [here](../standard/json-schema).

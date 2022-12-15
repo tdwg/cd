@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft-04/schema",
+  "$id": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/temporal-coverage.json",
+  "title": "Temporal Coverage",
+  "description": "A record of a time range represented by the collection's establishment or change over time. This term is separate from the living or geologic periods represented by the objects in the collection. This class can be used to reflect temporal coverage of the collection within various contexts (defined by the temporalCoverageType property). Examples might include the time range in which objects within the collection were collected or the time period over which the collection was assembled.  It should not be used to document the time range within which the objects in the collection were alive, and if the time period you are trying to describe is better described by the `CollectionHistory`, `GeologicalContext` or `ChronometricAge` classes, or period property of the `ObjectGroup` class, then those classes or properties should be used instead. For example, the period property of the `ObjectGroup` class and/or `GeologicalContext` class should be used to record named time periods. `TemporalCoverage` is a repeatable class, but when present as a property of `Event` or `CollectionStatusHistory`, multiple occurences should be avoided and repeated occurences of the parent class should be used instead.",
+  "type": "object",
+  "properties": {
+    "hasMeasurementOrFact": {
+      "description": "This property refers to one or more related instances of the MeasurementOrFact class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/measurement-or-fact.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "hasReference": {
+      "description": "This property refers to one or more related instances of the Reference class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/reference.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "temporalCoverageEndDate": {
+      "description": "End date of the time range of the collection.",
+      "type": "string"
+    },
+    "temporalCoverageStartDate": {
+      "description": "Start date of the time range of the collection.",
+      "type": "string"
+    },
+    "temporalCoverageType": {
+      "description": "The type or context of the time range associated with the collection's establishment. Separate from the living or geologic periods represented by the objects in the collection.",
+      "type": "string"
+    }
+  }
+}
