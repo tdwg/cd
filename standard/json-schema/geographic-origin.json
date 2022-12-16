@@ -1,113 +1,92 @@
 {
-    "$schema": "https://json-schema.org/draft-04/schema#",
-    "$id": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/geographic-origin.json",
-    "title": "Geographic Origin",
-    "description": "The geographic location from which objects associated with the ObjectGroup were collected.",
-    "type": "object",
-    "properties":
-    {
-        "continent":
-        {
-            "description": "The name of the continent in which the location occurs.",
-            "type": "string"
-        },
-        "country":
-        {
-            "description": "The name of the country or major administrative unit in which the location occurs.",
-            "type": "string"
-        },
-        "countryCode":
-        {
-            "description": "The standard code for the country in which the location occurs.",
-            "type": "string"
-        },
-        "county":
-        {
-            "description": "The full, unabbreviated name of the next smaller administrative region than stateProvince (county, shire, department, etc.) in which the location occurs.",
-            "type": "string"
-        },
-        "ecoRegion":
-        {
-            "description": "High level biogeographic region of the location.",
-            "type": "string"
-        },
-        "island":
-        {
-            "description": "The name of the island on or near which the location occurs.",
-            "type": "string"
-        },
-        "islandGroup":
-        {
-            "description": "The name of the island group in which the location occurs.",
-            "type": "string"
-        },
-        "locality":
-        {
-            "description": "The specific description of the place. Less specific geographic information can be provided in other geographic terms (continent, waterBody). This term may contain information modified from the original to correct perceived errors or standardize the description.",
-            "type": "string"
-        },
-        "municipality":
-        {
-            "description": "The full, unabbreviated name of the next smaller administrative region than county (city, municipality, etc.) in which the location occurs. Do not use this term for a nearby named place that does not contain the actual location.",
-            "type": "string"
-        },
-        "region":
-        {
-            "description": "The name of the spatial region or named place of any size within an individual or multiple administrative areas from which objects in the collection originated.",
-            "type": "string"
-        },
-        "salinityType":
-        {
-            "description": "A set of terms to indicate the water environment of aquatic collections.",
-            "type": "string"
-        },
-        "stateProvince":
-        {
-            "description": "The name of the next smaller administrative region than country (state, province, canton, department, region, etc.) in which the location occurs.",
-            "type": "string"
-        },
-        "waterBody":
-        {
-            "description": "The name of the water body in which the location occurs.",
-            "type": "string"
-        },
-        "waterBodyType":
-        {
-            "description": "A term that indicates the aquatic order of a waterbody.",
-            "type": "string"
-        },
-        "hasIdentifier":
-        {
-            "description": "This property refers to one or more related instances of the Identifier class.",
-            "type": "array",
-            "items":
-            {
-                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/identifier.json"
-            },
-            "minItems": 1,
-            "uniqueItems": true
-        },
-        "hasReference":
-        {
-            "description": "This property refers to one or more related instances of the Reference class.",
-            "type": "array",
-            "items":
-            {
-                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/reference.json"
-            },
-            "minItems": 1,
-            "uniqueItems": true
-        },
-        "hasMeasurementOrFact":
-        {
-            "description": "This property refers to one or more related instances of the MeasurementOrFact class.",
-            "type": "array",
-            "items":
-            {
-                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/measurement-or-fact.json"
-            },
-            "minItems": 1,
-            "uniqueItems": true
-        }
+  "$schema": "https://json-schema.org/draft-04/schema",
+  "$id": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/geographic-origin.json",
+  "title": "Geographic Origin",
+  "description": "The geographic location from which objects associated with the ObjectGroup were collected.",
+  "type": "object",
+  "properties": {
+    "continent": {
+      "description": "The name of the continent in which the Location occurs.",
+      "type": "string"
+    },
+    "country": {
+      "description": "The name of the country or major administrative unit in which the Location occurs.",
+      "type": "string"
+    },
+    "countryCode": {
+      "description": "The standard code for the country in which the Location occurs.",
+      "type": "string"
+    },
+    "county": {
+      "description": "The full, unabbreviated name of the next smaller administrative region than stateProvince (county, shire, department, etc.) in which the Location occurs.",
+      "type": "string"
+    },
+    "ecoRegion": {
+      "description": "High level biogeographic region of the location.",
+      "type": "string"
+    },
+    "hasIdentifier": {
+      "description": "This property refers to one or more related instances of the Identifier class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/identifier.json"
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "hasMeasurementOrFact": {
+      "description": "This property refers to one or more related instances of the MeasurementOrFact class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/measurement-or-fact.json"
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "hasReference": {
+      "description": "This property refers to one or more related instances of the Reference class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/reference.json"
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "island": {
+      "description": "The name of the island on or near which the Location occurs.",
+      "type": "string"
+    },
+    "islandGroup": {
+      "description": "The name of the island group in which the Location occurs.",
+      "type": "string"
+    },
+    "locality": {
+      "description": "The specific description of the place. Less specific geographic information can be provided in other geographic terms (higherGeography, continent, country, stateProvince, county, municipality, waterBody, island, islandGroup). This term may contain information modified from the original to correct perceived errors or standardize the description.",
+      "type": "string"
+    },
+    "municipality": {
+      "description": "The full, unabbreviated name of the next smaller administrative region than county (city, municipality, etc.) in which the Location occurs. Do not use this term for a nearby named place that does not contain the actual location.",
+      "type": "string"
+    },
+    "region": {
+      "description": "The name of a spatial region or named place of any size within an individual or multiple administrative areas.",
+      "type": "string"
+    },
+    "salinityType": {
+      "description": "A set of terms to indicate the water environment of aquatic collections.",
+      "type": "string"
+    },
+    "stateProvince": {
+      "description": "The name of the next smaller administrative region than country (state, province, canton, department, region, etc.) in which the Location occurs.",
+      "type": "string"
+    },
+    "waterBody": {
+      "description": "The name of the water body in which the Location occurs.",
+      "type": "string"
+    },
+    "waterBodyType": {
+      "description": "A term that indicates the aquatic order of a waterbody.",
+      "type": "string"
     }
+  }
 }
