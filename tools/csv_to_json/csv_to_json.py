@@ -88,7 +88,10 @@ def prep_class_name(class_name):
     '''convert CamelCase class name to kebab-case name'''
 
     class_name_prepped = re.sub(r'^has([A-Z].+)', r'\1', class_name)
-    class_name_prepped = re.sub(r'([A-Z])', r'-\1', class_name_prepped)
+    if class_name_prepped.find(" ") >= 0:
+        class_name_prepped = re.sub(r'([A-Z])', r'-\1', class_name_prepped.title())
+    else:
+        class_name_prepped = re.sub(r'([A-Z])', r'-\1', class_name_prepped)
     class_name_prepped = re.sub(r'^\-|\s+', '', class_name_prepped.lower())
 
     return class_name_prepped
