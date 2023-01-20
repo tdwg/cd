@@ -77,6 +77,11 @@ After you resave the [`.env.example`](.env.example) file as `.env`, open it in a
     - to output to (and overwrite) the live directory for Latimer Core, use "../../standard/json_schema_output"
 
 
+- `SPEC_CSV` = the full URL to a CSV containing term requirements/restrictions for a particular implementation of Latimer Core.
+    - CSV columns are based on those of the `TERM_CSV`
+    - e.g.: https://raw.githubusercontent.com/tdwg/cd/auto-json-spec/tools/csv_to_json/test_spec_input/test_spec_terms_draft.csv
+
+
 ### Troubleshooting
 
 ####  ModuleNotFoundError
