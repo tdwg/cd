@@ -101,7 +101,8 @@ def convert_csv_to_json(
     json_prefix: str,
     rows: list,
     class_row: dict,
-    datatypes: list
+    datatypes: list,
+    spec: list
     ) -> dict:
     '''convert each csv-column to corresponding json-schema attribute'''
 
@@ -119,7 +120,16 @@ def convert_csv_to_json(
     required_terms = []
 
     for term_row in rows:
+
         if term_row['rdf_type'] == 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property':
+
+            # class_term = term_row['tdwgutility_organizedInClass'] + ':' + term_row['term_localName']
+
+            # # If term is in spec, overwrite LtC row with LtC-spec row
+            # for spec_row in spec:
+            #     if class_term == spec_row['term']:
+            #         term_row = spec_row
+            #         print(f'Following spec for {class_term}')
 
             term_class_prepped = prep_class_name(term_row['tdwgutility_organizedInClass'])
 
@@ -161,6 +171,8 @@ def convert_csv_to_json(
                 # Check if term is required
                 if term_row['tdwgutility_required'] == 'Yes':
                     required_terms.append(term_row['term_localName'])
+
+
 
     if len(required_terms) > 0:
         class_skeleton['required'] = required_terms
@@ -221,19 +233,30 @@ def main():
     # skos_valid = validate_csv(csv_import=skos_list, config=config, csv_name=skos_csv)
     spec_valid = validate_csv(csv_import=spec_list, config=config, csv_name=term_csv)
 
+
     if False in [term_valid, class_valid, type_valid, spec_valid]:
         print('Check CSVs for missing required columns')
 
     else:
+
+        # Prep terms that are defined in the spec
+        spec_list = [dict(item, term=item['tdwgutility_organizedInClass'] + ':' + item['term_localName']) for item in spec_list]
+        term_list = [dict(item, term=item['tdwgutility_organizedInClass'] + ':' + item['term_localName']) for item in term_list]
+
+        lookup = {x['term']: x for x in term_list}
+        lookup.update({x['term']: x for x in spec_list})
+        [print(f"Using spec-definition for {x['term']}") for x in spec_list]
+        term_list = list(lookup.values())
 
         # For each class, setup terms as json-schema
         for class_row in class_list:
 
             class_terms = convert_csv_to_json(
                 json_prefix=json_prefix,
-                rows=spec_list,  # term_list,
+                rows=term_list,
                 class_row=class_row,
-                datatypes=datatype_list
+                datatypes=datatype_list,
+                spec=spec_list
                 )
 
             # Write class's json-schema file

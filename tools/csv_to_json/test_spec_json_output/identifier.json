@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft-04/schema",
+  "$id": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/identifier.json",
+  "title": "Identifier",
+  "description": "A numeric, textual value, or reference such as an IRI, that can be used to uniquely identify the object to which it is attached. Use this class to document stable identifiers that describe the collections and associated entities being represented in the collection description. For example, person identifiers, taxon identifiers, institution identifiers, organisational unit identifiers, gazetteer identifiers. Identifiers represented by this class may be globally unique, or unique within a given context.",
+  "type": "object",
+  "properties": {
+    "hasReference": {
+      "description": "This property refers to one or more related instances of the Reference class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/reference.json"
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "identifierSource": {
+      "description": "The source or creator of the identifier.",
+      "type": "string"
+    },
+    "identifierType": {
+      "description": "The type and format of the value in the identifier field.",
+      "type": "string"
+    },
+    "identifierValue": {
+      "description": "An unambiguous reference to the resource within a given context.",
+      "type": "string"
+    }
+  },
+  "required": [
+    "identifierType",
+    "identifierValue"
+  ]
+}
