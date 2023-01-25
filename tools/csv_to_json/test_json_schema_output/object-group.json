@@ -9,7 +9,8 @@
       "description": "A short title different to the one given in ObjectGroup.collectionName that is used to summarise the collection objects contained within the ObjectGroup.",
       "type": "array",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/alternative-collection-name.json"
+        "description": "A short title different to the one given in ObjectGroup.collectionName that is used to summarise the collection objects contained within the ObjectGroup.",
+        "type": "string"
       },
       "minItems": 1,
       "uniqueItems": true
@@ -22,7 +23,8 @@
       "description": "The collection management system which is used to hold and manage the primary data for the objects contained within the ObjectGroup.",
       "type": "array",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/collection-management-system.json"
+        "description": "The collection management system which is used to hold and manage the primary data for the objects contained within the ObjectGroup.",
+        "type": "string"
       },
       "minItems": 0,
       "uniqueItems": true
@@ -35,7 +37,8 @@
       "description": "Information about who can access the collection being described or an indication of its security status.",
       "type": "array",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/conditions-of-access.json"
+        "description": "Information about who can access the collection being described or an indication of its security status.",
+        "type": "string"
       },
       "minItems": 0,
       "uniqueItems": true
@@ -44,7 +47,8 @@
       "description": "The degree to which an Organism survives, reproduces, and expands its range at the given place and time.",
       "type": "array",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/degree-of-establishment.json"
+        "description": "The degree to which an Organism survives, reproduces, and expands its range at the given place and time.",
+        "type": "string"
       },
       "minItems": 0,
       "uniqueItems": true
@@ -57,7 +61,8 @@
       "description": "A high level classification of the scientific discipline to which the objects within the collection belong or are related.",
       "type": "array",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/discipline.json"
+        "description": "A high level classification of the scientific discipline to which the objects within the collection belong or are related.",
+        "type": "string"
       },
       "minItems": 0,
       "uniqueItems": true
@@ -200,7 +205,8 @@
       "description": "Material denotes the raw substance(s) from which the object is formed, in whole or in part.",
       "type": "array",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/material.json"
+        "description": "Material denotes the raw substance(s) from which the object is formed, in whole or in part.",
+        "type": "string"
       },
       "minItems": 0,
       "uniqueItems": true
@@ -209,7 +215,8 @@
       "description": "High-level terms for the classification of curated objects.",
       "type": "array",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/object-type.json"
+        "description": "High-level terms for the classification of curated objects.",
+        "type": "string"
       },
       "minItems": 0,
       "uniqueItems": true
@@ -218,7 +225,8 @@
       "description": "Used to describe prehistoric or historic periods.",
       "type": "array",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/period.json"
+        "description": "Used to describe prehistoric or historic periods.",
+        "type": "string"
       },
       "minItems": 0,
       "uniqueItems": true
@@ -227,7 +235,8 @@
       "description": "A term used to classify or describe an object that indicates the actions that have been taken upon it and/or the processes it has been put through to prepare it for scientific use or study.",
       "type": "array",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/preparation-type.json"
+        "description": "A term used to classify or describe an object that indicates the actions that have been taken upon it and/or the processes it has been put through to prepare it for scientific use or study.",
+        "type": "string"
       },
       "minItems": 0,
       "uniqueItems": true
@@ -236,7 +245,8 @@
       "description": "A term used to classify or describe an object that indicates the primary or most recent action, measure or process that has been used in order to preserve the objects in the collection for long-term storage.",
       "type": "array",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/preservation-method.json"
+        "description": "A term used to classify or describe an object that indicates the primary or most recent action, measure or process that has been used in order to preserve the objects in the collection for long-term storage.",
+        "type": "string"
       },
       "minItems": 0,
       "uniqueItems": true
@@ -245,7 +255,8 @@
       "description": "The means by which a palaeontological specimen was preserved or created e.g. body, cast, mold, trace fossil, soft parts mineralised etc.",
       "type": "array",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/preservation-mode.json"
+        "description": "The means by which a palaeontological specimen was preserved or created e.g. body, cast, mold, trace fossil, soft parts mineralised etc.",
+        "type": "string"
       },
       "minItems": 0,
       "uniqueItems": true
@@ -254,7 +265,8 @@
       "description": "Additional information that exists that describes the object(s) in the collection.",
       "type": "array",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/type-of-collection.json"
+        "description": "Additional information that exists that describes the object(s) in the collection.",
+        "type": "string"
       },
       "minItems": 0,
       "uniqueItems": true

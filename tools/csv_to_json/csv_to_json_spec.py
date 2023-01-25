@@ -156,12 +156,22 @@ def convert_csv_to_json(
                 if class_skeleton['properties'][term_name]['type'] == 'array':
                     term_name_prepped = prep_class_name(term_name)
 
-                    array_items = {
-                        '$ref': f'{json_prefix}/{term_name_prepped}.json'
-                    }
+                    if re.match(r'^has[A-Z].*', term_name) is not None:
+                        # Handle repeatable LtC Classes (e.g. "ltc:hasIdentifier")
+                        array_items = {
+                            '$ref': f'{json_prefix}/{term_name_prepped}.json'
+                        }
+
+                    else:
+                        # Handle repeatable LtC Terms (e.g. "ltc:alternativeCollectionName")
+                        array_items = {
+                            'description': term_row['definition'],
+                            'type': 'string' # NOTE - defaulting to string until 'datatype' CSV indicates type within array
+                        }
 
                     class_skeleton['properties'][term_name]['items'] = array_items
                     class_skeleton['properties'][term_name]['minItems'] = 0
+
                     # Check if array-term is required
                     # TODO - should this also check 'required' in CLASS csv?
                     if term_row['tdwgutility_required'] == 'Yes':
