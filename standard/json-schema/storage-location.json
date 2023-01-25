@@ -1,60 +1,60 @@
 {
-  "$schema": "https://json-schema.org/draft-04/schema",
-  "$id": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/storage-location.json",
-  "title": "Storage Location",
-  "description": "A physical location (such as a building, room, cabinet or drawer) within the holding institution where objects associated with the collection description are stored or exhibited.",
-  "type": "object",
-  "properties": {
-    "hasAddress": {
-      "description": "This property refers to one or more related instances of the Address class.",
-      "type": "array",
-      "items": {
-        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/address.json"
+    "$schema": "https://json-schema.org/draft-04/schema#",
+    "$id": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/storage-location.json",
+    "title": "Storage Location",
+    "description": "A physical location (such as a building, room, cabinet or drawer) within the holding institution where objects associated with the collection description are stored or exhibited.",
+    "type": "object",
+    "properties": {
+      "locationName": {
+        "description": "A label used to identify a place where the collection is stored.",
+        "type": "string"
       },
-      "minItems": 0,
-      "uniqueItems": true
-    },
-    "hasIdentifier": {
-      "description": "This property refers to one or more related instances of the Identifier class.",
-      "type": "array",
-      "items": {
-        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/identifier.json"
+      "locationType": {
+        "description": "The nature of the location where the collection is stored.",
+        "type": "string"
       },
-      "minItems": 0,
-      "uniqueItems": true
-    },
-    "hasMeasurementOrFact": {
-      "description": "This property refers to one or more related instances of the MeasurementOrFact class.",
-      "type": "array",
-      "items": {
-        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/measurement-or-fact.json"
+      "locationDescription": {
+        "description": "Short textual description of the storage location of the group of items.",
+        "type": "string"
       },
-      "minItems": 0,
-      "uniqueItems": true
-    },
-    "hasReference": {
-      "description": "This property refers to one or more related instances of the Reference class.",
-      "type": "array",
-      "items": {
-        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/reference.json"
+      "hasAddress": {
+        "description": "This property refers to one or more related instances of the Address class.",
+        "type": "array",
+        "items": {
+          "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/address.json"
+        },
+        "minItems": 1,
+        "uniqueItems": true
       },
-      "minItems": 0,
-      "uniqueItems": true
+      "hasIdentifier": {
+        "description": "This property refers to one or more related instances of the Identifier class.",
+        "type": "array",
+        "items": {
+          "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/identifier.json"
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "hasReference": {
+        "description": "This property refers to one or more related instances of the Reference class.",
+        "type": "array",
+        "items": {
+          "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/reference.json"
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "hasMeasurementOrFact": {
+        "description": "This property refers to one or more related instances of the MeasurementOrFact class.",
+        "type": "array",
+        "items": {
+          "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/measurement-or-fact.json"
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      }
     },
-    "locationDescription": {
-      "description": "Short textual description of the storage location of the group of items",
-      "type": "string"
-    },
-    "locationName": {
-      "description": "A label used to identify a place where the collection is stored.",
-      "type": "string"
-    },
-    "locationType": {
-      "description": "The nature of the location where the collection is stored.",
-      "type": "string"
-    }
-  },
-  "required": [
-    "locationName"
-  ]
-}
+    "required": [
+      "locationName"
+    ]
+  }

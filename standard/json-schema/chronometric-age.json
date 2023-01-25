@@ -1,68 +1,83 @@
 {
-  "$schema": "https://json-schema.org/draft-04/schema",
-  "$id": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/chronometric-age.json",
-  "title": "Chronometric Age",
-  "description": "The age of a specimen or related materials that is generated from a dating assay. This is a categorical term (class) to organize the other chronometric age properties and does not ever have values.",
-  "type": "object",
-  "properties": {
-    "chronometricAgeProtocol": {
-      "description": "A description of or reference to the methods used to determine the ChronometricAge.",
-      "type": "string"
-    },
-    "chronometricAgeRemarks": {
-      "description": "Notes or comments about the ChronometricAge.",
-      "type": "string"
-    },
-    "chronometricAgeUncertaintyInYears": {
-      "description": "The temporal uncertainty of the earliestChronometricAge and latestChronometicAge in years.",
-      "type": "number"
-    },
-    "earliestChronometricAge": {
-      "description": "The maximum/earliest/oldest possible age of a specimen as determined by a dating method.",
-      "type": "number"
-    },
-    "earliestChronometricAgeReferenceSystem": {
-      "description": "The reference system associated with the earliestChronometricAge.",
-      "type": "string"
-    },
-    "hasIdentifier": {
-      "description": "This property refers to one or more related instances of the Identifier class.",
-      "type": "array",
-      "items": {
-        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/identifier.json"
-      },
-      "minItems": 0,
-      "uniqueItems": true
-    },
-    "hasMeasurementOrFact": {
-      "description": "This property refers to one or more related instances of the MeasurementOrFact class.",
-      "type": "array",
-      "items": {
-        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/measurement-or-fact.json"
-      },
-      "minItems": 0,
-      "uniqueItems": true
-    },
-    "hasReference": {
-      "description": "This property refers to one or more related instances of the Reference class.",
-      "type": "array",
-      "items": {
-        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/reference.json"
-      },
-      "minItems": 0,
-      "uniqueItems": true
-    },
-    "latestChronometricAge": {
-      "description": "The minimum/latest/youngest possible age of a specimen as determined by a dating method.",
-      "type": "number"
-    },
-    "latestChronometricAgeReferenceSystem": {
-      "description": "The reference system associated with the latestChronometricAge.",
-      "type": "string"
-    },
-    "verbatimChronometricAge": {
-      "description": "The verbatim age for a specimen, whether reported by a dating assay, associated references, or legacy information.",
-      "type": "string"
+    "$schema": "https://json-schema.org/draft-04/schema#",
+    "$id": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/chronometric-age.json",
+    "title": "Chronometric Age",
+    "description": "The age of a specimen or related materials that is generated from a dating assay.",
+    "type": "object",
+    "properties":
+    {
+        "chronometricAgeRemarks":
+        {
+            "description": "Notes or comments about the ChronometricAge.",
+            "type": "string"
+        },
+        "chronometricAgeProtocol":
+        {
+            "description": "A description of or reference to the methods used to determine the ChronometricAge.",
+            "type": "string"
+        },
+        "chronometricAgeUncertaintyInYears":
+        {
+            "description": "The temporal uncertainty of the earliestChronometricAge and latestChronometicAge in years.",
+            "type": "number"
+        },
+        "earliestChronometricAgeReferenceSystem":
+        {
+            "description": "The reference system associated with the earliestChronometricAge.",
+            "type": "string"
+        },
+        "earliestChronometricAge":
+        {
+            "description": "The maximum/earliest/oldest possible age of a specimen as determined by a dating method.",
+            "type": "number"
+        },
+        "latestChronometricAgeReferenceSystem":
+        {
+            "description": "The reference system associated with the latestChronometricAge.",
+            "type": "string"
+        },
+        "latestChronometricAge":
+        {
+            "description": "The minimum/latest/youngest possible age of an object in the collection as determined by a dating method.",
+            "type": "number"
+        },
+        "verbatimChronometricAge":
+        {
+            "description": "The verbatim age for the objects in the collection, whether reported by a dating assay, associated references, or legacy information.",
+            "type": "string"
+        },
+        "hasIdentifier":
+        {
+            "description": "This property refers to one or more related instances of the Identifier class.",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/identifier.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "hasReference":
+        {
+            "description": "This property refers to one or more related instances of the Reference class.",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/reference.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "hasMeasurementOrFact":
+        {
+            "description": "This property refers to one or more related instances of the MeasurementOrFact class.",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/measurement-or-fact.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        }
     }
-  }
 }
