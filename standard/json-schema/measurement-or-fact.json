@@ -1,38 +1,24 @@
 {
-  "$schema": "https://json-schema.org/draft-04/schema",
-  "$id": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/measurement-or-fact.json",
+  "$schema": "https://json-schema.org/draft-04/schema#",
+  "$id": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/measurement-or-fact.json",
   "title": "Measurement or Fact",
-  "description": "A measurement of or fact about the ObjectGroup representing the objects in the collection description, or the relationship between the ObjectGroup and an associated class. This class can be used to apply measurements, facts or narratives to the ObjectGroup as a whole, or used to qualify the relationship between the ObjectGroup and an associated attribute. For example, an ObjectGroup may contain 100 objects, of which 40 are from Europe and 60 from Africa. In this example, one MeasurementOrFact (count of 100) would be attached to the ObjectGroup, and one to each of the two relationships between the ObjectGroup and GeographicOrigin (Europe: count of 40, Africa: count of 60).",
+  "description": "A measurement of or fact about a class within the standard, or a relationship between the ObjectGroup and an associated class.",
   "type": "object",
   "properties": {
-    "hasIdentifier": {
-      "description": "This property refers to one or more related instances of the Identifier class.",
-      "type": "array",
-      "items": {
-        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/identifier.json"
-      },
-      "minItems": 0,
-      "uniqueItems": true
+    "measurementType": {
+      "description": "The nature of the measurement, fact, characteristic, or assertion.",
+      "type": "string"
     },
-    "hasReference": {
-      "description": "This property refers to one or more related instances of the Reference class.",
-      "type": "array",
-      "items": {
-        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/reference.json"
-      },
-      "minItems": 0,
-      "uniqueItems": true
+    "measurementValue": {
+      "description": "The numeric value of the quantitative measurement being made about the collection.",
+      "type": "number"
     },
     "measurementAccuracy": {
-      "description": "The description of the potential error associated with the measurementValue.",
+      "description": "The description of the potential error associated with the measurementValue applied to the collection.",
       "type": "string"
     },
-    "measurementDerivation": {
-      "description": "An indicator as to whether the measurement, fact, characteristic, or assertion being applied to the collection was derived from reported figures or aggregated/calculated from underlying data.",
-      "type": "string"
-    },
-    "measurementFactText": {
-      "description": "The value of the qualitative fact, characteristic, or assertion being made about the collection.",
+    "measurementUnit": {
+      "description": "The units associated with the measurementValue.",
       "type": "string"
     },
     "measurementMethod": {
@@ -43,17 +29,36 @@
       "description": "Comments or notes accompanying the MeasurementOrFact.",
       "type": "string"
     },
-    "measurementType": {
-      "description": "The nature of the measurement, fact, characteristic, or assertion.",
+    "measurementDerivation": {
+      "description": "An indicator as to whether the measurement, fact, characteristic, or assertion being applied to the collection was derived from reported figures or aggregated/calculated from underlying data.",
       "type": "string"
     },
-    "measurementUnit": {
-      "description": "The units associated with the measurementValue.",
+    "measurementFactText": {
+      "description": "The value of the qualitative fact, characteristic, or assertion being made about the collection.",
       "type": "string"
     },
-    "measurementValue": {
-      "description": "The value of the measurement, fact, characteristic, or assertion.",
-      "type": "number"
+    "hasIdentifier": {
+      "description": "This property refers to one or more related instances of the Identifier class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/identifier.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "hasReference": {
+      "description": "This property refers to one or more related instances of the Reference class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/reference.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
     }
-  }
+  },
+  "anyOf": [
+    {"required" : ["measurementFactText"]},
+    {"required" : ["measurementValue"]}
+
+  ]
 }
