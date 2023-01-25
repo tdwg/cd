@@ -135,24 +135,4 @@ If you still have errors running or installing modules, try setting up a [python
 
 ## To Do
 
-### 1. Datatype - date & date-time
-
-Handle dates as string-datatypes with special formatting, e.g. ltc:startedAtTime in ltc:PersonRole:
-
-```
-    "startedAtTime": {
-        "description": "The date or time when a Person started fulfilling the role specified in the role property.",
-        "type": "string",
-        "oneOf": [
-            {
-                "format": "date"
-            },
-            {
-                "format": "date-time"
-            }
-        ]
-    }
-```
-
-### 2. Validator
 - Add validator to check LtC records against LtC JSON Schema
