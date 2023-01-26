@@ -88,7 +88,10 @@ def prep_class_name(class_name):
     '''convert CamelCase class name to kebab-case name'''
 
     class_name_prepped = re.sub(r'^has([A-Z].+)', r'\1', class_name)
-    class_name_prepped = re.sub(r'([A-Z])', r'-\1', class_name_prepped)
+    if class_name_prepped.find(" ") >= 0:
+        class_name_prepped = re.sub(r'([A-Z])', r'-\1', class_name_prepped.title())
+    else:
+        class_name_prepped = re.sub(r'([A-Z])', r'-\1', class_name_prepped)
     class_name_prepped = re.sub(r'^\-|\s+', '', class_name_prepped.lower())
 
     return class_name_prepped
@@ -98,7 +101,8 @@ def convert_csv_to_json(
     json_prefix: str,
     rows: list,
     class_row: dict,
-    datatypes: list
+    datatypes: list,
+    spec: list
     ) -> dict:
     '''convert each csv-column to corresponding json-schema attribute'''
 
@@ -116,7 +120,16 @@ def convert_csv_to_json(
     required_terms = []
 
     for term_row in rows:
+
         if term_row['rdf_type'] == 'http://www.w3.org/1999/02/22-rdf-syntax-ns#Property':
+
+            # class_term = term_row['tdwgutility_organizedInClass'] + ':' + term_row['term_localName']
+
+            # # If term is in spec, overwrite LtC row with LtC-spec row
+            # for spec_row in spec:
+            #     if class_term == spec_row['term']:
+            #         term_row = spec_row
+            #         print(f'Following spec for {class_term}')
 
             term_class_prepped = prep_class_name(term_row['tdwgutility_organizedInClass'])
 
@@ -169,6 +182,8 @@ def convert_csv_to_json(
                 if term_row['tdwgutility_required'] == 'Yes':
                     required_terms.append(term_row['term_localName'])
 
+
+
     if len(required_terms) > 0:
         class_skeleton['required'] = required_terms
 
@@ -190,7 +205,9 @@ def main():
     datatypes_csv = config['DATATYPES_CSV']
     # skos_csv = config['SKOS_CSV']
 
-    json_output_path = config['JSON_OUTPUT_PATH']
+    spec_csv = config['SPEC_CSV']
+
+    json_output_path = config['SPEC_JSON_OUTPUT_PATH']
 
     csv_prefix = f'{uri_raw_prefix}/{repo_branch}/{repo_csv_path}'
     json_prefix = f'{uri_raw_prefix}/{repo_branch}/{repo_json_path}'
@@ -215,16 +232,31 @@ def main():
     # skos_csv_file = f'{csv_prefix}/{skos_csv}'
     # skos_list = get_csv_as_dict(file_path=skos_csv_file)
 
+    # # import spec terms/requirements
+    spec_csv_file = f'{spec_csv}'
+    spec_list = get_csv_as_dict(file_path=spec_csv_file)
+
     # Validate columns in CSV input
     term_valid = validate_csv(csv_import=term_list, config=config, csv_name=term_csv)
     class_valid = validate_csv(csv_import=class_list, config=config, csv_name=class_csv)
     type_valid = validate_csv(csv_import=datatype_list, config=config, csv_name=datatypes_csv)
     # skos_valid = validate_csv(csv_import=skos_list, config=config, csv_name=skos_csv)
+    spec_valid = validate_csv(csv_import=spec_list, config=config, csv_name=term_csv)
 
-    if False in [term_valid, class_valid, type_valid]:
+
+    if False in [term_valid, class_valid, type_valid, spec_valid]:
         print('Check CSVs for missing required columns')
 
     else:
+
+        # Prep terms that are defined in the spec
+        spec_list = [dict(item, term=item['tdwgutility_organizedInClass'] + ':' + item['term_localName']) for item in spec_list]
+        term_list = [dict(item, term=item['tdwgutility_organizedInClass'] + ':' + item['term_localName']) for item in term_list]
+
+        lookup = {x['term']: x for x in term_list}
+        lookup.update({x['term']: x for x in spec_list})
+        [print(f"Using spec-definition for {x['term']}") for x in spec_list]
+        term_list = list(lookup.values())
 
         # For each class, setup terms as json-schema
         for class_row in class_list:
@@ -233,7 +265,8 @@ def main():
                 json_prefix=json_prefix,
                 rows=term_list,
                 class_row=class_row,
-                datatypes=datatype_list
+                datatypes=datatype_list,
+                spec=spec_list
                 )
 
             # Write class's json-schema file
@@ -249,7 +282,7 @@ def main():
                 with open(json_filename, mode='w', encoding='utf-8') as file_output:
                     json.dump(class_terms, file_output, indent=2, ensure_ascii=False)
 
-        print(f'...JSON Schema output files are here: "{json_output_path}/"')
+        print(f'...JSON Schema Spec output files are here: "{json_output_path}/"')
 
 
 if __name__ == '__main__':

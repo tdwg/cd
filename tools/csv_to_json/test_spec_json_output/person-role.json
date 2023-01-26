@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft-04/schema",
+  "$id": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/person-role.json",
+  "title": "Person Role",
+  "description": "A qualified association between a Person or OrganisationalUnit and an entity such as an ObjectGroup or MeasurementOrFact that enables the relationship to be contextualised with a specific role and time period. This class is aligned with the prov:qualifiedAttribution property (http://www.w3.org/ns/prov#qualifiedAttribution). It should be used instead of the Activity and PersonActivity classes to link a Person or OrganisationalUnit to an entity in situations where an activity is not know or is irrelevant, for example for describing a person's role within an organisation.",
+  "type": "object",
+  "properties": {
+    "endedAtTime": {
+      "description": "The date or time when a Person stopped fulfilling the role specified in the role property.",
+      "type": "string"
+    },
+    "hasAddress": {
+      "description": "This property refers to one or more related instances of the Address class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/address.json"
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "hasContactDetail": {
+      "description": "This property refers to one or more related instances of the ContactDetail class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/contact-detail.json"
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "hasIdentifier": {
+      "description": "This property refers to one or more related instances of the Identifier class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/identifier.json"
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "hasMeasurementOrFact": {
+      "description": "This property refers to one or more related instances of the MeasurementOrFact class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/measurement-or-fact.json"
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "hasPerson": {
+      "description": "This property refers to one or more related instances of the Person class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/person.json"
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "hasReference": {
+      "description": "This property refers to one or more related instances of the Reference class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/reference.json"
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "hasTemporalCoverage": {
+      "description": "This property refers to one or more related instances of the TemporalCoverage class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/temporal-coverage.json"
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "role": {
+      "description": "A role played by a Person in the context of an entity such as an ObjectGroup, OrganisationalUnit or RecordLevel.",
+      "type": "string"
+    },
+    "startedAtTime": {
+      "description": "The date or time when a Person started fulfilling the role specified in the role property.",
+      "type": "string"
+    }
+  },
+  "required": [
+    "role"
+  ]
+}

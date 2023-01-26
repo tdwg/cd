@@ -35,8 +35,7 @@
       "description": "The source (person, organization, publication, reference) establishing the relationship between the two resources.",
       "type": "array",
       "items": {
-        "description": "The source (person, organization, publication, reference) establishing the relationship between the two resources.",
-        "type": "string"
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/relationship-according-to.json"
       },
       "minItems": 0,
       "uniqueItems": true

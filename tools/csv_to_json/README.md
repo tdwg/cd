@@ -72,9 +72,17 @@ After you resave the [`.env.example`](.env.example) file as `.env`, open it in a
 
 - `SKOS_CSV` = "ltc_skos_mapping.csv"
 
-- `JSON_OUTPUT_PATH` = the path where output JSON Schema files will go, relative to "tools/csv_to_json/" -- e.g.:
+- `SPEC_CSV` = the full URL to a CSV containing term requirements/restrictions for a particular implementation of Latimer Core.
+    - CSV columns are based on those of the `TERM_CSV`
+    - e.g.: https://raw.githubusercontent.com/tdwg/cd/auto-json-spec/tools/csv_to_json/test_spec_input/test_spec_terms_draft.csv
+
+
+- `JSON_OUTPUT_PATH` = the path where output JSON Schema files from `csv_to_json.py` will go, relative to "tools/csv_to_json/" -- e.g.:
     - to output to a test subdirectory, use "test_subdirectory"
     - to output to (and overwrite) the live directory for Latimer Core, use "../../standard/json_schema_output"
+
+- `SPEC_JSON_OUTPUT_PATH` = the path where output JSON Schema files from `csv_to_json_spec.py` will go, relative to "tools/csv_to_json/" -- e.g.:
+
 
 
 ### Troubleshooting
