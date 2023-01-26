@@ -9,7 +9,7 @@ A python script to convert CSVs formatted like the [LtC standard terms CSVs](../
 - If needed, install or update Python. See specific suggestions for [Windows](https://learn.microsoft.com/en-us/windows/python/beginners#install-python), [Mac](https://www.makeuseof.com/how-to-install-python-on-mac/), or [general info](https://www.python.org/downloads/)
 
 
-## How to run csv-to-json
+## How to run csv-to-json or csv-to-json-spec
 
 1. Clone this repo
 
@@ -27,7 +27,7 @@ A python script to convert CSVs formatted like the [LtC standard terms CSVs](../
 
     - run this script
 
-    `python3 csv_to_json.py`
+    `python3 csv_to_json.py` or `python3 csv_to_json_spec.py`
 
     - command-line output should look similar to this:
 
@@ -74,14 +74,15 @@ After you resave the [`.env.example`](.env.example) file as `.env`, open it in a
 
 - `SPEC_CSV` = the full URL to a CSV containing term requirements/restrictions for a particular implementation of Latimer Core.
     - CSV columns are based on those of the `TERM_CSV`
-    - e.g.: https://raw.githubusercontent.com/tdwg/cd/auto-json-spec/tools/csv_to_json/test_spec_input/test_spec_terms_draft.csv
+    - e.g.: https://raw.githubusercontent.com/tdwg/cd/review/tools/csv_to_json/test_spec_input/test_spec_terms_draft.csv
 
 
 - `JSON_OUTPUT_PATH` = the path where output JSON Schema files from `csv_to_json.py` will go, relative to "tools/csv_to_json/" -- e.g.:
     - to output to a test subdirectory, use "test_subdirectory"
     - to output to (and overwrite) the live directory for Latimer Core, use "../../standard/json_schema_output"
 
-- `SPEC_JSON_OUTPUT_PATH` = the path where output JSON Schema files from `csv_to_json_spec.py` will go, relative to "tools/csv_to_json/" -- e.g.:
+- `SPEC_JSON_OUTPUT_PATH` = the path where output JSON Schema files from `csv_to_json_spec.py` will go, relative to "tools/csv_to_json/"
+    - e.g.: "test_spec_json_output"
 
 
 
