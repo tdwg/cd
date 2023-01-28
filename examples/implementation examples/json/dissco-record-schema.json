@@ -1,6 +1,6 @@
 {
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
-	"$id": "https://raw.githubusercontent.com/tdwg/cd/registry-schema/examples/implementation%20examples/dissco-record-schema.json",
+	"$id": "https://raw.githubusercontent.com/tdwg/cd/registry-schema-update/examples/implementation%20examples/json/dissco-record-schema.json",
 	"title": "DiSSCo Collection Facility Profile",
 	"description": "JSON-Schema for records of collection facilities focusing on uniquely identifying the institution (ROR-identifier) and providing information summarizing a single top-level institution-wide collection for the purpose of dashboard visualizations",
 	"type": "object",
