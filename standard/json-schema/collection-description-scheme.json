@@ -17,7 +17,7 @@
       "description": "A short descriptive name given to the CollectionDescriptionScheme.",
       "type": "string"
     },
-    "schemeTerm": {
+    "hasSchemeTerm": {
       "description": "One or more Scheme Terms incorporated in the Collection Description Scheme",
       "type": "array",
       "items": {
@@ -26,7 +26,7 @@
       "minItems": 1,
       "uniqueItems": true
     },
-    "schemeMeasurementOrFact": {
+    "hasSchemeMeasurementOrFact": {
       "description": "One or more Scheme Measurement Or Facts incorporated in the Collection Description Scheme",
       "type": "array",
       "items": {
