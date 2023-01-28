@@ -6,7 +6,7 @@
 	"type": "object",
 	"properties": {
 		"ltc:ObjectGroup": {
-			"type": "ltc:ObjectGroup",
+			"type": "object",
 			"$schema": "https://json-schema.org/draft-04/schema#",
 			"$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/object-group.json",
 			"title": "Core description of institution-wide collection"
