@@ -20,7 +20,7 @@
         {
             "description": "Description of the Organisational Unit, suitable for a general audience.",
             "type": "string"
-        }
+        },
         "hasOrganisationalUnit":
         {
             "description": "This property refers to one or more related instances of the OrganisationalUnit class.",
