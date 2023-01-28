@@ -1,4 +1,4 @@
-[{
+{
     "$schema": "https://json-schema.org/draft-04/schema#",
     "$id": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/scheme-term.json",
     "title": "Scheme Term",
@@ -50,4 +50,4 @@
         "isMandatoryTerm",
         "isRepeatableTerm"
     ]
-}]
+}
