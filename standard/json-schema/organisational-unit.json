@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft-04/schema#",
-    "$id": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/organisational-unit.json",
+    "$id": "https://raw.githubusercontent.com/tdwg/cd/registry-schema-update/standard/json-schema/organisational-unit.json",
     "title": "Organisational Unit",
     "description": "A unit within an organisational hierarchy which may be at, above or below the institutional level.",
     "type": "object",
