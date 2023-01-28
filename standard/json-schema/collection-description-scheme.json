@@ -21,7 +21,7 @@
       "description": "One or more Scheme Terms incorporated in the Collection Description Scheme",
       "type": "array",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/scheme-term.json"
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/registry-schema-update/standard/json-schema/scheme-term.json"
       },
       "minItems": 1,
       "uniqueItems": true
