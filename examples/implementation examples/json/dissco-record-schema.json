@@ -11,6 +11,12 @@
 			"$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/object-group.json",
 			"title": "Core description of institution-wide collection"
 			}
+			"required": [
+				"ltc:OrganisationalUnit", 
+				"ltc:RecordLevel",
+				"baseTypeOfCollection",
+				"collectionName"
+			]
 		}
 }
 
