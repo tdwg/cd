@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft-04/schema#",
-  "$id": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/collection-description-scheme.json",
+  "$id": "https://raw.githubusercontent.com/tdwg/cd/registry-schema-update/standard/json-schema/collection-description-scheme.json",
   "title": "Collection Description Scheme",
   "description": "A grouping of multiple ObjectGroups for a particular use case, purpose or implementation.",
   "type": "object",
