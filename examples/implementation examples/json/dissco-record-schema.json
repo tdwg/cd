@@ -8,7 +8,7 @@
 		"ltc:ObjectGroup": {
 			"type": "object",
 			"$schema": "https://json-schema.org/draft-04/schema#",
-			"$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/object-group.json",
+			"$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/object-group.json",
 			"title": "Name of institution-wide collection"
 			}
 		}
