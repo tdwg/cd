@@ -21,95 +21,95 @@
             "description": "Description of the Organisational Unit, suitable for a general audience.",
             "type": "string"
         }
-    },
-    "hasOrganisationalUnit":
-    {
-        "description": "This property refers to one or more related instances of the OrganisationalUnit class.",
-        "type": "array",
-        "items":
+        "hasOrganisationalUnit":
         {
-            "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/organisational-unit.json"
+            "description": "This property refers to one or more related instances of the OrganisationalUnit class.",
+            "type": "array",
+            "items":
+            {
+               "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/organisational-unit.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
         },
-        "minItems": 1,
-        "uniqueItems": true
-    },
-    "organisationalUnitAlternativeName":
-    {
-        "description": "One or more alternative names for the unit in English, if commonly used, and the official name is not in English.",
-        "type": "array",
-        "items":
+        "organisationalUnitAlternativeName":
         {
-            "description": "Alternative name for the unit in English, if commonly used, and the official name is not in English.",
-            "type": "string"
+           "description": "One or more alternative names for the unit in English, if commonly used, and the official name is not in English.",
+           "type": "array",
+           "items":
+           {
+              "description": "Alternative name for the unit in English, if commonly used, and the official name is not in English.",
+              "type": "string"
+           },
+           "minItems": 1,
+           "uniqueItems": true
         },
-        "minItems": 1,
-        "uniqueItems": true
-    },
-    "hasAddress":
-    {
-        "description": "This property refers to one or more related instances of the Address class.",
-        "type": "array",
-        "items":
+        "hasAddress":
         {
-            "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/address.json"
+           "description": "This property refers to one or more related instances of the Address class.",
+           "type": "array",
+           "items":
+           {
+               "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/address.json"
+           },
+           "minItems": 1,
+           "uniqueItems": true
         },
-        "minItems": 1,
-        "uniqueItems": true
-    },
-    "hasContactDetail":
-    {
-        "description": "This property refers to one or more related instances of the ContactDetail class.",
-        "type": "array",
-        "items":
+        "hasContactDetail":
         {
-            "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/contact-detail.json"
+            "description": "This property refers to one or more related instances of the ContactDetail class.",
+            "type": "array",
+            "items":
+            {
+               "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/contact-detail.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
         },
-        "minItems": 1,
-        "uniqueItems": true
-    },
-    "hasPersonRole":
-    {
-        "description": "One or more Person Roles relating to the Organisational Unit",
-        "type": "array",
-        "items":
+        "hasPersonRole":
         {
-            "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/person-role.json"
+            "description": "One or more Person Roles relating to the Organisational Unit",
+            "type": "array",
+            "items":
+            {
+               "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/person-role.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
         },
-        "minItems": 1,
-        "uniqueItems": true
-    },
-    "hasReference":
-    {
-        "description": "This property refers to one or more related instances of the Reference class.",
-        "type": "array",
-        "items":
+        "hasReference":
         {
-            "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/reference.json"
+            "description": "This property refers to one or more related instances of the Reference class.",
+            "type": "array",
+            "items":
+            {
+               "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/reference.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
         },
-        "minItems": 1,
-        "uniqueItems": true
-    },
-    "hasIdentifier":
-    {
-        "description": "This property refers to one or more related instances of the Identifier class.",
-        "type": "array",
-        "items":
+        "hasIdentifier":
         {
-            "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/identifier.json"
+            "description": "This property refers to one or more related instances of the Identifier class.",
+            "type": "array",
+            "items":
+            {
+               "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/identifier.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
         },
-        "minItems": 1,
-        "uniqueItems": true
-    },
-    "hasMeasurementOrFact":
-    {
-        "description": "This property refers to one or more related instances of the MeasurementOrFact class.",
-        "type": "array",
-        "items":
+        "hasMeasurementOrFact":
         {
-            "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/measurement-or-fact.json"
-        },
-        "minItems": 1,
-        "uniqueItems": true
+           "description": "This property refers to one or more related instances of the MeasurementOrFact class.",
+           "type": "array",
+           "items":
+           {
+               "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/measurement-or-fact.json"
+           },
+           "minItems": 1,
+           "uniqueItems": true
+        }
     },
     "required":
     [
