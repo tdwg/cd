@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft-04/schema#",
-    "$id": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/scheme-term.json",
+    "$id": "https://raw.githubusercontent.com/tdwg/cd/registry-schema-update/standard/json-schema/scheme-term.json",
     "title": "Scheme Term",
     "description": "A Latimer Core term used by the CollectionDescriptionScheme and the rules relating to its application.",
     "type": "object",
