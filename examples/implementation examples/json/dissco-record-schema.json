@@ -4,15 +4,5 @@
 	"title": "DiSSCo Collection Facility Profile",
 	"description": "JSON-Schema for records of collection facilities focusing on uniquely identifying the institution (ROR-identifier) and providing information summarizing a single top-level institution-wide collection for the purpose of dashboard visualizations",
 	"type": "object",
-	"properties": {
-		"ltc:ObjectGroup": {
-			"type": "object",
-			"$schema": "https://json-schema.org/draft-04/schema#",
-			"$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/object-group.json",
-			"title": "Core description of institution-wide collection"
-			}
-		}
-  	},
-	"required": ["ltc:ObjectGroup"]
 }
 
