@@ -94,7 +94,6 @@
     "required":
     [
         "collectionDescriptionPID",
-        "license",
-        "objectGroup"
+        "license"
     ]
 }
