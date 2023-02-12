@@ -9,14 +9,21 @@ A python script to convert CSVs formatted like the [LtC standard terms CSVs](../
 - If needed, install or update Python. See specific suggestions for [Windows](https://learn.microsoft.com/en-us/windows/python/beginners#install-python), [Mac](https://www.makeuseof.com/how-to-install-python-on-mac/), or [general info](https://www.python.org/downloads/)
 
 
-## How to run csv-to-json or csv-to-json-spec
+## How to run scripts in the repo:
 
-1. Clone this repo
+If not already:
+1. Clone the repo
 
-2. Resave the `tools/csv_to_json/.env.example` file as  `tools/csv_to_json/.env`
+2. 2. Resave the `tools/csv_to_json/.env.example` file as  `tools/csv_to_json/.env`
     - See [env variable descriptions](#env-variable-descriptions) below if you need help pointing to different paths or files.
 
-3. At a command line, do the following:
+
+## How to run csv_to_json.py or csv_to_json_spec.py
+
+1. Resave the `tools/csv_to_json/.env.example` file as  `tools/csv_to_json/.env`
+    - See [env variable descriptions](#env-variable-descriptions) below if you need help pointing to different paths or files.
+
+2. At a command line, do the following:
     - Go to the directory containing this script
 
     `cd path/to/this-repo/tools/csv_to_json`
@@ -39,6 +46,29 @@ A python script to convert CSVs formatted like the [LtC standard terms CSVs](../
     ```
 
     Check the output-path for JSON Schema output files
+
+
+## How to run ltc_json_validator.py
+
+1. Resave the `tools/csv_to_json/.env.example` file as  `tools/csv_to_json/.env`
+    - See [env variable descriptions](#env-variable-descriptions) below for help setting the following variables:
+        - `INPUT_JSON_URL`
+        - `SCHEMA_JSON_URL`
+
+2. At a command line, do the following:
+    - Go to the directory containing this script
+
+    `cd path/to/this-repo/tools/csv_to_json`
+
+    - install required python modules listed in [`requirements.txt`](requirements.txt)
+
+    `pip3 install -r requirements.txt`
+
+    - run this script
+
+    `python3 ltc_json_validator.py`
+
+    - command-line output should indicate whether the input JSON passed or failed validation (with details on failure).
 
 
 ### env Variable Descriptions
@@ -84,6 +114,11 @@ After you resave the [`.env.example`](.env.example) file as `.env`, open it in a
 - `SPEC_JSON_OUTPUT_PATH` = the path where output JSON Schema files from `csv_to_json_spec.py` will go, relative to "tools/csv_to_json/"
     - e.g.: "test_spec_json_output"
 
+#### LtC JSON Validator URLs
+- `INPUT_JSON_URL` = URL to a Latimer Core record
+    - e.g.: https://raw.githubusercontent.com/tdwg/cd/review/examples/implementation%20examples/json/nhm_uk_json_example.json
+- `SCHEMA_JSON_URL` = URL to the Latimer Core schema, or an implementation spec based on it.
+    - e.g.: https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/record-level.json
 
 
 ### Troubleshooting
