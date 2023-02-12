@@ -51,7 +51,7 @@ If not already:
 ## How to run ltc_json_validator.py
 
 1. Resave the `tools/csv_to_json/.env.example` file as  `tools/csv_to_json/.env`
-    - See [env variable descriptions](#env-variable-descriptions) below for help setting the following variables:
+    - See [env validator variable descriptions](#ltc-json-validator-urls) below for help setting the following variables:
         - `INPUT_JSON_URL`
         - `SCHEMA_JSON_URL`
 
