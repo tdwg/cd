@@ -1,6 +1,6 @@
 {
-  "$schema": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json/json-schemas/1.0/latimer-core-schema.json",
-  "$id": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json/vocabulary-schemas/1.0/record-level.json",
+  "$schema": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/json/2.0/latimer-core-schema.json",
+  "$id": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/vocabulary/2.0/record-level.json",
   "title": "Record Level",
   "description": "The machine-actionable information profile for the collection description digital object. Linked to the RDA PID Kernel recommendation (https://www.rd-alliance.org/system/files/RDA%20Recommendation%20on%20PID%20Kernel%20Information_final.pdf)",
   "type": "object",
@@ -15,7 +15,7 @@
 			"description": "This property refers to one or more related instances of the Identifier class.",
 			"type": "array",
 			"items": {
-		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/identifier.json"
+		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/vocabulary/2.0/identifier.json"
 		},
 			"minItems": 0,
 			"uniqueItems": true
@@ -25,7 +25,7 @@
 			"description": "This property refers to one or more related instances of the ObjectGroup class.",
 			"type": "array",
 			"items": {
-		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/object-group.json"
+		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/vocabulary/2.0/object-group.json"
 		},
 			"minItems": 0,
 			"uniqueItems": true
@@ -35,7 +35,7 @@
 			"description": "This property refers to one or more related instances of the PersonRole class.",
 			"type": "array",
 			"items": {
-		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/person-role.json"
+		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/vocabulary/2.0/person-role.json"
 		},
 			"minItems": 0,
 			"uniqueItems": true
@@ -45,7 +45,7 @@
 			"description": "This property refers to one or more related instances of the Reference class.",
 			"type": "array",
 			"items": {
-		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/reference.json"
+		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/vocabulary/2.0/reference.json"
 		},
 			"minItems": 0,
 			"uniqueItems": true
@@ -55,7 +55,7 @@
 			"description": "This property refers to one or more related instances of the ResourceRelationship class.",
 			"type": "array",
 			"items": {
-		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/resource-relationship.json"
+		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/vocabulary/2.0/resource-relationship.json"
 		},
 			"minItems": 0,
 			"uniqueItems": true

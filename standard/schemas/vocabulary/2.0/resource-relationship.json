@@ -1,6 +1,6 @@
 {
-  "$schema": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json/json-schemas/1.0/latimer-core-schema.json",
-  "$id": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json/vocabulary-schemas/1.0/resource-relationship.json",
+  "$schema": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/json/2.0/latimer-core-schema.json",
+  "$id": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/vocabulary/2.0/resource-relationship.json",
   "title": "Resource Relationship",
   "description": "A relationship between an instance of a class in the collection description standard to another instance of the same class, or an instance of a different class in the standard. In the context of this standard, the resources are the collections of objects represented by the ObjectGroup. This class can be used to define different semantic and hierarchical relationships between ObjectGroups.",
   "type": "object",
@@ -10,7 +10,7 @@
 			"description": "This property refers to one or more related instances of the Identifier class.",
 			"type": "array",
 			"items": {
-		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/identifier.json"
+		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/vocabulary/2.0/identifier.json"
 		},
 			"minItems": 0,
 			"uniqueItems": true
@@ -20,7 +20,7 @@
 			"description": "This property refers to one or more related instances of the Reference class.",
 			"type": "array",
 			"items": {
-		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/reference.json"
+		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/vocabulary/2.0/reference.json"
 		},
 			"minItems": 0,
 			"uniqueItems": true

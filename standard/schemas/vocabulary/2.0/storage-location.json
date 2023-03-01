@@ -1,6 +1,6 @@
 {
-  "$schema": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json/json-schemas/1.0/latimer-core-schema.json",
-  "$id": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json/vocabulary-schemas/1.0/storage-location.json",
+  "$schema": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/json/2.0/latimer-core-schema.json",
+  "$id": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/vocabulary/2.0/storage-location.json",
   "title": "Storage Location",
   "description": "A physical location (such as a building, room, cabinet or drawer) within the holding institution where objects associated with the collection description are stored or exhibited.",
   "type": "object",
@@ -10,7 +10,7 @@
 			"description": "This property refers to one or more related instances of the Address class.",
 			"type": "array",
 			"items": {
-		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/address.json"
+		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/vocabulary/2.0/address.json"
 		},
 			"minItems": 0,
 			"uniqueItems": true
@@ -20,7 +20,7 @@
 			"description": "This property refers to one or more related instances of the Identifier class.",
 			"type": "array",
 			"items": {
-		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/identifier.json"
+		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/vocabulary/2.0/identifier.json"
 		},
 			"minItems": 0,
 			"uniqueItems": true
@@ -30,7 +30,7 @@
 			"description": "This property refers to one or more related instances of the MeasurementOrFact class.",
 			"type": "array",
 			"items": {
-		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/measurement-or-fact.json"
+		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/vocabulary/2.0/measurement-or-fact.json"
 		},
 			"minItems": 0,
 			"uniqueItems": true
@@ -40,7 +40,7 @@
 			"description": "This property refers to one or more related instances of the Reference class.",
 			"type": "array",
 			"items": {
-		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/reference.json"
+		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/vocabulary/2.0/reference.json"
 		},
 			"minItems": 0,
 			"uniqueItems": true

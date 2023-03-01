@@ -1,6 +1,6 @@
 {
-  "$schema": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json/json-schemas/1.0/latimer-core-schema.json",
-  "$id": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json/vocabulary-schemas/1.0/address.json",
+  "$schema": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/json/2.0/latimer-core-schema.json",
+  "$id": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/vocabulary/2.0/address.json",
   "title": "Address",
   "description": "A physical postal address for an organisational unit or person.",
   "type": "object",
@@ -30,7 +30,7 @@
 			"description": "This property refers to one or more related instances of the Identifier class.",
 			"type": "array",
 			"items": {
-		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/identifier.json"
+		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/vocabulary/2.0/identifier.json"
 		},
 			"minItems": 0,
 			"uniqueItems": true

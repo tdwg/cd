@@ -1,6 +1,6 @@
 {
-  "$schema": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json/json-schemas/1.0/latimer-core-schema.json",
-  "$id": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json/vocabulary-schemas/1.0/person.json",
+  "$schema": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/json/2.0/latimer-core-schema.json",
+  "$id": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/vocabulary/2.0/person.json",
   "title": "Person",
   "description": "A person (alive or dead). This concept should map to the Schema.org Person class (https://schema.org/Person), and the prov:Person class (http://www.w3.org/ns/prov#Person) in the PROV ontology. In the latter, it is a subclass of prov:Agent, which through which it can map to the RDA recommendations on attribution (http://dx.doi.org/10.15497/RDA00029). The definition is appropriated from the Schema.org class.",
   "type": "object",
@@ -30,7 +30,7 @@
 			"description": "This property refers to one or more related instances of the Address class.",
 			"type": "array",
 			"items": {
-		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/address.json"
+		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/vocabulary/2.0/address.json"
 		},
 			"minItems": 0,
 			"uniqueItems": true
@@ -40,7 +40,7 @@
 			"description": "This property refers to one or more related instances of the ContactDetail class.",
 			"type": "array",
 			"items": {
-		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/contact-detail.json"
+		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/vocabulary/2.0/contact-detail.json"
 		},
 			"minItems": 0,
 			"uniqueItems": true
@@ -50,7 +50,7 @@
 			"description": "This property refers to one or more related instances of the Identifier class.",
 			"type": "array",
 			"items": {
-		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/identifier.json"
+		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/vocabulary/2.0/identifier.json"
 		},
 			"minItems": 0,
 			"uniqueItems": true
@@ -60,7 +60,7 @@
 			"description": "This property refers to one or more related instances of the MeasurementOrFact class.",
 			"type": "array",
 			"items": {
-		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/measurement-or-fact.json"
+		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/vocabulary/2.0/measurement-or-fact.json"
 		},
 			"minItems": 0,
 			"uniqueItems": true
@@ -70,7 +70,7 @@
 			"description": "This property refers to one or more related instances of the Reference class.",
 			"type": "array",
 			"items": {
-		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/reference.json"
+		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/vocabulary/2.0/reference.json"
 		},
 			"minItems": 0,
 			"uniqueItems": true

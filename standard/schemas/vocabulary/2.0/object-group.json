@@ -1,6 +1,6 @@
 {
-  "$schema": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json/json-schemas/1.0/latimer-core-schema.json",
-  "$id": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json/vocabulary-schemas/1.0/object-group.json",
+  "$schema": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/json/2.0/latimer-core-schema.json",
+  "$id": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/vocabulary/2.0/object-group.json",
   "title": "Object Group",
   "description": "An intentionally grouped set of objects with one or more common characteristics.",
   "type": "object",
@@ -80,7 +80,7 @@
 			"description": "This property refers to one or more related instances of the ChronometricAge class.",
 			"type": "array",
 			"items": {
-		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/chronometric-age.json"
+		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/vocabulary/2.0/chronometric-age.json"
 		},
 			"minItems": 0,
 			"uniqueItems": true
@@ -90,7 +90,7 @@
 			"description": "This property refers to one or more related instances of the CollectionStatusHistory class.",
 			"type": "array",
 			"items": {
-		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/collection-status-history.json"
+		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/vocabulary/2.0/collection-status-history.json"
 		},
 			"minItems": 0,
 			"uniqueItems": true
@@ -100,7 +100,7 @@
 			"description": "This property refers to one or more related instances of the Event class.",
 			"type": "array",
 			"items": {
-		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/event.json"
+		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/vocabulary/2.0/event.json"
 		},
 			"minItems": 0,
 			"uniqueItems": true
@@ -110,7 +110,7 @@
 			"description": "This property refers to one or more related instances of the GeographicOrigin class.",
 			"type": "array",
 			"items": {
-		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/geographic-origin.json"
+		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/vocabulary/2.0/geographic-origin.json"
 		},
 			"minItems": 0,
 			"uniqueItems": true
@@ -120,7 +120,7 @@
 			"description": "This property refers to one or more related instances of the GeologicalContext class.",
 			"type": "array",
 			"items": {
-		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/geological-context.json"
+		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/vocabulary/2.0/geological-context.json"
 		},
 			"minItems": 0,
 			"uniqueItems": true
@@ -130,7 +130,7 @@
 			"description": "This property refers to one or more related instances of the Identifier class.",
 			"type": "array",
 			"items": {
-		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/identifier.json"
+		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/vocabulary/2.0/identifier.json"
 		},
 			"minItems": 0,
 			"uniqueItems": true
@@ -140,7 +140,7 @@
 			"description": "This property refers to one or more related instances of the MeasurementOrFact class.",
 			"type": "array",
 			"items": {
-		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/measurement-or-fact.json"
+		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/vocabulary/2.0/measurement-or-fact.json"
 		},
 			"minItems": 0,
 			"uniqueItems": true
@@ -150,7 +150,7 @@
 			"description": "This property refers to one or more related instances of the ObjectClassification class.",
 			"type": "array",
 			"items": {
-		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/object-classification.json"
+		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/vocabulary/2.0/object-classification.json"
 		},
 			"minItems": 0,
 			"uniqueItems": true
@@ -160,7 +160,7 @@
 			"description": "This property refers to one or more related instances of the OrganisationalUnit class.",
 			"type": "array",
 			"items": {
-		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/organisational-unit.json"
+		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/vocabulary/2.0/organisational-unit.json"
 		},
 			"minItems": 0,
 			"uniqueItems": true
@@ -170,7 +170,7 @@
 			"description": "This property refers to one or more related instances of the PersonRole class.",
 			"type": "array",
 			"items": {
-		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/person-role.json"
+		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/vocabulary/2.0/person-role.json"
 		},
 			"minItems": 0,
 			"uniqueItems": true
@@ -180,7 +180,7 @@
 			"description": "This property refers to one or more related instances of the Reference class.",
 			"type": "array",
 			"items": {
-		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/reference.json"
+		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/vocabulary/2.0/reference.json"
 		},
 			"minItems": 0,
 			"uniqueItems": true
@@ -190,7 +190,7 @@
 			"description": "This property refers to one or more related instances of the ResourceRelationship class.",
 			"type": "array",
 			"items": {
-		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/resource-relationship.json"
+		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/vocabulary/2.0/resource-relationship.json"
 		},
 			"minItems": 0,
 			"uniqueItems": true
@@ -200,7 +200,7 @@
 			"description": "This property refers to one or more related instances of the StorageLocation class.",
 			"type": "array",
 			"items": {
-		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/storage-location.json"
+		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/vocabulary/2.0/storage-location.json"
 		},
 			"minItems": 0,
 			"uniqueItems": true
@@ -210,7 +210,7 @@
 			"description": "This property refers to one or more related instances of the Taxon class.",
 			"type": "array",
 			"items": {
-		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/taxon.json"
+		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/vocabulary/2.0/taxon.json"
 		},
 			"minItems": 0,
 			"uniqueItems": true

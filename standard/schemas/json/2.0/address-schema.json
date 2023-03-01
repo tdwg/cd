@@ -1,0 +1,46 @@
+{
+	"$id": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/json/2.0/address-schema.json",,
+    "$schema": "https://json-schema.org/draft/2020-12/schema#",
+    "title": "Address",
+    "type": "object",
+    "properties": {
+        "title": {"type": "string"},
+        "description": {"type": "string"},
+        "type": {"type": "string"},
+        "properties": {"$ref": "#/$defs/properties_type"},
+        "required": {"$ref": "#/$defs/required_type"}
+    },
+    "$defs": {
+        "items_type": {
+            "type": "object",
+            "properties": {
+                "$ref": {"type": "string"}
+            }
+        },
+        "properties_type": {
+            "type": "array",
+            "minItems": 0,
+            "items": {
+                "type": "object",
+                "properties": {
+                    "name": {"type": "string"},
+                    "description": {"type": "string"},
+                    "type": {"type": "string"},
+                    "items": {"$ref": "#/$defs/items_type"},
+                    "minItems": {"type": "integer"},
+                    "uniqueItems": {"type": "boolean"}
+                },
+                "required": [
+                    "name",
+                    "description",
+                    "type"
+                ]
+            }
+        },
+        "required_type": {
+            "type": "array",
+            "minItems": 0,
+            "items": {"type": "string"}
+        }
+    }
+}
