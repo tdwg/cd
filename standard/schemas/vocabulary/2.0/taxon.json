@@ -1,0 +1,59 @@
+{
+  "$schema": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json/json-schemas/1.0/latimer-core-schema.json",
+  "$id": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json/vocabulary-schemas/1.0/taxon.json",
+  "title": "Taxon",
+  "description": "A group of organisms (sensu http://purl.obolibrary.org/obo/OBI_0100026) considered by taxonomists to form a homogeneous unit.",
+  "type": "object",
+  "properties": [
+	{
+			"name": "genus",
+			"description": "The full scientific name of the genus in which the taxon is classified.",
+			"type": "string"
+		},
+		{
+			"name": "hasIdentifier",
+			"description": "This property refers to one or more related instances of the Identifier class.",
+			"type": "array",
+			"items": {
+		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/identifier.json"
+		},
+			"minItems": 0,
+			"uniqueItems": true
+		},
+		{
+			"name": "hasMeasurementOrFact",
+			"description": "This property refers to one or more related instances of the MeasurementOrFact class.",
+			"type": "array",
+			"items": {
+		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/measurement-or-fact.json"
+		},
+			"minItems": 0,
+			"uniqueItems": true
+		},
+		{
+			"name": "hasReference",
+			"description": "This property refers to one or more related instances of the Reference class.",
+			"type": "array",
+			"items": {
+		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/reference.json"
+		},
+			"minItems": 0,
+			"uniqueItems": true
+		},
+		{
+			"name": "kingdom",
+			"description": "The full scientific name of the kingdom in which the taxon is classified.",
+			"type": "string"
+		},
+		{
+			"name": "scientificName",
+			"description": "The full scientific name, with authorship and date information if known. When forming part of an Identification, this should be the name in lowest level taxonomic rank that can be determined. This term should not contain identification qualifications, which should instead be supplied in the IdentificationQualifier term.",
+			"type": "string"
+		},
+		{
+			"name": "taxonRank",
+			"description": "The taxonomic rank of the most specific name in the scientificName.",
+			"type": "string"
+		}
+	]
+}

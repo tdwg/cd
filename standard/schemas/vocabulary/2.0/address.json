@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json/json-schemas/1.0/latimer-core-schema.json",
+  "$id": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json/vocabulary-schemas/1.0/address.json",
+  "title": "Address",
+  "description": "A physical postal address for an organisational unit or person.",
+  "type": "object",
+  "properties": [
+		{
+			"name": "addressCountry",
+			"description": "The country. For example, USA. You can also provide the two-letter ISO 3166-1 alpha-2 country code.",
+			"type": "string"
+		},
+		{
+			"name": "addressLocality",
+			"description": "The locality in which the street address is, and which is in the region. For example, Mountain View.",
+			"type": "string"
+		},
+		{
+			"name": "addressRegion",
+			"description": "The region in which the locality is, and which is in the country. For example, California or another appropriate first-level Administrative division.",
+			"type": "string"
+		},
+		{
+			"name": "addressType",
+			"description": "A person or organization can have different addresses, for different purposes. For example, a postal address, a loan address, an address for visits and so on. This property is used to specify the kind of address.",
+			"type": "string"
+		},
+		{
+			"name": "hasIdentifier",
+			"description": "This property refers to one or more related instances of the Identifier class.",
+			"type": "array",
+			"items": {
+		  "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/identifier.json"
+		},
+			"minItems": 0,
+			"uniqueItems": true
+		},
+		{
+			"name": "postOfficeBoxNumber",
+			"description": "The post office box number for PO box addresses.",
+			"type": "string"
+		},
+		{
+			"name": "postalCode",
+			"description": "The postal code. For example, 94043.",
+			"type": "string"
+		},
+		{
+			"name": "streetAddress",
+			"description": "The street address. For example, 1600 Amphitheatre Pkwy.",
+			"type": "string"
+    	}
+	],
+  "required": [
+    "addressCountry",
+    "streetAddress"
+  ]
+}
