@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/json/2.0/latimer-core-schema.json",
+  "$schema": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/json/2.0/latimer-core-vocabulary.schema.json",
   "$id": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/vocabulary/2.0/contact-detail.json",
   "title": "Contact Detail",
   "description": "Details of a method by which an entity such as a Person or OrganisationalUnit may be contacted. The Address class should be used to store physical or postal addresses. For all other types of contact details, this class should be used.",

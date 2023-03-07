@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/json/2.0/latimer-core-schema.json",
+  "$schema": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/json/2.0/latimer-core-vocabulary.schema.json",
   "$id": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/vocabulary/2.0/record-level.json",
   "title": "Record Level",
   "description": "The machine-actionable information profile for the collection description digital object. Linked to the RDA PID Kernel recommendation (https://www.rd-alliance.org/system/files/RDA%20Recommendation%20on%20PID%20Kernel%20Information_final.pdf)",

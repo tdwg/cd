@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json/json-schemas/1.0/latimer-core-schema.json",
+"$schema": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/json/2.0/latimer-core-vocabulary.schema.json",
   "$id": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json/vocabulary-schemas/1.0/collection-description-scheme.json",
   "title": "Collection Description Scheme",
   "description": "A grouping of multiple ObjectGroups for a particular use case, purpose or implementation. Where the same objects within the same collection might be described by more than one ObjectGroup for different purposes (for examples, a 'Darwin Fossil Mammals' collection description might overlap with a 'Offsite Palaeontology' collection description), this class can be used to distinguish between them and avoid double-counting of metrics in queries against the data.",

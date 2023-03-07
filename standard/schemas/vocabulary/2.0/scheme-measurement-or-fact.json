@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/json/2.0/latimer-core-schema.json",
+  "$schema": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/json/2.0/latimer-core-vocabulary.schema.json",
   "$id": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/vocabulary/2.0/scheme-measurement-or-fact.json",
   "title": "Scheme Measurement Or Fact",
   "description": "A type of measurement or fact used by the CollectionDescriptionScheme, and the rules relating to its application. This class can be used to specify the qualitative and quantitative metrics that will be included in the CollectionDescriptionScheme using the MeasurementOrFact class, and dictate whether each will be mandatory and/or repeatable. This information can be used by software and queries to constrain and validate the Latimer Core dataset, and determine how and whether metrics can be aggregated and reported. The schemeMeasurementType property should correspond to the measurementType property of the MeasurementOrFact class in order to make the relevant association between the scheme definition and the stored data.",

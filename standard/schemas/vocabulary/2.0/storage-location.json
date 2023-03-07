@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/json/2.0/latimer-core-schema.json",
+  "$schema": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/json/2.0/latimer-core-vocabulary.schema.json",
   "$id": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/vocabulary/2.0/storage-location.json",
   "title": "Storage Location",
   "description": "A physical location (such as a building, room, cabinet or drawer) within the holding institution where objects associated with the collection description are stored or exhibited.",

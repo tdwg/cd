@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/json/2.0/latimer-core-schema.json",
+  "$schema": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/json/2.0/latimer-core-vocabulary.schema.json",
   "$id": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/vocabulary/2.0/person.json",
   "title": "Person",
   "description": "A person (alive or dead). This concept should map to the Schema.org Person class (https://schema.org/Person), and the prov:Person class (http://www.w3.org/ns/prov#Person) in the PROV ontology. In the latter, it is a subclass of prov:Agent, which through which it can map to the RDA recommendations on attribution (http://dx.doi.org/10.15497/RDA00029). The definition is appropriated from the Schema.org class.",

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/json/2.0/latimer-core-schema.json",
+  "$schema": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/json/2.0/latimer-core-vocabulary.schema.json",
   "$id": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/vocabulary/2.0/resource-relationship.json",
   "title": "Resource Relationship",
   "description": "A relationship between an instance of a class in the collection description standard to another instance of the same class, or an instance of a different class in the standard. In the context of this standard, the resources are the collections of objects represented by the ObjectGroup. This class can be used to define different semantic and hierarchical relationships between ObjectGroups.",

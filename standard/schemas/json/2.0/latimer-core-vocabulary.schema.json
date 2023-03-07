@@ -1,0 +1,45 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema#",
+    "$id": "https://raw.githubusercontent.com/tdwg/cd/review/json-schemas-dev/standard/schemas/json/2.0/latimer-core-vocabulary.schema.json",
+    "title": "Latimer Core Vocabulary JSON Schema",  
+    "description": "JSON Schema (compliant with the JSON Schema Specification Draft 2020-12) for the Latimer Core Vocabulary Schemas",
+    "type": "object",
+    "properties": {
+        "$schema": {"type": "string"},
+        "$id": {"type": "string"},
+        "title": {"type": "string"},
+        "description": {"type": "string"},
+        "type": {"type": "string"},
+        "properties": {"$ref": "#/$defs/properties_type"}
+    },
+    "$defs": {
+        "items_type": {
+            "type": "object",
+            "properties": {
+                "$ref": {"type": "string"},
+                "description": {"type": "string"},
+                "type": {"type": "string"}
+            }
+        },
+        "properties_type": {
+            "type": "array",
+            "minItems": 0,
+            "items": {
+                "type": "object",
+                "properties": {
+                    "description": {"type": "string"},
+                    "name": {"type": "string"},
+                    "type": {"type": "string"},
+                    "items": {"$ref": "#/$defs/items_type"},
+                    "minItems": {"type": "integer"},
+                    "uniqueItems": {"type": "boolean"}
+                },
+                "required": [
+                    "name",
+                    "description",
+                    "type"
+                ]
+            }
+        }
+    }
+}
