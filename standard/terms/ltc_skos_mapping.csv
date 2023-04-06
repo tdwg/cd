@@ -23,8 +23,6 @@ schemeName,broadMatch,dcterms:title
 statusType,broadMatch,dcterms:type
 hasTemporalCoverage,broadMatch,dcterms:relation
 contactDetailCategory,broadMatch,dcterms:type
-contactDetailType,broadMatch,ltc:contactDetailCategory
-contactDetailType,broadMatch,dcterms:type
 contactDetailValue,narrowMatch,schema:email
 contactDetailValue,narrowMatch,schema:faxNumber
 contactDetailValue,narrowMatch,schema:telephone

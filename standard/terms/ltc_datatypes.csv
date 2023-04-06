@@ -128,7 +128,6 @@ ltc:,CollectionStatusHistory,status,string
 ltc:,CollectionStatusHistory,statusChangeReason,string
 ltc:,CollectionStatusHistory,statusType,string
 ltc:,ContactDetail,contactDetailCategory,string
-ltc:,ContactDetail,contactDetailType,string
 ltc:,ContactDetail,contactDetailValue,string
 dwc:,Event,habitat,string
 dwc:,Event,samplingProtocol,string
@@ -215,3 +214,4 @@ dwc:,Taxon,taxonRank,string
 ltc:,TemporalCoverage,temporalCoverageEndDate,string
 ltc:,TemporalCoverage,temporalCoverageStartDate,string
 ltc:,TemporalCoverage,temporalCoverageType,string
+ltc:,ContactDetail,contactDetailFunction,array
