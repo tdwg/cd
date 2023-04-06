@@ -214,3 +214,4 @@ dwc:,Taxon,taxonRank,string
 ltc:,TemporalCoverage,temporalCoverageEndDate,string
 ltc:,TemporalCoverage,temporalCoverageStartDate,string
 ltc:,TemporalCoverage,temporalCoverageType,string
+ltc:,ContactDetail,contactDetailFunction,array
