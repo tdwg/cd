@@ -184,7 +184,7 @@ schema:,Person,familyName,string
 abcd:,Person,fullName,string
 schema:,Person,givenName,string
 ltc:,PersonRole,endedAtTime,string
-ltc:,PersonRole,role,string
+ltc:,PersonRole,hasRole,array
 ltc:,PersonRole,startedAtTime,string
 ltc:,RecordLevel,collectionDescriptionPID,string
 dc:,RecordLevel,license,string
@@ -201,6 +201,8 @@ dwc:,ResourceRelationship,relationshipOfResource,string
 dwc:,ResourceRelationship,relationshipRemarks,string
 dwc:,ResourceRelationship,resourceID,string
 dwc:,ResourceRelationship,resourceRelationshipID,string
+ltc:,Role,hasIdentifier,array
+ltc:,Role,roleName,string
 ltc:,SchemeMeasurementOrFact,schemeMeasurementType,string
 ltc:,SchemeTerm,termName,string
 ltc:,StorageLocation,locationName,string

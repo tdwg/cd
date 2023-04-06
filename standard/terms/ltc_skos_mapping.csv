@@ -107,7 +107,7 @@ fullName,exactMatch,abcd:fullName
 givenName,exactMatch,schema:givenName
 PersonRole,broadMatch,prov:qualifiedAttribution
 endedAtTime,closeMatch,prov:endedAtTime
-role,closeMatch,prov:Role
+Role,relatedMatch,prov:Role
 startedAtTime,closeMatch,prov:startedAtTime
 hasPerson,broadMatch,dcterms:relation
 RecordLevel,relatedMatch,dwc:record-level
@@ -140,3 +140,4 @@ kingdom,exactMatch,dwc:kingdom
 scientificName,exactMatch,dwc:scientificName
 taxonRank,exactMatch,dwc:taxonRank
 temporalCoverageType,broadMatch,dcterms:type
+roleName,broadMatch,dcterms:title
