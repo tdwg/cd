@@ -216,3 +216,4 @@ ltc:,TemporalCoverage,temporalCoverageStartDate,string
 ltc:,TemporalCoverage,temporalCoverageType,string
 ltc:,ContactDetail,contactDetailFunction,array
 ltc:,ObjectClassification,isTopParent,boolean
+ltc:,Event,hasParentEvent,array
