@@ -82,7 +82,7 @@ period,closeMatch,cidoc:Period
 preparationType,closeMatch,abcd:PreparationType
 preservationMethod,closeMatch,abcd:PreservationMethod
 preservationMode,closeMatch,abcd-efg:PreservationMode
-typeOfCollection,broadMatch,dcterms:type
+typeOfObjectGroup,broadMatch,dcterms:type
 hasCollectionStatusHistory,broadMatch,dcterms:relation
 hasResourceRelationship,broadMatch,dcterms:relation
 hasGeographicOrigin,broadMatch,dcterms:relation
