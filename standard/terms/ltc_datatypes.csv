@@ -3,11 +3,11 @@ ltc:,Address,hasIdentifier,array
 ltc:,ChronometricAge,hasIdentifier,array
 ltc:,ChronometricAge,hasMeasurementOrFact,array
 ltc:,ChronometricAge,hasReference,array
-ltc:,ObjectGroupDescriptionScheme,hasIdentifier,array
-ltc:,ObjectGroupDescriptionScheme,hasReference,array
-ltc:,ObjectGroupDescriptionScheme,hasObjectGroup,array
-ltc:,ObjectGroupDescriptionScheme,hasSchemeMeasurementOrFact,array
-ltc:,ObjectGroupDescriptionScheme,hasSchemeTerm,array
+ltc:,LatimerCoreScheme,hasIdentifier,array
+ltc:,LatimerCoreScheme,hasReference,array
+ltc:,LatimerCoreScheme,hasObjectGroup,array
+ltc:,LatimerCoreScheme,hasSchemeMeasurementOrFact,array
+ltc:,LatimerCoreScheme,hasSchemeTerm,array
 ltc:,CollectionStatusHistory,hasReference,array
 ltc:,CollectionStatusHistory,hasTemporalCoverage,array
 ltc:,CollectionStatusHistory,hasIdentifier,array
