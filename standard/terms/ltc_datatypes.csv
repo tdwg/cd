@@ -55,7 +55,7 @@ ltc:,ObjectGroup,period,array
 ltc:,ObjectGroup,preparationType,array
 ltc:,ObjectGroup,preservationMethod,array
 ltc:,ObjectGroup,preservationMode,array
-ltc:,ObjectGroup,typeOfCollection,array
+ltc:,ObjectGroup,typeOfObjectGroup,array
 ltc:,ObjectGroup,alternativeCollectionName,array
 ltc:,OrganisationalUnit,hasAddress,array
 ltc:,OrganisationalUnit,hasContactDetail,array
