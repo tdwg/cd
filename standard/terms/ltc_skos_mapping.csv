@@ -31,7 +31,7 @@ habitat,exactMatch,dwc:habitat
 samplingProtocol,broadMatch,dwc:samplingProtocol
 hasPersonRole,broadMatch,dcterms:relation
 verbatimEventDate,exactMatch,dwc:verbatimEventDate
-GeographicOrigin,broadMatch,dwc:Location
+GeographicContext,broadMatch,dwc:Location
 continent,exactMatch,dwc:continent
 locality,exactMatch,dwc:locality
 region,relatedMatch,dwc:locality
@@ -85,13 +85,14 @@ preservationMode,closeMatch,abcd-efg:PreservationMode
 typeOfObjectGroup,broadMatch,dcterms:type
 hasCollectionStatusHistory,broadMatch,dcterms:relation
 hasResourceRelationship,broadMatch,dcterms:relation
-hasGeographicOrigin,broadMatch,dcterms:relation
+hasGeographicContext,broadMatch,dcterms:relation
 hasGeologicalContext,broadMatch,dcterms:relation
 hasChronometricAge,broadMatch,dcterms:relation
 hasTaxon,broadMatch,dcterms:relation
 hasStorageLocation,broadMatch,dcterms:relation
 hasEvent,broadMatch,dcterms:relation
 hasOrganisationalUnit,broadMatch,dcterms:relation
+hasParentOrganisationalUnit,broadMatch,dcterms:relation
 OrganisationalUnit,broadMatch,org:Organization
 OrganisationalUnit,broadMatch,org:OrganizationalUnit
 organisationalUnitName,broadMatch,dcterms:title
