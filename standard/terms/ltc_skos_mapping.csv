@@ -92,6 +92,7 @@ hasTaxon,broadMatch,dcterms:relation
 hasStorageLocation,broadMatch,dcterms:relation
 hasEvent,broadMatch,dcterms:relation
 hasOrganisationalUnit,broadMatch,dcterms:relation
+hasParentOrganisationalUnit,broadMatch,dcterms:relation
 OrganisationalUnit,broadMatch,org:Organization
 OrganisationalUnit,broadMatch,org:OrganizationalUnit
 organisationalUnitName,broadMatch,dcterms:title

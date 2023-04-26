@@ -62,7 +62,7 @@ ltc:,OrganisationalUnit,hasAddress,array
 ltc:,OrganisationalUnit,hasContactDetail,array
 ltc:,OrganisationalUnit,hasIdentifier,array
 ltc:,OrganisationalUnit,hasMeasurementOrFact,array
-ltc:,OrganisationalUnit,hasOrganisationalUnit,array
+ltc:,OrganisationalUnit,hasParentOrganisationalUnit,array
 ltc:,OrganisationalUnit,hasPersonRole,array
 ltc:,OrganisationalUnit,hasReference,array
 ltc:,Person,hasAddress,array
