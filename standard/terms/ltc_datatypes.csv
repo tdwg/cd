@@ -13,14 +13,15 @@ ltc:,CollectionStatusHistory,hasTemporalCoverage,array
 ltc:,CollectionStatusHistory,hasIdentifier,array
 ltc:,CollectionStatusHistory,hasMeasurementOrFact,array
 ltc:,ContactDetail,hasIdentifier,array
+ltc:,Event,hasGeographicContext,array
 ltc:,Event,hasIdentifier,array
 ltc:,Event,hasMeasurementOrFact,array
 ltc:,Event,hasPersonRole,array
 ltc:,Event,hasReference,array
 ltc:,Event,hasTemporalCoverage,array
-ltc:,GeographicOrigin,hasIdentifier,array
-ltc:,GeographicOrigin,hasMeasurementOrFact,array
-ltc:,GeographicOrigin,hasReference,array
+ltc:,GeographicContext,hasIdentifier,array
+ltc:,GeographicContext,hasMeasurementOrFact,array
+ltc:,GeographicContext,hasReference,array
 ltc:,GeologicalContext,hasIdentifier,array
 ltc:,GeologicalContext,hasMeasurementOrFact,array
 ltc:,GeologicalContext,hasReference,array
@@ -38,7 +39,7 @@ ltc:,ObjectGroup,discipline,array
 ltc:,ObjectGroup,hasChronometricAge,array
 ltc:,ObjectGroup,hasCollectionStatusHistory,array
 ltc:,ObjectGroup,hasEvent,array
-ltc:,ObjectGroup,hasGeographicOrigin,array
+ltc:,ObjectGroup,hasGeographicContext,array
 ltc:,ObjectGroup,hasGeologicalContext,array
 ltc:,ObjectGroup,hasIdentifier,array
 ltc:,ObjectGroup,hasMeasurementOrFact,array
