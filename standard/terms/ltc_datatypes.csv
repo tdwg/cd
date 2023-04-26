@@ -174,7 +174,7 @@ dwc:,MeasurementOrFact,measurementType,string
 dwc:,MeasurementOrFact,measurementUnit,string
 ltc:,ObjectClassification,objectClassificationLevel,string
 ltc:,ObjectClassification,objectClassificationName,string
-ltc:,ObjectGroup,baseTypeOfObjectGroup,string
+ltc:,ObjectGroup,baseTypeOfObjectGroup,array
 ltc:,ObjectGroup,collectionName,string
 ltc:,ObjectGroup,description,string
 ltc:,OrganisationalUnit,organisationalUnitName,string
