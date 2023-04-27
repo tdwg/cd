@@ -110,7 +110,6 @@ Role,relatedMatch,prov:Role
 startedAtTime,closeMatch,prov:startedAtTime
 hasPerson,broadMatch,dcterms:relation
 RecordLevel,relatedMatch,dwc:record-level
-collectionDescriptionPID,broadMatch,dcterms:identifier
 license,broadMatch,dc:license
 recordRights,broadMatch,dc:recordRights
 rightsHolder,broadMatch,dc:rightsHolder
