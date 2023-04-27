@@ -183,9 +183,7 @@ schema:,Person,additionalName,string
 schema:,Person,familyName,string
 abcd:,Person,fullName,string
 schema:,Person,givenName,string
-ltc:,PersonRole,endedAtTime,string
 ltc:,PersonRole,hasRole,array
-ltc:,PersonRole,startedAtTime,string
 dc:,RecordLevel,license,string
 dc:,RecordLevel,recordRights,string
 dc:,RecordLevel,rightsHolder,string
@@ -211,8 +209,8 @@ dwc:,Taxon,genus,string
 dwc:,Taxon,kingdom,string
 dwc:,Taxon,scientificName,string
 dwc:,Taxon,taxonRank,string
-ltc:,TemporalCoverage,temporalCoverageEndDate,string
-ltc:,TemporalCoverage,temporalCoverageStartDate,string
+ltc:,TemporalCoverage,temporalCoverageEndDateTime,string
+ltc:,TemporalCoverage,temporalCoverageStartDateTime,string
 ltc:,TemporalCoverage,temporalCoverageType,string
 ltc:,ContactDetail,contactDetailFunction,array
 ltc:,ObjectClassification,isTopParent,boolean
