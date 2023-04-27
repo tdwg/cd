@@ -186,7 +186,6 @@ schema:,Person,givenName,string
 ltc:,PersonRole,endedAtTime,string
 ltc:,PersonRole,hasRole,array
 ltc:,PersonRole,startedAtTime,string
-ltc:,RecordLevel,collectionDescriptionPID,string
 dc:,RecordLevel,license,string
 dc:,RecordLevel,recordRights,string
 dc:,RecordLevel,rightsHolder,string
