@@ -116,7 +116,7 @@ rightsHolder,broadMatch,dc:rightsHolder
 hasObjectGroup,broadMatch,dcterms:relation
 Reference,closeMatch,abcd:Reference
 referenceDetails,closeMatch,abcd:details
-referenceText,closeMatch,abcd:text
+referenceName,broadMatch,dcterms:title
 referenceType,broadMatch,dcterms:type
 resourceURI,broadMatch,abcd:resourceURI
 ResourceRelationship,closeMatch,dwc:ResourceRelationship
