@@ -26,24 +26,30 @@ For quick reference, an index of classes and properties, and summaries of the cu
 | Matt Woodburn | Natural History Museum London | @mswoodburn |
 
 ### Core contributors
-
 | Name | Affiliation | GitHub username or Email |  
 | --- | --- | --- |  
 | Jutta Buschbom | Statistical Genetics | @jbstatgen |
+| Sarah Vincent | Natural History Museum London | @essvee |  
+| Maarten Trekels | Meise Botanic Garden/Synthesys+ | @mtrekels |  
+| Quentin Groom | Meise Botanic Garden/TDWG/Synthesys+ | @qgroom |  
+
+### Expert Review Team
+| Name | Affiliation | GitHub username or Email |  
+| --- | --- | --- |  
+| Ben Norton | North Carolina Museum of Natural Sciences | @ben-norton |
+| Rob Sanderson | Yale | @|
+| Ian Engelbrecht | University of Pretoria | @|
 | Steve Baskauf | Vanderbilt | @baskaufs | 
+
+### Contributors
+| Name | Affiliation | GitHub username or Email |  
+| --- | --- | --- |  
 | David Bloom | VertNet | @dbloom |  
 | Gabi Droege | Botanic Garden and Botanical Museum Berlin / Global Genome Biodiversity Network | @gdadade |  
-| Sharon Grant | Field Museum of Natural History | @rondlg |  
-| Quentin Groom | Meise Botanic Garden/TDWG/Synthesys+ | @qgroom |  
-| Janeen Jones | Field Museum of Natural History | jjones AT fieldmuseum.org |  
 | Deborah Paul (past Co-convenor) | Species File Group, INHS | @debpaul |  
 | Niels Raes | Naturalis Biodiversity Center | niels.raes AT naturalis.nl |  
-| Maarten Trekels | Meise Botanic Garden/Synthesys+ | @mtrekels |  
 | Mike Trizna | Smithsonian Institution | @MikeTrizna |  
 | William Ulate | Missouri Botanical Garden / Centro de Investigación en Informática de la Biodiversidad (CRBio.org)| @WUlate |  
-| Sarah Vincent | Natural History Museum London | @essvee |  
-| Kate Webbink | Field Museum of Natural History | @magpiedin |  
-| Matt Woodburn | Natural History Museum London | @mswoodburn |  
 
 ### Members
 
