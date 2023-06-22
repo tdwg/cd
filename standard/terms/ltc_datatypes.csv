@@ -51,7 +51,7 @@ ltc:,Event,hasParentEvent,array
 ltc:,Event,hasPersonRole,array
 ltc:,Event,hasReference,array
 ltc:,Event,hasTemporalCoverage,array
-dwc:,Event,samplingProtocol,string
+dwc:,Event,samplingProtocol,array
 dwc:,Event,verbatimEventDate,string
 dwc:,GeographicContext,continent,string
 dwc:,GeographicContext,country,string
@@ -210,6 +210,7 @@ ltc:,SchemeTerm,termName,string
 ltc:,StorageLocation,hasAddress,array
 ltc:,StorageLocation,hasIdentifier,array
 ltc:,StorageLocation,hasMeasurementOrFact,array
+ltc:,StorageLocation,hasParentStorageLocation,array
 ltc:,StorageLocation,hasReference,array
 ltc:,StorageLocation,locationDescription,string
 ltc:,StorageLocation,locationName,string
