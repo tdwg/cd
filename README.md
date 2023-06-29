@@ -1,8 +1,8 @@
-Starting June 29, 2023 this repository will be archived and the official repository of the TDWG Latimer Core standard switches over to be at [https://github.com/tdwg/ltc](https://github.com/tdwg/ltc).
+Starting June 29, 2023, this repository will be archived and the official repository of the TDWG Latimer Core standard switches over to be at [https://github.com/tdwg/ltc](https://github.com/tdwg/ltc).
 
 # Collection Descriptions Interest Group
 
-This was the **original** repository for the Collection Descriptions Interest Group during the development phase for the Latimer Core collection description standard. Should you due to some reason want to query this repository, be aware that the latest version of its contents can be found in the review branch.
+This was the **original** repository for the Collection Descriptions Interest Group during the development phase for the Latimer Core collection description standard. Should you, due to some reason, want to query this repository, be aware that the latest version of its contents can be found in the review branch.
 
 ## About the group
 
