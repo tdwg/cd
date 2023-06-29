@@ -1,4 +1,4 @@
-The official repository of the TDWG Latimer Core standard can be found at [https://github.com/tdwg/ltc](https://github.com/tdwg/ltc).
+The official repository of the TDWG Latimer Core standard can now be found at [https://github.com/tdwg/ltc](https://github.com/tdwg/ltc).
 
 # Collection Descriptions Interest Group
 
