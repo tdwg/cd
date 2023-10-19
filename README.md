@@ -1,4 +1,6 @@
-Starting June 29, 2023, this repository will be archived and the official repository of the TDWG Latimer Core standard switches over to be at [https://github.com/tdwg/ltc](https://github.com/tdwg/ltc).
+On October 19, 2023
+- The cd repository's `review` branch was merged with `main` and the repository was archived (https://github.com/tdwg/cd/pull/498)
+- The official repository of the TDWG Latimer Core standard switches over to be at [https://github.com/tdwg/ltc](https://github.com/tdwg/ltc).
 
 # Collection Descriptions Interest Group
 
