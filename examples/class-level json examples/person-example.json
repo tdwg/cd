@@ -2,7 +2,7 @@
     "fullName": "Malcolm Powder",
     "familyName": "Powder",
     "givenName": "Malcolm",
-    "address":
+    "hasAddress":
     [
         {
             "addressType": "Work",
@@ -13,7 +13,7 @@
             "addressPostalCode": "OX1 3PW"
         }
     ],
-    "contactDetail":
+    "hasContactDetail":
     [
         {
             "contactDetailCategory": "email",
@@ -25,12 +25,17 @@
             "contactDetailValue": "447527883354"
         }
     ],
-    "identifier":
+    "hasIdentifier":
     [
         {
             "identifierType": "URI",
             "identifierSource": "https://orcid.org/",
-            "identifier": "0000-0004-4012-0571"
+            "identifierValue": "0000-0004-4012-0571"
+        },
+        {
+            "identifierType": "URI",
+            "identifierSource": "http://www.wikidata.org/entity/",
+            "identifierValue": "Q1951402"
         }
     ]
 }

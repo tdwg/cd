@@ -1,85 +1,70 @@
 {
-    "$schema": "https://json-schema.org/draft-04/schema#",
-    "$id": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/person.json",
-    "title": "Person",
-    "description": "A person (alive or dead).",
-    "type": "object",
-    "properties":
-    {
-        "fullName":
-        {
-            "description": "Preferred form of personal name for display as a string.",
-            "type": "string"
-        },
-        "familyName":
-        {
-            "description": "Family name. In the U.S., the last name of a Person.",
-            "type": "string"
-        },
-        "additionalName":
-        {
-            "description": "An additional name for a Person, can be used for a middle name.",
-            "type": "string"
-        },
-        "givenName":
-        {
-            "description": "Given name. In the U.S., the first name of a Person.",
-            "type": "string"
-        },
-        "address":
-        {
-            "description": "One or more Addresses relating to the Person",
-            "type": "array",
-            "items":
-            {
-                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/address.json"
-            },
-            "minItems": 1,
-            "uniqueItems": true
-        },
-        "contactDetail":
-        {
-            "description": "One or more Contact Details relating to the Person",
-            "type": "array",
-            "items":
-            {
-                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/contact-detail.json"
-            },
-            "minItems": 1,
-            "uniqueItems": true
-        },
-        "identifier":
-        {
-            "description": "One or more Identifiers relating to the Person",
-            "type": "array",
-            "items":
-            {
-                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/identifier.json"
-            },
-            "minItems": 1,
-            "uniqueItems": true
-        },
-        "reference":
-        {
-            "description": "One or more References relating to the Person",
-            "type": "array",
-            "items":
-            {
-                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/reference.json"
-            },
-            "minItems": 1,
-            "uniqueItems": true
-        },
-        "measurementOrFact":
-        {
-            "description": "One or more Measurement Or Facts relating to the Person",
-            "type": "array",
-            "items":
-            {
-                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/measurement-or-fact.json"
-            },
-            "minItems": 1,
-            "uniqueItems": true
-        }
+  "$schema": "https://json-schema.org/draft-04/schema",
+  "$id": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/person.json",
+  "title": "Person",
+  "description": "A person (alive or dead). This concept should map to the Schema.org Person class (https://schema.org/Person), and the prov:Person class (http://www.w3.org/ns/prov#Person) in the PROV ontology. In the latter, it is a subclass of prov:Agent, which through which it can map to the RDA recommendations on attribution (http://dx.doi.org/10.15497/RDA00029). The definition is appropriated from the Schema.org class.",
+  "type": "object",
+  "properties": {
+    "additionalName": {
+      "description": "An additional name for a Person, can be used for a middle name.",
+      "type": "string"
+    },
+    "familyName": {
+      "description": "Family name. In the U.S., the last name of a Person.",
+      "type": "string"
+    },
+    "fullName": {
+      "description": "Preferred form of personal name for display as a string.",
+      "type": "string"
+    },
+    "givenName": {
+      "description": "Given name. In the U.S., the first name of a Person.",
+      "type": "string"
+    },
+    "hasAddress": {
+      "description": "This property refers to one or more related instances of the Address class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/address.json"
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "hasContactDetail": {
+      "description": "This property refers to one or more related instances of the ContactDetail class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/contact-detail.json"
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "hasIdentifier": {
+      "description": "This property refers to one or more related instances of the Identifier class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/identifier.json"
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "hasMeasurementOrFact": {
+      "description": "This property refers to one or more related instances of the MeasurementOrFact class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/measurement-or-fact.json"
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "hasReference": {
+      "description": "This property refers to one or more related instances of the Reference class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/reference.json"
+      },
+      "minItems": 0,
+      "uniqueItems": true
     }
+  }
 }

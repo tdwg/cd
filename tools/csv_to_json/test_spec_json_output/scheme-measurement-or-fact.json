@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft-04/schema",
+  "$id": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/scheme-measurement-or-fact.json",
+  "title": "Scheme Measurement Or Fact",
+  "description": "A type of measurement or fact used by the CollectionDescriptionScheme, and the rules relating to its application. This class can be used to specify the qualitative and quantitative metrics that will be included in the CollectionDescriptionScheme using the MeasurementOrFact class, and dictate whether each will be mandatory and/or repeatable. This information can be used by software and queries to constrain and validate the Latimer Core dataset, and determine how and whether metrics can be aggregated and reported. The schemeMeasurementType property should correspond to the measurementType property of the MeasurementOrFact class in order to make the relevant association between the scheme definition and the stored data.",
+  "type": "object",
+  "properties": {
+    "hasIdentifier": {
+      "description": "This property refers to one or more related instances of the Identifier class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/identifier.json"
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "hasReference": {
+      "description": "This property refers to one or more related instances of the Reference class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/reference.json"
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "isMandatoryMetric": {
+      "description": "A flag to designate whether it is mandatory or optional for every collection description within the CollectionDescriptionScheme to include the measurement or fact defined by the schemeMeasurementType property.",
+      "type": "boolean"
+    },
+    "isRepeatableMetric": {
+      "description": "A flag to designate whether multiple instances of the same schemeMeasurementType may be attached to a single entity.",
+      "type": "boolean"
+    },
+    "schemeMeasurementType": {
+      "description": "A category of quantitative metric or qualitative fact that can be included in the CollectionDescriptionScheme.",
+      "type": "string"
+    }
+  },
+  "required": [
+    "isMandatoryMetric",
+    "isRepeatableMetric",
+    "schemeMeasurementType"
+  ]
+}

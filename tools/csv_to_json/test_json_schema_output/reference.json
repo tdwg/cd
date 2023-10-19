@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft-04/schema",
+  "$id": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/reference.json",
+  "title": "Reference",
+  "description": "A reference to external resources and information related to the collection description. In the Collection Description standard, this class can be used to store references to publications, policies, datasets and other online resources such as websites, related to classes within the standard.",
+  "type": "object",
+  "properties": {
+    "hasIdentifier": {
+      "description": "This property refers to one or more related instances of the Identifier class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/identifier.json"
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "referenceDetails": {
+      "description": "Detailed information about the resource being referenced.",
+      "type": "string"
+    },
+    "referenceText": {
+      "description": "A short title for the reference.",
+      "type": "string"
+    },
+    "referenceType": {
+      "description": "The type of resource being referenced.",
+      "type": "string"
+    },
+    "resourceURI": {
+      "description": "A preferably resolvable URI to uniquely identify a concept.",
+      "type": "string"
+    }
+  }
+}

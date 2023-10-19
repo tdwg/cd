@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft-04/schema",
+  "$id": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/resource-relationship.json",
+  "title": "Resource Relationship",
+  "description": "A relationship between an instance of a class in the collection description standard to another instance of the same class, or an instance of a different class in the standard. In the context of this standard, the resources are the collections of objects represented by the ObjectGroup. This class can be used to define different semantic and hierarchical relationships between ObjectGroups.",
+  "type": "object",
+  "properties": {
+    "hasIdentifier": {
+      "description": "This property refers to one or more related instances of the Identifier class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/identifier.json"
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "hasReference": {
+      "description": "This property refers to one or more related instances of the Reference class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/reference.json"
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "relatedResourceID": {
+      "description": "An identifier for a related resource (the object, rather than the subject of the relationship).",
+      "type": "string"
+    },
+    "relatedResourceName": {
+      "description": "A short textual name for the related resource.",
+      "type": "string"
+    },
+    "relationshipAccordingTo": {
+      "description": "The source (person, organization, publication, reference) establishing the relationship between the two resources.",
+      "type": "array",
+      "items": {
+        "description": "The source (person, organization, publication, reference) establishing the relationship between the two resources.",
+        "type": "string"
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "relationshipEstablishedDate": {
+      "description": "The date-time on which the relationship between the two resources was established.",
+      "type": "string"
+    },
+    "relationshipOfResource": {
+      "description": "The relationship of the subject (identified by resourceID) to the object (identified by relatedResourceID).",
+      "type": "string"
+    },
+    "relationshipRemarks": {
+      "description": "Comments or notes about the relationship between the two resources.",
+      "type": "string"
+    },
+    "resourceID": {
+      "description": "An identifier for the resource that is the subject of the relationship.",
+      "type": "string"
+    },
+    "resourceRelationshipID": {
+      "description": "An identifier for an instance of relationship between one resource (the subject) and another (relatedResource, the object).",
+      "type": "string"
+    }
+  },
+  "required": [
+    "relationshipOfResource",
+    "resourceID"
+  ]
+}

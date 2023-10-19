@@ -1,51 +1,61 @@
 {
-    "$schema": "https://json-schema.org/draft-04/schema#",
-    "$id": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/collection-status-history.json",
-    "title": "Collection Status History",
-    "description": "A record of current and past statuses of the object group and the reason for status changes.",
-    "type": "object",
-    "properties":
-    {
-        "statusType":
-        {
-            "description": "A top-level classification of the different categories of status that can be applied to the collection.",
-            "type": "string"
-        },
-        "statusChangeReason":
-        {
-            "description": "An explanation of why the collection transitioned to the value set in the status property.",
-            "type": "string"
-        },
-        "status":
-        {
-            "description": "The development status of the collection during a specified period.",
-            "type": "string"
-        },
-        "reference":
-        {
-            "description": "One or more References relating to the Collection Status History",
-            "type": "array",
-            "items":
-            {
-                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/reference.json"
-            },
-            "minItems": 1,
-            "uniqueItems": true
-        },
-        "temporalCoverage":
-        {
-            "description": "One or more Temporal Coverages relating to the Collection Status History",
-            "type": "array",
-            "items":
-            {
-                "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/temporal-coverage.json"
-            },
-            "minItems": 1,
-            "uniqueItems": true
-        }
+  "$schema": "https://json-schema.org/draft-04/schema",
+  "$id": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/collection-status-history.json",
+  "title": "Collection Status History",
+  "description": "A record of current and past statuses of the object group and the reason for status changes. Use this class to record the history of and reason for changes in the status of the described collection. Types of status described by this class may, for example, include ownership, management, accessibility or accrual policy over time. Dates reflecting the start and end of the status described by this class should be recorded using an instance of TemporalCoverage. If temporalCoverageEndDate is empty, the status can be inferred to be the current status of the collection.",
+  "type": "object",
+  "properties": {
+    "hasIdentifier": {
+      "description": "This property refers to one or more related instances of the Identifier class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/identifier.json"
+      },
+      "minItems": 0,
+      "uniqueItems": true
     },
-    "required" : [
-        "status",
-        "statusType"
-    ]
+    "hasMeasurementOrFact": {
+      "description": "This property refers to one or more related instances of the MeasurementOrFact class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/measurement-or-fact.json"
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "hasReference": {
+      "description": "This property refers to one or more related instances of the Reference class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/reference.json"
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "hasTemporalCoverage": {
+      "description": "This property refers to one or more related instances of the TemporalCoverage class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/temporal-coverage.json"
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "status": {
+      "description": "The development status of the collection during a specified period.",
+      "type": "string"
+    },
+    "statusChangeReason": {
+      "description": "An explanation of why the collection transitioned to the value set in the status property.",
+      "type": "string"
+    },
+    "statusType": {
+      "description": "A top-level classification of the different categories of status that can be applied to the collection.",
+      "type": "string"
+    }
+  },
+  "required": [
+    "status",
+    "statusType"
+  ]
 }

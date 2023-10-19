@@ -1,76 +1,52 @@
 {
-    "$schema": "https://json-schema.org/draft-04/schema#",
-    "$id": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/taxon.json",
-    "title": "Taxon",
-    "description": "A group of organisms (sensu http://purl.obolibrary.org/obo/OBI_0100026) considered by taxonomists to form a homogeneous unit.",
-    "type": "object",
-    "properties": {
-      "genus": {
-        "description": "The full scientific name of the genus in which the collection's taxa are classified.",
-        "type": "string"
+  "$schema": "https://json-schema.org/draft-04/schema",
+  "$id": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/taxon.json",
+  "title": "Taxon",
+  "description": "A group of organisms (sensu http://purl.obolibrary.org/obo/OBI_0100026) considered by taxonomists to form a homogeneous unit.",
+  "type": "object",
+  "properties": {
+    "genus": {
+      "description": "The full scientific name of the genus in which the taxon is classified.",
+      "type": "string"
+    },
+    "hasIdentifier": {
+      "description": "This property refers to one or more related instances of the Identifier class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/identifier.json"
       },
-      "taxonRank": {
-        "description": "The taxonomic rank of the most specific name in the scientificName.",
-        "type": "string"
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "hasMeasurementOrFact": {
+      "description": "This property refers to one or more related instances of the MeasurementOrFact class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/measurement-or-fact.json"
       },
-      "nomenclaturalCode": {
-        "description": "The nomenclatural code (or codes in the case of an ambiregnal name) under which the scientificNames of objects in the collection are constructed.",
-        "type": "string"
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "hasReference": {
+      "description": "This property refers to one or more related instances of the Reference class.",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/tdwg/cd/review/standard/json-schema/reference.json"
       },
-      "vernacularName": {
-        "description": "A common or vernacular name for the collection's taxon.",
-        "type": "string"
-      },
-      "order": {
-        "description": "The full scientific name of the order in which the collection's taxa are classified.",
-        "type": "string"
-      },
-      "family": {
-        "description": "The full scientific name of the family in which collection's taxa are identified.",
-        "type": "string"
-      },
-      "class": {
-        "description": "The full scientific name of the class in which the collection's taxa are classified.",
-        "type": "string"
-      },
-      "phylum": {
-        "description": "The full scientific name of the phylum or division in which the collection's taxa are classified.",
-        "type": "string"
-      },
-      "kingdom": {
-        "description": "The full scientific name of the kingdom in which the taxa in the collection are classified.",
-        "type": "string"
-      },
-      "scientificName": {
-        "description": "The full scientific name. This should be the name in lowest level taxonomic rank that applies across the collection.",
-        "type": "string"
-      },
-      "identifier": {
-        "description": "One or more Identifiers relating to the Taxon",
-        "type": "array",
-        "items": {
-          "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/identifier.json"
-        },
-        "minItems": 1,
-        "uniqueItems": true
-      },
-      "reference": {
-        "description": "One or more References relating to the Taxon",
-        "type": "array",
-        "items": {
-          "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/reference.json"
-        },
-        "minItems": 1,
-        "uniqueItems": true
-      },
-      "measurementOrFact": {
-        "description": "One or more Measurement Or Facts relating to the Taxon",
-        "type": "array",
-        "items": {
-          "$ref": "https://raw.githubusercontent.com/tdwg/cd/master/standard/json-schema/measurement-or-fact.json"
-        },
-        "minItems": 1,
-        "uniqueItems": true
-      }
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "kingdom": {
+      "description": "The full scientific name of the kingdom in which the taxon is classified.",
+      "type": "string"
+    },
+    "scientificName": {
+      "description": "The full scientific name, with authorship and date information if known. When forming part of an Identification, this should be the name in lowest level taxonomic rank that can be determined. This term should not contain identification qualifications, which should instead be supplied in the IdentificationQualifier term.",
+      "type": "string"
+    },
+    "taxonRank": {
+      "description": "The taxonomic rank of the most specific name in the scientificName.",
+      "type": "string"
     }
   }
+}

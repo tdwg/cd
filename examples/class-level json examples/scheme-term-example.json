@@ -1,5 +1,5 @@
 {
     "termName": "Event",
-    "mandatoryTerm": true,
-    "repeatableTerm": true
+    "isMandatoryTerm": true,
+    "isRepeatableTerm": true
 }

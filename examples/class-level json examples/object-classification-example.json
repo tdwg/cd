@@ -1,11 +1,9 @@
 {
     "objectClassificationName": "Arachnids",
-    "objectClassificationParent": "Insects",
-    "objectClassification":
+    "hasObjectClassification":
     [
         {
             "objectClassificationName": "Insects",
-            "objectClassificationParent": "Invertebrates"
         },
         {
             "objectClassificationName": "Invertebrates"

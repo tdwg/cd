@@ -1,23 +1,24 @@
 {
     "verbatimEventDate": "1755-1756",
     "habitat": "temperate rainforest",
-    "personRole":
+    "eventName": "Cloudland Expedition (1755-1756)",
+    "hasPersonRole":
     [
         {
             "role": "Collector",
             "startedAtTime": "1755-09-01",
-            "person":
+            "hasPerson":
             [
                 {
                     "fullName": "Anne Monson",
                     "familyName": "Monson",
                     "givenName": "Anne",
-                    "identifier":
+                    "hasIdentifier":
                     [
                         {
                             "identifierType": "URI",
                             "identifierSource": "https://www.wikidata.org/wiki/",
-                            "identifier": "Q15994645"
+                            "identifierValue": "Q15994645"
                         }
                     ]
                 }
@@ -26,7 +27,7 @@
         {
             "role": "Navigator",
             "startedAtTime": "1755-09-01",
-            "person":
+            "hasPerson":
             [
                 {
                     "fullName": "Sidney Smith",
@@ -36,7 +37,7 @@
             ]
         }
     ],
-    "measurementOrFact":
+    "hasMeasurementOrFact":
     [
         {
             "measurementType": "Object Count",
