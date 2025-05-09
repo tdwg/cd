@@ -27,23 +27,22 @@ For quick reference, an index of classes and properties, and summaries of the cu
 | Sharon Grant | Field Museum, Chicago | @rondlg |  
 | Janeen Jones | Field Museum, Chicago | @fmjjones |  
 | Kate Webbink | Field Museum, Chicago | @magpiedin |  
-| Matt Woodburn | Natural History Museum London | @mswoodburn |
 
 ### Core contributors
 | Name | Affiliation | GitHub username or Email |  
 | --- | --- | --- |  
 | Jutta Buschbom | Statistical Genetics | @jbstatgen |
-| Sarah Vincent | Natural History Museum London | @essvee |  
-| Maarten Trekels | Meise Botanic Garden/Synthesys+ | @mtrekels |  
 | Quentin Groom | Meise Botanic Garden/TDWG/Synthesys+ | @qgroom |  
+| Ben Norton | Independent | @ben-norton |
+| Maarten Trekels | Meise Botanic Garden/Synthesys+ | @mtrekels |  
 
 ### Expert Review Team
 | Name | Affiliation | GitHub username or Email |  
 | --- | --- | --- |  
-| Ben Norton | North Carolina Museum of Natural Sciences | @ben-norton |
-| Rob Sanderson | Yale | @|
-| Ian Engelbrecht | University of Pretoria | @|
 | Steve Baskauf | Vanderbilt | @baskaufs | 
+| Ian Engelbrecht | University of Pretoria | @ |
+| Ben Norton | Independent | @ben-norton |
+| Rob Sanderson | Yale | @ |
 
 ### Contributors
 | Name | Affiliation | GitHub username or Email |  
