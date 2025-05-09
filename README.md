@@ -36,14 +36,6 @@ For quick reference, an index of classes and properties, and summaries of the cu
 | Ben Norton | Independent | @ben-norton |
 | Maarten Trekels | Meise Botanic Garden/Synthesys+ | @mtrekels |  
 
-### Expert Review Team
-| Name | Affiliation | GitHub username or Email |  
-| --- | --- | --- |  
-| Steve Baskauf | Vanderbilt | @baskaufs | 
-| Ian Engelbrecht | University of Pretoria | @ |
-| Ben Norton | Independent | @ben-norton |
-| Rob Sanderson | Yale | @ |
-
 ### Contributors
 | Name | Affiliation | GitHub username or Email |  
 | --- | --- | --- |  
